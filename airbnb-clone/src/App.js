@@ -1,43 +1,31 @@
-import './App.css';
-import Home from './components/Home';
-import TabsComp from "./Tabs";
-import { BrowserRouter } from 'react-router-dom';
-import { Route } from 'react-router-dom';
-import { Routes } from 'react-router-dom';
-import SinglePage from './components/SinglePage';
-import Checkout from './components/Checkout';
-import { useState } from 'react';
-import SearchDetails from './components/SearchDetails';
-import SearchPageFooter from './components/SearchPageFooter';
-
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import 'bootstrap-css-only/css/bootstrap.min.css';
+import 'mdbreact/dist/css/mdb.css';
+import Home from "./pages/Home";
+import ProductList from "./pages/ProductList";
+import Product from "./pages/Product";
+import Register from "./pages/Register";
+import Login from "./pages/Login";
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+} from "react-router-dom";
 
 function App() {
-  const [open, setOpen] = useState(false);
-
   return (
-    <div className="App">
-      <main>
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" exact element={<>  <Home toggle={open} setToggle={setOpen} /> <TabsComp toggle={open} setToggle={setOpen} />  <SearchPageFooter /> </>} />
-            <Route path="/:id" element={<>  <Home /> <SinglePage /> </>} />
-            <Route path="/checkout/:id/:days" exact element={<> <Home />  <Checkout /> </>} />
-            <Route path="/location/:loc" exact element={<>  <Home /> <SearchDetails /> </>} />
-          </Routes>
-        </BrowserRouter>
-      </main>
-
-
-
-    </div>
+    <Router>
+    <Routes>
+      <Route exact path="/" element={<Home />} /> 
+      <Route path="/productList" element={<ProductList />} />
+      <Route path="/productList/productId:" element={<Product />} /> 
+      <Route path="/register" element={<Register />} />
+      <Route path="/login" element={<Login />} />
+    </Routes>
+  </Router>
   );
 }
 
 export default App;
-
-
-
-
-
-
-

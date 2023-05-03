@@ -1,0 +1,13 @@
+@import './root.scss';
+
+.navbar {
+    background-color: $color-blue_global;
+
+    .nav-link{
+        font-size: $fs-18;
+        .link-top {
+        color: $color-while;
+        }
+    }
+}
+
