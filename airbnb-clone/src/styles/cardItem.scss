@@ -1,0 +1,25 @@
+@import './root.scss';
+
+.card {
+    .card-title {
+        font-size: $fs-18;
+    }
+
+    .icon {
+        font-size: $fs-16;
+        margin-right: 6px;
+    }
+
+    .price {
+        color: $color-red;
+        font-size: $fs-18;
+        font-weight: $fw-lg;
+    }
+
+    .icon-link {
+        font-size: $fs-16;
+    }
+    .link {
+        color: $color-blue_global;
+    }
+}
