@@ -2,6 +2,7 @@ import React from 'react'
 import Slider from '../components/Slider';
 import Navbar from "../components/Navbar";
 import Footer from '../components/Footer';
+import HomeCollection from '../components/HomeCollection';
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       {/* <Announcement></Announcement> */}
       <Navbar />
       <Slider></Slider>
+      <HomeCollection />
       <Footer />
     </div>
   )

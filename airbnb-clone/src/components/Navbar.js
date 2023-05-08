@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import '../styles/navbar.scss'
+import { Home } from '@material-ui/icons'
+
 const Navbar = () => {
     const [isUser, setIsUser] = useState(false)
     const handleIsUser = () => {
@@ -50,8 +52,12 @@ const Navbar = () => {
             <div className="container justify-content-center justify-content-md-between">
             <ul className="navbar-nav flex-row">
                 <li className="nav-item me-2 me-lg-0 d-none d-md-inline-block ms-3">
+                    <Link className="nav-link" to={"#"}><div className='link-top'><Home /></div></Link>
+                </li>
+                <li className="nav-item me-2 me-lg-0 d-none d-md-inline-block ms-3">
                     <Link className="nav-link" to={"#"}><div className='link-top'>Tour trong nước</div></Link>
                 </li>
+                
                 <li className="nav-item me-2 me-lg-0 d-none d-md-inline-block">
                     <Link className="nav-link" to={"#"}><div className='link-top'>Tour nước ngoài</div></Link>
                 </li>

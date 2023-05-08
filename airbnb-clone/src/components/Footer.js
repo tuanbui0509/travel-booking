@@ -68,7 +68,7 @@ const Payment = styled.img`
 
 const Footer = () => {
   return (
-    <Container>
+    <Container className="container">
         <Left>
             <Logo>LAMA.</Logo>
             <Desc>

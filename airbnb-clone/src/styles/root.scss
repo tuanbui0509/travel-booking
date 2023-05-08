@@ -1,6 +1,7 @@
 $color-blue_global: #0dcaf0;
 $color-while: #fff;
-$color-black: #ccc;
+$color-black: #000;
+$color-red: #FF0000;
 
 $fs-64: 64px;
 $fs-42: 42px;
@@ -8,3 +9,14 @@ $fs-32: 32px;
 $fs-24: 24px;
 $fs-22: 22px;
 $fs-18: 18px;
+$fs-16: 16px;
+
+$fw-sm: 300;
+$fw-md: 500;
+$fw-lg: 600;
+$fw-xl: 800;
+$fw-xxl: 900;
+
+.text-right {
+    text-align: right;
+}
