@@ -1,95 +1,90 @@
 {
-    "tours": [
+  "tours": [
+    {
+      "id": 1,
+      "name": "Tour 4 đảo Nha Trang",
+      "price_adult": 1500000,
+      "price_child": 1000000,
+      "image": "",
+      "catagoryId": 1,
+      "quantity_date": "7 Ngày 6 Đêm",
+      "start_location": "TP.HCM",
+      "start_date": "2023-06-15",
+      "vehicle": "máy bay",
+      "tour_services": [
         {
-            "id": 1,
-            "name": "Tour 4 đảo Nha Trang",
-            "price_adult": 1500000,
-            "price_child": 1000000,
-            "image":"",
-            "catagoryId": 1,
-            "quantity_date": "7 Ngày 6 Đêm",
-            "start_location": "TP.HCM",
-            "start_date": "2023-06-15",
-            "vehicle": "máy bay",
-            "tour_services": [
-                {
-                    "id": 1,
-                    "name": "Bảo hiểm"
-                },
-                {
-                    "id": 2,
-                    "name": " Hàng không 5*"
-                },
-                {
-                    "id": 3,
-                    "name": "Khách sạn 3-4*"
-                },
-                {
-                    "id": 4,
-                    "name": "Vé tham quan"
-                },
-                {
-                    "id": 5,
-                    "name": "Bảo hiểm"
-                }
-            ],
-            "description":
-            {
-                    "title": "Sức lôi cuốn đặc biệt từ xứ sở mặt trời mọc",
-                    "content": "Đến với đất nước 'đáng sống nhất thế giới' du khách sẽ có được những trải nghiệm tuyệt vời, thú vị và hấp dẫn không chỉ bởi cảnh sắc thiên nhiên tuyệt đẹp mà còn từ những điều bình dị và con người nơi đây. Khám phá một Tokyo hiện đại nhưng vẫn cảm nhận từng cung bậc cảm xúc khi dạo bước bên ngôi cổ tự Asakusa, Hoàng cung và núi Phú Sĩ hùng vĩ. Hành trình khám phá cảnh sắc từ Tokyo đến Kyoto, kết nối Osaka với đền đài, chùa thiêng đẫm không khí thiền tịnh và các công trình xuyên biển vĩ đại tại Kobe. Nhật Bản là điểm đến nổi tiếng trên thế giới với nền văn hóa đậm bản sắc và ẩm thực độc đáo."
-            },
-            "tour_details": [
-                {
-                    "id": 1,
-                    "name": "NGÀY 1: TP.HCM – HANEDA",
-                    "image": "",
-                    "description": "20h00: Hướng dẫn viên sẽ đón quý khách tại ga đi Quốc tế, sân bay Tân Sơn Nhất làm thủ tục đáp chuyến bay JL070 khởi hành đi Haneda, Nhật Bản lúc 23h20. Đoàn nghỉ đêm & ăn sáng trên máy bay."
-                },
-                {
-                    "id": 2,
-                    "name": "NGÀY 2: TP.HCM – HANEDA",
-                    "image": "",
-                    "description": "20h00: Hướng dẫn viên sẽ đón quý khách tại ga đi Quốc tế, sân bay Tân Sơn Nhất làm thủ tục đáp chuyến bay JL070 khởi hành đi Haneda, Nhật Bản lúc 23h20. Đoàn nghỉ đêm & ăn sáng trên máy bay."
-                }
-            ],
-            "areaId": 1,
-            "createdAt": "1616346753759",
-            "updatedAt": "1616346753759"
-        }
-    ],
-
-    "catagories": [
-        {
-            "id": 1,
-            "name": "Trong nước"
+          "id": 1,
+          "name": "Bảo hiểm"
         },
         {
-            "id": 2,
-            "name": "Nước ngoài"
-        }
-    ],
-    "areas": [
-        {
-            "id": 1,
-            "name": "Việt Nam"
+          "id": 2,
+          "name": " Hàng không 5*"
         },
         {
-            "id": 2,
-            "name": "Hàn Quốc"
-        }
-    ],
-
-    "users": [
+          "id": 3,
+          "name": "Khách sạn 3-4*"
+        },
         {
-            "id":1,
-            "full_name": "Lenh",
-            "username": "lenh",
-            "password": "123",
-            "phone": "12345678",
-            "email": "123@"
+          "id": 4,
+          "name": "Vé tham quan"
+        },
+        {
+          "id": 5,
+          "name": "Bảo hiểm"
         }
-    ],
-    "carts": {
-        
+      ],
+      "description": {
+        "title": "Sức lôi cuốn đặc biệt từ xứ sở mặt trời mọc",
+        "content": "Đến với đất nước 'đáng sống nhất thế giới' du khách sẽ có được những trải nghiệm tuyệt vời, thú vị và hấp dẫn không chỉ bởi cảnh sắc thiên nhiên tuyệt đẹp mà còn từ những điều bình dị và con người nơi đây. Khám phá một Tokyo hiện đại nhưng vẫn cảm nhận từng cung bậc cảm xúc khi dạo bước bên ngôi cổ tự Asakusa, Hoàng cung và núi Phú Sĩ hùng vĩ. Hành trình khám phá cảnh sắc từ Tokyo đến Kyoto, kết nối Osaka với đền đài, chùa thiêng đẫm không khí thiền tịnh và các công trình xuyên biển vĩ đại tại Kobe. Nhật Bản là điểm đến nổi tiếng trên thế giới với nền văn hóa đậm bản sắc và ẩm thực độc đáo."
+      },
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "NGÀY 1: TP.HCM – HANEDA",
+          "image": "",
+          "description": "20h00: Hướng dẫn viên sẽ đón quý khách tại ga đi Quốc tế, sân bay Tân Sơn Nhất làm thủ tục đáp chuyến bay JL070 khởi hành đi Haneda, Nhật Bản lúc 23h20. Đoàn nghỉ đêm & ăn sáng trên máy bay."
+        },
+        {
+          "id": 2,
+          "name": "NGÀY 2: TP.HCM – HANEDA",
+          "image": "",
+          "description": "20h00: Hướng dẫn viên sẽ đón quý khách tại ga đi Quốc tế, sân bay Tân Sơn Nhất làm thủ tục đáp chuyến bay JL070 khởi hành đi Haneda, Nhật Bản lúc 23h20. Đoàn nghỉ đêm & ăn sáng trên máy bay."
+        }
+      ],
+      "areaId": 1,
+      "createdAt": "1616346753759",
+      "updatedAt": "1616346753759"
     }
+  ],
+  "catagories": [
+    {
+      "id": 1,
+      "name": "Trong nước"
+    },
+    {
+      "id": 2,
+      "name": "Nước ngoài"
+    }
+  ],
+  "areas": [
+    {
+      "id": 1,
+      "name": "Việt Nam"
+    },
+    {
+      "id": 2,
+      "name": "Hàn Quốc"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "full_name": "Lenh",
+      "username": "lenh",
+      "password": "123",
+      "phone": "12345678",
+      "email": "123@"
+    }
+  ],
+  "carts": {}
 }
