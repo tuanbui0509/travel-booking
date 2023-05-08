@@ -108,17 +108,17 @@ export const Checkout = () => {
         <span>Total(Incl. taxes)</span>
         <span>$3020.00</span>
       </div>
-      <Link className="text-reset me-3" to={"/checkout"}>
-        <button
-          className="btn btn-primary btn-block d-flex justify-content-between mt-3"
-          type="button"
-        >
-          <span>$3020.00</span>
-          <span>
-            Checkout<i className="fa fa-long-arrow-right ml-1"></i>
-          </span>
-        </button>
-      </Link>
+      {/* <Link className="text-reset me-3" to={"/checkout"}> */}
+      <button
+        className="btn btn-primary btn-block d-flex justify-content-between mt-3"
+        type="button"
+      >
+        <span>$3020.00</span>
+        <span>
+          Checkout<i className="fa fa-long-arrow-right ml-1"></i>
+        </span>
+      </button>
+      {/* </Link> */}
     </div>
   );
 };
