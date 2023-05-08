@@ -17,8 +17,7 @@ export default function SearchHome(prop) {
                             <input
                             className='input'
                             placeholder="Chọn tour"
-                            type="text" 
-                            
+                            type="text"
                             />
                         </div>
                     </div>
