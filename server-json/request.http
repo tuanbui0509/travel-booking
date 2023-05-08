@@ -1,4 +1,4 @@
-@baseUrl = http://localhost:3000/api
+@baseUrl = http://localhost:5000/api
 POST {{baseUrl}}/catagories
 
 ###
@@ -24,6 +24,6 @@ DELETE {{baseUrl}}/catagories/2
 GET {{baseUrl}}/products
 
 ###
-GET {{baseUrl}}/products?_page
+GET {{baseUrl}}/catagories
 
 
