@@ -26,6 +26,7 @@ export default function SearchHome(prop) {
                         </span>
                         <div className='d-flex flex-column flex-group'>
                             <label className='title'>Tour</label>
+                            
                             <select>
                                 { listCatagory && listCatagory.length > 0 ?
                                     listCatagory.map((option) => (
