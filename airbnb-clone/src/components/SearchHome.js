@@ -9,7 +9,10 @@ export default function SearchHome(prop) {
         .then(results => results.json())
         .then(data => {
            setListCatagory(data)
-      });
+        })
+        .catch(err => {
+             console.log('connect server error, searchome');
+        }) ;
     }, [])
   return (
     <div className='search-home container-fluid mb-5 p-0 position-relative'>
@@ -23,10 +26,13 @@ export default function SearchHome(prop) {
                         </span>
                         <div className='d-flex flex-column flex-group'>
                             <label className='title'>Tour</label>
+                            
                             <select>
-                                {listCatagory.map((option) => (
-                                    <option value={option.name}>{option.name}</option>
+                                { listCatagory && listCatagory.length > 0 ?
+                                    listCatagory.map((option) => (
+                                        <option value={option.name}>{option.name}</option>
                                     ))
+                                    : <option>Chọn tour</option>
                                 }
                             </select>
                         </div>
