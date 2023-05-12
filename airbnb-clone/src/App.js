@@ -10,6 +10,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { Cart } from "./pages/Cart";
 import { Checkout } from "./pages/Checkout";
+import Tour from "./pages/Tour";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route path="/productList" element={<ProductList />} />
         <Route path="/productList/productId:" element={<Product />} />
+        <Route path="/tourList/tourId:" element={<Tour />} />
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
         <Route path="/cart" element={<Cart />} />
