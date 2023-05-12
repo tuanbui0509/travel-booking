@@ -112,3 +112,15 @@ label.radio input:checked+span {
 .brief {
     flex: 1
 }
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.item-icon {
+    padding-right: 6px;
+}
