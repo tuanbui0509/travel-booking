@@ -68,6 +68,7 @@ const Payment = styled.img`
 
 const Footer = () => {
   return (
+    <div className="bg-white  mt-5">
     <Container className="container">
         <Left>
             <Logo>LAMA.</Logo>
@@ -112,6 +113,7 @@ const Footer = () => {
             <Payment src="https://i.ibb.co/Qfvn4z6/payment.png"></Payment>
         </Right>
     </Container>
+    </div>
   )
 }
 

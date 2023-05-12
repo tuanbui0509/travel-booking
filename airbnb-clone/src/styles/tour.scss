@@ -1,0 +1,257 @@
+@import './root.scss';
+
+.tour {
+
+    .title {
+        font-size: $fs-36;
+        color: $color-title;
+        font-weight: $fw-md;
+        padding: 12px 0px;
+    }
+
+    .container-rank {
+        display: flex;
+        flex: row;
+        margin-bottom: 12px;
+
+        .point {
+            padding: 2px 6px;
+            margin-right: 6px;
+            color: $color-while;
+            font-size: $fs-16;
+            border-radius: 8px;
+            background-color: $color-yellow;
+        }
+
+        .rank {
+            color: $color-yellow;
+            font-weight: $fw-lg;
+        }
+    }
+
+    .tour-left {
+        .tour-header_info {
+            padding: 24px 12px;
+            background-color: rgba(148, 151, 163, .1);
+            display: flex;
+            flex: row;
+            justify-content: space-between;
+            .left {
+                display: flex;
+                flex: row;
+                .wrap {
+                    display: flex;
+                    flex: row;
+                    margin-right: 36px;
+
+                    .content {
+                        font-weight: $fw-lg;
+                        color: $color-gray;
+                    }
+                    
+                    .icon {
+                        font-size: 24px;
+                        margin: 0 4px;
+                        color: $color-gray;
+                    }
+                }
+            }
+
+            .right {
+                display: flex;
+                flex: row;
+                .name {
+                    margin-right: 4px;
+                    color: $color-gray;
+                    font-size: 14px;
+                }
+
+                .id {
+                    color: $color-blue_global;
+                    font-weight: $fw-lg;
+                }
+            }
+        }
+        .description {
+        margin-top: 6px;
+        background-color: $color-while;
+
+        .wrap-des {
+            padding: 12px;
+        }
+        .des-title {
+            font-size: $fs-28;
+            font-weight: $fw-lg;
+            color: $color-title;
+        }
+
+        .content {
+            padding: 12px;
+            color: $color-text;
+
+            .content-des {
+              
+                .content-des_title {
+                    font-size: $fs-22;
+                    font-weight: $fw-lg;
+                    color: $color-text;
+                }
+            }
+        }
+    }
+
+    }
+
+    .tour-right {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        .top {
+            padding: 4px 16px;
+            background-color: $color-while;
+            color: $color-text;
+            .title {
+                font-size: $fs-22;
+                font-weight: $fw-lg;
+            }
+            .input {
+                width: 100%;
+
+                input {
+                    width: 100%;
+                    padding: 12px;
+                    border-radius: 5px;
+                    border: solid 1px #ccc;
+                    cursor: pointer;
+                }
+
+                input:focus {
+                    outline: solid 2px $color-blue_global;
+                    border: none;
+                }
+            }
+
+            .couter {
+                margin-top: 6px;
+                width: 100%;
+                padding: 6px;
+                border-radius: 5px;
+                border: solid 1px #ccc;
+                display: flex;
+                flex: row;
+                justify-content: space-between;
+                
+                .couter-price {
+                    color: $color-yellow;
+                }
+                .wrap-couter {
+                    display: flex;
+                    flex: row;
+                    align-items: center;
+                    text-align: center;
+                    .number {
+                        font-size: $fs-18;
+                        padding: 0 24px;
+                    }
+                    .prev, .next {
+                        align-items: center;
+                        font-size: 18px;
+                        padding: 4px;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .note-des {
+                color: $color-blue_global;
+                text-align: center;
+                display: flex;
+                flex: row;
+                margin-top: 12px;
+            }
+
+            .wrap-price {
+                display: flex;
+                flex: row;
+                align-items: center;
+                justify-content: space-between;
+                margin-top: 12px;
+                .content {
+                    display: flex;
+                    flex: row;
+                    align-items: center;
+
+                    span {
+                        color: $color-yellow;
+                        font-size: 12px;
+                        margin-left: 6px;
+                    }
+                }
+                
+                .name {
+                    font-size: $fs-18;
+                }
+
+                .price {
+                    color: $color-yellow;
+                    font-size: $fs-28;
+                    font-weight: $fw-lg;
+                }
+            }
+
+            .wrap-button {
+                margin-top: 12px;
+                margin-bottom: 12px;
+                display: flex;
+                flex: row;
+                justify-content: space-between;
+                .button {
+                    font-size: $fs-18;
+                    padding: 8px 6px;
+                    font-weight: $fw-lg;
+                    border-radius: 5px;
+                    background-color: $color-while;
+                }
+
+                .button_1 {
+                    border: solid 1px $color-orange;
+                    color: $color-orange;
+                }
+
+                .button_1:hover {
+                    background-color: $color-orange;
+                    color: $color-while;
+                }
+
+                .button_2 {
+                    border: none;
+                    color: $color-while;
+                    background-color: $color-orange;
+                }
+                
+                .button_2:hover {
+                    opacity: 0.8;
+                }
+            }
+        }
+
+        .bottom {
+            margin-top: 12px;
+            padding: 4px 16px;
+            background-color: $color-while;
+            color: $color-text;
+            .wrap {
+                padding: 6px 12px;
+                .icon {
+                    color:$color-green;
+
+                }
+            }
+          span {
+            margin-left: 12px;
+          }  
+        }
+    }
+
+    
+}
