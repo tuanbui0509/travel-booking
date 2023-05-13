@@ -9,13 +9,13 @@ export const CartItem = ({ item, handleDelete }) => {
           <ul>
             <li>
               <span className="spec">
-                <i class="far fa-clock item-icon"></i>Thời gian: {item.duration}
+                <i class="far fa-clock item-icon"></i>Thời gian: {item.time}
               </span>
             </li>
             <li>
               <span className="spec">
                 <i class="far fa-calendar-alt item-icon"></i>Ngày khởi hành:{" "}
-                {item.departure_date}
+                {item.date}
               </span>
             </li>
             <li>

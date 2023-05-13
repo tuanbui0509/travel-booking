@@ -11,8 +11,8 @@ export const Cart = () => {
     {
       id: 1,
       name: "PHÚ QUỐC | THỊ TRẤN HOÀNG HÔN SUNSET TOWN",
-      duration: "4 ngày 3 đêm",
-      departure_date: "11/06/2023",
+      time: "4 ngày 3 đêm",
+      date: "11/06/2023",
       quantity: 2,
       price: "5,290,000",
       image:
@@ -21,8 +21,8 @@ export const Cart = () => {
     {
       id: 2,
       name: "PHÚ QUỐC | THỊ TRẤN HOÀNG HÔN SUNSET TOWN",
-      duration: "4 ngày 3 đêm",
-      departure_date: "11/06/2023",
+      time: "4 ngày 3 đêm",
+      date: "11/06/2023",
       quantity: 2,
       price: "5,290,000",
       image:
@@ -31,8 +31,8 @@ export const Cart = () => {
     {
       id: 3,
       name: "PHÚ QUỐC | THỊ TRẤN HOÀNG HÔN SUNSET TOWN",
-      duration: "4 ngày 3 đêm",
-      departure_date: "11/06/2023",
+      time: "4 ngày 3 đêm",
+      date: "11/06/2023",
       quantity: 2,
       price: "5,290,000",
       image:
@@ -41,8 +41,8 @@ export const Cart = () => {
     {
       id: 4,
       name: "PHÚ QUỐC | THỊ TRẤN HOÀNG HÔN SUNSET TOWN",
-      duration: "4 ngày 3 đêm",
-      departure_date: "11/06/2023",
+      time: "4 ngày 3 đêm",
+      date: "11/06/2023",
       quantity: 2,
       price: "5,290,000",
       image:
