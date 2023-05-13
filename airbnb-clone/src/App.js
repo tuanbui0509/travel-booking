@@ -11,21 +11,24 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { Cart } from "./pages/Cart";
 import { Checkout } from "./pages/Checkout";
 import Tour from "./pages/Tour";
+import {SelectedTourProvider} from "./contexts/SelectedTourContext";
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="/productList" element={<ProductList />} />
-        <Route path="/productList/productId:" element={<Product />} />
-        <Route path="/tourList/tourId:" element={<Tour />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/cart" element={<Cart />} />
-        <Route path="/checkout" element={<Checkout />} />
-      </Routes>
-    </Router>
+      <SelectedTourProvider>
+        <Router>
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route path="/productList" element={<ProductList />} />
+            <Route path="/productList/productId:" element={<Product />} />
+            <Route path="/tourList/tourId:" element={<Tour />} />
+            <Route path="/register" element={<Register />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/cart" element={<Cart />} />
+            <Route path="/checkout" element={<Checkout />} />
+          </Routes>
+        </Router>
+      </SelectedTourProvider>
   );
 }
 
