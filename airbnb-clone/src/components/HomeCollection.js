@@ -1,7 +1,7 @@
 import React from 'react'
 import HomeCollectionTitle from './HomeCollectionTitle'
 import '../styles/homeCollection.scss'
-import ListCardHome from './ListCardHome'
+import ListCard from './ListCard'
 
 export default function HomeCollection() {
   return (
@@ -14,7 +14,7 @@ export default function HomeCollection() {
                 />
             </div>
             <div className='col-12'>
-                <ListCardHome
+                <ListCard
                     data={""}
                 />
             </div>
@@ -28,7 +28,7 @@ export default function HomeCollection() {
                 />
             </div>
             <div className='col-12'>
-                <ListCardHome
+                <ListCard
                     data={""}
                 />
             </div>
