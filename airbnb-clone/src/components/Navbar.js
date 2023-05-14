@@ -27,7 +27,7 @@ const Navbar = () => {
               <div className="col-md-4">
                 <form className="d-flex input-group w-auto my-auto mb-3 mb-md-0">
                   <input
-                    autocomplete="off"
+                    autoComplete="off"
                     type="search"
                     className="form-control rounded"
                     placeholder="Search"

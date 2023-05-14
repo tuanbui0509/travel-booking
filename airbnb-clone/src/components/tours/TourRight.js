@@ -1,22 +1,65 @@
 import { Done, ErrorOutline } from '@material-ui/icons'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import { formatPrice } from '../../utils/utill'
 
 export default function TourRight() {
+  const [id, setId] = useState("")
+  const [date, setDate] = useState("")
+  const [priceDefault, setPriceDefault] = useState(0)
+  const [price, setPrice] = useState(0)
+  const [totalPrice, setTotalPrice] = useState(0)
+  const [quantity, setQuantity] = useState(1)
+
+  useEffect(()=>{
+    setPriceDefault(15990000)
+    setPrice(15990000)
+    setTotalPrice(15990000)
+  },[])
+
+  const handleOnchaneDate = (e) => {
+    setDate(e.target.value)
+  }
+  const handlePrev = () => {
+    if(quantity > 1) {
+      setQuantity(quantity-1)
+      setPrice(price - priceDefault)
+      setTotalPrice(price - priceDefault)
+    }
+    
+  }
+
+  const handleNext = () => {
+    setQuantity(quantity+1)
+    setPrice(price + priceDefault)
+    setTotalPrice(price + priceDefault)
+  }
+
+  const handleAddCart = () => {
+    console.log("id: ", id,", quantity:", quantity, ", totalPrice: ",totalPrice);
+  }
   return (
     <div className='tour-right'>
       <div className='top'>
         <h1 className='title'>Lịch khởi hành & giá</h1>
         <p>Chọn ngày khởi hành:</p>
         <div className='input'>
-          <input type='date'/>
+          <input
+            value={date}
+            onChange={(e) => handleOnchaneDate(e)}
+            type='date'
+          />
         </div>
          <div className='couter'>
           <div className='p-2'>Số lượng</div>
-          <div className='p-2 couter-price'>x 15.990.000</div>
+          <div className='p-2 couter-price'>x {formatPrice(price)}</div>
           <div className='wrap-couter'>
-            <div className='prev'>&#8722;</div>
-            <div className='number'>0</div>
-            <div className='next'>&#43;</div>
+            <div className='prev'
+              onClick={() =>handlePrev()}
+            >&#8722;</div>
+            <div className='number'>{quantity}</div>
+            <div className='next'
+              onClick={() =>handleNext()}
+            >&#43;</div>
           </div>
         </div>
         <div className='note-des'>
@@ -26,13 +69,15 @@ export default function TourRight() {
         <div className='wrap-price'>
           <div className='name'>Tổng cộng</div>
           <div className='content'>
-            <div className='price'>20.790.000</div>
+            <div className='price'>{formatPrice(totalPrice)}</div>
             <span>VND</span>
           </div>
         </div>
         <div className='wrap-button'>
           <button className='button_1 button'>Liên hệ tư vấn</button>
-          <button className='button_2 button'>Thêm vào giỏ hàng</button>
+          <button className='button_2 button'
+            onClick={()=> handleAddCart()}
+          >Thêm vào giỏ hàng</button>
         </div>
       </div>
       <div className='bottom'>

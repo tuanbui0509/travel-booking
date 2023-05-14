@@ -1,4 +1,3 @@
-import "../styles/Cart.css";
 import { useEffect, useState } from "react";
 
 export const CartItem = ({ item, handleDelete, handleQuantityChange, selectedItemId, handleSelection }) => {
@@ -48,10 +47,14 @@ export const CartItem = ({ item, handleDelete, handleQuantityChange, selectedIte
               <span className="spec">
                 <i className="far fa-user item-icon"></i>Số người: {quantity}
               </span>
+              </li>
+              <li className='d-flex align-items-center'>
+                <span className="spec"><i className="fas fa-plus item-icon"></i>Sửa số lượng:</span>
+
                 <div className="btn-group ">
-                  <button className="btn btn-sm" onClick={handleDecrease}>-</button>
+                  <button className="btn btn-sm btn-rounded-minus" onClick={handleDecrease}>-</button>
                   <span className="btn btn-sm">{quantity}</span>
-                  <button className="btn btn-sm" onClick={handleIncrease}>+</button>
+                  <button className="btn btn-sm btn-rounded-add" onClick={handleIncrease}>+</button>
                 </div>
               </li>
             </ul>
@@ -63,9 +66,9 @@ export const CartItem = ({ item, handleDelete, handleQuantityChange, selectedIte
           ) : (
               <i className="far fa-check-circle tick-icon" onClick={handleTick}></i>
           )}
-          <span className="d-block font-weight-bold ml-4">{item.price}đ</span>
-          <button className="btn-sm btn-outline-danger ml-3" onClick={() => handleDelete(item.id)}>
-            <i className="fas fa-trash-alt"></i>
+          <span className="d-block font-weight-bold ml-3">{item.price}đ/1</span>
+          <button className="btn-sm btn-outline-white ml-2 remove-btn" onClick={() => handleDelete(item.id)}>
+            <i className="fas fa-trash-alt text-danger fa-lg"></i>
           </button>
         </div>
       </div>

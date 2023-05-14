@@ -2,7 +2,7 @@ import {Link} from "react-router-dom";
 import {CartItem} from "../components/CartItem";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import "../styles/Cart.css";
+import "../styles/cart.scss";
 import {useState} from "react";
 import {useSelectedTour} from "../contexts/SelectedTourContext";
 
@@ -108,7 +108,7 @@ export const Cart = () => {
                                 </div>
                                 <hr/>
                                 <h4 className="mb-0 mb-2">Shopping cart</h4>
-                                <div className="overflow-auto" style={{maxHeight: "400px"}}>
+                                <div className="overflow-auto overflow-cart">
                                     {cartItems.map((item) => (
                                         <CartItem
                                             item={item}
@@ -123,7 +123,7 @@ export const Cart = () => {
                             </div>
                         </div>
                         <div className="col-md-4">
-                            <div className="payment-info">
+                            <div className="payment-info blue-gradient-rgba">
                                 <div className="d-flex justify-content-between information">
                                     <span>Tổng tiền giỏ hàng:</span>
                                     <span>{calculateTotal()}đ</span>
@@ -133,9 +133,9 @@ export const Cart = () => {
                                     <span>{calculateTourSelected()}đ</span>
                                 </div>
                                 <Link className="text-reset me-3" to={`/checkout?total=${calculateTourSelected()}`}>
-                                    <button className="btn btn-primary btn-block d-flex justify-content-between mt-3"
+                                    <button className="btn btn-amber btn-block d-flex justify-content-between mt-3 rounded"
                                             type="button">
-                                        <span>{calculateTourSelected()}</span>
+                                        <span>{calculateTourSelected()}đ</span>
                                         <span>
                                           Thanh toán <i className="fas fa-arrow-right ml-1"></i>
                                         </span>
