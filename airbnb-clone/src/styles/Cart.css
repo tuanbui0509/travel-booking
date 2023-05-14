@@ -124,3 +124,6 @@ ul li {
 .item-icon {
     padding-right: 6px;
 }
+.tick-icon-selected {
+    color: green;
+}
