@@ -1,124 +1,109 @@
-import { Link } from "react-router-dom";
+import {Link, useLocation} from "react-router-dom";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import {useEffect, useState} from "react";
+import {FormInputInfoCustomer} from "../components/checkout/FormInputInfoCustomer";
+import {useSelectedTour} from "../contexts/SelectedTourContext";
+import CardItem from "../components/CardItem";
 
 export const Checkout = () => {
-  return (
-    <div className="payment-info">
-      <div className="d-flex justify-content-between align-items-center">
-        <span>Card details</span>
-        <img
-          className="rounded"
-          src="https://i.imgur.com/WU501C8.jpg"
-          width="100"
-          alt="card"
-        />
-      </div>
-      <span className="type d-block mt-3 mb-1">Card type</span>
-      <label className="radio">
-        <input type="radio" name="card" value="payment" checked />
-        <span>
-          <img
-            width="30"
-            src="https://img.icons8.com/color/48/000000/mastercard.png"
-            alt="mastercard"
-          />
-        </span>
-      </label>
+    const { selectedTour } = useSelectedTour();
+    const location = useLocation();
+    const [total, setTotal] = useState("0");
 
-      <label className="radio">
-        <input type="radio" name="card" value="payment" />
-        <span>
-          <img
-            width="30"
-            src="https://img.icons8.com/officel/48/000000/visa.png"
-            alt="visa"
-          />
-        </span>
-      </label>
+    useEffect(() => {
+        const searchParams = new URLSearchParams(location.search);
+        const totalParam = searchParams.get("total");
+        setTotal(totalParam || "0");
+    }, [location.search]);
 
-      <label className="radio">
-        <input type="radio" name="card" value="payment" />
-        <span>
-          <img
-            width="30"
-            src="https://img.icons8.com/ultraviolet/48/000000/amex.png"
-            alt="amex"
-          />
-        </span>
-      </label>
-
-      <label className="radio">
-        <input type="radio" name="card" value="payment" />
-        <span>
-          <img
-            width="30"
-            src="https://img.icons8.com/officel/48/000000/paypal.png"
-            alt="paypal"
-          />
-        </span>
-      </label>
-
-      <div>
-        <label className="credit-card-label">Name on card</label>
-        <input
-          type="text"
-          className="form-control credit-inputs"
-          placeholder="Name"
-        />
-      </div>
-
-      <div>
-        <label className="credit-card-label">Card number</label>
-        <input
-          type="text"
-          className="form-control credit-inputs"
-          placeholder="0000 0000 0000 0000"
-        />
-      </div>
-
-      <div className="row">
-        <div className="col-md-6">
-          <label className="credit-card-label">Date</label>
-          <input
-            type="text"
-            className="form-control credit-inputs"
-            placeholder="12/24"
-          />
-        </div>
-        <div className="col-md-6">
-          <label className="credit-card-label">CVV</label>
-          <input
-            type="text"
-            className="form-control credit-inputs"
-            placeholder="342"
-          />
-        </div>
-      </div>
-      <hr className="line" />
-      <div className="d-flex justify-content-between information">
-        <span>Subtotal</span>
-        <span>$3000.00</span>
-      </div>
-      <div className="d-flex justify-content-between information">
-        <span>Shipping</span>
-        <span>$20.00</span>
-      </div>
-      <div className="d-flex justify-content-between information">
-        <span>Total(Incl. taxes)</span>
-        <span>$3020.00</span>
-      </div>
-      <Link className="text-reset me-3" to={"/checkout"}>
-        <button
-          className="btn btn-primary btn-block d-flex justify-content-between mt-3"
-          type="button"
-        >
-          <span>$3020.00</span>
-          <span>
-            Checkout<i className="fa fa-long-arrow-right ml-1"></i>
-          </span>
-        </button>
-      </Link>
-    </div>
-  );
+    return (
+        <>
+            <Navbar />
+            <div className="container">
+                <div className="row flex-wrap">
+                    <div className="col-md-8 mt-4">
+                        <h3>Thông tin liên hệ</h3>
+                        <div className="row">
+                            <div className="col-md-6 mt-4">
+                                <div className="form-group">
+                                    <label>Tên(<span className="text-danger">*</span>) </label>
+                                    <input
+                                        type="text"
+                                        className="form-control"
+                                        id="name"
+                                        placeholder="Nhập tên của bạn"
+                                    />
+                                </div>
+                                <div className="form-group">
+                                    <label>Email(<span className="text-danger">*</span>) </label>
+                                    <input
+                                        type="email"
+                                        className="form-control"
+                                        id="email"
+                                        placeholder="Nhập email của bạn"
+                                    />
+                                </div>
+                                <div className="form-group">
+                                    <label>Thành phố</label>
+                                    <input type="text" className="form-control" id="city" />
+                                </div>
+                            </div>
+                            <div className="col-md-6 mt-4">
+                                <div className="form-group">
+                                    <label>
+                                        Số điện thoại(<span className="text-danger">*</span>){" "}
+                                    </label>
+                                    <input
+                                        type="number"
+                                        className="form-control"
+                                        id="phone"
+                                    />
+                                </div>
+                                <div className="form-group">
+                                    <label>
+                                        Địa chỉ(<span className="text-danger">*</span>){" "}
+                                    </label>
+                                    <input
+                                        type="text"
+                                        className="form-control"
+                                        id="address"
+                                    />
+                                </div>
+                                <div className="form-group">
+                                    <label>Quốc gia</label>
+                                    <input type="email" className="form-control" id="email" />
+                                </div>
+                            </div>
+                        </div>
+                        {selectedTour ? (
+                            <FormInputInfoCustomer quantity={selectedTour.quantity} />
+                        ) : (
+                            <h3 className='text-danger'><i className="fas fa-arrow-right ml-1"></i> Không có tour nào để thanh toán</h3>
+                        )}
+                    </div>
+                    <div className="col-md-4 mt-4">
+                        <h3>Tổng tiền </h3>
+                        <div className="row">
+                            <div className="col-md-12 mt-4">
+                                <div className="form-group">
+                                    <label htmlFor="total">Tổng</label>
+                                    <input
+                                        type="text"
+                                        className="form-control"
+                                        id="total"
+                                        value={total + "đ"}
+                                        readOnly
+                                    />
+                                </div>
+                                <div className="btn btn-primary rounded">Thanh toán</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <Footer />
+        </>
+    );
 };
+

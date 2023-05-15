@@ -1,9 +1,16 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { EventNote, QueryBuilder, FlightTakeoff, Apartment, DoubleArrow } from '@material-ui/icons';
 import { Link } from 'react-router-dom';
 import "../styles/cardItem.scss"
 import { formatPrice } from '../utils/utill';
 export default function CardItem(prop) {
+    const [inCart, setInCart] = useState(false);
+    const addToCart = () => {
+        setInCart(true);
+    };
+    const removeFromCart = () => {
+        setInCart(false);
+    };
   return (
     <div className='col mt-4'>
       <div className="card">
@@ -38,6 +45,11 @@ export default function CardItem(prop) {
                   Xem thêm
               </Link>
             </div>
+          </div>
+          <div className='d-flex flex-center'>
+              <button className={`btn ${inCart ? 'btn-danger' : 'btn-success'} rounded`} onClick={inCart ? removeFromCart : addToCart}>
+                  <i className="fas fa-cart-plus"></i> {inCart ? 'Xóa khỏi giỏ' : 'Thêm vào giỏ'}
+              </button>
           </div>
         </div>
       </div>
