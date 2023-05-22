@@ -1,10 +1,10 @@
-import { Link } from "react-router-dom";
+import { ShoppingCart } from "@material-ui/icons";
 
 export const IconCart = () => {
   return (
     <>
-      <span>
-        <i className="fas fa-shopping-cart"></i>
+      <span className="icon-cart">
+        <ShoppingCart />
       </span>
       <span className="badge rounded-pill badge-notification bg-danger">1</span>
     </>

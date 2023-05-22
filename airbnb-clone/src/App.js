@@ -12,25 +12,26 @@ import { Cart } from "./pages/Cart";
 import { Checkout } from "./pages/Checkout";
 import Tour from "./pages/Tour";
 import Category from "./pages/Category";
-import {SelectedTourProvider} from "./contexts/SelectedTourContext";
-
+import { SelectedTourProvider } from "./contexts/SelectedTourContext";
+import "../src/styles/App.css";
 function App() {
   return (
-      <SelectedTourProvider>
-        <Router>
-          <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route path="/productList" element={<ProductList />} />
-            <Route path="/productList/productId:" element={<Product />} />
-            <Route path="/tourList/tourId:" element={<Tour />} />
-            <Route path="/register" element={<Register />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/cart" element={<Cart />} />
-            <Route path="/checkout" element={<Checkout />} />
-            <Route path="/category" element={<Category />} />
-          </Routes>
-        </Router>
-      </SelectedTourProvider>
+    <SelectedTourProvider>
+      <Router>
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path="/productList" element={<ProductList />} />
+          <Route path="/productList/productId:" element={<Product />} />
+          <Route path="/tourList/tourId:" element={<Tour />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/checkout" element={<Checkout />} />
+          <Route path="/tour" element={<Tour />} />
+          <Route path="/category" element={<Category />} />
+        </Routes>
+      </Router>
+    </SelectedTourProvider>
   );
 }
 
