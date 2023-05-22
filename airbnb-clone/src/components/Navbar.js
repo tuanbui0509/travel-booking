@@ -1,69 +1,92 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
-import '../styles/navbar.scss'
-import { Home } from '@material-ui/icons'
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import "../styles/navbar.scss";
+import { Home } from "@material-ui/icons";
+import { IconCart } from "./IconCart";
 
 const Navbar = () => {
-    const [isUser, setIsUser] = useState(false)
-    const handleIsUser = () => {
-        setIsUser(!isUser)
-    }
+  const [isUser, setIsUser] = useState(false);
+  const handleIsUser = () => {
+    setIsUser(!isUser);
+  };
 
   return (
     <>
-        <div>
+      <div>
         <div className="p-3 text-center bg-white border-bottom">
-            <div className="container">
+          <div className="container">
             <div className="row">
-                <div className="col-md-4 d-flex justify-content-center justify-content-md-start mb-3 mb-md-0">
+              <div className="col-md-4 d-flex justify-content-center justify-content-md-start mb-3 mb-md-0">
                 <a href="#!" className="ms-md-2">
-                    <img src="https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.png" height="35" />
+                  <img
+                    src="https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.png"
+                    alt=""
+                  />
                 </a>
-                </div>
-                <div className="col-md-4">
+              </div>
+              <div className="col-md-4">
                 <form className="d-flex input-group w-auto my-auto mb-3 mb-md-0">
-                    <input autocomplete="off" type="search" className="form-control rounded" placeholder="Search" />
-                    <span className="input-group-text border-0 d-none d-lg-flex bg-info"><i className="fas fa-search text-white"></i></span>
+                  <input
+                    autoComplete="off"
+                    type="search"
+                    className="form-control rounded"
+                    placeholder="Search"
+                  />
+                  <span className="input-group-text border-0 d-none d-lg-flex bg-info">
+                    <i className="fas fa-search text-white"></i>
+                  </span>
                 </form>
-                </div>
-                <div className="col-md-4 d-flex justify-content-center justify-content-md-end align-items-center">
+              </div>
+              <div className="col-md-4 d-flex justify-content-center justify-content-md-end align-items-center">
                 <div className="d-flex">
-                    <Link className="text-reset me-3" to={"/cart"}>
-                        <span><i className="fas fa-shopping-cart"></i></span>
-                        <span className="badge rounded-pill badge-notification bg-danger">1</span>
-                    </Link>
+                  <Link className="text-reset me-3" to={"/cart"}>
+                    <IconCart />
+                  </Link>
 
-                    <div className="dropdown">
-                    <div className="text-reset dropdown-toggle d-flex align-items-center hidden-arrow"
-                        role="button">
-                        <img src="https://mdbootstrap.com/img/Photos/Avatars/img (31).jpg" className="rounded-circle" height="22"
-                        alt="" loading="lazy" 
-                        onClick={()=> handleIsUser()}
-                        />
+                  <div className="dropdown">
+                    <div
+                      className="text-reset dropdown-toggle d-flex align-items-center hidden-arrow"
+                      role="button"
+                    >
+                      <img
+                        src="https://mdbootstrap.com/img/Photos/Avatars/img (31).jpg"
+                        className="rounded-circle"
+                        height="22"
+                        alt=""
+                        loading="lazy"
+                        onClick={() => handleIsUser()}
+                      />
                     </div>
-
-                    </div>
+                  </div>
                 </div>
-                </div>
+              </div>
             </div>
-            </div>
+          </div>
         </div>
         <nav className="navbar navbar-expand-lg navbar-light text-white">
-            <div className="container justify-content-center justify-content-md-between">
+          <div className="container justify-content-center justify-content-md-between">
             <ul className="navbar-nav flex-row">
-                <li className="nav-item me-2 me-lg-0 d-none d-md-inline-block ms-3">
-                    <Link className="nav-link" to={"#"}><div className='link-top'><Home /></div></Link>
-                </li>
-                <li className="nav-item me-2 me-lg-0 d-none d-md-inline-block ms-3">
-                    <Link className="nav-link" to={"#"}><div className='link-top'>Tour trong nước</div></Link>
-                </li>
-                
-                <li className="nav-item me-2 me-lg-0 d-none d-md-inline-block">
-                    <Link className="nav-link" to={"#"}><div className='link-top'>Tour nước ngoài</div></Link>
-                </li>
+              <li className="nav-item me-2 me-lg-0 d-none d-md-inline-block ms-3">
+                <Link className="nav-link" to={"#"}>
+                  <div className="link-top">
+                    <Home />
+                  </div>
+                </Link>
+              </li>
+              <li className="nav-item me-2 me-lg-0 d-none d-md-inline-block ms-3">
+                <Link className="nav-link" to={"#"}>
+                  <div className="link-top">Tour trong nước</div>
+                </Link>
+              </li>
+
+              <li className="nav-item me-2 me-lg-0 d-none d-md-inline-block">
+                <Link className="nav-link" to={"#"}>
+                  <div className="link-top">Tour nước ngoài</div>
+                </Link>
+              </li>
             </ul>
-            </div>
-        </nav> 
+          </div>
+        </nav>
         {/* <div id="sidenav-1" className="sidenav" role="navigation" data-mdb-hidden="true" data-mdb-accordion="true">
             <ul className="sidenav-menu">
             <li className="sidenav-item">
@@ -175,10 +198,9 @@ const Navbar = () => {
             </div>
             </div>
         </div> */}
-        </div>
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default Navbar
-
+export default Navbar;
