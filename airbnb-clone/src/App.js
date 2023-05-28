@@ -5,7 +5,6 @@ import Home from "./pages/Home";
 import ProductList from "./pages/ProductList";
 import Product from "./pages/Product";
 import Register from "./pages/Register";
-import Login from "./pages/Login";
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { Cart } from "./pages/Cart";
@@ -13,6 +12,7 @@ import { Checkout } from "./pages/Checkout";
 import Tour from "./pages/Tour";
 import Category from "./pages/Category";
 import {SelectedTourProvider} from "./contexts/SelectedTourContext";
+import Login from "./pages/Login";
 
 function App() {
   return (
