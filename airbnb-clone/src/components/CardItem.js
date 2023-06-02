@@ -12,7 +12,7 @@ import { formatPrice } from "../utils/utill";
 import {CartContext} from "../contexts/CartContext";
 export default function CardItem(prop) {
   const [passengerCount, setPassengerCount] = useState(1);
-  const { addToCart, removeFromCart , cartItems } = useContext(CartContext);
+  const { cartItems,addToCart, removeFromCart  } = useContext(CartContext);
   const [inCart, setInCart] = useState(false);
   const handleAddToCart = () => {
     addToCart({ ...prop, passengerCount: passengerCount });
@@ -23,6 +23,12 @@ export default function CardItem(prop) {
     removeFromCart(prop.idCard);
     setInCart(false);
   };
+  // kiểm tra xem tour này có trong giỏ hàng chưa
+  const isItemInCart = cartItems.some((item) => item.idCard === prop.idCard);
+ // khởi tạo trạng thái đã thêm hay chưa
+  useState(() => {
+    setInCart(isItemInCart);
+  }, []);
   return (
     <div className="col mt-4">
       <div className="card">
