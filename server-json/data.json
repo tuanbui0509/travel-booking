@@ -54,7 +54,144 @@
       "areaId": 1,
       "createdAt": "1616346753759",
       "updatedAt": "1616346753759"
+    },
+    {
+      "id": 2,
+      "name": "Tour Miền Bắc 5N4Đ: Hà Nội - Vịnh Hạ Long - Sapa",
+      "price_adult": 5350000,
+      "price_child": 4012500,
+      "image": "https://cdn2.ivivu.com/2018/12/24/17/ivivu-ha-long-aerial-03-750x390.jpg",
+      "catagoryId": 1,
+      "quantity_date": "5 Ngày 4 Đêm",
+      "start_location": "Hà Nội",
+      "start_date": "2023-06-25",
+      "vehicle": "Ô tô",
+      "tour_services": [
+        {
+          "id": 1,
+          "name": "Bảo hiểm"
+        },
+        {
+          "id": 2,
+          "name": " Hướng dẫn viên"
+        },
+        {
+          "id": 3,
+          "name": "Xe đưa đón"
+        },
+        {
+          "id": 4,
+          "name": "Vé tham quan"
+        },
+        {
+          "id": 5,
+          "name": "Bữa ăn"
+        }
+      ],
+      "description": {
+        "title": "Ngẩn Ngơ Cung Đường Xứ Bắc",
+        "content": "<p>Xứ Bắc – vùng đất khai cơ của các Vương triều Việt, nơi định đô của hầu hết các triều đại phong kiến Việt Nam chính vì vậy nơi đây được xem như là đất kinh đô ngàn năm văn hiến với một bề dày văn hóa, lịch sử sâu sắc và đa dạng.</p><p>Tuy nhiên, khi đến đây, Du khách không chỉ được tham quan những công trình văn hóa - lịch sử cổ kính như: Văn Miếu, Lăng Chủ tịch Hồ Chí Minh, trải nghiệm những nét văn hóa đặc sắc của đất kinh đô, mà còn có thể thăm thú các thắng cảnh nổi tiếng nơi đây như: Vịnh Hạ Long, Sa Pa thị trấn trong mây. Ngoài ra Du khách còn có thể hòa mình vào cuộc sống bình dị nhưng đậm bản sắc của cộng đồng dân tộc ít người vùng cao như: Thái, Hmong, Dao. </p>"
+      },
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "NGÀY 01: ĐÓN BAY NỘI BÀI – HÀ NỘI (FREE DAY)",
+          "content": "<p>Xe đón Quý Khách tại sân bay <strong>Nội Bài</strong> đưa về Khách sạn nhận phòng, nghỉ ngơi.</p><p>Quý khách tự do khám phá thủ đô <strong>Hà Nội</strong> với <strong>36 Phố Phường, tham quan tháp rùa, cầu Thê Húc, chùa Trấn Quốc, Lăng Bác, Văn Miếu Quốc Tử Giám,… </strong></p><p>Buổi tối Quý khách tự do thưởng thức ẩm thực đường phố mang nét văn hóa của <strong>Hà Nội</strong> xưa như chả cá Lã Vọng, bún Thang, phở Lý Quốc Sư, phở cuốn Ngũ Xá,….</p><p>Ngủ đêm tại Khách sạn 3 sao phố cổ Hà Nội.</p>"
+        },
+        {
+          "id": 2,
+          "name": "HÀ NỘI – VỊNH HẠ LONG – BÃI TẮM TITOP (ĂN SÁNG, TRƯA, TỐI)",
+          "content": "<p>Sáng: Xe đón quý khách tại khách sạn, sau đó khởi hành đi <strong>Hạ Long</strong>. Đến cảng tàu Hạ Long, Đoàn tập trung tại nhà chờ theo sự hướng dẫn của hướng dẫn viên đợi mua vé và phát vé cho Quý khách để lên tàu bắt đầu hành trình khám phá Vịnh. Tàu sẽ đi qua rất nhiều các hòn đảo lớn nhỏ với nhiều hình dáng khác nhau có những tên gọi đặc biệt như: Hòn Gà Chọi, hòn Chó Đá, hòn Đỉnh Hương, hòn Ngón Tay... Quý khách thưởng thức bữa trưa trên tàu.</p><img src='https://cdn2.ivivu.com/2022/05/09/17/ivivu-ha-long-bay.gif' class='img-fluid' alt='...'></img><div className='text-center'>Vịnh Hạ Long.</div><p>Chiều: Đến <strong>đảo Bồ Hòn.</strong> Quý khách thăm quan <strong>Hang Sửng Sốt - </strong>Một trong những hang động đẹp nhất vịnh Hạ Long. Tiếp theo, Quý khách sẽ chèo Kayak hoặc đi thuyền nan thăm Hang Luồn. Sau 30 phút chèo Kayak, Quý khách lên tàu để đến với đảo Ti Top. Quý khách có thể tắm biển tại bãi tắm TiTop với bãi cát trắng, hoặc thử treekking leo lên đỉnh núi Ti Top ngắm nhìn toàn cảnh Vịnh Hạ Long. Tàu sẽ di chuyển đưa đoàn về lại Bến. Xe ô tô đón và đưa về khách sạn nhận phòng, nghỉ ngơi.</p><img src='https://cdn2.ivivu.com/2021/05/06/17/ivivu-hang-sung-sot-1.gif' class='img-fluid' alt='...'></img><div className='text-center'>Hang Sửng Sốt.</div><p>Đoàn dùng buổi tối và tự do vui chơi khám phá Chợ Đêm, Phố ẩm thực... Nghỉ đêm tại Hạ Long.</p>"
+        },
+        {
+          "id": 3,
+          "name": "KHÁM PHÁ THÀNH PHỐ HẠ LONG – HÀ NỘI (ĂN SÁNG, TRƯA)",
+          "content": "<p>Sáng: Ăn sáng tại khách sạn. Buổi sáng Quý khách tự túc vui chơi và tham quan Hạ Long. Một số gửi ý khách có thể lựa chọn:</p><p>Opition 1: Tự do vui chơi tại khu <strong>Công viên Hạ Long</strong> với nhiều khu vui chơi hấp dẫn (chi phí vé vui chơi tại các khu công viên tự túc):</p><p>- Khu Cáp treo Nữ hoàng và vòng quay Sunwheel khổng lồ trên khu đồi huyền bí</p><p>- Công viên Dragon park với các trò chơi mạo hiểm như tàu lượn, đu quay...</p><p>- Công viên Typhoon water park với các trò chơi liên quan đến nước đầy hấp dẫn</p><img src='https://cdn2.ivivu.com/2022/08/05/18/ivivu-sun-world-halong.gif' class='img-fluid' alt='...'></img><div className='text-center'>Sun World Halong Complex..</div><p>Opition 2: Tự do tắm biển <strong>Bãi Cháy</strong></p><p>12h00: Quý khách trả phòng khách sạn, ăn trưa tại khách sạn. Sau đó lên xe về <strong>Hà Nội.</strong></p><p>15h0: Về đến Hà Nội, xe đưa Quý Khách về lại Khách sạn, tự do ăn tối, khám phá Phố Cổ nhộn nhịp, đi chợ đêm Đồng Xuân, dạo chơi phố đi bộ,…</p>"
+        },
+        {
+          "id": 4,
+          "name": "HÀ NỘI - SAPA - BẢN CÁT CÁT (ĂN SÁNG, TRƯA, TỐI)",
+          "content": "<p>Sáng: Xe đón quý khách tại khách sạn, sau đó khởi hành đi <strong>Sa Pa</strong>.  Đoàn sẽ khởi hành đi Sapa trên đường cao tốc Nội Bài mới, rút ngắn thời gian đi từ Hà Nội đến Sapa. Quý khách có dịp chiêm ngưỡng khung cảnh núi rừng hùng vĩ trên cung đường cao tốc dài nhất Việt Nam trước khi đến với thị trấn <strong>Sa Pa</strong> thơ mộng, chìm trong mây.</p><p>Xe đến thị trấn Sa Pa nơi có rất nhiều dân tộc sinh sống như H’mong, Dao, Tày. Hướng dẫn viên sẽ đưa Quý khách ăn trưa tại nhà hàng.</p><img src='https://cdn2.ivivu.com/2022/10/17/14/ivivu-cat-cat.gif' class='img-fluid' alt='...'></img><div className='text-center'>Bản Cát Cát.</div><p>Chiều: Đoàn bắt đầu hành trình khám phá bản làng <strong>Cát Cát - Sìn Chải</strong> của người H’Mông - do người Pháp phát hiện và chọn nơi đây làm khu nghỉ dưỡng cho các quan chức từ đầu thế kỷ XX. Đến với bản Cát Cát, du khách sẽ được thăm bản làng Cát Cát, trạm thủy điện Cát Cát, thác nước Cát Cát, tìm hiểu văn hóa, phong tục độc đáo của người dân nơi đây với nghề truyền thống như dệt vải, chạm trổ bạc, rèn nông cụ, tục kéo vợ,...</p><p>Đoàn trở lại thị trấn <strong>Sa Pa</strong>, dùng bữa tối và nghỉ đêm tại khách sạn.</p>"
+        },
+        {
+          "id": 5,
+          "name": "SAPA – KDL HÀM RÔNG/CHINH PHỤC FANSIPAN – HÀ NỘI ( ĂN SÁNG, TRƯA)",
+          "content": "<p>Sáng: Quý khách thưởng thức bữa sáng tại khách sạn.</p><p>Opition 1: 9:00 Qúy khách bắt đầu hành trình khám phá <strong>Hàm Rồng</strong> với phong cảnh kỳ vỹ. Thăm vườn lan Đông Dương với đủ loại lan muôn màu sắc, đầu Rồng Thạch Lâm kỳ vĩ. Vượt qua cổng Trởi 1, cồng Trời 2, Qúy khách sẽ lên tới nơi cao nhất của Hàm Rồng là Sân Mây – nơi giao thoa của đất trời, ngắm nhìn toàn cảnh Sapa trên cao.</p><img src='https://cdn2.ivivu.com/2021/05/06/17/ivivu-ham-rong.gif' class='img-fluid' alt='...'></img><div className='text-center'>KDL Hàm Rồng.</div><p>Opition 2: 9:00 Quý khách khởi hành chinh phục đỉnh <strong>Fansipan cao 3143m </strong> – nóc nhà Đông Dương. Đây là tuyến cáp treo đạt 2 Kỷ lục Thế giới – Guinness World Record là tuyến cáp treo ba dây có độ chênh giữa ga đi và ga đến lớn nhất thế giới: 1410m và tuyến cáp treo ba dây dài nhất thế giới: 6292.5m. (Vé cáp treo tự túc)</p><img src='https://cdn2.ivivu.com/2020/06/15/16/ivivu-fansipang.gif' class='img-fluid' alt='...'></img><div className='text-center'>Fansipan.</div><p>Quý khách thưởng thức ẩm thực <strong>Tây Bắc</strong> với những nguyên liệu tuơi ngon tại nhà hàng thị trấn Sapa.</p><p>14:00: Xe đưa đoàn trở về Hà Nội.</p><p>20:30: Xe về đến HN. Chuyến đi kết thúc tại đây. Cảm ơn quý khách đã lựa chọn công ty và xin hẹn gặp lại quý khách!</p>"
+        }
+      ],
+      "areaId": 1,
+      "createdAt": "23/09/2020",
+      "updatedAt": "01/04/2022"
+    },
+    {
+      "id": 3,
+      "name": "Tour Nha Trang 1N: Cano 4 Đảo - Vịnh Nha Trang",
+      "price_adult": 690000,
+      "price_child": 690000,
+      "image": "https://cdn2.ivivu.com/2020/07/23/10/ivivu-hon-mun-bia-750x390.gif",
+      "catagoryId": 1,
+      "quantity_date": "Trong Ngày",
+      "start_location": "Nha Trang",
+      "start_date": "2023-05-23",
+      "vehicle": "Ô tô, Cano",
+      "tour_services": [
+        {
+          "id": 1,
+          "name": "Bảo hiểm"
+        },
+        {
+          "id": 2,
+          "name": " Hướng dẫn viên"
+        },
+        {
+          "id": 3,
+          "name": "Xe đưa đón"
+        },
+        {
+          "id": 4,
+          "name": "Vé tham quan"
+        },
+        {
+          "id": 5,
+          "name": "Bữa ăn"
+        }
+      ],
+      "description": {
+        "title": "Thắng cảnh đẹp nhất ở Nha Trang",
+        "content": "<p>Đến với tour 4 đảo Nha Trang, bạn sẽ được khám phá thiên nhiên tươi đẹp cùng thế giới đại dương đây màu sắc. Cơ hội chiêm ngưỡng những rạn san hô cùng hệ thống sinh thái biển đa dạng với đủ loài cá và các loài sinh vật quý hiếm. Không những thế, bạn còn có thể trải nghiệm những trò chơi vô cùng thú vị như lặn biển, đi bộ dưới đáy biển, hay thử một chút cảm giác mạnh với mô tô nước, dù kéo, phao chuối...</p>"
+      },
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "Chương trình tour",
+          "content": "<p>8h30 – 9h00: HDV công ty đón Quý khách tại điểm hẹn trung tâm thành phố Nha Trang, khởi hành chuyến khám phá vịnh đảo <strong>Nha Trang.</strong></p><p>09h15 : Khởi hành Tour Tham Quan 4 Đảo Nha Trang</p><p>10h00: Đến <strong>Vịnh San hô/ Bãi Sỏi</strong></p><p>- Quý khách tự do tắm biển, , ngắm nhìn những mảng san hô và các loài sinh vật biển quý hiếm bằng dụng cụ kính lặn ống thở. Quý khách sẽ biết được thế nào là cảm giác tận tay sờ vào san hô sống, may mắn thì sẽ được chạm tay vào những chú cá đang bơi lội, nhìn ngắm cận cảnh những chú cầu gai, hải sâm.</p><img src='https://picsum.photos/800/304/?random' class='img-fluid' alt='...'></img><div className='text-center'>Cầu Thanh Mã.</div>"
+        },
+        {
+          "id": 2,
+          "name": "HÀ NỘI – VỊNH HẠ LONG – BÃI TẮM TITOP (ĂN SÁNG, TRƯA, TỐI)",
+          "content": "<p>Sáng: Xe đón quý khách tại khách sạn, sau đó khởi hành đi <strong>Hạ Long</strong>. Đến cảng tàu Hạ Long, Đoàn tập trung tại nhà chờ theo sự hướng dẫn của hướng dẫn viên đợi mua vé và phát vé cho Quý khách để lên tàu bắt đầu hành trình khám phá Vịnh. Tàu sẽ đi qua rất nhiều các hòn đảo lớn nhỏ với nhiều hình dáng khác nhau có những tên gọi đặc biệt như: Hòn Gà Chọi, hòn Chó Đá, hòn Đỉnh Hương, hòn Ngón Tay... Quý khách thưởng thức bữa trưa trên tàu.</p><img src='https://cdn2.ivivu.com/2022/05/09/17/ivivu-ha-long-bay.gif' class='img-fluid' alt='...'></img><div className='text-center'>Vịnh Hạ Long.</div><p>Chiều: Đến <strong>đảo Bồ Hòn.</strong> Quý khách thăm quan <strong>Hang Sửng Sốt - </strong>Một trong những hang động đẹp nhất vịnh Hạ Long. Tiếp theo, Quý khách sẽ chèo Kayak hoặc đi thuyền nan thăm Hang Luồn. Sau 30 phút chèo Kayak, Quý khách lên tàu để đến với đảo Ti Top. Quý khách có thể tắm biển tại bãi tắm TiTop với bãi cát trắng, hoặc thử treekking leo lên đỉnh núi Ti Top ngắm nhìn toàn cảnh Vịnh Hạ Long. Tàu sẽ di chuyển đưa đoàn về lại Bến. Xe ô tô đón và đưa về khách sạn nhận phòng, nghỉ ngơi.</p><img src='https://cdn2.ivivu.com/2021/05/06/17/ivivu-hang-sung-sot-1.gif' class='img-fluid' alt='...'></img><div className='text-center'>Hang Sửng Sốt.</div><p>Đoàn dùng buổi tối và tự do vui chơi khám phá Chợ Đêm, Phố ẩm thực... Nghỉ đêm tại Hạ Long.</p>"
+        },
+        {
+          "id": 3,
+          "name": "KHÁM PHÁ THÀNH PHỐ HẠ LONG – HÀ NỘI (ĂN SÁNG, TRƯA)",
+          "content": "<p>Sáng: Ăn sáng tại khách sạn. Buổi sáng Quý khách tự túc vui chơi và tham quan Hạ Long. Một số gửi ý khách có thể lựa chọn:</p><p>Opition 1: Tự do vui chơi tại khu <strong>Công viên Hạ Long</strong> với nhiều khu vui chơi hấp dẫn (chi phí vé vui chơi tại các khu công viên tự túc):</p><p>- Khu Cáp treo Nữ hoàng và vòng quay Sunwheel khổng lồ trên khu đồi huyền bí</p><p>- Công viên Dragon park với các trò chơi mạo hiểm như tàu lượn, đu quay...</p><p>- Công viên Typhoon water park với các trò chơi liên quan đến nước đầy hấp dẫn</p><img src='https://cdn2.ivivu.com/2022/08/05/18/ivivu-sun-world-halong.gif' class='img-fluid' alt='...'></img><div className='text-center'>Sun World Halong Complex..</div><p>Opition 2: Tự do tắm biển <strong>Bãi Cháy</strong></p><p>12h00: Quý khách trả phòng khách sạn, ăn trưa tại khách sạn. Sau đó lên xe về <strong>Hà Nội.</strong></p><p>15h0: Về đến Hà Nội, xe đưa Quý Khách về lại Khách sạn, tự do ăn tối, khám phá Phố Cổ nhộn nhịp, đi chợ đêm Đồng Xuân, dạo chơi phố đi bộ,…</p>"
+        },
+        {
+          "id": 4,
+          "name": "HÀ NỘI - SAPA - BẢN CÁT CÁT (ĂN SÁNG, TRƯA, TỐI)",
+          "content": "<p>Sáng: Xe đón quý khách tại khách sạn, sau đó khởi hành đi <strong>Sa Pa</strong>.  Đoàn sẽ khởi hành đi Sapa trên đường cao tốc Nội Bài mới, rút ngắn thời gian đi từ Hà Nội đến Sapa. Quý khách có dịp chiêm ngưỡng khung cảnh núi rừng hùng vĩ trên cung đường cao tốc dài nhất Việt Nam trước khi đến với thị trấn <strong>Sa Pa</strong> thơ mộng, chìm trong mây.</p><p>Xe đến thị trấn Sa Pa nơi có rất nhiều dân tộc sinh sống như H’mong, Dao, Tày. Hướng dẫn viên sẽ đưa Quý khách ăn trưa tại nhà hàng.</p><img src='https://cdn2.ivivu.com/2022/10/17/14/ivivu-cat-cat.gif' class='img-fluid' alt='...'></img><div className='text-center'>Bản Cát Cát.</div><p>Chiều: Đoàn bắt đầu hành trình khám phá bản làng <strong>Cát Cát - Sìn Chải</strong> của người H’Mông - do người Pháp phát hiện và chọn nơi đây làm khu nghỉ dưỡng cho các quan chức từ đầu thế kỷ XX. Đến với bản Cát Cát, du khách sẽ được thăm bản làng Cát Cát, trạm thủy điện Cát Cát, thác nước Cát Cát, tìm hiểu văn hóa, phong tục độc đáo của người dân nơi đây với nghề truyền thống như dệt vải, chạm trổ bạc, rèn nông cụ, tục kéo vợ,...</p><p>Đoàn trở lại thị trấn <strong>Sa Pa</strong>, dùng bữa tối và nghỉ đêm tại khách sạn.</p>"
+        },
+        {
+          "id": 5,
+          "name": "SAPA – KDL HÀM RÔNG/CHINH PHỤC FANSIPAN – HÀ NỘI ( ĂN SÁNG, TRƯA)",
+          "content": "<p>Sáng: Quý khách thưởng thức bữa sáng tại khách sạn.</p><p>Opition 1: 9:00 Qúy khách bắt đầu hành trình khám phá <strong>Hàm Rồng</strong> với phong cảnh kỳ vỹ. Thăm vườn lan Đông Dương với đủ loại lan muôn màu sắc, đầu Rồng Thạch Lâm kỳ vĩ. Vượt qua cổng Trởi 1, cồng Trời 2, Qúy khách sẽ lên tới nơi cao nhất của Hàm Rồng là Sân Mây – nơi giao thoa của đất trời, ngắm nhìn toàn cảnh Sapa trên cao.</p><img src='https://cdn2.ivivu.com/2021/05/06/17/ivivu-ham-rong.gif' class='img-fluid' alt='...'></img><div className='text-center'>KDL Hàm Rồng.</div><p>Opition 2: 9:00 Quý khách khởi hành chinh phục đỉnh <strong>Fansipan cao 3143m </strong> – nóc nhà Đông Dương. Đây là tuyến cáp treo đạt 2 Kỷ lục Thế giới – Guinness World Record là tuyến cáp treo ba dây có độ chênh giữa ga đi và ga đến lớn nhất thế giới: 1410m và tuyến cáp treo ba dây dài nhất thế giới: 6292.5m. (Vé cáp treo tự túc)</p><img src='https://cdn2.ivivu.com/2020/06/15/16/ivivu-fansipang.gif' class='img-fluid' alt='...'></img><div className='text-center'>Fansipan.</div><p>Quý khách thưởng thức ẩm thực <strong>Tây Bắc</strong> với những nguyên liệu tuơi ngon tại nhà hàng thị trấn Sapa.</p><p>14:00: Xe đưa đoàn trở về Hà Nội.</p><p>20:30: Xe về đến HN. Chuyến đi kết thúc tại đây. Cảm ơn quý khách đã lựa chọn công ty và xin hẹn gặp lại quý khách!</p>"
+        }
+      ],
+      "areaId": 1,
+      "createdAt": "23/09/2020",
+      "updatedAt": "01/04/2022"
     }
+
   ],
   "catagories": [
     {

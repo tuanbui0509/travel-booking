@@ -40,6 +40,7 @@ import { Link } from  "react-router-dom"
     margin: 10px 0px;
     padding: 10px;
 `
+
     const Button = styled.button`
       width: 100%;
       border: none;
@@ -55,6 +56,7 @@ import { Link } from  "react-router-dom"
     text-decoration: underline;
     cursor: pointer;
 `
+
     const WrapperLink = styled.div`
     display: flex;
     justify-content: space-between;`
@@ -70,7 +72,7 @@ import { Link } from  "react-router-dom"
                         <Button>ĐĂNG NHẬP</Button>
                     </Form>
                     <WrapperLink>
-                        <LinkText>Quên mật khẩu?</LinkText>
+                        <Link to={"/forgetPassword"}><LinkText>Quên mật khẩu?</LinkText></Link>
                         <Link to={"/register"}><LinkText>Tạo tài khoản mới</LinkText></Link>
                     </WrapperLink>
 
