@@ -21,16 +21,16 @@ function App() {
             <SelectedTourProvider>
                 <Router>
                     <Routes>
-                        <Route index element={<Home/>}/>
-                        <Route path="/productList" element={<ProductList/>}/>
-                        <Route path="/productList/productId:" element={<Product/>}/>
-                        <Route path="/tourList" element={<Tour/>}/>
-                        <Route path="/register" element={<Register/>}/>
-                        <Route path="/login" element={<Login/>}/>
-                        <Route path="/cart" element={<Cart/>}/>
-                        <Route path="/checkout" element={<Checkout/>}/>
-                        <Route path="/tour" element={<Tour/>}/>
-                        <Route path="/category" element={<Category/>}/>
+                        <Route index element={<Home />} />
+                        <Route path="/productList" element={<ProductList />} />
+                        <Route path="/productList/productId:" element={<Product />} />
+                        <Route path="/tourList/tourId:" element={<Tour />} />
+                        <Route path="/register" element={<Register />} />
+                        <Route path="/login" element={<Login />} />
+                        <Route path="/cart" element={<Cart />} />
+                        <Route path="/checkout" element={<Checkout />} />
+                        <Route path="/tour" element={<Tour />} />
+                        <Route path="/category" element={<Category />} />
                     </Routes>
                 </Router>
             </SelectedTourProvider>
