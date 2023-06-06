@@ -1,0 +1,12 @@
+@import './root.scss';
+
+* {
+    margin: 0;
+    font-family: "Urbanist", sans-serif;
+    box-sizing: border-box;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}

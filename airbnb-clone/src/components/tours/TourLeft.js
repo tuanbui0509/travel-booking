@@ -1,6 +1,27 @@
 import { DirectionsCar, FlightTakeoff, LocationOn, QueryBuilder } from '@material-ui/icons'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 export default function TourLeft() {
+
+    const [listTourDetails, setlistTourDetails] = useState([])
+    useEffect(() => {
+        fetch('http://localhost:5000/api/tours/1')
+        .then(results => results.json())
+        .then(data => {
+           setlistTourDetails(data.tour_details)
+        })
+        .catch(err => {
+             console.log('connect server error, searchome');
+        }) ;
+    }, [])
+    const [apiData, setApiData] = useState("<p>Quý khách tập trung tại sân bay Tân Sơn Nhất, đoàn làm thủ tục cho đoàn đi <strong>Hong Kong.</strong></p><img src='https://picsum.photos/800/304/?random' class='img-fluid' alt='...'></img><div className='text-center'>Cầu Thanh Mã.</div><p>Đến <strong>sân bay Quốc Tế Chek Lap Kok</strong>, xe và HDV địa phương đón và đưa đoàn bắt đầu hành trình đi qua <strong>‘’Cầu Thanh Mã”</strong>  (Tsing Ma Bridge) được xây dựng năm 1997 nối liền hai hòn đảo quan trọng của Hồng Kông là Tsing Yi và Ma Wan – cầu treo đẹp nhất Châu Á và lớn thứ 7 trên thế giới.</p><img src='https://picsum.photos/800/304/?random' class='img-fluid' alt='...'></img><div className='text-center'>Cầu Thanh Mã.</div><p>Xe đưa Quý khách về khách sạn nhận phòng nghỉ ngơi, Buổi chiều tham quan mua sắm tại các khu trung tâm mua sắm sầm uất nhất Hồng Kông như khu “Mong kok” khu “chợ Quý Bà” tự do khám phá Hồng Kông về đêm.</p>");
+    const processApiData = (data) => {
+      // Loại bỏ dấu ngoặc kép ngoài cùng
+      const processedData = data.slice(1, -1);
+      return processedData;
+  };
+  const processedData = processApiData(apiData);
+
+
   return (
     <div className='tour-left'>
         <div className='container-image'>
@@ -42,15 +63,7 @@ export default function TourLeft() {
                 NGÀY 01: TPHCM – HONGKONG (ĂN TỐI)
               </div>
               <div className='content'>
-                <p>
-                  Quý khách tập trung tại sân bay Tân Sơn Nhất, đoàn làm thủ tục cho đoàn đi <strong>Hong Kong.</strong>
-                </p>
-                <img src="https://picsum.photos/800/304/?random" class="img-fluid" alt="..."></img>
-                <div className='text-center'>Cầu Thanh Mã.</div>
-                <p>Đến <strong>sân bay Quốc Tế Chek Lap Kok</strong>, xe và HDV địa phương đón và đưa đoàn bắt đầu hành trình đi qua <strong>‘’Cầu Thanh Mã”</strong>  (Tsing Ma Bridge) được xây dựng năm 1997 nối liền hai hòn đảo quan trọng của Hồng Kông là Tsing Yi và Ma Wan – cầu treo đẹp nhất Châu Á và lớn thứ 7 trên thế giới.</p>
-                <img src="https://picsum.photos/800/304/?random" class="img-fluid" alt="..."></img>
-                <div className='text-center'>Cầu Thanh Mã.</div>
-                <p>Xe đưa Quý khách về khách sạn nhận phòng nghỉ ngơi, Buổi chiều tham quan mua sắm tại các khu trung tâm mua sắm sầm uất nhất Hồng Kông như khu “Mong kok” khu “chợ Quý Bà” tự do khám phá Hồng Kông về đêm.</p>
+                {processedData}
             </div>
             </div>
 

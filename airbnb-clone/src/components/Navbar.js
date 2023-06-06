@@ -20,7 +20,7 @@ const Navbar = () => {
                 <a href="#!" className="ms-md-2">
                   <img
                     src="https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.png"
-                    height="35"
+                    alt=""
                   />
                 </a>
               </div>
