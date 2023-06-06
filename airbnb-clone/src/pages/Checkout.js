@@ -4,11 +4,35 @@ import Navbar from "../components/Navbar";
 import { useEffect, useState } from "react";
 import { FormInputInfoCustomer } from "../components/checkout/FormInputInfoCustomer";
 import { useSelectedTour } from "../contexts/SelectedTourContext";
+import {Process} from "../components/Process";
+import '../styles/process.scss'
 
 export const Checkout = () => {
+
+  // "checkout": [
+  //   {
+  //     "user_id": 1,
+  //     "tour_id": 1,
+  //     "quantity": 1,
+  //     "total_price": 1500000,
+  //     "payment_method": "Phương thức thanh toán",
+  //     "status": "pending",
+  //     "passenger_details": [
+  //       {
+  //         "full_name": "",
+  //         "phone": "",
+  //         "email": "",
+  //         "address": "",
+  //         "city": "",
+  //         "country": ""
+  //       }
+  //     ]
+  //   }
+  // ]
   const { selectedTour } = useSelectedTour();
   const location = useLocation();
   const [total, setTotal] = useState("0");
+  const [step, setStep] = useState(4);
 
   useEffect(() => {
     const searchParams = new URLSearchParams(location.search);
@@ -19,6 +43,7 @@ export const Checkout = () => {
   return (
     <>
       <Navbar />
+      <Process step={step} />
       <div className="container">
         <div className="row flex-wrap">
           <div className="col-md-8 mt-4">
@@ -72,7 +97,7 @@ export const Checkout = () => {
               </div>
             </div>
             {selectedTour ? (
-              <FormInputInfoCustomer quantity={selectedTour.quantity} />
+              <FormInputInfoCustomer quantity={selectedTour.passengerCount} />
             ) : (
               <h3 className="text-danger">
                 <i className="fas fa-arrow-right ml-1"></i> Không có tour nào để
