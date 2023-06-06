@@ -13,7 +13,6 @@ import { Checkout } from "./pages/Checkout";
 import Tour from "./pages/Tour";
 import Category from "./pages/Category";
 import { SelectedTourProvider } from "./contexts/SelectedTourContext";
-import "../src/styles/App.css";
 function App() {
   return (
     <SelectedTourProvider>
