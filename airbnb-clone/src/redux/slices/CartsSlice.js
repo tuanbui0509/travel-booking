@@ -15,12 +15,15 @@ const cartSlice = createSlice({
             return state.filter((item) => item.idCard !== itemId);
         },
         updateCart: (state, action) => {
-            const { idCard, quantity } = action.payload;
-            const cartItem = state.find((item) => item.idCard === idCard);
-            if (cartItem) {
-                cartItem.passengerCount = quantity;
-            }
+            const { idCard, passengerCount } = action.payload;
+            return state.map((item) => {
+                if (item.idCard === idCard) {
+                    return { ...item, passengerCount: passengerCount };
+                }
+                return item;
+            });
         },
+
     },
 });
 

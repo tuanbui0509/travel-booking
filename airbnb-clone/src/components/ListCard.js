@@ -14,6 +14,7 @@ export default function ListCard(prop) {
         plane={"Bay khứ hồi"}
         start={"3 sao"}
         price={5000000}
+        quantity = {10}
       />
       <CardItem
         idCard={"2"}
@@ -24,6 +25,7 @@ export default function ListCard(prop) {
         plane={"Bay khứ hồi"}
         start={"3 sao"}
         price={5000000}
+        quantity = {20}
       />
             <CardItem
         idCard={"3"}
@@ -34,6 +36,7 @@ export default function ListCard(prop) {
         plane={"Bay khứ hồi"}
         start={"3 sao"}
         price={5000000}
+        quantity = {8}
       />
             <CardItem
         idCard={"4"}
@@ -44,6 +47,7 @@ export default function ListCard(prop) {
         plane={"Bay khứ hồi"}
         start={"3 sao"}
         price={5000000}
+        quantity = {9}
       />
             <CardItem
         idCard={"5"}
@@ -54,6 +58,7 @@ export default function ListCard(prop) {
         plane={"Bay khứ hồi"}
         start={"3 sao"}
         price={5000000}
+        quantity = {12}
       />
             <CardItem
         idCard={"6"}
@@ -64,6 +69,7 @@ export default function ListCard(prop) {
         plane={"Bay khứ hồi"}
         start={"3 sao"}
         price={5000000}
+        quantity = {5}
       />
     </div>
   )
