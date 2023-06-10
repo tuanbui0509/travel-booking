@@ -15,10 +15,13 @@ const cartSlice = createSlice({
             return state.filter((item) => item.idCard !== itemId);
         },
         updateCart: (state, action) => {
-            const { idCard, passengerCount } = action.payload;
+            const { idCard, quantityAdult,quantityChild } = action.payload;
             return state.map((item) => {
                 if (item.idCard === idCard) {
-                    return { ...item, passengerCount: passengerCount };
+                    // Kiểm tra giá trị NaN trước khi cập nhật
+                    const updatedQuantityAdult = isNaN(quantityAdult) || quantityAdult === null ? 1 : quantityAdult;
+                    const updatedQuantityChild = isNaN(quantityChild) || quantityChild === null ? 0 : quantityChild;
+                    return { ...item, quantityAdult: updatedQuantityAdult,quantityChild: updatedQuantityChild};
                 }
                 return item;
             });

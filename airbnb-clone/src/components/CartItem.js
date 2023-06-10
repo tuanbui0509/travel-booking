@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from "react";
 import {useDispatch, useSelector} from "react-redux";
+import {formatPrice} from "../utils/utill";
 
 export const CartItem = ({item, handleDelete, handleQuantityChange, selectedItemId, handleSelection}) => {
     const isSelected = selectedItemId === item.idCard; // Kiểm tra xem item này có được chọn hay không
@@ -42,7 +43,17 @@ export const CartItem = ({item, handleDelete, handleQuantityChange, selectedItem
                         </li>
                         <li>
               <span className="spec">
-                <i className="far fa-user item-icon"></i>Số hành khách tối đa: {item.quantity}
+                <i className="fas fa-users item-icon-fas"></i>Số hành khách tối đa: {item.quantity}
+              </span>
+                        </li>
+                        <li>
+              <span className="spec">
+                <i className="fas fa-user item-icon"></i>Số người lớn: {item.quantityAdult}
+              </span>
+                        </li>
+                        <li>
+              <span className="spec">
+                <i className="fas fa-child item-icon "></i>Số trẻ em: {item.quantityChild}
               </span>
                         </li>
                     </ul>
@@ -54,7 +65,7 @@ export const CartItem = ({item, handleDelete, handleQuantityChange, selectedItem
                 ) : (
                     <i className="far fa-check-circle tick-icon" onClick={handleTick}></i>
                 )}
-                <span className="d-block font-weight-bold ml-3">{item.price}đ/1</span>
+                <span className="d-block font-weight-bold ml-3">{formatPrice(item.price)}đ/1</span>
                 <button className="btn-sm btn-outline-white ml-2 remove-btn" onClick={() => handleDelete(item.idCard)}>
                     <i className="fas fa-trash-alt text-danger fa-lg"></i>
                 </button>
