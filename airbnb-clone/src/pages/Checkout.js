@@ -3,9 +3,10 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import { useEffect, useState } from "react";
 import { FormInputInfoCustomer } from "../components/checkout/FormInputInfoCustomer";
-import { useSelectedTour } from "../contexts/SelectedTourContext";
 import {Process} from "../components/Process";
 import '../styles/process.scss'
+import {useDispatch, useSelector} from "react-redux";
+import {setSelectedTour} from "../redux/slices/SelectedTourSlice";
 
 export const Checkout = () => {
 
@@ -29,16 +30,21 @@ export const Checkout = () => {
   //     ]
   //   }
   // ]
-  const { selectedTour } = useSelectedTour();
+  const selectedTour = useSelector((state) => state.selectedTour);
   const location = useLocation();
   const [total, setTotal] = useState("0");
-  const [step, setStep] = useState(4);
+  const [step, setStep] = useState(3);
+  const dispatch = useDispatch();
 
   useEffect(() => {
     const searchParams = new URLSearchParams(location.search);
     const totalParam = searchParams.get("total");
     setTotal(totalParam || "0");
   }, [location.search]);
+
+  useEffect(() => {
+    dispatch(setSelectedTour(selectedTour));
+  }, [selectedTour, dispatch]);
 
   return (
     <>

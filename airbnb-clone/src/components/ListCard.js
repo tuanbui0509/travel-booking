@@ -1,6 +1,5 @@
 import React, {useContext} from 'react'
 import CardItem from './CardItem'
-import {CartContext} from "../contexts/CartContext";
 
 export default function ListCard(prop) {
   return (

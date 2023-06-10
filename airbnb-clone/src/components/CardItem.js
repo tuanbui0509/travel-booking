@@ -5,6 +5,7 @@ import {Link} from "react-router-dom";
 import "../styles/cardItem.scss";
 import {formatPrice} from "../utils/utill";
 import {addCart, removeCart} from "../redux/slices/CartsSlice";
+import {clearSelectedTour} from "../redux/slices/SelectedTourSlice";
 
 export default function CardItem(prop) {
     const [passengerCount, setPassengerCount] = useState(1);
@@ -26,7 +27,7 @@ export default function CardItem(prop) {
         if (cartItem) return;
         // Nếu mặt hàng đã tồn tại trong giỏ hàng, không làm gì cả
 
-        dispatch(addCart({...prop, passengerCount: passengerCount}));
+        dispatch(addCart({...prop, quantityAdult: 1, quantityChild : 0}));
         // Gửi action 'addCart' với thông tin mặt hàng và số lượng hành khách tới Redux store
 
         setInCart(true);
@@ -35,7 +36,7 @@ export default function CardItem(prop) {
         const storedItems = JSON.parse(localStorage.getItem("cart")) || [];
         // Lấy dữ liệu từ localStorage (nếu có) và chuyển đổi từ chuỗi JSON thành mảng
 
-        const updatedItems = [...storedItems, {...prop, passengerCount: passengerCount}];
+        const updatedItems = [...storedItems, {...prop, quantityAdult: 1, quantityChild : 0}];
         // Thêm mặt hàng mới vào mảng dữ liệu lấy từ localStorage
 
         localStorage.setItem("cart", JSON.stringify(updatedItems));
