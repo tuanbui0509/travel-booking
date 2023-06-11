@@ -3,9 +3,9 @@ import {useDispatch, useSelector} from "react-redux";
 import {Apartment, DoubleArrow, EventNote, FlightTakeoff, QueryBuilder,} from "@material-ui/icons";
 import {Link} from "react-router-dom";
 import "../styles/cardItem.scss";
-import {formatPrice} from "../utils/utill";
 import {addCart, removeCart} from "../redux/slices/CartsSlice";
-import {clearSelectedTour} from "../redux/slices/SelectedTourSlice";
+import {addCartTourToLocal, removeCartTourFromLocal} from "../utils/localStorageUtils";
+import {formatPrice} from "../utils/utill";
 
 export default function CardItem(prop) {
     const [passengerCount, setPassengerCount] = useState(1);
@@ -21,26 +21,19 @@ export default function CardItem(prop) {
 // State để xác định xem mặt hàng đó đã có trong giỏ hàng hay chưa, và hàm để cập nhật giá trị của state
 
     const handleAddToCart = () => {
-        const cartItem = cartItems.find((item) => item.idCard === prop.idCard);
+        const cartItem = cartItems.find((item) => item.id === prop.idCard);
         // Kiểm tra xem mặt hàng đã có trong giỏ hàng chưa bằng cách tìm kiếm trong mảng cartItems
 
         if (cartItem) return;
         // Nếu mặt hàng đã tồn tại trong giỏ hàng, không làm gì cả
 
-        dispatch(addCart({...prop, quantityAdult: 1, quantityChild : 0}));
+        dispatch(addCart({...prop}));
         // Gửi action 'addCart' với thông tin mặt hàng và số lượng hành khách tới Redux store
 
         setInCart(true);
         // Cập nhật trạng thái inCart thành true (đã có trong giỏ hàng)
 
-        const storedItems = JSON.parse(localStorage.getItem("cart")) || [];
-        // Lấy dữ liệu từ localStorage (nếu có) và chuyển đổi từ chuỗi JSON thành mảng
-
-        const updatedItems = [...storedItems, {...prop, quantityAdult: 1, quantityChild : 0}];
-        // Thêm mặt hàng mới vào mảng dữ liệu lấy từ localStorage
-
-        localStorage.setItem("cart", JSON.stringify(updatedItems));
-        // Lưu mảng dữ liệu mới vào localStorage
+       addCartTourToLocal(prop)
     };
 
     const handleRemoveFromCart = () => {
@@ -50,14 +43,7 @@ export default function CardItem(prop) {
         setInCart(false);
         // Cập nhật trạng thái inCart thành false (chưa có trong giỏ hàng)
 
-        const storedItems = JSON.parse(localStorage.getItem("cart")) || [];
-        // Lấy dữ liệu từ localStorage (nếu có) và chuyển đổi từ chuỗi JSON thành mảng
-
-        const updatedItems = storedItems.filter((item) => item.idCard !== prop.idCard);
-        // Lọc ra các mặt hàng khác với mặt hàng có idCard tương ứng
-
-        localStorage.setItem("cart", JSON.stringify(updatedItems));
-        // Lưu mảng dữ liệu mới vào localStorage
+        removeCartTourFromLocal(prop.idCard)
     };
 
     useEffect(() => {
@@ -67,7 +53,7 @@ export default function CardItem(prop) {
         const storedItems = JSON.parse(localStorage.getItem("cart")) || [];
         // Lấy dữ liệu từ localStorage (nếu có) và chuyển đổi từ chuỗi JSON thành mảng
 
-        const isItemStored = storedItems.some((item) => item.idCard === prop.idCard);
+        const isItemStored = storedItems.some((item) => item.id === prop.idCard);
         // Kiểm tra xem mặt hàng có trong mảng dữ liệu từ localStorage hay không
 
         setInCart(isItemInCart || isItemStored);
