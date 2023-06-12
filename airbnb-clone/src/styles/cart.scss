@@ -121,11 +121,12 @@ label.radio {
 }
 
 .image-tour-cart {
-  flex: 1;
+  width: 200px;
+  height: 215px;
+  object-fit: cover;
 }
 
 .brief {
-  flex: 1;
 }
 
 ul {

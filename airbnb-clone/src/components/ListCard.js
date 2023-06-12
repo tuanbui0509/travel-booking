@@ -1,5 +1,6 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import CardItem from './CardItem'
+import {CartContext} from "../contexts/CartContext";
 
 export default function ListCard(prop) {
   return (
@@ -12,58 +13,58 @@ export default function ListCard(prop) {
         date={"11/06/2023"}
         plane={"Bay khứ hồi"}
         start={"3 sao"}
-        price={"5290000"}
+        price={5000000}
       />
       <CardItem
-        idCard={"1"}
-        title={"PHÚ QUỐC | THỊ TRẤN HOÀNG HÔN SUNSET TOWN"}
+        idCard={"2"}
+        title={"PHÚ QUỐC "}
         image={"https://picsum.photos/800/300/?random"}
         time={"4 ngày 3 đêm"}
         date={"11/06/2023"}
         plane={"Bay khứ hồi"}
         start={"3 sao"}
-        price={"5290000"}
+        price={5000000}
       />
-            <CardItem
-        idCard={"1"}
-        title={"PHÚ QUỐC | THỊ TRẤN HOÀNG HÔN SUNSET TOWN"}
-        image={"https://picsum.photos/800/300/?random"}
-        time={"4 ngày 3 đêm"}
-        date={"11/06/2023"}
-        plane={"Bay khứ hồi"}
-        start={"3 sao"}
-        price={"5290000"}
-      />
-            <CardItem
-        idCard={"1"}
-        title={"PHÚ QUỐC | THỊ TRẤN HOÀNG HÔN SUNSET TOWN"}
-        image={"https://picsum.photos/800/300/?random"}
-        time={"4 ngày 3 đêm"}
-        date={"11/06/2023"}
-        plane={"Bay khứ hồi"}
-        start={"3 sao"}
-        price={"5290000"}
-      />
-            <CardItem
-        idCard={"1"}
-        title={"PHÚ QUỐC | THỊ TRẤN HOÀNG HÔN SUNSET TOWN"}
-        image={"https://picsum.photos/800/300/?random"}
-        time={"4 ngày 3 đêm"}
-        date={"11/06/2023"}
-        plane={"Bay khứ hồi"}
-        start={"3 sao"}
-        price={"5290000"}
-      />
-            <CardItem
-        idCard={"1"}
-        title={"PHÚ QUỐC | THỊ TRẤN HOÀNG HÔN SUNSET TOWN"}
-        image={"https://picsum.photos/800/300/?random"}
-        time={"4 ngày 3 đêm"}
-        date={"11/06/2023"}
-        plane={"Bay khứ hồi"}
-        start={"3 sao"}
-        price={"5290000"}
-      />
+      {/*      <CardItem*/}
+      {/*  idCard={"1"}*/}
+      {/*  title={"PHÚ QUỐC | THỊ TRẤN HOÀNG HÔN SUNSET TOWN"}*/}
+      {/*  image={"https://picsum.photos/800/300/?random"}*/}
+      {/*  time={"4 ngày 3 đêm"}*/}
+      {/*  date={"11/06/2023"}*/}
+      {/*  plane={"Bay khứ hồi"}*/}
+      {/*  start={"3 sao"}*/}
+      {/*  price={5000000}*/}
+      {/*/>*/}
+      {/*      <CardItem*/}
+      {/*  idCard={"1"}*/}
+      {/*  title={"PHÚ QUỐC | THỊ TRẤN HOÀNG HÔN SUNSET TOWN"}*/}
+      {/*  image={"https://picsum.photos/800/300/?random"}*/}
+      {/*  time={"4 ngày 3 đêm"}*/}
+      {/*  date={"11/06/2023"}*/}
+      {/*  plane={"Bay khứ hồi"}*/}
+      {/*  start={"3 sao"}*/}
+      {/*  price={5000000}*/}
+      {/*/>*/}
+      {/*      <CardItem*/}
+      {/*  idCard={"1"}*/}
+      {/*  title={"PHÚ QUỐC | THỊ TRẤN HOÀNG HÔN SUNSET TOWN"}*/}
+      {/*  image={"https://picsum.photos/800/300/?random"}*/}
+      {/*  time={"4 ngày 3 đêm"}*/}
+      {/*  date={"11/06/2023"}*/}
+      {/*  plane={"Bay khứ hồi"}*/}
+      {/*  start={"3 sao"}*/}
+      {/*  price={5000000}*/}
+      {/*/>*/}
+      {/*      <CardItem*/}
+      {/*  idCard={"1"}*/}
+      {/*  title={"PHÚ QUỐC | THỊ TRẤN HOÀNG HÔN SUNSET TOWN"}*/}
+      {/*  image={"https://picsum.photos/800/300/?random"}*/}
+      {/*  time={"4 ngày 3 đêm"}*/}
+      {/*  date={"11/06/2023"}*/}
+      {/*  plane={"Bay khứ hồi"}*/}
+      {/*  start={"3 sao"}*/}
+      {/*  price={5000000}*/}
+      {/*/>*/}
     </div>
   )
 }

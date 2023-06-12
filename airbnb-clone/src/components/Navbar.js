@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "../styles/navbar.scss";
 import { Home } from "@material-ui/icons";
 import { IconCart } from "./IconCart";
+import logo from "../data/imgs/logo_travel.png";
 
 const Navbar = () => {
   const [isUser, setIsUser] = useState(false);
@@ -19,8 +20,9 @@ const Navbar = () => {
               <div className="col-md-4 d-flex justify-content-center justify-content-md-start mb-3 mb-md-0">
                 <a href="#!" className="ms-md-2">
                   <img
-                    src="https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.png"
+                    src={logo}
                     alt=""
+                    width="70"
                   />
                 </a>
               </div>
