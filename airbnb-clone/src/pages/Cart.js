@@ -9,9 +9,7 @@ import {removeCart, updateCart} from "../redux/slices/CartsSlice";
 import {clearSelectedTour, setSelectedTour} from "../redux/slices/SelectedTourSlice";
 import Swal from "sweetalert2";
 import {
-    formatPrice,
-    RATE_PRICE_OF_CHILD_WITH_ADULT,
-    RATE_QUANTITY_OF_CHILD_WITH_ADULT,
+    formatPrice, RATE_PRICE_OF_CHILD_WITH_ADULT, RATE_QUANTITY_OF_CHILD_WITH_ADULT,
 } from "../utils/utill";
 import {removeCartTourFromLocal, updateCartTourInLocal} from "../utils/localStorageUtils";
 
@@ -94,7 +92,7 @@ export const Cart = () => {
         if (!selectedTour) {
             Swal.fire({
                 title: "Thông báo",
-                text: "Vui lòng tick chọn tour để chọn số lượng!",
+                text: "Vui lòng tick chọn tour để thay đổi số lượng!",
                 icon: "info",
                 confirmButtonText: "OK",
             });
@@ -160,8 +158,7 @@ export const Cart = () => {
             // nếu lớn hơn mức chênh lệch thì thông báo và set lại giá trị bằng số lượng chỗ còn lại
         // hoặc cũng có thể là đúng theo tỉ lệ
         else if (value > quantityAdult + RATE_QUANTITY_OF_CHILD_WITH_ADULT) {
-            setQuantityChild(quantityAdult + RATE_QUANTITY_OF_CHILD_WITH_ADULT > maxChildren ? maxChildren :
-                quantityAdult + RATE_QUANTITY_OF_CHILD_WITH_ADULT)
+            setQuantityChild(quantityAdult + RATE_QUANTITY_OF_CHILD_WITH_ADULT > maxChildren ? maxChildren : quantityAdult + RATE_QUANTITY_OF_CHILD_WITH_ADULT)
             Swal.fire({
                 title: "Thông báo",
                 text: `Số trẻ em chỉ được lớn hơn ${RATE_QUANTITY_OF_CHILD_WITH_ADULT} người so với người lớn!`,
@@ -192,7 +189,7 @@ export const Cart = () => {
         // cập nhật tour được chọn
         dispatch(clearSelectedTour());
         dispatch(setSelectedTour(cartItems.find((item) => item.id === itemId)));
-        updateCartTourInLocal(itemId, quantityAdult, quantityChild,calculateTourSelected())
+        updateCartTourInLocal(itemId, quantityAdult, quantityChild, calculateTourSelected())
     };
 
 
@@ -213,8 +210,7 @@ export const Cart = () => {
         }
         // chọn lại tour này vào redux
         setSelectedItemId(itemId);
-        dispatch(setSelectedTour(cartItems.find((item) => item.id === itemId)
-        ));
+        dispatch(setSelectedTour(cartItems.find((item) => item.id === itemId)));
     };
 
     // gọi hàm handleQuantityChange khi 1 trong 2 ô nhập thay đổi số lượng
@@ -242,8 +238,8 @@ export const Cart = () => {
                     <div className="row no-gutters">
                         <div className="col-md-8">
                             <div className="product-details mr-2">
-                                <h4 className="mb-0 mb-2">Tour cart</h4>
-                                <div className="overflow-auto overflow-cart">
+                                <h4 className="mb-0 mb-2 item-title-cart">Giỏ hàng</h4>
+                                <div className=" overflow-auto overflow-cart scrollbar">
                                     {cartItems.length > 0 ? (
                                         cartItems.map((item) => (
                                             <CartItem
@@ -255,13 +251,14 @@ export const Cart = () => {
                                             />
                                         ))
                                     ) : (
-                                        <h4> Không có gì trong giỏ cả (!_!)</h4>
+                                        <h5 className="text-center"><i>Chưa có gì trong giỏ!</i></h5>
                                     )}
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-4">
-                            <div className="payment-info blue-gradient-rgba mt-5">
+                        <div className="col-md-4 mt-2">
+                            <h4 className="mb-0 mb-2 item-title-cart">Chi tiết</h4>
+                            <div className="total-info">
                                 <div className="d-flex justify-content-between information">
                                     <input
                                         type="number"
@@ -295,30 +292,26 @@ export const Cart = () => {
                                     <span>Tổng tiền giỏ hàng:</span>
                                     <span>{formatPrice(calculateTotal())}đ</span>
                                 </div>
-                                {
-                                    selectedTour ? (<>
-                                            <div className="d-flex justify-content-between information">
-                                                <span>Giá vé cho người lớn:</span>
-                                                <span>{formatPrice(selectedTour.tour.price)}đ</span>
-                                            </div>
-                                            <div className="d-flex justify-content-between information">
-                                                <span>Giá vé cho trẻ em:</span>
-                                                <span>{formatPrice(selectedTour.tour.price * RATE_PRICE_OF_CHILD_WITH_ADULT)}đ</span>
-                                            </div>
-                                            <div className="d-flex justify-content-between information">
-                                                <span>Tổng tiền tour được chọn:</span>
-                                                <span>{formatPrice(calculateTourSelected())}đ</span>
-                                            </div>
-                                        </>)
-                                        : ""
-                                }
+                                {selectedTour ? (<>
+                                    <div className="d-flex justify-content-between information">
+                                        <span>Giá vé cho người lớn:</span>
+                                        <span>{formatPrice(selectedTour.tour.price)}đ</span>
+                                    </div>
+                                    <div className="d-flex justify-content-between information">
+                                        <span>Giá vé cho trẻ em:</span>
+                                        <span>{formatPrice(selectedTour.tour.price * RATE_PRICE_OF_CHILD_WITH_ADULT)}đ</span>
+                                    </div>
+                                    <div className="d-flex justify-content-between information">
+                                        <span>Tổng tiền tour được chọn:</span>
+                                        <span>{formatPrice(calculateTourSelected())}đ</span>
+                                    </div>
+                                </>) : ""}
                                 <Link className="text-reset me-3" to={`/checkout?total=${calculateTourSelected()}`}>
                                     <button
-                                        className="btn btn-amber btn-block d-flex justify-content-between mt-3 rounded"
+                                        className="btn btn-begin-checkout btn-block d-flex justify-content-center mt-3 rounded"
                                         type="button">
-                                        <span>{formatPrice(calculateTourSelected())}đ</span>
                                         <span>
-                                          Thanh toán <i className="fas fa-arrow-right ml-1"></i>
+                                          Tiến hành thanh toán <i className="fas fa-arrow-right ml-1"></i>
                                         </span>
                                     </button>
                                 </Link>
@@ -328,6 +321,5 @@ export const Cart = () => {
                 </div>
             </div>
             <Footer/>
-        </>
-    );
+        </>);
 };
