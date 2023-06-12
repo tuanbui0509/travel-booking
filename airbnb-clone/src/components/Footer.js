@@ -1,11 +1,11 @@
 import { EmailOutlined, Facebook, Instagram, Phone, Pinterest, Room, Twitter } from "@material-ui/icons";
 import styled from "styled-components";
 import { mobile } from "../responsive";
-
+import logo from "../data/imgs/logo_travel.png";
 const Container = styled.div`
     display: flex;
     ${mobile({ flexDirection: "column" })};
-
+    // background-color: #f9f9f9;
 `
 const Left = styled.div`
     flex: 1;
@@ -71,7 +71,7 @@ const Footer = () => {
     <div className="bg-white  mt-5">
     <Container className="container">
         <Left>
-            <Logo>LAMA.</Logo>
+            <Logo><img src={logo} alt="logo" style={{width: '100px'}}></img></Logo>
             <Desc>
             The garment is lined with Daiichi Orimono® technical fabric, while the graphene padding is characterized by high thermal conductivity to favor body temperature regulation.
             </Desc>

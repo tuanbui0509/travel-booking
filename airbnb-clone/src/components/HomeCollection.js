@@ -9,8 +9,8 @@ export default function HomeCollection() {
         <div className='row'>
             <div className='col-12'>
                 <HomeCollectionTitle 
-                    title={"Tour trong nước"}
-                    link={""}
+                    title={"Điểm đến yêu thích trong ngoài"}
+                    des={"Lên rừng xuống biển. Trọn vẹn Việt Nam"}
                 />
             </div>
             <div className='col-12'>
@@ -23,8 +23,8 @@ export default function HomeCollection() {
         <div className='row'>
             <div className='col-12'>
                 <HomeCollectionTitle 
-                    title={"Tour nước ngoài"}
-                    link={""}
+                    title={"Điểm đến yêu thích nước ngoài"}
+                    des={"Bao la thế giới. Bốn bể là nhà"}
                 />
             </div>
             <div className='col-12'>
