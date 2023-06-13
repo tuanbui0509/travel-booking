@@ -20,7 +20,7 @@ const Home = () => {
    const search = useSelector(searchTextSelector)
   console.log(search)
   return (
-    <div>
+    <div className="bg-white">
       <Navbar />
       <SearchHome />
       {/* <Slider></Slider> */}
