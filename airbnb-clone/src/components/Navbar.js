@@ -43,7 +43,10 @@ const Navbar = () => {
               </div>
             </div>
             <div className="item">
-              <ShoppingCart className="icon"/>
+                <Link to={"/cart"}>
+                   <ShoppingCart className="icon"/>
+                </Link>
+             
             </div>
           </div>
           <div className="container-menu">
