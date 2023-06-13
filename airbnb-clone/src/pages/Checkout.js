@@ -1,12 +1,13 @@
-import { useLocation } from "react-router-dom";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import { useEffect, useState } from "react";
-import { FormInputInfoCustomer } from "../components/checkout/FormInputInfoCustomer";
+import {useEffect, useState} from "react";
+import {FormInputInfoCustomer} from "../components/checkout/FormInputInfoCustomer";
 import {Process} from "../components/Process";
 import '../styles/process.scss'
+import '../styles/cart.scss'
 import {useDispatch, useSelector} from "react-redux";
 import {setSelectedTour} from "../redux/slices/SelectedTourSlice";
+import {formatPrice} from "../utils/utill";
 
 export const Checkout = () => {
 
@@ -31,16 +32,9 @@ export const Checkout = () => {
   //   }
   // ]
   const selectedTour = useSelector((state) => state.selectedTour);
-  const location = useLocation();
-  const [total, setTotal] = useState("0");
   const [step, setStep] = useState(3);
   const dispatch = useDispatch();
 
-  useEffect(() => {
-    const searchParams = new URLSearchParams(location.search);
-    const totalParam = searchParams.get("total");
-    setTotal(totalParam || "0");
-  }, [location.search]);
 
   useEffect(() => {
     dispatch(setSelectedTour(selectedTour));
@@ -56,6 +50,7 @@ export const Checkout = () => {
             <h3>Thông tin liên hệ</h3>
             <div className="row">
               <div className="col-md-6 mt-4">
+
                 <div className="form-group">
                   <label>
                     Tên(<span className="text-danger">*</span>){" "}
@@ -78,32 +73,55 @@ export const Checkout = () => {
                     placeholder="Nhập email của bạn"
                   />
                 </div>
-                <div className="form-group">
-                  <label>Thành phố</label>
-                  <input type="text" className="form-control" id="city" />
-                </div>
+                  {selectedTour?
+                      selectedTour.tour.catagoryId === 2?
+                              <div className="form-group">
+                                  <label>
+                                      Số hộ chiếu(<span className="text-danger">*</span>){" "}
+                                  </label>
+                                  <input
+                                      type="text"
+                                      className="form-control"
+                                      id="passport"
+                                      placeholder="Nhập số hộ chiếu"
+                                  />
+                              </div>
+
+                          :"":""
+                  }
+                  <div className="form-group">
+                      <label>Thành phố</label>
+                      <input type="text" className="form-control" id="city" />
+                  </div>
+
               </div>
               <div className="col-md-6 mt-4">
                 <div className="form-group">
                   <label>
                     Số điện thoại(<span className="text-danger">*</span>){" "}
                   </label>
-                  <input type="number" className="form-control" id="phone" />
+                  <input type="number" className="form-control" id="phone" placeholder="Nhập số điện thoại của bạn"/>
                 </div>
                 <div className="form-group">
                   <label>
                     Địa chỉ(<span className="text-danger">*</span>){" "}
                   </label>
-                  <input type="text" className="form-control" id="address" />
+                  <input type="text" className="form-control" id="address" placeholder="Nhập địa chỉ của bạn"/>
                 </div>
-                <div className="form-group">
-                  <label>Quốc gia</label>
-                  <input type="email" className="form-control" id="email" />
-                </div>
+
+                  {selectedTour?
+                      selectedTour.tour.catagoryId === 2?
+                              <div className="form-group">
+                                  <label>Quốc tịch</label>
+                                  <input type="text" className="form-control" id="national" />
+                              </div>
+                          :"":""
+                  }
               </div>
             </div>
+
             {selectedTour ? (
-              <FormInputInfoCustomer quantity={selectedTour.passengerCount} />
+              <FormInputInfoCustomer cart={selectedTour} />
             ) : (
               <h3 className="text-danger">
                 <i className="fas fa-arrow-right ml-1"></i> Không có tour nào để
@@ -121,11 +139,12 @@ export const Checkout = () => {
                     type="text"
                     className="form-control"
                     id="total"
-                    value={total + "đ"}
+                    value={ selectedTour ? formatPrice(selectedTour.total_price) + "đ": "0đ"}
                     readOnly
                   />
                 </div>
-                <div className="btn btn-primary rounded">Thanh toán</div>
+                <div className="btn btn-block btn-success rounded">Lưu</div>
+                <div className="btn btn-block btn-amber rounded">Tiếp tục</div>
               </div>
             </div>
           </div>

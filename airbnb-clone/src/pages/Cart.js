@@ -306,7 +306,7 @@ export const Cart = () => {
                                         <span>{formatPrice(calculateTourSelected())}đ</span>
                                     </div>
                                 </>) : ""}
-                                <Link className="text-reset me-3" to={`/checkout?total=${calculateTourSelected()}`}>
+                                <Link className="text-reset me-3" to={`/checkout`}>
                                     <button
                                         className="btn btn-begin-checkout btn-block d-flex justify-content-center mt-3 rounded"
                                         type="button">
