@@ -10,7 +10,7 @@ const cartSlice = createSlice({
                 const tour = action.payload.id === undefined ? action.payload : action.payload.tour;
                 const quantityAdult = action.payload.quantityAdult === undefined ? 1 : action.payload.quantityAdult;
                 const quantityChild = action.payload.quantityChild === undefined ? 0 : action.payload.quantityChild;
-                const total_price = quantityChild === 0 && quantityAdult === 1 ? action.payload.price : action.payload.total_price;
+                const total_price = action.payload.total_price === undefined ? action.payload.price : action.payload.total_price;
                 const newCartItem = {
                     id: id, // Gán giá trị id từ payload
                     tour: tour,
