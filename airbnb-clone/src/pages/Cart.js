@@ -6,7 +6,7 @@ import "../styles/cart.scss";
 import React, {useEffect, useState} from "react";
 import {useDispatch, useSelector} from "react-redux";
 import {removeCart, updateCart} from "../redux/slices/CartsSlice";
-import {clearSelectedTour, setSelectedTour} from "../redux/slices/SelectedTourSlice";
+import {clearSelectedTour, setSelectedTour, updateSelectedTour} from "../redux/slices/SelectedTourSlice";
 import Swal from "sweetalert2";
 import {
     formatPrice, RATE_PRICE_OF_CHILD_WITH_ADULT, RATE_QUANTITY_OF_CHILD_WITH_ADULT,
@@ -187,8 +187,10 @@ export const Cart = () => {
             total_price: calculateTourSelected()
         }));
         // cập nhật tour được chọn
-        dispatch(clearSelectedTour());
-        dispatch(setSelectedTour(cartItems.find((item) => item.id === itemId)));
+        dispatch(updateSelectedTour({
+            quantityAdult: quantityAdult,
+            quantityChild: quantityChild,
+            total_price: calculateTourSelected()}));
         updateCartTourInLocal(itemId, quantityAdult, quantityChild, calculateTourSelected())
     };
 
