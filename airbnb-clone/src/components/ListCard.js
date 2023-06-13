@@ -14,6 +14,7 @@ export default function ListCard(prop) {
         start={"3 sao"}
         price={5000000}
         quantity = {10}
+        catagoryId={2}
       />
       <CardItem
         idCard={"2"}
@@ -25,6 +26,7 @@ export default function ListCard(prop) {
         start={"3 sao"}
         price={5000000}
         quantity = {20}
+        catagoryId={1}
       />
             <CardItem
         idCard={"3"}
@@ -36,6 +38,7 @@ export default function ListCard(prop) {
         start={"3 sao"}
         price={5000000}
         quantity = {8}
+        catagoryId={2}
       />
             <CardItem
         idCard={"4"}
@@ -47,6 +50,7 @@ export default function ListCard(prop) {
         start={"3 sao"}
         price={5000000}
         quantity = {9}
+        catagoryId={1}
       />
             <CardItem
         idCard={"5"}
@@ -58,6 +62,7 @@ export default function ListCard(prop) {
         start={"3 sao"}
         price={5000000}
         quantity = {12}
+        catagoryId={2}
       />
             <CardItem
         idCard={"6"}
@@ -69,6 +74,7 @@ export default function ListCard(prop) {
         start={"3 sao"}
         price={5000000}
         quantity = {5}
+        catagoryId={1}
       />
     </div>
   )
