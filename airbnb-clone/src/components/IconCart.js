@@ -1,7 +1,7 @@
 import {ShoppingCart} from "@material-ui/icons";
 import {useEffect, useState} from "react";
 import {useSelector} from "react-redux";
-
+import '../styles/cart.scss'
 export const IconCart = () => {
     const cartItems = useSelector((state) => state.carts);
     const [cartItemsCount, setCartItemsCount] = useState(cartItems.length);
@@ -14,7 +14,7 @@ export const IconCart = () => {
       <span className="icon-cart">
         <ShoppingCart />
       </span>
-      <span className="badge rounded-pill badge-notification bg-danger">{cartItemsCount}</span>
+      <span className="badge rounded-pill badge-notification bg-danger position-absolute">{cartItemsCount}</span>
     </>
   );
 };
