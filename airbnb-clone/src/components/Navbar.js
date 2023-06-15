@@ -43,9 +43,9 @@ const Navbar = () => {
               </div>
             </div>
             <div className="item">
-                <Link to={"/cart"}>
-                   <ShoppingCart className="icon"/>
-                </Link>
+              <Link className="text-reset me-3" to={"/cart"}>
+                <IconCart />
+              </Link>
              
             </div>
           </div>

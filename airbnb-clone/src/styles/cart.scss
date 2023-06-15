@@ -1,13 +1,34 @@
-.payment-info {
+@import './root.scss';
+
+/* Định dạng thanh trượt */
+.scrollbar::-webkit-scrollbar {
+  width: 6px; /* Chiều rộng thanh trượt */
+  height: 6px;
+}
+
+/* Định dạng cục nút thanh trượt */
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: $color-blue_second; /* Màu sắc của thanh trượt */
+  border-radius: 5px; /* Độ cong góc của thanh trượt */
+}
+
+/* Định dạng nền thanh trượt */
+.scrollbar::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Màu sắc của nền thanh trượt */
+}
+
+
+.total-info {
   padding: 10px;
   border-radius: 6px;
   color: #fbfbfb;
   font-weight: bold;
+  background-color: $color-blue_second;
 
   .information {
     & span {
       font-size: 15px;
-      font-weight: 500;
+      font-weight: $fw-md;
     }
 
     & + .information {
@@ -50,70 +71,10 @@ body {
   font-size: 12px;
 }
 
-.table-shadow {
-  box-shadow: 5px 5px 15px -2px rgba(0, 0, 0, 0.42);
-}
 
-.type {
-  font-weight: 400;
-  font-size: 15px;
-}
-
-label.radio {
-  cursor: pointer;
-
-  input {
-    position: absolute;
-    top: 0;
-    left: 0;
-    visibility: hidden;
-    pointer-events: none;
-  }
-
-  span {
-    padding: 1px 12px;
-    border: 2px solid #ada9a9;
-    display: inline-block;
-    color: #8f37aa;
-    border-radius: 3px;
-    text-transform: uppercase;
-    font-size: 11px;
-    font-weight: 300;
-  }
-
-  input:checked + span {
-    border-color: #fff;
-    color: #fff;
-  }
-}
-
-.credit-inputs {
-  background: #3b71ca;
-  color: #fbfbfb !important;
-  border-color: #fbfbfb;
-
-  &::placeholder {
-    color: #fff;
-    font-size: 13px;
-  }
-
-  &:focus {
-    border-color: #fbfbfb;
-    background-color: #3b71ca;
-  }
-}
-
-.credit-card-label {
-  font-size: 15px;
-  font-weight: 300;
-}
-
-.line {
-  border-bottom: 1px solid rgb(102, 102, 221);
-}
 
 .items {
-  box-shadow: 5px 5px 4px -1px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 4px -1px rgba(0, 0, 0, 0.25);
 }
 
 .spec {
@@ -126,8 +87,6 @@ label.radio {
   object-fit: cover;
 }
 
-.brief {
-}
 
 ul {
   padding: 0;
@@ -139,36 +98,65 @@ ul {
 
 .item-icon {
   padding-right: 0.7rem;
+  min-width: 25px;
+  color: $color-blue_global;
 }
 
 .item-icon-fas {
   padding-right: 0.3rem;
+  min-width: 25px;
+  color: $color-blue_global;
 }
 
 .tick-icon-selected {
   font-size: 1.4rem;
-  color: green;
+  color: $color-blue_global;
+  cursor: pointer;
+}
+.bg-tour-selected{
+  background-color: #edf7ff;
+}
+.icon-trash-tour-selected{
+  border: 1px solid #edf7ff;
+  background-color: #edf7ff;
 }
 
 .far.fa-check-circle {
   font-size: 1.4rem;
+  cursor: pointer;
 }
 
-.btn-rounded-minus {
-  border-bottom-left-radius:20px;
-  border-top-left-radius: 20px;
-}
-
-.btn-rounded-add {
-  border-bottom-right-radius: 20px;
-  border-top-right-radius: 20px;
-}
-.btn-sm{
-  padding:0.1rem .7rem !important;
-}
 .overflow-cart{
-  max-height: 26rem;
+  max-height: 28rem;
+  box-shadow: 5px 5px 15px -2px rgba(0, 0, 0, 0.42);
+  border-radius: 5px;
 }
 .remove-btn:focus {
   outline: none;
+}
+.btn-begin-checkout{
+  background-color: $color-orange;
+  font-size: 1.1rem ;
+  font-weight: 700;
+  text-transform: none;
+  transition: color 0.4s ease, background-color 0.4s ease;
+  &:hover{
+    color: $color-orange;
+    background-color: $color-while;
+
+  }
+}
+
+.remove-btn:hover{
+  opacity: 0.6;
+}
+.item-title-cart{
+  color: $color-blue_global;
+}
+.icon-cart{
+  color: $color-while;
+  font-size:1.25rem;
+  &:hover{
+    color: $color-yellow;
+  }
 }
