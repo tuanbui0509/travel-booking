@@ -39,18 +39,13 @@ const Input = styled.input`
 const Agreement = styled.span`
     font-size: 14px;
     margin: 20px 0px;
-   text-align: center;
-  display: inline-flex;
+    text-align: center;
 `
 
-const WrapperLink = styled.div`
-  justify-content: space-between;
-  
-`
-
-const LinkText = styled.p`
+const Span = styled.span`
     font-size: 14px;
     color: #006680;
+  justify-content: space-between;
   
 `
 const Button = styled.button`
@@ -77,10 +72,8 @@ const Login = () => {
                     <Input placeholder="Nhập lại mật khẩu"/>
                     <Agreement>
                         Bằng việc đăng ký, bạn đã đồng ý với XYZ về
-                        <WrapperLink>
-                            <LinkText>Điều khoản sử dụng  </LinkText> và
-                            <LinkText> Chính sách bảo mật</LinkText>
-                        </WrapperLink>
+                            <Span> Điều khoản sử dụng  </Span> và
+                            <Span> Chính sách bảo mật</Span>
                     </Agreement>
                     <Button>Tạo</Button>
                 </Form>
