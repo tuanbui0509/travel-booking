@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from 'react'
-import Navbar from '../components/Navbar'
+import { EventNote, FlightTakeoff, LocationOn, Search } from '@material-ui/icons'
+import React, { useState } from 'react'
 import Footer from '../components/Footer'
 import ListArea from '../components/ListArea'
+import ListCard from '../components/ListCard'
+import Navbar from '../components/Navbar'
 import "../styles/category.scss"
 import "../styles/searchCategory.scss"
-import ListCard from '../components/ListCard'
-import { LocationOn, Search, EventNote, FlightTakeoff } from '@material-ui/icons'
 
 export default function Category() {
  const [tour, setTour] = useState("Trong nước");

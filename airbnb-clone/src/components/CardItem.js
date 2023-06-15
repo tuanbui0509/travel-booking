@@ -1,15 +1,13 @@
-import React, {useContext, useState} from "react";
 import {
-  EventNote,
-  QueryBuilder,
-  FlightTakeoff,
   Apartment,
-  DoubleArrow,
+  EventNote,
+  FlightTakeoff,
+  QueryBuilder
 } from "@material-ui/icons";
-import { Link } from "react-router-dom";
+import React, { useContext, useState } from "react";
+import { CartContext } from "../contexts/CartContext";
 import "../styles/cardItem.scss";
 import { formatPrice } from "../utils/utill";
-import {CartContext} from "../contexts/CartContext";
 export default function CardItem(prop) {
   const [passengerCount, setPassengerCount] = useState(1);
   const { cartItems,addToCart, removeFromCart  } = useContext(CartContext);

@@ -1,19 +1,19 @@
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap-css-only/css/bootstrap.min.css";
 import "mdbreact/dist/css/mdb.css";
-import Home from "./pages/Home";
-import ProductList from "./pages/ProductList";
-import Product from "./pages/Product";
-import Register from "./pages/Register";
-import Login from "./pages/Login";
-import React, {useEffect} from "react";
-import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
-import {Cart} from "./pages/Cart";
-import {Checkout} from "./pages/Checkout";
-import Tour from "./pages/Tour";
+import React, { useEffect } from "react";
+import { useDispatch } from "react-redux";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { Cart } from "./pages/Cart";
 import Category from "./pages/Category";
-import {addCart} from "./redux/slices/CartsSlice";
-import {useDispatch} from "react-redux";
+import { Checkout } from "./pages/Checkout";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import Product from "./pages/Product";
+import ProductList from "./pages/ProductList";
+import Register from "./pages/Register";
+import Tour from "./pages/Tour";
+import { addCart } from "./redux/slices/CartsSlice";
 
 function App() {
     const dispatch = useDispatch();
