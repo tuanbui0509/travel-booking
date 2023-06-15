@@ -15,7 +15,7 @@ export default function HomeCollection() {
 
   async function fetchDataTourTrongNuoc() {
     try {
-      const response = await fetch('http://localhost:5000/api/tours?catagoryId=1'); // Gọi API để lấy dữ liệu
+      const response = await fetch('http://localhost:5000/api/tours?catagoryId=1&_limit=6'); // Gọi API để lấy dữ liệu
       const jsonData = await response.json(); // Chuyển đổi dữ liệu nhận được thành JSON
       setDataTourTrongNuoc(jsonData); // Cập nhật state với dữ liệu từ API
     } catch (error) {
@@ -24,14 +24,15 @@ export default function HomeCollection() {
   }
   async function fetchDataTourNuocNgoai() {
     try {
-      const response = await fetch('http://localhost:5000/api/tours?catagoryId=2'); // Gọi API để lấy dữ liệu
+      const response = await fetch('http://localhost:5000/api/tours?catagoryId=2&_limit=6'); // Gọi API để lấy dữ liệu
       const jsonData = await response.json(); // Chuyển đổi dữ liệu nhận được thành JSON
       setDataTourNuocNgoai(jsonData); // Cập nhật state với dữ liệu từ API
     } catch (error) {
       console.error('Error fetching data:', error);
     }
   }
-
+  console.log(dataTourTrongNuoc)
+  console.log(dataTourNuocNgoai)
   return (
     <div className='container home-collection'>
         <div className='row'>
@@ -55,7 +56,7 @@ export default function HomeCollection() {
             </div>
             <div className='col-12'>
                 <ListCard
-                    data={""}
+                    data={dataTourNuocNgoai}
                 />
             </div>
         </div>
