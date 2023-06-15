@@ -1,78 +1,76 @@
-import {useEffect, useState} from "react";
+import React from "react";
+import {formatPrice} from "../utils/utill";
 
-export const CartItem = ({item, handleDelete, handleQuantityChange, selectedItemId, handleSelection}) => {
-    const isSelected = selectedItemId === item.idCard; // Kiểm tra xem item này có được chọn hay không
-
+export const CartItem = ({item, handleDelete, selectedItemId, handleSelection}) => {
+    const isSelected = selectedItemId === item.id; // Kiểm tra xem item này có được chọn hay không
     // hàm xử lý tick chọn
     const handleTick = () => {
         if (isSelected) {
             handleSelection(null); // Nếu item đã được chọn, bỏ chọn nó
         } else {
-            handleSelection(item.idCard); // Nếu item chưa được chọn, chọn nó
+            handleSelection(item.id); // Nếu item chưa được chọn, chọn nó
         }
     };
 
-    // hàm xử lý tăng số lượng
-    const handleIncrease = () => {
-        handleQuantityChange(item.idCard, item.passengerCount + 1);
-    };
-    //hàm xử lý giảm số lượng
-    const handleDecrease = () => {
-        if (item.passengerCount > 1) {
-            handleQuantityChange(item.idCard, item.passengerCount - 1);
-        }
-    };
 
-    return (<div className="d-flex justify-content-between align-items-center mt-3 pr-2 items rounded flex-wrap">
-        <div className="d-flex flex-row flex-1">
-            <img className="rounded image-tour-cart" src={item.image} alt={item.title}/>
-            <div className="ml-2 brief">
-                <span className="font-weight-bold d-block">{item.title}</span>
-                <ul style={{whiteSpace: 'nowrap'}}>
-                    <li>
-                          <span className="spec">
-                            <i className="far fa-clock item-icon"></i>Thời gian: {item.time}
+    return (
+        <>
+        <div className={`d-flex justify-content-between align-items-center m-2 p-2 items rounded mr-1 flex-wrap ${isSelected ? 'bg-tour-selected' : ''}`}>
+            <div className="d-flex flex-row flex-1">
+                <img className="rounded image-tour-cart" src={item.tour.image} alt={item.tour.title}/>
+                <div className="ml-2">
+                    <span className="font-weight-bold d-block">{item.tour.title}</span>
+                    <ul style={{whiteSpace: "nowrap"}} className="ml-1">
+                        <li>
+                          <span className="spec text-center">
+                            <i className="far fa-clock item-icon"></i>Thời gian: {item.tour.time}
                           </span>
-                    </li>
-                    <li>
-                          <span className="spec">
-                            <i className="far fa-calendar-alt item-icon"></i>Ngày khởi hành: {item.date}
+                        </li>
+                        <li>
+                          <span className="spec text-center">
+                            <i className="far fa-calendar-alt item-icon"></i>Ngày khởi hành: {item.tour.date}
                           </span>
-                    </li>
-                    <li>
+                        </li>
+                        <li>
                           <span className="spec">
-                            <i className="fas fa-plane-departure mr-2"></i>Phương tiện: {item.plane}
+                            <i className="fas fa-plane-departure item-icon-fas"></i>Phương tiện: {item.tour.plane}
                           </span>
-                    </li>
-                    <li>
+                        </li>
+                        <li>
                           <span className="spec">
-                            <i className="fas fa-star mr-2"></i>Chất lượng: {item.start}
+                            <i className="fas fa-star item-icon-fas"></i>Chất lượng: {item.tour.start}
                           </span>
-                    </li>
-                    <li>
+                        </li>
+                        <li>
                           <span className="spec">
-                            <i className="far fa-user item-icon"></i>Số người: {item.passengerCount}
+                            <i className="fas fa-users item-icon-fas"></i>Số hành khách tối đa: {item.tour.quantity}
                           </span>
-                    </li>
-                    <li className='d-flex align-items-center'>
-                        <span className="spec"><i className="fas fa-plus item-icon"></i>Sửa số lượng:</span>
-                        <div className="btn-group">
-                            <button className="btn btn-sm btn-rounded-minus" onClick={handleDecrease}>-</button>
-                            <span className="btn btn-sm">{item.passengerCount}</span>
-                            <button className="btn btn-sm btn-rounded-add" onClick={handleIncrease}>+</button>
-                        </div>
-                    </li>
-                </ul>
+                        </li>
+                        <li>
+                          <span className="spec text-center">
+                            <i className="fas fa-user item-icon"></i>Số người lớn: {item.quantityAdult}
+                          </span>
+                        </li>
+                        <li>
+                          <span className="spec text-center">
+                            <i className="fas fa-child item-icon "></i>Số trẻ em: {item.quantityChild}
+                          </span>
+                        </li>
+                    </ul>
+                </div>
             </div>
-
+            <div className="d-flex flex-row align-items-center flex-1 justify-content-end">
+                {isSelected ? (
+                    <i className="fas fa-check-circle tick-icon-selected" onClick={handleTick}></i>
+                ) : (
+                    <i className="far fa-check-circle tick-icon" onClick={handleTick}></i>
+                )}
+                <span className="d-block font-weight-bold ml-3">{formatPrice(item.tour.price)}đ/1</span>
+                <button className={`btn-sm ${isSelected ? "icon-trash-tour-selected" : "btn-outline-white"} ml-2 remove-btn`} onClick={() => handleDelete(item.id)}>
+                    <i className="fas fa-trash-alt text-danger fa-lg"></i>
+                </button>
+            </div>
         </div>
-        <div className="d-flex flex-row align-items-center flex-1 justify-content-end">
-            {isSelected ? (<i className="fas fa-check-circle tick-icon-selected" onClick={handleTick}></i>) : (
-                <i className="far fa-check-circle tick-icon" onClick={handleTick}></i>)}
-            <span className="d-block font-weight-bold ml-3">{item.price}đ/1</span>
-            <button className="btn-sm btn-outline-white ml-2 remove-btn" onClick={() => handleDelete(item.idCard)}>
-                <i className="fas fa-trash-alt text-danger fa-lg"></i>
-            </button>
-        </div>
-    </div>);
+    </>
+    );
 };
