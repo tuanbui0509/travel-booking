@@ -69,7 +69,7 @@ export const FormInputInfoCustomer = ({cart, handleContinue}) => {
                 if (!isPassportNumberValid(customer.passport_number)){
                     Swal.fire({
                         title: "Thông báo",
-                        text: "Số hộ chiếu ít nhất 6 ký tự gồm chữ hoa và số",
+                        text: "Số hộ chiếu gồm 8 ký tự, bắt đầu bằng 1 chữ in hoa tiếp sau là 7 chữ số!",
                         icon: "error",
                         confirmButtonText: "OK",
                     });
@@ -123,7 +123,8 @@ export const FormInputInfoCustomer = ({cart, handleContinue}) => {
                                             type="email"
                                             className="form-control"
                                             id={`email-${i}`}
-                                            placeholder="Nhập email"
+                                            placeholder="abc@gmail.com"
+
                                             onChange={(e) => handleInputChange(i, "email", e.target.value)}
                                         />
                                     </div>
@@ -138,7 +139,7 @@ export const FormInputInfoCustomer = ({cart, handleContinue}) => {
                                                     type="text"
                                                     className="form-control"
                                                     id={`passport_number-${i}`}
-                                                    placeholder="Nhập số hộ chiếu"
+                                                    placeholder="A1234567"
                                                     onChange={(e) =>
                                                         handleInputChange(i, "passport_number", e.target.value)
                                                     }
@@ -191,7 +192,7 @@ export const FormInputInfoCustomer = ({cart, handleContinue}) => {
                         </>)
                         :
                         <>
-                            <h3>Thông tin liên hệ:</h3>
+                            <h3>Thông tin liên hệ:<small className="text-light"><i>bắt buộc(<span className="text-danger">*</span>)</i></small></h3>
                             <div className="row ">
                                 <div className="col-md-6 mt-1">
                                     <div className="form-group">
@@ -211,7 +212,7 @@ export const FormInputInfoCustomer = ({cart, handleContinue}) => {
                                             type="email"
                                             className="form-control"
                                             id={`email-${i}`}
-                                            placeholder="Nhập email"
+                                            placeholder="abc@gmail.com"
                                             onChange={(e) => handleInputChange(i, "email", e.target.value)}
                                         />
                                     </div>
@@ -226,7 +227,7 @@ export const FormInputInfoCustomer = ({cart, handleContinue}) => {
                                                     type="text"
                                                     className="form-control"
                                                     id={`passport_number-${i}`}
-                                                    placeholder="Nhập số hộ chiếu"
+                                                    placeholder="A1234567"
                                                     onChange={(e) =>
                                                         handleInputChange(i, "passport_number", e.target.value)
                                                     }
@@ -243,7 +244,7 @@ export const FormInputInfoCustomer = ({cart, handleContinue}) => {
                                             type="number"
                                             className="form-control"
                                             id={`phone-${i}`}
-                                            placeholder="Nhập số điện thoại"
+                                            placeholder="0987654321"
                                             onChange={(e) =>
                                                 handleInputChange(i, "phone", e.target.value)
                                             }

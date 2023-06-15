@@ -15,7 +15,7 @@ export const isPhoneValid = (phone) => {
   return phone.length === 10 && phone.startsWith("0");
 };
 export const isPassportNumberValid = (passportNumber) => {
-  const passportNumberPattern = /^[A-Z0-9]{6,}$/; // Mẫu số hộ chiếu (ít nhất 6 ký tự gồm chữ hoa và số)
+  const passportNumberPattern = /^[A-ZĐ]{1}[0-9]{7}$/; // Bắc đầu từ chữ In hoa và tiếp theo là 7 chữ số
 
   return passportNumberPattern.test(passportNumber);
 };
