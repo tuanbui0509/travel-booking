@@ -5,33 +5,44 @@ import Home from "./pages/Home";
 import ProductList from "./pages/ProductList";
 import Product from "./pages/Product";
 import Register from "./pages/Register";
-import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import { Cart } from "./pages/Cart";
-import { Checkout } from "./pages/Checkout";
+import Login from "./pages/Login";
+import React, {useEffect} from "react";
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import {Cart} from "./pages/Cart";
+import {Checkout} from "./pages/Checkout";
 import Tour from "./pages/Tour";
 import Category from "./pages/Category";
-import {SelectedTourProvider} from "./contexts/SelectedTourContext";
-import Login from "./pages/Login";
+import {addCart} from "./redux/slices/CartsSlice";
+import {useDispatch} from "react-redux";
 
 function App() {
-  return (
-      <SelectedTourProvider>
-        <Router>
-          <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route path="/productList" element={<ProductList />} />
-            <Route path="/productList/productId:" element={<Product />} />
-            <Route path="/tourList/tourId:" element={<Tour />} />
-            <Route path="/register" element={<Register />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/cart" element={<Cart />} />
-            <Route path="/checkout" element={<Checkout />} />
-            <Route path="/category" element={<Category />} />
-          </Routes>
-        </Router>
-      </SelectedTourProvider>
-  );
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+        // Lấy dữ liệu từ localStorage
+        const storedItems = JSON.parse(localStorage.getItem("cart")) || [];
+
+        // Đồng bộ dữ liệu vào Redux
+        storedItems.forEach((item) => {
+            dispatch(addCart(item));
+        });
+    }, []);
+    return (
+                <Router>
+                    <Routes>
+                        <Route index element={<Home />} />
+                        <Route path="/productList" element={<ProductList />} />
+                        <Route path="/productList/productId:" element={<Product />} />
+                        <Route path="/tourList/tourId:" element={<Tour />} />
+                        <Route path="/register" element={<Register />} />
+                        <Route path="/login" element={<Login />} />
+                        <Route path="/cart" element={<Cart />} />
+                        <Route path="/checkout" element={<Checkout />} />
+                        <Route path="/tour" element={<Tour />} />
+                        <Route path="/category" element={<Category />} />
+                    </Routes>
+                </Router>
+    );
 }
 
 export default App;
