@@ -241,7 +241,7 @@ export const Cart = () => {
                         <div className="col-md-8">
                             <div className="product-details mr-2">
                                 <h4 className="mb-0 mb-2 item-title-cart">Giỏ hàng</h4>
-                                <div className=" overflow-auto overflow-cart scrollbar">
+                                <div className={`overflow-auto overflow-cart scrollbar ${ cartItems.length > 0 ?'':'d-flex justify-content-center align-items-center'}`}>
                                     {cartItems.length > 0 ? (
                                         cartItems.map((item) => (
                                             <CartItem
@@ -253,7 +253,7 @@ export const Cart = () => {
                                             />
                                         ))
                                     ) : (
-                                        <h5 className="text-center"><i>Chưa có gì trong giỏ!</i></h5>
+                                        <h5 className="d-flex justify-content-center align-items-center"><i>Chưa có gì trong giỏ!</i></h5>
                                     )}
                                 </div>
                             </div>
@@ -308,7 +308,7 @@ export const Cart = () => {
                                         <span>{formatPrice(calculateTourSelected())}đ</span>
                                     </div>
                                 </>) : ""}
-                                <Link className="text-reset me-3" to={`/checkout`}>
+                                <Link className="text-reset me-3" to={`/booking`}>
                                     <button
                                         className="btn btn-begin-checkout btn-block d-flex justify-content-center mt-3 rounded"
                                         type="button">

@@ -9,11 +9,12 @@ import Login from "./pages/Login";
 import React, {useEffect} from "react";
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import {Cart} from "./pages/Cart";
-import {Checkout} from "./pages/Checkout";
+import {Booking} from "./pages/Booking";
 import Tour from "./pages/Tour";
 import Category from "./pages/Category";
 import {addCart} from "./redux/slices/CartsSlice";
 import {useDispatch} from "react-redux";
+import {Payment} from "./pages/Payment";
 
 function App() {
     const dispatch = useDispatch();
@@ -37,7 +38,8 @@ function App() {
                         <Route path="/register" element={<Register />} />
                         <Route path="/login" element={<Login />} />
                         <Route path="/cart" element={<Cart />} />
-                        <Route path="/checkout" element={<Checkout />} />
+                        <Route path="/payment" element={<Payment />} />
+                        <Route path="/booking" element={<Booking />} />
                         <Route path="/tour" element={<Tour />} />
                         <Route path="/category" element={<Category />} />
                     </Routes>
