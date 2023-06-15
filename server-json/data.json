@@ -1,198 +1,4 @@
 {
-  "tours": [
-    {
-      "id": 1,
-      "name": "Tour 4 đảo Nha Trang",
-      "price_adult": 1500000,
-      "price_child": 1000000,
-      "image": "",
-      "catagoryId": 1,
-      "quantity_date": "7 Ngày 6 Đêm",
-      "start_location": "TP.HCM",
-      "start_date": "2023-06-15",
-      "vehicle": "máy bay",
-      "tour_services": [
-        {
-          "id": 1,
-          "name": "Bảo hiểm"
-        },
-        {
-          "id": 2,
-          "name": " Hàng không 5*"
-        },
-        {
-          "id": 3,
-          "name": "Khách sạn 3-4*"
-        },
-        {
-          "id": 4,
-          "name": "Vé tham quan"
-        },
-        {
-          "id": 5,
-          "name": "Bảo hiểm"
-        }
-      ],
-      "description": {
-        "title": "Sức lôi cuốn đặc biệt từ xứ sở mặt trời mọc",
-        "content": "Đến với đất nước 'đáng sống nhất thế giới' du khách sẽ có được những trải nghiệm tuyệt vời, thú vị và hấp dẫn không chỉ bởi cảnh sắc thiên nhiên tuyệt đẹp mà còn từ những điều bình dị và con người nơi đây. Khám phá một Tokyo hiện đại nhưng vẫn cảm nhận từng cung bậc cảm xúc khi dạo bước bên ngôi cổ tự Asakusa, Hoàng cung và núi Phú Sĩ hùng vĩ. Hành trình khám phá cảnh sắc từ Tokyo đến Kyoto, kết nối Osaka với đền đài, chùa thiêng đẫm không khí thiền tịnh và các công trình xuyên biển vĩ đại tại Kobe. Nhật Bản là điểm đến nổi tiếng trên thế giới với nền văn hóa đậm bản sắc và ẩm thực độc đáo."
-      },
-      "tour_details": [
-        {
-          "id": 1,
-          "name": "NGÀY 1: TP.HCM – HANEDA",
-          "image": "",
-          "description": "20h00: Hướng dẫn viên sẽ đón quý khách tại ga đi Quốc tế, sân bay Tân Sơn Nhất làm thủ tục đáp chuyến bay JL070 khởi hành đi Haneda, Nhật Bản lúc 23h20. Đoàn nghỉ đêm & ăn sáng trên máy bay."
-        },
-        {
-          "id": 2,
-          "name": "NGÀY 2: TP.HCM – HANEDA",
-          "image": "",
-          "description": "20h00: Hướng dẫn viên sẽ đón quý khách tại ga đi Quốc tế, sân bay Tân Sơn Nhất làm thủ tục đáp chuyến bay JL070 khởi hành đi Haneda, Nhật Bản lúc 23h20. Đoàn nghỉ đêm & ăn sáng trên máy bay."
-        }
-      ],
-      "areaId": 1,
-      "createdAt": "1616346753759",
-      "updatedAt": "1616346753759"
-    },
-    {
-      "id": 2,
-      "name": "Tour Miền Bắc 5N4Đ: Hà Nội - Vịnh Hạ Long - Sapa",
-      "price_adult": 5350000,
-      "price_child": 4012500,
-      "image": "https://cdn2.ivivu.com/2018/12/24/17/ivivu-ha-long-aerial-03-750x390.jpg",
-      "catagoryId": 1,
-      "quantity_date": "5 Ngày 4 Đêm",
-      "start_location": "Hà Nội",
-      "start_date": "2023-06-25",
-      "vehicle": "Ô tô",
-      "tour_services": [
-        {
-          "id": 1,
-          "name": "Bảo hiểm"
-        },
-        {
-          "id": 2,
-          "name": " Hướng dẫn viên"
-        },
-        {
-          "id": 3,
-          "name": "Xe đưa đón"
-        },
-        {
-          "id": 4,
-          "name": "Vé tham quan"
-        },
-        {
-          "id": 5,
-          "name": "Bữa ăn"
-        }
-      ],
-      "description": {
-        "title": "Ngẩn Ngơ Cung Đường Xứ Bắc",
-        "content": "<p>Xứ Bắc – vùng đất khai cơ của các Vương triều Việt, nơi định đô của hầu hết các triều đại phong kiến Việt Nam chính vì vậy nơi đây được xem như là đất kinh đô ngàn năm văn hiến với một bề dày văn hóa, lịch sử sâu sắc và đa dạng.</p><p>Tuy nhiên, khi đến đây, Du khách không chỉ được tham quan những công trình văn hóa - lịch sử cổ kính như: Văn Miếu, Lăng Chủ tịch Hồ Chí Minh, trải nghiệm những nét văn hóa đặc sắc của đất kinh đô, mà còn có thể thăm thú các thắng cảnh nổi tiếng nơi đây như: Vịnh Hạ Long, Sa Pa thị trấn trong mây. Ngoài ra Du khách còn có thể hòa mình vào cuộc sống bình dị nhưng đậm bản sắc của cộng đồng dân tộc ít người vùng cao như: Thái, Hmong, Dao. </p>"
-      },
-      "tour_details": [
-        {
-          "id": 1,
-          "name": "NGÀY 01: ĐÓN BAY NỘI BÀI – HÀ NỘI (FREE DAY)",
-          "content": "<p>Xe đón Quý Khách tại sân bay <strong>Nội Bài</strong> đưa về Khách sạn nhận phòng, nghỉ ngơi.</p><p>Quý khách tự do khám phá thủ đô <strong>Hà Nội</strong> với <strong>36 Phố Phường, tham quan tháp rùa, cầu Thê Húc, chùa Trấn Quốc, Lăng Bác, Văn Miếu Quốc Tử Giám,… </strong></p><p>Buổi tối Quý khách tự do thưởng thức ẩm thực đường phố mang nét văn hóa của <strong>Hà Nội</strong> xưa như chả cá Lã Vọng, bún Thang, phở Lý Quốc Sư, phở cuốn Ngũ Xá,….</p><p>Ngủ đêm tại Khách sạn 3 sao phố cổ Hà Nội.</p>"
-        },
-        {
-          "id": 2,
-          "name": "HÀ NỘI – VỊNH HẠ LONG – BÃI TẮM TITOP (ĂN SÁNG, TRƯA, TỐI)",
-          "content": "<p>Sáng: Xe đón quý khách tại khách sạn, sau đó khởi hành đi <strong>Hạ Long</strong>. Đến cảng tàu Hạ Long, Đoàn tập trung tại nhà chờ theo sự hướng dẫn của hướng dẫn viên đợi mua vé và phát vé cho Quý khách để lên tàu bắt đầu hành trình khám phá Vịnh. Tàu sẽ đi qua rất nhiều các hòn đảo lớn nhỏ với nhiều hình dáng khác nhau có những tên gọi đặc biệt như: Hòn Gà Chọi, hòn Chó Đá, hòn Đỉnh Hương, hòn Ngón Tay... Quý khách thưởng thức bữa trưa trên tàu.</p><img src='https://cdn2.ivivu.com/2022/05/09/17/ivivu-ha-long-bay.gif' class='img-fluid' alt='...'></img><div className='text-center'>Vịnh Hạ Long.</div><p>Chiều: Đến <strong>đảo Bồ Hòn.</strong> Quý khách thăm quan <strong>Hang Sửng Sốt - </strong>Một trong những hang động đẹp nhất vịnh Hạ Long. Tiếp theo, Quý khách sẽ chèo Kayak hoặc đi thuyền nan thăm Hang Luồn. Sau 30 phút chèo Kayak, Quý khách lên tàu để đến với đảo Ti Top. Quý khách có thể tắm biển tại bãi tắm TiTop với bãi cát trắng, hoặc thử treekking leo lên đỉnh núi Ti Top ngắm nhìn toàn cảnh Vịnh Hạ Long. Tàu sẽ di chuyển đưa đoàn về lại Bến. Xe ô tô đón và đưa về khách sạn nhận phòng, nghỉ ngơi.</p><img src='https://cdn2.ivivu.com/2021/05/06/17/ivivu-hang-sung-sot-1.gif' class='img-fluid' alt='...'></img><div className='text-center'>Hang Sửng Sốt.</div><p>Đoàn dùng buổi tối và tự do vui chơi khám phá Chợ Đêm, Phố ẩm thực... Nghỉ đêm tại Hạ Long.</p>"
-        },
-        {
-          "id": 3,
-          "name": "KHÁM PHÁ THÀNH PHỐ HẠ LONG – HÀ NỘI (ĂN SÁNG, TRƯA)",
-          "content": "<p>Sáng: Ăn sáng tại khách sạn. Buổi sáng Quý khách tự túc vui chơi và tham quan Hạ Long. Một số gửi ý khách có thể lựa chọn:</p><p>Opition 1: Tự do vui chơi tại khu <strong>Công viên Hạ Long</strong> với nhiều khu vui chơi hấp dẫn (chi phí vé vui chơi tại các khu công viên tự túc):</p><p>- Khu Cáp treo Nữ hoàng và vòng quay Sunwheel khổng lồ trên khu đồi huyền bí</p><p>- Công viên Dragon park với các trò chơi mạo hiểm như tàu lượn, đu quay...</p><p>- Công viên Typhoon water park với các trò chơi liên quan đến nước đầy hấp dẫn</p><img src='https://cdn2.ivivu.com/2022/08/05/18/ivivu-sun-world-halong.gif' class='img-fluid' alt='...'></img><div className='text-center'>Sun World Halong Complex..</div><p>Opition 2: Tự do tắm biển <strong>Bãi Cháy</strong></p><p>12h00: Quý khách trả phòng khách sạn, ăn trưa tại khách sạn. Sau đó lên xe về <strong>Hà Nội.</strong></p><p>15h0: Về đến Hà Nội, xe đưa Quý Khách về lại Khách sạn, tự do ăn tối, khám phá Phố Cổ nhộn nhịp, đi chợ đêm Đồng Xuân, dạo chơi phố đi bộ,…</p>"
-        },
-        {
-          "id": 4,
-          "name": "HÀ NỘI - SAPA - BẢN CÁT CÁT (ĂN SÁNG, TRƯA, TỐI)",
-          "content": "<p>Sáng: Xe đón quý khách tại khách sạn, sau đó khởi hành đi <strong>Sa Pa</strong>.  Đoàn sẽ khởi hành đi Sapa trên đường cao tốc Nội Bài mới, rút ngắn thời gian đi từ Hà Nội đến Sapa. Quý khách có dịp chiêm ngưỡng khung cảnh núi rừng hùng vĩ trên cung đường cao tốc dài nhất Việt Nam trước khi đến với thị trấn <strong>Sa Pa</strong> thơ mộng, chìm trong mây.</p><p>Xe đến thị trấn Sa Pa nơi có rất nhiều dân tộc sinh sống như H’mong, Dao, Tày. Hướng dẫn viên sẽ đưa Quý khách ăn trưa tại nhà hàng.</p><img src='https://cdn2.ivivu.com/2022/10/17/14/ivivu-cat-cat.gif' class='img-fluid' alt='...'></img><div className='text-center'>Bản Cát Cát.</div><p>Chiều: Đoàn bắt đầu hành trình khám phá bản làng <strong>Cát Cát - Sìn Chải</strong> của người H’Mông - do người Pháp phát hiện và chọn nơi đây làm khu nghỉ dưỡng cho các quan chức từ đầu thế kỷ XX. Đến với bản Cát Cát, du khách sẽ được thăm bản làng Cát Cát, trạm thủy điện Cát Cát, thác nước Cát Cát, tìm hiểu văn hóa, phong tục độc đáo của người dân nơi đây với nghề truyền thống như dệt vải, chạm trổ bạc, rèn nông cụ, tục kéo vợ,...</p><p>Đoàn trở lại thị trấn <strong>Sa Pa</strong>, dùng bữa tối và nghỉ đêm tại khách sạn.</p>"
-        },
-        {
-          "id": 5,
-          "name": "SAPA – KDL HÀM RÔNG/CHINH PHỤC FANSIPAN – HÀ NỘI ( ĂN SÁNG, TRƯA)",
-          "content": "<p>Sáng: Quý khách thưởng thức bữa sáng tại khách sạn.</p><p>Opition 1: 9:00 Qúy khách bắt đầu hành trình khám phá <strong>Hàm Rồng</strong> với phong cảnh kỳ vỹ. Thăm vườn lan Đông Dương với đủ loại lan muôn màu sắc, đầu Rồng Thạch Lâm kỳ vĩ. Vượt qua cổng Trởi 1, cồng Trời 2, Qúy khách sẽ lên tới nơi cao nhất của Hàm Rồng là Sân Mây – nơi giao thoa của đất trời, ngắm nhìn toàn cảnh Sapa trên cao.</p><img src='https://cdn2.ivivu.com/2021/05/06/17/ivivu-ham-rong.gif' class='img-fluid' alt='...'></img><div className='text-center'>KDL Hàm Rồng.</div><p>Opition 2: 9:00 Quý khách khởi hành chinh phục đỉnh <strong>Fansipan cao 3143m </strong> – nóc nhà Đông Dương. Đây là tuyến cáp treo đạt 2 Kỷ lục Thế giới – Guinness World Record là tuyến cáp treo ba dây có độ chênh giữa ga đi và ga đến lớn nhất thế giới: 1410m và tuyến cáp treo ba dây dài nhất thế giới: 6292.5m. (Vé cáp treo tự túc)</p><img src='https://cdn2.ivivu.com/2020/06/15/16/ivivu-fansipang.gif' class='img-fluid' alt='...'></img><div className='text-center'>Fansipan.</div><p>Quý khách thưởng thức ẩm thực <strong>Tây Bắc</strong> với những nguyên liệu tuơi ngon tại nhà hàng thị trấn Sapa.</p><p>14:00: Xe đưa đoàn trở về Hà Nội.</p><p>20:30: Xe về đến HN. Chuyến đi kết thúc tại đây. Cảm ơn quý khách đã lựa chọn công ty và xin hẹn gặp lại quý khách!</p>"
-        }
-      ],
-      "areaId": 1,
-      "createdAt": "23/09/2020",
-      "updatedAt": "01/04/2022"
-    },
-    {
-      "id": 3,
-      "name": "Tour Nha Trang 1N: Cano 4 Đảo - Vịnh Nha Trang",
-      "price_adult": 690000,
-      "price_child": 690000,
-      "image": "https://cdn2.ivivu.com/2020/07/23/10/ivivu-hon-mun-bia-750x390.gif",
-      "catagoryId": 1,
-      "quantity_date": "Trong Ngày",
-      "start_location": "Nha Trang",
-      "start_date": "2023-05-23",
-      "vehicle": "Ô tô, Cano",
-      "tour_services": [
-        {
-          "id": 1,
-          "name": "Bảo hiểm"
-        },
-        {
-          "id": 2,
-          "name": " Hướng dẫn viên"
-        },
-        {
-          "id": 3,
-          "name": "Xe đưa đón"
-        },
-        {
-          "id": 4,
-          "name": "Vé tham quan"
-        },
-        {
-          "id": 5,
-          "name": "Bữa ăn"
-        }
-      ],
-      "description": {
-        "title": "Thắng cảnh đẹp nhất ở Nha Trang",
-        "content": "<p>Đến với tour 4 đảo Nha Trang, bạn sẽ được khám phá thiên nhiên tươi đẹp cùng thế giới đại dương đây màu sắc. Cơ hội chiêm ngưỡng những rạn san hô cùng hệ thống sinh thái biển đa dạng với đủ loài cá và các loài sinh vật quý hiếm. Không những thế, bạn còn có thể trải nghiệm những trò chơi vô cùng thú vị như lặn biển, đi bộ dưới đáy biển, hay thử một chút cảm giác mạnh với mô tô nước, dù kéo, phao chuối...</p>"
-      },
-      "tour_details": [
-        {
-          "id": 1,
-          "name": "Chương trình tour",
-          "content": "<p>8h30 – 9h00: HDV công ty đón Quý khách tại điểm hẹn trung tâm thành phố Nha Trang, khởi hành chuyến khám phá vịnh đảo <strong>Nha Trang.</strong></p><p>09h15 : Khởi hành Tour Tham Quan 4 Đảo Nha Trang</p><p>10h00: Đến <strong>Vịnh San hô/ Bãi Sỏi</strong></p><p>- Quý khách tự do tắm biển, , ngắm nhìn những mảng san hô và các loài sinh vật biển quý hiếm bằng dụng cụ kính lặn ống thở. Quý khách sẽ biết được thế nào là cảm giác tận tay sờ vào san hô sống, may mắn thì sẽ được chạm tay vào những chú cá đang bơi lội, nhìn ngắm cận cảnh những chú cầu gai, hải sâm.</p><img src='https://picsum.photos/800/304/?random' class='img-fluid' alt='...'></img><div className='text-center'>Cầu Thanh Mã.</div>"
-        },
-        {
-          "id": 2,
-          "name": "HÀ NỘI – VỊNH HẠ LONG – BÃI TẮM TITOP (ĂN SÁNG, TRƯA, TỐI)",
-          "content": "<p>Sáng: Xe đón quý khách tại khách sạn, sau đó khởi hành đi <strong>Hạ Long</strong>. Đến cảng tàu Hạ Long, Đoàn tập trung tại nhà chờ theo sự hướng dẫn của hướng dẫn viên đợi mua vé và phát vé cho Quý khách để lên tàu bắt đầu hành trình khám phá Vịnh. Tàu sẽ đi qua rất nhiều các hòn đảo lớn nhỏ với nhiều hình dáng khác nhau có những tên gọi đặc biệt như: Hòn Gà Chọi, hòn Chó Đá, hòn Đỉnh Hương, hòn Ngón Tay... Quý khách thưởng thức bữa trưa trên tàu.</p><img src='https://cdn2.ivivu.com/2022/05/09/17/ivivu-ha-long-bay.gif' class='img-fluid' alt='...'></img><div className='text-center'>Vịnh Hạ Long.</div><p>Chiều: Đến <strong>đảo Bồ Hòn.</strong> Quý khách thăm quan <strong>Hang Sửng Sốt - </strong>Một trong những hang động đẹp nhất vịnh Hạ Long. Tiếp theo, Quý khách sẽ chèo Kayak hoặc đi thuyền nan thăm Hang Luồn. Sau 30 phút chèo Kayak, Quý khách lên tàu để đến với đảo Ti Top. Quý khách có thể tắm biển tại bãi tắm TiTop với bãi cát trắng, hoặc thử treekking leo lên đỉnh núi Ti Top ngắm nhìn toàn cảnh Vịnh Hạ Long. Tàu sẽ di chuyển đưa đoàn về lại Bến. Xe ô tô đón và đưa về khách sạn nhận phòng, nghỉ ngơi.</p><img src='https://cdn2.ivivu.com/2021/05/06/17/ivivu-hang-sung-sot-1.gif' class='img-fluid' alt='...'></img><div className='text-center'>Hang Sửng Sốt.</div><p>Đoàn dùng buổi tối và tự do vui chơi khám phá Chợ Đêm, Phố ẩm thực... Nghỉ đêm tại Hạ Long.</p>"
-        },
-        {
-          "id": 3,
-          "name": "KHÁM PHÁ THÀNH PHỐ HẠ LONG – HÀ NỘI (ĂN SÁNG, TRƯA)",
-          "content": "<p>Sáng: Ăn sáng tại khách sạn. Buổi sáng Quý khách tự túc vui chơi và tham quan Hạ Long. Một số gửi ý khách có thể lựa chọn:</p><p>Opition 1: Tự do vui chơi tại khu <strong>Công viên Hạ Long</strong> với nhiều khu vui chơi hấp dẫn (chi phí vé vui chơi tại các khu công viên tự túc):</p><p>- Khu Cáp treo Nữ hoàng và vòng quay Sunwheel khổng lồ trên khu đồi huyền bí</p><p>- Công viên Dragon park với các trò chơi mạo hiểm như tàu lượn, đu quay...</p><p>- Công viên Typhoon water park với các trò chơi liên quan đến nước đầy hấp dẫn</p><img src='https://cdn2.ivivu.com/2022/08/05/18/ivivu-sun-world-halong.gif' class='img-fluid' alt='...'></img><div className='text-center'>Sun World Halong Complex..</div><p>Opition 2: Tự do tắm biển <strong>Bãi Cháy</strong></p><p>12h00: Quý khách trả phòng khách sạn, ăn trưa tại khách sạn. Sau đó lên xe về <strong>Hà Nội.</strong></p><p>15h0: Về đến Hà Nội, xe đưa Quý Khách về lại Khách sạn, tự do ăn tối, khám phá Phố Cổ nhộn nhịp, đi chợ đêm Đồng Xuân, dạo chơi phố đi bộ,…</p>"
-        },
-        {
-          "id": 4,
-          "name": "HÀ NỘI - SAPA - BẢN CÁT CÁT (ĂN SÁNG, TRƯA, TỐI)",
-          "content": "<p>Sáng: Xe đón quý khách tại khách sạn, sau đó khởi hành đi <strong>Sa Pa</strong>.  Đoàn sẽ khởi hành đi Sapa trên đường cao tốc Nội Bài mới, rút ngắn thời gian đi từ Hà Nội đến Sapa. Quý khách có dịp chiêm ngưỡng khung cảnh núi rừng hùng vĩ trên cung đường cao tốc dài nhất Việt Nam trước khi đến với thị trấn <strong>Sa Pa</strong> thơ mộng, chìm trong mây.</p><p>Xe đến thị trấn Sa Pa nơi có rất nhiều dân tộc sinh sống như H’mong, Dao, Tày. Hướng dẫn viên sẽ đưa Quý khách ăn trưa tại nhà hàng.</p><img src='https://cdn2.ivivu.com/2022/10/17/14/ivivu-cat-cat.gif' class='img-fluid' alt='...'></img><div className='text-center'>Bản Cát Cát.</div><p>Chiều: Đoàn bắt đầu hành trình khám phá bản làng <strong>Cát Cát - Sìn Chải</strong> của người H’Mông - do người Pháp phát hiện và chọn nơi đây làm khu nghỉ dưỡng cho các quan chức từ đầu thế kỷ XX. Đến với bản Cát Cát, du khách sẽ được thăm bản làng Cát Cát, trạm thủy điện Cát Cát, thác nước Cát Cát, tìm hiểu văn hóa, phong tục độc đáo của người dân nơi đây với nghề truyền thống như dệt vải, chạm trổ bạc, rèn nông cụ, tục kéo vợ,...</p><p>Đoàn trở lại thị trấn <strong>Sa Pa</strong>, dùng bữa tối và nghỉ đêm tại khách sạn.</p>"
-        },
-        {
-          "id": 5,
-          "name": "SAPA – KDL HÀM RÔNG/CHINH PHỤC FANSIPAN – HÀ NỘI ( ĂN SÁNG, TRƯA)",
-          "content": "<p>Sáng: Quý khách thưởng thức bữa sáng tại khách sạn.</p><p>Opition 1: 9:00 Qúy khách bắt đầu hành trình khám phá <strong>Hàm Rồng</strong> với phong cảnh kỳ vỹ. Thăm vườn lan Đông Dương với đủ loại lan muôn màu sắc, đầu Rồng Thạch Lâm kỳ vĩ. Vượt qua cổng Trởi 1, cồng Trời 2, Qúy khách sẽ lên tới nơi cao nhất của Hàm Rồng là Sân Mây – nơi giao thoa của đất trời, ngắm nhìn toàn cảnh Sapa trên cao.</p><img src='https://cdn2.ivivu.com/2021/05/06/17/ivivu-ham-rong.gif' class='img-fluid' alt='...'></img><div className='text-center'>KDL Hàm Rồng.</div><p>Opition 2: 9:00 Quý khách khởi hành chinh phục đỉnh <strong>Fansipan cao 3143m </strong> – nóc nhà Đông Dương. Đây là tuyến cáp treo đạt 2 Kỷ lục Thế giới – Guinness World Record là tuyến cáp treo ba dây có độ chênh giữa ga đi và ga đến lớn nhất thế giới: 1410m và tuyến cáp treo ba dây dài nhất thế giới: 6292.5m. (Vé cáp treo tự túc)</p><img src='https://cdn2.ivivu.com/2020/06/15/16/ivivu-fansipang.gif' class='img-fluid' alt='...'></img><div className='text-center'>Fansipan.</div><p>Quý khách thưởng thức ẩm thực <strong>Tây Bắc</strong> với những nguyên liệu tuơi ngon tại nhà hàng thị trấn Sapa.</p><p>14:00: Xe đưa đoàn trở về Hà Nội.</p><p>20:30: Xe về đến HN. Chuyến đi kết thúc tại đây. Cảm ơn quý khách đã lựa chọn công ty và xin hẹn gặp lại quý khách!</p>"
-        }
-      ],
-      "areaId": 1,
-      "createdAt": "23/09/2020",
-      "updatedAt": "01/04/2022"
-    }
-
-  ],
   "catagories": [
     {
       "id": 1,
@@ -206,22 +12,1954 @@
   "areas": [
     {
       "id": 1,
-      "name": "Việt Nam"
+      "name": "Miền Bắc"
     },
     {
       "id": 2,
-      "name": "Hàn Quốc"
+      "name": "Miền Trung"
+    },
+    {
+      "id": 3,
+      "name": "Miền Nam"
+    },
+    {
+      "id": 4,
+      "name": "Châu Á"
+    },
+    {
+      "id": 5,
+      "name": "Châu Âu"
+    },
+    {
+      "id": 6,
+      "name": "Châu Phi"
+    },
+    {
+      "id": 7,
+      "name": "Châu Mỹ"
+    },
+    {
+      "id": 8,
+      "name": "Châu Úc"
     }
   ],
-  "users": [
+  "tours": [
     {
       "id": 1,
-      "full_name": "Lenh",
-      "username": "lenh",
-      "password": "123",
-      "phone": "12345678",
-      "email": "123@"
+      "name": "Tour Miền Bắc 5N4Đ: Hà Nội - Vịnh Hạ Long - Sapa",
+      "image": "https://cdn2.ivivu.com/2018/12/24/17/ivivu-ha-long-aerial-03-750x390.jpg",
+      "catagoryId": 1,
+      "areaId": 1,
+      "price_adult": "5350000",
+      "price_child": "5350000",
+      "quantity_date": "5 ngày 4 đêm",
+      "start_location": "Hà Nội",
+      "quantity": "10",
+      "vehicle": [
+        {
+          "id": 1,
+          "nameVehicle": "Ô tô"
+        }
+      ],
+      "tour_services": [
+        {
+          "id": 1,
+          "nameService": "Bảo hiểm"
+        },
+        {
+          "id": 2,
+          "nameService": "Xe đưa đón"
+        },
+        {
+          "id": 3,
+          "nameService": "Vé tham quan"
+        },
+        {
+          "id": 2,
+          "nameService": "Hướng dẫn viên"
+        },
+        {
+          "id": 2,
+          "nameService": "Bữa ăn"
+        }
+      ],
+      "description": {
+        "title": "Ngẩn Ngơ Cung Đường Xứ Bắc",
+        "content": "Xứ Bắc – vùng đất khai cơ của các Vương triều Việt, nơi định đô của hầu hết các triều đại phong kiến Việt Nam chính vì vậy nơi đây được xem như là đất kinh đô ngàn năm văn hiến với một bề dày văn hóa, lịch sử sâu sắc và đa dạng. Tuy nhiên, khi đến đây, Du khách không chỉ được tham quan những công trình văn hóa - lịch sử cổ kính như: Văn Miếu, Lăng Chủ tịch Hồ Chí Minh, trải nghiệm những nét văn hóa đặc sắc của đất kinh đô, mà còn có thể thăm thú các thắng cảnh nổi tiếng nơi đây như: Vịnh Hạ Long, Sa Pa thị trấn trong mây. Ngoài ra Du khách còn có thể hòa mình vào cuộc sống bình dị nhưng đậm bản sắc của cộng đồng dân tộc ít người vùng cao như: Thái, Hmong, Dao."
+      },
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "NGÀY 01: ĐÓN BAY NỘI BÀI – HÀ NỘI (FREE DAY)",
+          "timeline": [
+            {
+              "time": "Buổi trưa",
+              "description": "Xe đón Quý Khách tại sân bay Nội Bài đưa về Khách sạn nhận phòng, nghỉ ngơi.",
+              "image": ""
+            },
+            {
+              "time": "Buổi chiều",
+              "description": "Quý khách tự do khám phá thủ đô Hà Nội với 36 Phố Phường, tham quan tháp rùa, cầu Thê Húc, chùa Trấn Quốc, Lăng Bác, Văn Miếu Quốc Tử Giám,…",
+              "image": ""
+            },
+            {
+              "time": "Buổi tối",
+              "description": "Quý khách tự do thưởng thức ẩm thực đường phố mang nét văn hóa của Hà Nội xưa như chả cá Lã Vọng, bún Thang, phở Lý Quốc Sư, phở cuốn Ngũ Xá,…. Ngủ đêm tại Khách sạn 3 sao phố cổ Hà Nội. ",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "NGÀY 02: HÀ NỘI – VỊNH HẠ LONG – BÃI TẮM TITOP (ĂN SÁNG, TRƯA, TỐI)",
+          "timeline": [
+            {
+              "time": "Buổi sáng",
+              "description": "Xe đón quý khách tại khách sạn, sau đó khởi hành đi Hạ Long. Đến cảng tàu Hạ Long, Đoàn tập trung tại nhà chờ theo sự hướng dẫn của hướng dẫn viên đợi mua vé và phát vé cho Quý khách để lên tàu bắt đầu hành trình khám phá Vịnh. Tàu sẽ đi qua rất nhiều các hòn đảo lớn nhỏ với nhiều hình dáng khác nhau có những tên gọi đặc biệt như: Hòn Gà Chọi, hòn Chó Đá, hòn Đỉnh Hương, hòn Ngón Tay... Quý khách thưởng thức bữa trưa trên tàu.",
+              "image": "https://cdn2.ivivu.com/2022/05/09/17/ivivu-ha-long-bay.gif"
+            },
+            {
+              "time": "Buổi chiều",
+              "description": "Đến đảo Bồ Hòn. Quý khách thăm quan Hang Sửng Sốt - Một trong những hang động đẹp nhất vịnh Hạ Long. Tiếp theo, Quý khách sẽ chèo Kayak hoặc đi thuyền nan thăm Hang Luồn. Sau 30 phút chèo Kayak, Quý khách lên tàu để đến với đảo Ti Top. Quý khách có thể tắm biển tại bãi tắm TiTop với bãi cát trắng, hoặc thử treekking leo lên đỉnh núi Ti Top ngắm nhìn toàn cảnh Vịnh Hạ Long. Tàu sẽ di chuyển đưa đoàn về lại Bến. Xe ô tô đón và đưa về khách sạn nhận phòng, nghỉ ngơi.",
+              "image": "https://cdn2.ivivu.com/2021/05/06/17/ivivu-hang-sung-sot-1.gif"
+            },
+            {
+              "time": "Buổi tối",
+              "description": "Đoàn dùng buổi tối và tự do vui chơi khám phá Chợ Đêm, Phố ẩm thực... Nghỉ đêm tại Hạ Long.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "NGÀY 3: KHÁM PHÁ THÀNH PHỐ HẠ LONG – HÀ NỘI (ĂN SÁNG, TRƯA)",
+          "timeline": [
+            {
+              "time": "Buổi sáng",
+              "description": "Ăn sáng tại khách sạn. Buổi sáng Quý khách tự túc vui chơi và tham quan Hạ Long. Tự do vui chơi tại khu Công viên Hạ Long với nhiều khu vui chơi hấp dẫn (chi phí vé vui chơi tại các khu công viên tự túc) hoặc Tự do tắm biển Bãi Cháy",
+              "image": "https://cdn2.ivivu.com/2022/08/05/18/ivivu-sun-world-halong.gif"
+            },
+            {
+              "time": "12h00",
+              "description": "Quý khách trả phòng khách sạn, ăn trưa tại khách sạn. Sau đó lên xe về Hà Nội.",
+              "image": ""
+            },
+            {
+              "time": "15h00",
+              "description": "Về đến Hà Nội, xe đưa Quý Khách về lại Khách sạn, tự do ăn tối, khám phá Phố Cổ nhộn nhịp, đi chợ đêm Đồng Xuân, dạo chơi phố đi bộ,…",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "NGÀY 04: HÀ NỘI - SAPA - BẢN CÁT CÁT (ĂN SÁNG, TRƯA, TỐI)",
+          "timeline": [
+            {
+              "time": "Buổi sáng",
+              "description": "Xe đón quý khách tại khách sạn, sau đó khởi hành đi Sa Pa.  Đoàn sẽ khởi hành đi Sapa trên đường cao tốc Nội Bài mới, rút ngắn thời gian đi từ Hà Nội đến Sapa. Quý khách có dịp chiêm ngưỡng khung cảnh núi rừng hùng vĩ trên cung đường cao tốc dài nhất Việt Nam trước khi đến với thị trấn Sa Pa thơ mộng, chìm trong mây. Xe đến thị trấn Sa Pa nơi có rất nhiều dân tộc sinh sống như H’mong, Dao, Tày. Hướng dẫn viên sẽ đưa Quý khách ăn trưa tại nhà hàng.",
+              "image": ""
+            },
+            {
+              "time": "Buổi chiều",
+              "description": "Đoàn bắt đầu hành trình khám phá bản làng Cát Cát - Sìn Chải của người H’Mông - do người Pháp phát hiện và chọn nơi đây làm khu nghỉ dưỡng cho các quan chức từ đầu thế kỷ XX. Đến với bản Cát Cát, du khách sẽ được thăm bản làng Cát Cát, trạm thủy điện Cát Cát, thác nước Cát Cát, tìm hiểu văn hóa, phong tục độc đáo của người dân nơi đây với nghề truyền thống như dệt vải, chạm trổ bạc, rèn nông cụ, tục kéo vợ,...",
+              "image": "https://cdn2.ivivu.com/2022/10/17/14/ivivu-cat-cat.gif"
+            },
+            {
+              "time": "Buổi tối",
+              "description": "Đoàn trở lại thị trấn Sa Pa, dùng bữa tối và nghỉ đêm tại khách sạn.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "NGÀY 5: SAPA – KDL HÀM RÔNG/CHINH PHỤC FANSIPAN – HÀ NỘI ( ĂN SÁNG, TRƯA )",
+          "timeline": [
+            {
+              "time": "7h00",
+              "description": "Quý khách thưởng thức bữa sáng tại khách sạn.",
+              "image": ""
+            },
+            {
+              "time": "8h00",
+              "description": "Quý khách bắt đầu hành trình khám phá Hàm Rồng với phong cảnh kỳ vỹ. Thăm vườn lan Đông Dương với đủ loại lan muôn màu sắc, đầu Rồng Thạch Lâm kỳ vĩ. Vượt qua cổng Trởi 1, cồng Trời 2, Qúy khách sẽ lên tới nơi cao nhất của Hàm Rồng là Sân Mây – nơi giao thoa của đất trời, ngắm nhìn toàn cảnh Sapa trên cao.",
+              "image": "https://cdn2.ivivu.com/2021/05/06/17/ivivu-ham-rong.gif"
+            },
+            {
+              "time": "9h30",
+              "description": "Quý khách khởi hành chinh phục đỉnh Fansipan cao 3143m – nóc nhà Đông Dương. Đây là tuyến cáp treo đạt 2 Kỷ lục Thế giới – Guinness World Record là tuyến cáp treo ba dây có độ chênh giữa ga đi và ga đến lớn nhất thế giới: 1410m và tuyến cáp treo ba dây dài nhất thế giới: 6292.5m. (Vé cáp treo tự túc)",
+              "image": "https://cdn2.ivivu.com/2020/06/15/16/ivivu-fansipang.gif"
+            },
+            {
+              "time": "12h00",
+              "description": "Quý khách thưởng thức ẩm thực Tây Bắc với những nguyên liệu tuơi ngon tại nhà hàng thị trấn Sapa.",
+              "image": ""
+            },
+            {
+              "time": "14h00",
+              "description": "Xe đưa đoàn trở về Hà Nội.",
+              "image": ""
+            },
+            {
+              "time": "20h30",
+              "description": "Xe về đến HN. Chuyến đi kết thúc tại đây. Cảm ơn quý khách đã lựa chọn công ty và xin hẹn gặp lại quý khách!",
+              "image": ""
+            }
+          ]
+        }
+      ]
+
+    },
+    {
+      "id": 2,
+      "name": "Tour Thái Lan 5N4Đ: BangKok - Pattaya - Muang Boran - Chùa Bình Minh",
+      "image": "https://cdn2.ivivu.com/2020/01/20/09/ivivu-muang-borang-750x390.gif",
+      "catagoryId": 2,
+      "areaId": 4,
+      "price_adult": "6990000",
+      "price_child": "6990000",
+      "quantity_date": "5 ngày 4 đêm",
+      "start_location": "Hồ Chí Minh",
+      "quantity": "8",
+      "vehicle": [
+        {
+          "id": 1,
+          "nameVehicle": "Máy bay"
+        },
+        {
+          "id": 2,
+          "nameVehicle": "Ô tô"
+        }
+      ],
+      "tour_services": [
+        {
+          "id": 1,
+          "nameService": "Bảo hiểm"
+        },
+        {
+          "id": 2,
+          "nameService": "Hướng dẫn viên"
+        },
+        {
+          "id": 3,
+          "nameService": "Khách sạn 5*"
+        },
+        {
+          "id": 4,
+          "nameService": "Vé máy bay"
+        },
+        {
+          "id": 5,
+          "nameService": "Vé tham quan"
+        },
+        {
+          "id": 6,
+          "nameService": "Xe đưa đón"
+        },
+        {
+          "id": 7,
+          "nameService": "Bữa ăn"
+        },
+        {
+          "id": 8,
+          "nameService": "Khách sạn 4*"
+        },
+        {
+          "id": 9,
+          "nameService": "Miễn phí Visa"
+        }
+      ],
+      "description": {
+        "title": "Đất Nước Của Những Nụ Cười",
+        "content": "Được biết là đất nước 'xứ sở chùa vàng', Thái Lan vùng đất có địa hình đa dạng, nhiều bãi biển, hòn đảo, danh lam thắng cảnh nổi tiếng và là thành phố mang đậm văn hóa của Thái Lan, thu hút du khách có nhiều di tích lịch sử, lễ hội đặc sắc như té nước, lễ hội phật giáo.... Ngoài ra, các điểm không thể bỏ lỡ khi đến vùng đất này: Bangkok Thủ đô của Vương quốc Thái Lan, khi đến Pattaya bạn nhất định phải ghé thăm các đảo san hô, khu nghỉ mát: vườn nhiệt đới Nong Nooch với màn trình diễn của voi, hành hương các chùa nổi tiếng: Chùa Phật Ngọc, Chùa Bình Minh Wat Arun...Người dân trên đất nước Thái luôn thân thiện, hiếu khách là điểm hấp dẫn, lý tưởng trên mảnh đất này."
+      },
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "NGÀY 1: SÀI GÒN – BANGKOK – PATTAYA ( ĂN TRƯA NHẸ, TỐI)",
+          "timeline": [
+            {
+              "time": "8h00",
+              "description": "HDV đón quý khách tại sân bay Tân Sơn Nhất, làm thủ tục đáp chuyến bay VU131 đi Bangkok lúc 11h05. Công ty gửi đoàn phần ăn nhẹ tại sân bay.",
+              "image": ""
+            },
+            {
+              "time": "Buổi trưa",
+              "description": "Đến sân bay Suvarnabhumi, Quý khách làm thủ tục nhập cảnh. Sau đó khởi hành về Pattaya. ",
+              "image": "https://cdn2.ivivu.com/2019/12/18/11/ivivu-massage-thai.gif"
+            },
+            {
+              "time": "Buổi tối",
+              "description": "Đoàn dùng cơm tối BBQ hải sản, sau đó về khách sạn nhận phòng, nghỉ ngơi. Quý khách có thể tự do khám phá thành phố nhộn nhịp, sầm uất bậc nhất Thái Lan về đêm. Nghỉ đêm tại Pattaya - Resort 5* Le Bali.",
+              "image":""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "NGÀY 2: KHÁM PHÁ PATTAYA ( ĂN SÁNG, TRƯA, TỐI)",
+          "timeline": [
+            {
+              "time": "Buổi sáng",
+              "description": "Quý khách dùng điểm tâm sáng tại khách sạn, HDV đưa đoàn ra đảo san hô bằng tàu cao tốc. Đảo San hô nằm trong vịnh Thái Lan có bờ cát trắng, làn nước trong  xanh. Quý khách tự do tắm biển hoặc tham gia các trò chơi ngoài đảo như: Lặn biển, Mô tô nước…",
+              "image": "https://cdn2.ivivu.com/2022/07/11/14/ivivu-dao-san-ho-thai.gif"
+            },
+            {
+              "time": "Buổi trưa",
+              "description": "Trở lại đất liền, đoàn về khách sạn tắm rửa nghỉ ngơi, dùng cơm trưa.",
+              "image": ""
+            },
+            {
+              "time": "13h30",
+              "description": "Trung tâm World Gem với hàng nghìn loại đá quý khác nhau. ",
+              "image": ""
+            },
+            {
+              "time": "14h30",
+              "description": "Trân Bảo Phật Sơn – tượng Phật khổng lồ bằng vàng khắc trên núi đá.",
+              "image": "https://cdn2.ivivu.com/2019/10/03/11/ivivu-tran-bao-phat-son1.jpg"
+            },
+            {
+              "time": "15h30",
+              "description": "Công viên khủng long NongNooch Dinosaur Valley Pattaya. Tại đây Quý khách có dịp xem show biểu diễn của các chú Voi vui nhộn. (Trường hợp không trùng giờ show sẽ bù qua cho Quý khách ngồi xe điện dạo Công viên) Tham quan khuôn viên công viên khủng long, Vườn lan, Xương rồng v.v…. cảnh đẹp như lạc vào thế giới rừng xanh.",
+              "image": "https://cdn2.ivivu.com/2023/03/20/11/ivivu-cong-vien-nong-nooch.gif"
+            },
+            {
+              "time": "Buổi tối",
+              "description": "Đoàn dùng cơm tối. Sau bữa tối, quý khách xem chương trình đại nhạc hội nổi tiếng Thái Lan: Colloseum show – show diễn của các vũ công chuyển giới xinh đẹp. Sau đó về khách sạn nghỉ ngơi. Nghỉ đêm tại Pattaya - Resort 5* Le Bali.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "NGÀY 3: PATTAYA – MUANG BORAN – BANGKOK ( ĂN SÁNG, TRƯA)",
+          "timeline": [
+            {
+              "time": "Buổi sáng",
+              "description": "Quý khách dùng điểm tâm sáng, trả phòng. Khởi hành về Bangkok. Trên đường tham quan: Big Bee Farm – quý khách chiêm ngưỡng cách người Thái nuôi và thu hoạch mật ong; Bảo tàng mở Muang Boran - tận mắt chiêm ngưỡng những công trình kiến trúc của đất nước Thái Lan được phục dựng lại tại đây, tái hiện chính xác nguyên mẫu các địa danh có thật,  ngay cả những công trình đã bị hủy hoại trên thực tế.",
+              "image": "https://cdn2.ivivu.com/2022/07/11/15/ivivu-thanh-co-muang-boran.gif"
+            },
+            {
+              "time": "Buổi trưa",
+              "description": "Đoàn dùng cơm trưa tại nhà hàng. Sau đó đoàn tiếp tục tham quan: Chùa Arun nằm trên bờ tây sông Chao Phraya, Thonburi. Chùa có tên tiếng Việt Chùa Bình Minh. Đây là ngôi chùa cổ kính nhất của Bangkok. Khi vua Thaksin quyết định xây dựng kinh đô mới tại Thonburi ông đã tới đây vào một buổi bình minh. Iconsiam cách điệu là ICONSIAM, và ICS khu phức hợp nằm cạnh bờ sông Chao Phraya ở Bangkok. Nó bao gồm một trung tâm thương mại lớn nhất châu Á. Qúy khách tự túc ăn tối tại Icon Siam.",
+              "image": "https://cdn2.ivivu.com/2022/03/14/11/ivivu-chua-binh-minh.gif"
+            },
+            {
+              "time": "Buổi tối",
+              "description": "Xe đưa đoàn về khách sạn, nhận phòng, quý khách sẽ có thời gian tự do khám phá thành phố Bangkok về đêm. Nghỉ đêm tại khách sạn 4 sao.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "NGÀY 4: KHÁM PHÁ BANGKOK ( ĂN SÁNG, TRƯA, TỐI)",
+          "timeline": [
+            {
+              "time": "Buổi sáng",
+              "description": "Quý khách dùng điểm tâm sáng tại khách sạn. Quý khách khởi tham quan Trại rắn – đến đây quý khách sẽ được xem những màn xiếc rắn độc đáo và tìm hiểu về y học của người Thái.",
+              "image": ""
+            },
+            {
+              "time": "Buổi trưa",
+              "description": "Quý khách đến dùng bữa trưa tại nhà hàng xoay Buffet quốc tế Baiyoke Sky 86 tầng với hàng chục món ăn từ Á đến Âu, ngắm toàn cảnh Bangkok từ trên cao. Đặc biệt du khách ăn chay, phần chay được  chuẩn bị khá chu đáo và tinh tế.",
+              "image": "https://cdn2.ivivu.com/2023/01/30/09/ivivu-baiyokesky2l.gif"
+            },
+            {
+              "time": "Buổi chiều",
+              "description": "Sau khi dùng bữa trưa, quý khách sẽ được đến viếng đền Phật Bốn Mặt linh thiêng tọa lạc ngay tại trung tâm thủ đô Bangkok. Sau đó tự do tham quan mua sắm tại các khu trung tâm thương mại: BigC, Central World, Siam Paragon,…",
+              "image": "https://cdn2.ivivu.com/2019/12/18/14/ivivu-phat-bon-mat.gif"
+            },
+            {
+              "time": "Buổi tối",
+              "description": "Đến giờ hẹn xe và HDV đón đoàn di chuyển đi dùng bữa tối sau đó về khách sạn, nhận phòng. Nghỉ đêm tại Bangkok.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "NGÀY 5: BANGKOK – SÀI GÒN ( ĂN SÁNG)",
+          "timeline": [
+            {
+              "time": "7h00",
+              "description": "Quý khách trả phòng, dùng điểm tâm sáng tại khách sạn.",
+              "image": ""
+            },
+            {
+              "time": "8h00",
+              "description": "Dạo thuyền trên dòng sông Chaophaya huyền thoại, ngắm nhìn đặc điểm khác lạ giữa Bangkok xưa và nay.",
+              "image": "https://cdn2.ivivu.com/2017/08/22/11/ivivu-thuyen-tren-song-chaophaya.jpg"
+            },
+            {
+              "time": "9h30",
+              "description": "Viếng chùa thuyền Wat Yannawa – quý khách sẽ có cơ hội được chiêm bái Xá Lợi Phật Thích Ca và Xá Lợi của các vị sư tu hành đắc đạo.",
+              "image": "https://cdn2.ivivu.com/2022/03/10/15/ivivu-chua-thuyen-thai-lan.gif"
+            },
+            {
+              "time": "Buổi trưa",
+              "description": "Đoàn chuyển ra sân bay, đến quầy làm thủ tục đón chuyến bay VU130 lúc 13:45 về lại thành phố  Hồ Chí Minh. Trưởng đoàn chia tay đoàn, hẹn gặp lại quý khách trong những hành trình tiếp theo.",
+              "image": ""
+            }
+          ]
+        }
+      ]
+
+    },
+    {
+      "id": 3,
+      "name": "Tour Singapore 3N2Đ: Khám Phá Quốc Đảo Sư Tử - Công Viên Fort Canning",
+      "image": "https://cdn2.ivivu.com/2022/03/28/16/ivivu-vinh-marina-bay-singapore-750x390.gif",
+      "catagoryId": 2,
+      "areaId": 4,
+      "price_adult": "10190000",
+      "price_child": "10190000",
+      "quantity_date": "3 ngày 2 đêm",
+      "start_location": "Hồ Chí Minh",
+      "quantity": "10",
+      "vehicle": [
+        {
+          "id": 1,
+          "nameVehicle": "Máy bay"
+        },
+        {
+          "id": 2,
+          "nameVehicle": "Ô tô"
+        }
+      ],
+      "tour_services": [
+        {
+          "id": 1,
+          "nameService": "Bảo hiểm"
+        },
+        {
+          "id": 2,
+          "nameService": "Hướng dẫn viên"
+        },
+        {
+          "id": 3,
+          "nameService": "Bữa ăn"
+        },
+        {
+          "id": 4,
+          "nameService": "Xe đưa đón"
+        },
+        {
+          "id": 5,
+          "nameService": "Vé máy bay"
+        },
+        {
+          "id": 6,
+          "nameService": "Khách sạn 3-4*"
+        },
+        {
+          "id": 7,
+          "nameService": "Miễn phí visa"
+        },
+        {
+          "id": 8,
+          "nameService": "Vé tham quan"
+        }
+      ],
+      "description": {
+        "title": "Trải nghiệm đất nước xanh sạch nhất Thế Giới",
+        "content": "những khu vườn', Singapore nổi tiếng là một quốc đảo sạch, xanh nhất thế giới, nơi kiến tạo các công trình kiến trúc mang tính biểu tượng như Gardens by the Bay, là quê hương của món cocktail Singapore Sling trứ danh, ẩm thực đường phố đa dạng và thiên đường mua sắm bất tận. Hãy cùng iVIVU khám phá Singapore - một trong những thành phố được biết đến với độ sạch sẽ tuyệt vời và là một điểm đến du lịch hấp dẫn với rất nhiều hoạt động thú vị để trải nghiệm. Nơi đây có vô số lựa chọn cho du khách khi tham quan, vui chơi, ăn uống và mua sắm, đồng thời cũng có hệ thống tàu điện MRT hiện đại và tiện lợi để di chuyển."
+      },
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "NGÀY 1: TP.HCM - SINGAPORE ( ĂN TRƯA NHẸ TRÊN MÁY BAY, TỐI)",
+          "timeline": [
+            {
+              "time": "07h00:",
+              "description": "Trưởng Đoàn đón Quý khách tại điểm hẹn, làm thủ tục khởi hành đi Singapore. Tới sân bay quốc tế Changi, làm thủ tục nhập cảnh Singapore.",
+              "image": ""
+            },
+            {
+              "time": "Buổi trưa",
+              "description": "Xe và hướng dẫn đưa đoàn ăn trưa nhẹ tại sân bay, sau đó đoàn bắt đầu tham quan.",
+              "image": ""
+            },
+            {
+              "time": "13h00",
+              "description": "- Tòa nhà Quốc Hội (Parliament House).",
+              "image": ""
+            },
+            {
+              "time": "14h00",
+              "description": "- Công viên sư tử biển (Merlion Park), biểu tượng của đất nước Singapore.",
+              "image": "https://cdn2.ivivu.com/2017/05/10/17/ivivu-cong-vien-su-tu-bien-merlion-park-.jpg"
+            },
+            {
+              "time": "15h00",
+              "description": "- Nhà hát Victoria – nhà hát cổ kính nhất Singapore. Nơi đây là tâm điểm cho nghệ thuật biểu diễn của đảo quốc sư tử ngay từ thời thuộc địa. Nhà hát Esplanade nổi tiếng với biểu tượng “Trái sầu riêng” – nhà hát hiện đại bậc nhất của Singapore. Đây cũng là trung tâm biểu diễn văn hóa nghệ thuật tầm cỡ Thế giới.",
+              "image": "https://cdn2.ivivu.com/2022/03/28/17/ivivu-nha-hat-trai-sau-rieng-singapore.gif"
+            },
+            {
+              "time": "17h00",
+              "description": "- Faber Mount -  đỉnh núi của đảo quốc Sư tử, nơi đây quý khách được ngắm nhìn toàn cảnh Singapore từ trên cao.",
+              "image": "https://cdn2.ivivu.com/2018/12/14/17/ivivu-mount-faber.jpg"
+            },
+            {
+              "time": "Buổi tối",
+              "description": "Đoàn dùng bữa tối. Nhận phòng nghỉ ngơi, tự do vui chơi hoặc tham gia chương trình Singapore By Night (Chi phí tự túc): Khám phá cuộc sống trong lòng đất của người dân Singapore bằng Tàu điện ngầm MRT. Trải nghiệm Du thuyền trên dòng sông Singapore ngắm cảnh vịnh Marina Bay về đêm. Khám phá trung tâm thương mại Suntec City – tìm hiểu Phong Thuỷ Thượng - Phong Thuỷ Hạ đất nước Singapore. Nhận phòng nghỉ đêm tại Singapore.",
+              "image": "https://cdn2.ivivu.com/2017/03/28/09/ivivu-tour-singapore-3n2d-sentosa-sea-aquarium-garden-by-the-bay-marina-barrage-anh-dai-dien-1.jpg"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "NGÀY 2: CITY TOUR SINGAPORE ( ĂN SÁNG, TRƯA, TỐI)",
+          "timeline": [
+            {
+              "time": "7h00",
+              "description": "Đoàn dùng buffet sáng tại khách sạn. Sau đó, xe đưa đoàn tham quan: ",
+              "image": ""
+            },
+            {
+              "time": "8h00",
+              "description": "- Kỳ quan Gardens by the Bay (Những khu vườn bên Vịnh) chính thức mở cửa ngày 29/06/2012 đây là khu vườn nhân tạo rộng hơn 100ha, có hơn 250.000 loài thực vật quý hiếm, với các siêu cây khổng lồ lấy năng lượng mặt trời vào ban ngày và tỏa sáng vào ban đêm. Từ đây Quý khách có thể chụp hình toàn cảnh “Chiếc du thuyền” nằm ở độ cao 200m trên đỉnh của ba tòa nhà khách sạn Marina Bay Sands (Qúy khách chụp ảnh bên ngoài).",
+              "image": "https://cdn2.ivivu.com/2022/03/28/17/ivivu-garden-rhapsody-sin.gif"
+            },
+            {
+              "time": "9h30",
+              "description": "- Công Viên Fort Canning hay còn được gọi với cái tên “Giếng trời” ở Singapore mỗi mùa lại mang tới một vẻ đẹp khác nhau, tất cả đều vô cùng cuốn hút và khiến mọi du khách mê mẩn mong được đặt chân đến một lần.",
+              "image": "https://cdn2.ivivu.com/2022/11/07/15/ivivu-fort-canning.gif"
+            },
+            {
+              "time": "11h00",
+              "description": "Tiếp tục đoàn đi tham quan cửa hàng kim cương, đá quý và cửa hàng dầu gió, Collagen dưỡng da – các sản phẩm truyền thống nổi tiếng của Singapore.",
+              "image": ""
+            },
+            {
+              "time": "Buổi trưa",
+              "description": "Đoàn dùng bữa trưa “món nướng BBQ” với nhiều món ngon tươi sống, hấp dẫn. Sau đó khởi hành đi đảo Sentosa tham quan Resort World – tham quan Casino hiện đại lớn nhất Châu Á tại khách sạn 5 sao lớn nhất Singapore.",
+              "image": ""
+            },
+            {
+              "time": "16h00",
+              "description": "Marina Barrage: hồ nhân tạo đầu tiên nằm giữa trung tâm thành phố với lưu vực 10.000 hecta – là lưu vực lớn nhất và đô thị hóa nhất đảo quốc Singapore. Được cả thế giới biết đến như một kiệt tác khổng lồ về sức cải tạo thiên nhiên của con người, là nơi trưng bày các tác phẩm nghệ thuật độc đáo đáng chiêm ngưỡng, cũng là nơi diễn ra nhiều sự kiện thể thao sôi động dưới nước.",
+              "image": "https://cdn2.ivivu.com/2023/02/20/15/ivivu-dap-nuoc-marina-barrage.gif"
+            },
+            {
+              "time": "Buổi tối",
+              "description": "Quý khách dùng bữa tối tại nhà hàng. Tự do khám phá Singapore về đêm.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "NGÀY 3: SINGAPORE - CHÙA RĂNG PHẬT - HCM ( ĂN SÁNG)",
+          "timeline": [
+            {
+              "time": "7h00",
+              "description": "Đoàn dùng buffet sáng tại khách sạn làm thủ tục trả phòng. Sau đó, xe đưa đoàn tham quan:",
+              "image": ""
+            },
+            {
+              "time": "7h45",
+              "description": "Tự do SHOPPING MALL sầm uất, và phám phá các món ăn đặc sắc của đất nước sạch đẹp này.",
+              "image": ""
+            },
+            {
+              "time": "9h00",
+              "description": "Chùa Răng Phật - ngôi chùa được đặt tên theo một bảo vật mà các Phật tử tin là răng nanh bên trái của Đức Phật, được lấy từ giàn thiêu trong đám tang của ngài ở Kushinagar, Ấn Độ và được trưng bày tại tầng trệt của ngôi chùa này.",
+              "image": "https://cdn2.ivivu.com/2016/09/23/17/ivivu-tour-singapore-malaysia-6n5d-dao-sentosa-malacca-tooth-relic-temple-1.jpg"
+            },
+            {
+              "time": "10h00",
+              "description": "Thác nước Jewel Changi – địa điểm check in hot nhất Singapore hay còn được biết đến với tên Rain Vortex là thác nước trong nhà cao nhất thế giới, với độ cao 40m.",
+              "image": "https://cdn2.ivivu.com/2022/03/28/17/ivivu-jewel-changi.gif"
+            }
+          ]
+        }
+      ]
+
+    },
+    {
+      "id": 4,
+      "name": "Trải Nghiệm Du Lịch Châu Phi 8N8Đ: Ma Rốc Bí Ẩn",
+      "image": "https://cdn2.ivivu.com/2022/07/19/17/ivivu-chefchaouen-750x390.gif",
+      "catagoryId": 2,
+      "areaId": 6,
+      "price_adult": "70999000",
+      "price_child": "60349150",
+      "quantity_date": "8 ngày 8 đêm",
+      "start_location": "Hồ Chí Minh",
+      "quantity": "10",
+      "vehicle": [
+        {
+          "id": 1,
+          "nameVehicle": "Máy bay"
+        },
+        {
+          "id": 2,
+          "nameVehicle": "Ô tô"
+        }
+      ],
+      "tour_services": [
+        {
+          "id": 1,
+          "nameService": "Ăn sáng"
+        },
+        {
+          "id": 2,
+          "nameService": "Hướng dẫn viên"
+        },
+        {
+          "id": 3,
+          "nameService": "Lều Camping"
+        },
+        {
+          "id": 4,
+          "nameService": "Vé tham quan"
+        },
+        {
+          "id": 5,
+          "nameService": "Bữa ăn"
+        },
+        {
+          "id": 6,
+          "nameService": "Khách sạn 4*"
+        },
+        {
+          "id": 7,
+          "nameService": "TravelMate"
+        },
+        {
+          "id": 8,
+          "nameService": "Xe đưa đón"
+        }
+      ],
+      "description": {
+        "title": "Trải Nghiệm Ma Rốc Kỳ Bí",
+        "content": "Bạn đã từng bị cuốn hút vào câu chuyện cổ tích 'Nghìn Lẻ Một Đêm', những bộ phim lãng mạn về Casablanca hay sa mạc Sahara hùng vĩ? Bạn có mong ước một lần được đặt chân đến xứ sở huyền thoại này? Trải nghiệm du lịch Ma Rốc của iVIVU sẽ giúp bạn hiện thực hóa giấc mơ đó, mang bạn đến một thành phố quyến rũ với những nét cổ kính đan xen hiện đại tạo nên một không gian vô cùng độc đáo. Bạn sẽ có cơ hội viếng thăm Fes nơi được mệnh danh 'Athens của Châu Phi' hay 'Mecca của phương Tây', một đô thị ngàn năm lưu giữ nhiều giá trị quý báu, được UNESCO công nhận là Di Sản Thế Giới."
+      },
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "ĐÊM 1: VIỆT NAM - MARRAKECH (MA RỐC)",
+          "timeline": [
+            {
+              "time": "Đêm",
+              "description": "Bay từ Tp.HCM hoặc Hà Nội đến Marrakech, quá cảnh tại Doha và Casablanca. Tận hưởng ghế ngồi rộng rãi, ẩm thực quốc tế và giải trí trên màn hình riêng. Nghỉ đêm trên máy bay.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "NGÀY 1: MARRAKECH",
+          "timeline": [
+            {
+              "time": "Buổi sáng và Buổi chiều",
+              "description": "Đến Marrakech, hướng dẫn viên đón và đưa bạn về khách sạn. Nghỉ ngơi và tự do khám phá Marrakech.",
+              "image": "https://cdn2.ivivu.com/2022/07/19/15/ivivu-marrakech.gif"
+            },
+            {
+              "time": "17h00",
+              "description": " Nếu đến sớm, quý khách có cơ hội khám phá khu phố cổ với những con hẻm nhỏ hẹp và quảng trường nổi tiếng Djamaa El Fena.",
+              "image": "https://cdn2.ivivu.com/2022/07/19/15/ivivu-jmaalefna.gif"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "NGÀY 2: MARRAKECH - AIT BENHADDOU - OUARZAZATE - THUNG LŨNG HOA HỒNG - THUNG LŨNG DADES.",
+          "timeline": [
+            {
+              "time": "Sau bữa sáng",
+              "description": "Bắt đầu hành trình băng qua dãy núi High Atlas của Ma Rốc và đến ngôi làng cổ Ait Benhaddou, nơi từng là điểm dừng chân chính của các đoàn lữ hành ngày xưa. ",
+              "image": "https://cdn2.ivivu.com/2022/07/19/15/ivivu-high-atlas-mt-1.gif"
+            },
+            {
+              "time": "",
+              "description": "Ait Benhaddou là một di sản của UNESCO và xuất hiện trong nhiều bộ phim quốc tế như Gladiators, Prince of Persia và Trò chơi vương quyền. Gần ngôi làng này là thành phố Ouarzazate nơi được mệnh danh là Hollywood của Bắc Phi do số lượng phim được sản xuất tại đây.",
+              "image": "https://cdn2.ivivu.com/2022/07/19/15/ivivu-ait-benhaddou.gif"
+            },
+            {
+              "time": "Buổi chiều",
+              "description": "Di chuyển đến Boumalen Dades ngang qua một thung lũng tuyệt đẹp , xanh mát quanh năm và rất nổi tiếng với hoa hồng Damaskina. Nghỉ đêm tại đây.",
+              "image": "https://cdn2.ivivu.com/2022/07/19/16/ivivu-rose-valley2.gif"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "NGÀY 3: THUNG LŨNG DADES - TOUDRA GORGE- ARFOUD- MERZOUGA.",
+          "timeline": [
+            {
+              "time": "8h00",
+              "description": "Sau bữa sáng, di chuyển về phía đông sa mạc Sahara, trên đường bạn sẽ đi ngang qua hẻm núi tráng lệ Toudra Gorges.",
+              "image": "https://cdn2.ivivu.com/2022/07/19/16/ivivu-toudra-gorges.gif"
+            },
+            {
+              "time": "13h00",
+              "description": "Sau bữa ăn trưa tiếp tục hành trình đến Erfoud, một thành phố nổi tiếng với các hóa thạch và đá cẩm thạch hóa thạch.",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Erfoud-Sahara-Morocco.jpg/800px-Erfoud-Sahara-Morocco.jpg"
+            },
+            {
+              "time": "16h00",
+              "description": "đến với sa mạc Sahara nổi tiếng thế giới, nơi bạn sẽ chuyển sang cưỡi lạc đà và đi dạo trên cồn cát đến điểm cắm trại Berber ngủ qua đêm. Nếu bạn không thể cưỡi lạc đà thì có thể di chuyển bằng xe (có tính phí).",
+              "image": "https://cdn2.ivivu.com/2022/07/19/16/ivivu-desert-camp.gif"
+            },
+            {
+              "time": "Buổi tối",
+              "description": "Nghỉ ngơi và ăn tối. Trải nghiệm cắm trại qua đêm trên sa mạc lớn nhất thế giới, một trải nghiệm độc đáo và duy nhât.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "NGÀY 4: MERZOUGA - FES.",
+          "timeline": [
+            {
+              "time": "8h00",
+              "description": "Sau khi ăn sáng, tiếp tục hành trình đến thành phố Errachidia và thung lũng ZIZ nổi tiếng với cây chà là. Sau đó, vượt qua High và Middle Atlas, những ngọn núi ngăn cách sa mạc Sahara với khu vực dân cư. ",
+              "image": "https://cdn2.ivivu.com/2022/07/19/16/ivivu-ziz.gif"
+            },
+            {
+              "time": "Buổi chiều",
+              "description": "Đến Fes, thủ đô lâu đời nhất của Maroc và nghỉ đêm tại đây.",
+              "image": "https://cdn2.ivivu.com/2022/07/19/16/ivivu-morocco-fez-1.gif"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "NGÀY 5: FES",
+          "timeline": [
+            {
+              "time": "Buổi sáng",
+              "description": "Hướng dẫn viên đón bạn và tham quan Fes, một thành phố thời trung cổ lâu đời nhất và lớn nhất trên thế giới. Phương tiện di chuyển chính ở đây là lừa và xe đạp, bên cạnh đó là sự kết hợp đa dạng và độc đáo của hương thơm, cảnh đẹp và âm thanh làm nên nét đẹp khác biệt của Fes.",
+              "image": "https://cdn2.ivivu.com/2022/07/19/16/ivivu-dye-pits.gif"
+            },
+            {
+              "time": "Buổi chiều",
+              "description": "Thành phố cũng sở hữu rất nhiều nhà thờ Hồi giáo và cung điện tuyệt đẹp. Tuy nhiên, chỉ có người theo đạo Hồi mới có thể vào Nhà thờ Hồi giáo ở Maroc. Bạn cũng có thể khám phá Hố nhuộm, xưởng thuộc da, đồ gốm và nhà hàng địa phương.",
+              "image": "https://cdn2.ivivu.com/2022/07/19/16/ivivu-the-mosque-of-hassan.gif"
+            },
+            {
+              "time": "Buổi tối",
+              "description": "Trở về khách sạn để nghỉ ngơi, chuẩn bị cho một buổi tối tuyệt vời. Đây là thời điểm để bạn thưởng thức ẩm thực và văn hóa thành phố với chương trình giải trí đậm chất Ma-rốc bao gồm khiêu vũ truyền thống, múa bụng và ảo thuật. Nghỉ đêm tại khách sạn.",
+              "image": "https://cdn2.ivivu.com/2022/07/22/16/ivivu-an.gif"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "NGÀY 6: FES - CHEFCHAOUEN",
+          "timeline": [
+            {
+              "time": "8h00",
+              "description": "Sau bữa sáng, tham quan Chefchaouen - thành phố Xanh, một điểm thu hút khách du lịch nổi tiếng của Ma Rốc. Thị trấn thân thiện này nằm trên dãy núi Rif ngay phía nam của bờ biển Địa Trung Hải, tây bắc Maroc.",
+              "image": "https://cdn2.ivivu.com/2022/07/19/17/ivivu-chefchaouen.gif"
+            },
+            {
+              "time": "11h00",
+              "description": "Khám phá thành phố Bleu xinh đẹp, nơi được biết đến với những tòa nhà truyền thống. Hãy đi bộ để chiêm ngưỡng những bức tường sơn trắng và xanh của khu Medina và những khu chợ cung cấp đồ thủ công mỹ nghệ địa phương độc đáo.",
+              "image": "https://cdn2.ivivu.com/2022/07/22/17/ivivu-cho.gif"
+            },
+            {
+              "time": "15h00",
+              "description": "Chefchaouen là một điểm check-in tuyệt vời có tầm nhìn ngoạn mục nhìn ra dãy núi Rif.",
+              "image": "https://cdn2.ivivu.com/2022/07/19/17/ivivu-rif-mountains.gif"
+            },
+            {
+              "time": "Buổi tối",
+              "description": "Ăn tối tại một trong những nhà hàng địa phương ở Medina trước khi quay trở lại khách nghỉ đêm.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "NGÀY 7: CHEFCHAOUEN- RABAT- CASABLANCA",
+          "timeline": [
+            {
+              "time": "9h00",
+              "description": "Sau bữa sáng, di chuyển đến thủ đô chính thức của Ma Rốc - Rabat. Khi đến nơi, hướng dẫn viên sẽ cùng bạn khám phá những điểm nổi bật của Rabat bao gồm cung điện Hoàng gia, tháp Hassan và Oudaya Kasbah. Sau đó, tiếp tục hành trình để đến Casablanca, thủ đô kinh tế của Maroc.",
+              "image": "https://cdn2.ivivu.com/2022/07/19/17/ivivu-royal-palace.gif"
+            },
+            {
+              "time": "Buổi chiều",
+              "description": "Tự do khám phá Casablanca.",
+              "image": "https://cdn2.ivivu.com/2022/07/19/17/ivivu-hassan-tower.gif"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "NGÀY 8: CASABLANCA",
+          "timeline": [
+            {
+              "time": "Buổi sáng",
+              "description": "Di chuyển đến sân bay Mohamed V ở Casablanca trở về Việt Nam.",
+              "image": ""
+            }
+          ]
+        }
+      ]
+
+    },
+    {
+      "id": 5,
+      "name": "Tour Cao Cấp Đà Nẵng 4N3Đ: Huế - Quảng Bình - Đà Nẵng - Bà Nà - Hội An",
+      "image": "https://cdn2.ivivu.com/2022/04/22/14/ivivu-cau-vang-da-nang-750x390.gif",
+      "catagoryId": 1,
+      "areaId": 2,
+      "price_adult": "6990000",
+      "price_child": "6740000",
+      "quantity_date": "4 ngày 3 đêm",
+      "start_location": "Hồ Chí Minh",
+      "quantity": "2",
+      "vehicle": [
+        {
+          "id": 1,
+          "nameVehicle": "Máy bay"
+        },
+        {
+          "id": 2,
+          "nameVehicle": "Ô tô"
+        }
+      ],
+      "tour_services": [
+        {
+          "id": 1,
+          "nameService": "Bảo hiểm"
+        },
+        {
+          "id": 2,
+          "nameService": "Hướng dẫn viên"
+        },
+        {
+          "id": 3,
+          "nameService": "Vé máy bay"
+        },
+        {
+          "id": 4,
+          "nameService": "Xe đưa đón"
+        },
+        {
+          "id": 5,
+          "nameService": "Bữa ăn"
+        },
+        {
+          "id": 6,
+          "nameService": "Khách sạn 4*"
+        },
+        {
+          "id": 7,
+          "nameService": "Vé tham quan"
+        }
+      ],
+      "description": {
+        "title": "Hành Trình đi dọc miền trung đất nước",
+        "content": "Du lịch miền Trung luôn hấp dẫn du khách với những món ăn ngon, bãi biển xinh đẹp và những hòn đảo thơ mộng mà ít nơi nào có được. Nhưng bên cạnh đó khi tới vùng đất này bạn còn có thể khám phá những địa danh, di tích lịch sử đã tồn tại từ hàng ngàn năm nay. Có lẽ thiên nhiên đã quá ưu ái khi ban tặng cho bản đồ Miền Trung Việt Nam về du lịch quá nhiều những danh lam thắm cảnh nổi tiếng mà ai cũng phải ghen tị, đố kỵ."
+      },
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "NGÀY 1: ĐÓN ĐOÀN – CHÙA THIÊN MỤ - ĐẠI NỘI HUẾ ( ĂN TRƯA, TỐI)",
+          "timeline": [
+            {
+              "time": "4:30",
+              "description": "Nhân Viên Công ty sẽ đón quý khách tai sân bay Tân Sơn Nhất, làm thủ tục khởi hành đi Huế trên chuyến bay VJ302 lúc 07:20.",
+              "image": ""
+            },
+            {
+              "time": "9:00",
+              "description": "Đến Huế, Xe và HDV đón đoàn đến nhà hàng dùng điểm tâm sáng (chi phí tự túc).",
+              "image": ""
+            },
+            {
+              "time": "10:00",
+              "description": "Đoàn đi tham quan Chùa Thiên Mụ, một ngôi  chùa cổ nằm trên đồi Hà Khê, tả ngạn sông Hương. Chùa Thiên Mụ là một trong những thắng cảnh đẹp được nhắc đến nhiều nhất tại Huế. Không chỉ đi vào những bài thơ lãng mạn của xứ Huế mà còn trong cả câu ca, Thiên Mụ cũng được coi là một ngôi chùa linh thiêng và những cảnh không thể bỏ qua của bất cứ du khách nào khi đặt chân đến thủ đô cổ xưa này.",
+              "image": "https://cdn2.ivivu.com/2019/12/09/11/ivivu-chua-thien-mu.gif"
+            },
+            {
+              "time": "Buổi trưa",
+              "description": "Xe đưa đoàn đến nhà hàng dùng cơm trưa. Sau đó đoàn khởi hành về khách sạn 4* nhận phòng nghỉ ngơi.",
+              "image": ""
+            },
+            {
+              "time": "Buổi chiều",
+              "description": "Đoàn tham quan Đại Nội Kinh Thành Hoàng Cung của 13 vị Vua triều Nguyễn với Ngọ Môn, điện Thái Hoà, Tử Cấm Thành, Thế Miếu, Hiển Lâm Các, Cửu Đỉnh. Đây cũng là một trong những di sản của Việt Nam được UNESCO công nhận là Di sản văn hóa thế giới.",
+              "image": "https://cdn2.ivivu.com/2020/06/04/17/ivivu-dai-noi-hue.gif"
+            },
+            {
+              "time": "Buổi tối",
+              "description": "Ăn tối tại Nhà Hàng. Quý khách tự do khám phá thành phố Huế về đêm. Nghỉ đêm tại Huế.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "NGÀY 2: THÁNH ĐỊA LA VANG -CẦU HIỀN LƯƠNG-ĐỘNG PHONG NHA ( ĂN 3 BỮA)",
+          "timeline": [
+            {
+              "time": "6:30",
+              "description": "Dùng điểm tâm buffet  tại khách sạn.",
+              "image": ""
+            },
+            {
+              "time": "7h00",
+              "description": "Đoàn khởi hành đi Phong Nha - Kẻ Bàng: Di Sản Thiên Nhiên Thế Giới. Trên đường đi, đoàn viếng thăm Thánh Địa La Vang  là một trong những địa điểm hành hương quan trọng không chỉ riêng đồng bào Công giáo, mà còn của cả người không Công giáo và khách du lịch quốc tế. Tiếp đến đoàn dừng chân ngắm nhìn Vĩ tuyến 17 - Cầu Hiền Lương - Sông Bến Hải.",
+              "image": "https://cdn2.ivivu.com/2019/02/13/15/ivivu-tour-da-nang-hue-thanh-dia-la-vang.jpg"
+            },
+            {
+              "time": "Buổi trưa",
+              "description": "Dùng cơm trưa tại nhà hàng ở Phong Nha, nghỉ ngơi tại nhà hàng. ",
+              "image": ""
+            },
+            {
+              "time": "Sau bữa trưa",
+              "description": "Đoàn ngồi thuyền ngược dòng sông Son, chinh phục Động Phong Nha kỳ vĩ, một thắng cảnh thiên nhiên mà tạo hoá đã ban tặng cho người dân Quảng Bình. Nơi đây, sự giao hoà của rừng nguyên sinh và sông Son, cùng với động khô và động nước tạo nên một bức tranh thuỷ mặc làm say lòng người. Đây là một trong những vùng đá vôi nhiệt đới cổ đại nhất, rộng lớn nhất thế giới với diện tích trên 200.000 ha. Có hệ thống  hơn 300 hang động lớn nhỏ, tiềm ẩn nhiều điều kỳ lạ và hấp dẫn. Hang Bi Ký, Cô Tiên và Cung Đình dưới sâu lòng núi, nơi có con sông ngầm từ đất nước bạn Lào chảy sang.",
+              "image": "https://cdn2.ivivu.com/2016/08/26/17/ivivu-tour-da-nang-5n4d-son-tra-hoi-an-ba-na-hue-dong-phong-nha-dong-phong-nha.jpg"
+            },
+            {
+              "time": "15h30",
+              "description": "Đoàn khởi hành về lại Cố Đô Huế theo đường Trường Sơn - Hồ Chí Minh Huyền Thoại.",
+              "image": "https://cdn2.ivivu.com/2021/05/05/10/ivivu-co-do-hue.jpg"
+            },
+            {
+              "time": "Bữa tối",
+              "description": "Đoàn dùng cơm tối tại nhà hàng Đông Hà, quảng Trị.",
+              "image": ""
+            },
+            {
+              "time": "Buổi tối",
+              "description": "Đến Huế, về khách sạn nghỉ ngơi, tự do thưởng thức đặc sản và tham quan thành phố Huế về đêm.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "NGÀY 3: HUẾ - ĐÀ NẴNG - HỘI AN ( ĂN SÁNG, TRƯA)",
+          "timeline": [
+            {
+              "time": "6:30",
+              "description": "Dùng điểm tâm buffet tại khách sạn, làm thủ tục trả phòng. Khởi hành đi Đà Nẵng.",
+              "image": ""
+            },
+            {
+              "time": "9h00",
+              "description": "Đến Đà Nẵng, đoàn khởi hành đi tham quan Bán đảo Sơn Trà: một món quà lớn mà thiên nhiên ưu ái ban tặng cho thành phố Đà Nẵng. Mang trong mình một vẻ đẹp nguyên sơ, hữu tình, bãi biển nước trong vắt, những tán cây xanh rợp bóng, nơi đây có không khí trong lành kết hợp cùng nguồn tài nguyên phong phú và là nơi thu hút rất nhiều khách du lịch trên cả nước.",
+              "image": "https://cdn2.ivivu.com/2022/03/10/16/ivivu-ban-dao-son-tra.gif"
+            },
+            {
+              "time": "Buổi trưa",
+              "description": "Xe đưa đoàn đến nhà hàng dùng cơm trưa với món đặc sản “Bánh Tráng Cuốn Thịt Heo”. Sau đó đoàn khởi hành về khách sạn 4* nhận phòng nghỉ ngơi.",
+              "image": ""
+            },
+            {
+              "time": "Buổi chiều",
+              "description": " Đoàn tự do tắm biển Mỹ Khê",
+              "image": ""
+            },
+            {
+              "time": "16h00",
+              "description": "Tham quan Ngũ Hành Sơn Làng Nghề Điêu Khắc Đá Non Nước với các pho tượng bằng Đá được điêu khắc dưới bàn tay tài hoa của nghệ nhân nơi đây.",
+              "image": "https://cdn2.ivivu.com/2020/05/27/09/ivivu-ngu-hanh-son-dn.gif"
+            },
+            {
+              "time": "17h00",
+              "description": "Tiếp tục vào Hội An: nơi mà cuộc sống cứ bình lặng, nơi mà dường như dòng chảy vô tình của thời gian chẳng thể nào vùi lấp đi cái không khí cổ xưa. Những mái ngói cũ phủ đầy rêu phong, những con đường ngập trong sắc đỏ của đèn lồng, những bức hoành phi được chạm trổ tinh vi, tất cả như đưa ta về với một thế giới của vài trăm năm trước.",
+              "image": "https://cdn2.ivivu.com/2022/06/14/18/ivivu-pho-co-hoi-an.gif"
+            },
+            {
+              "time": "17h30",
+              "description": "Tại đây, du khách bách bộ tham quan Phố Cổ với: Chùa Cầu Nhật Bản, Nhà Cổ hàng trăm năm tuổi, Hội Quán Phước Kiến & Xưởng thủ công mỹ nghệ…",
+              "image": "https://cdn2.ivivu.com/2016/08/26/17/ivivu-tour-da-nang-4n3d-son-tra-hoi-an-ba-na-cu-lao-cham-chua-cau-nhat-ban.jpg"
+            },
+            {
+              "time": "19h00",
+              "description": "Đoàn tự do thưởng thức các món đặc sản tại Hội An như: Cao Lầu, Mì Quảng…",
+              "image": ""
+            },
+            {
+              "time": "20h00",
+              "description": "Đoàn khởi hành về lại Đà Nẵng nghỉ đêm.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "NGÀY 4: KDL BÀ NÀ – TP.HCM ( ĂN SÁNG)",
+          "timeline": [
+            {
+              "time": "6:30",
+              "description": "Nhân Viên Công ty sẽ đón quý khách tai sân bay Tân Sơn Nhất, làm thủ tục khởi hành đi Huế trên chuyến bay VJ302 lúc 07:20.",
+              "image": ""
+            },
+            {
+              "time": "7h30",
+              "description": " Đoàn khởi hành đi tham quan KDL Bà Nà - Núi Chúa (vé cáp tự túc), nơi  có những khoảnh khoắc giao mùa bất ngờ Xuân - Hạ - Thu - Đông trong một ngày. Qúy khách sẽ tận hưởng cảm giác bồng bền khi ngồi trên Cabin lơ lững giữa chừng mây. Viếng chùa Linh Ứng với tượng Phật Thích Ca cao 27m, viếng đền thờ Bà Chúa Mẫu Thượng Ngàn",
+              "image": "https://cdn2.ivivu.com/2022/03/01/14/ivivu-chua-linh-ung-ba-na.gif"
+            },
+            {
+              "time": "9h00",
+              "description": "Tham gia vui chơi tại công viên Fantasy Park: với các trò chơi phiêu lưu mới lạ như: Vòng Quay Tình Yêu, Phi Công Skiver, Đường Đua Lửa, Ngôi Nhà Ma và Khu trưng bày hơn 40 tượng sáp những nhân vật nổi tiếng trên thế giới…",
+              "image": "https://cdn2.ivivu.com/2017/09/20/10/ivivu-fantasy-park.jpg"
+            },
+            {
+              "time": "12h00",
+              "description": "Đoàn dùng buffet trưa tại Bà Nà ( Chi phí tự túc )",
+              "image": ""
+            },
+            {
+              "time": "15h00",
+              "description": "Xe tiễn quý khách ra Sân bay Đà Nẵng, làm thủ tục bay về Hồ Chí Minh đáp chuyến bay VJ631 lúc 15:35. HDV chào tạm biệt du khách, kết thúc chương trình tham quan thú vị tại đây và hẹn gặp lại trong những tour kế tiếp.",
+              "image": ""
+            }
+          ]
+        }
+      ]
+
+    },
+    {
+      "id": 6,
+      "name": "Tour Cao Cấp Phú Quốc 3N2Đ: Grand World - Địa Trung Hải - Cầu Vồng Hoàng Hôn",
+      "image": "https://cdn2.ivivu.com/2022/06/16/09/ivivu-thi-tran-dia-trung-hai-750x390.gif",
+      "catagoryId": 1,
+      "areaId": 3,
+      "price_adult": "5490000",
+      "price_child": "3935000",
+      "quantity_date": "3 ngày 2 đêm",
+      "start_location": "Hồ Chí Minh",
+      "quantity": "5",
+      "vehicle": [
+        {
+          "id": 1,
+          "nameVehicle": "Máy bay"
+        },
+        {
+          "id": 2,
+          "nameVehicle": "Ô tô"
+        }
+      ],
+      "tour_services": [
+        {
+          "id": 1,
+          "nameService": "Bảo hiểm"
+        },
+        {
+          "id": 2,
+          "nameService": "Ca nô"
+        },
+        {
+          "id": 3,
+          "nameService": "Xe đưa đón"
+        },
+        {
+          "id": 4,
+          "nameService": "Khách sạn 3*"
+        },
+        {
+          "id": 5,
+          "nameService": "Bữa ăn"
+        },
+        {
+          "id": 6,
+          "nameService": "Hướng dẫn viên"
+        },
+        {
+          "id": 7,
+          "nameService": "Vé máy bay"
+        },
+        {
+          "id": 8,
+          "nameService": "Vé tham quan"
+        }
+      ],
+      "description": {
+        "title": "Hành Trình Trải Nghiệm Thành Phố Đảo Ngọc",
+        "content": "Thường được biết đến với tên 'Đảo Ngọc', Phú Quốc sở hữu những bãi biển hoang sơ tuyệt đẹp, sinh vật biển đa dạng và cảnh quan thiên nhiên phong phú được kết hợp tài tình với những cánh rừng tự nhiên, núi, biển và thác nước, sông hồ. Phú Quốc luôn là một trong những điểm nghĩ dưỡng hàng đầu với các khu resort đẳng cấp quốc tế cùng với những khu vui chơi, giải trí quy mô bậc nhất Đông Nam Á như công viên chủ đề Vin Wonders, thành phố không ngủ Grand World, casino Phú Quốc....Ngoài ra, Phú Quốc vẫn còn lưu giữ nhiều di tích văn hóa, lịch sử và các nghề truyền thống hàng trăm năm tuổi như nghề làm nước mắm Phú Quốc trứ danh"
+      },
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "NGÀY 01: PHÚ QUỐC – ĐỊA TRUNG HẢI – CẦU VỒNG HOÀNG HÔN ( ĂN SÁNG, TRƯA, CHIỀU)",
+          "timeline": [
+            {
+              "time": "Buổi sáng",
+              "description": "Đến sân bay Phú Quốc, xe và Hướng dẫn viên đón Quý khách. Đoàn dùng bữa sáng. Sau đấy viếng thăm Dinh Cậu – Dinh Bà, biểu tượng tín ngưỡng ngư dân địa phương.",
+              "image": "https://cdn2.ivivu.com/2021/04/23/10/ivivu-dinh-cau-phu-quoc.gif"
+            },
+            {
+              "time": "Buổi trưa",
+              "description": "Quý khách ăn trưa tại nhà hàng. Sau đó về khách sạn nhận phòng nghỉ ngơi.",
+              "image": ""
+            },
+            {
+              "time": "14h00",
+              "description": "Tham quan Thiền Viên Trúc Lâm Chùa Hộ Quốc",
+              "image": "https://cdn2.ivivu.com/2020/07/14/17/ivivu-chua-ho-quoc.gif"
+            },
+            {
+              "time": "15h00",
+              "description": "Tham quan Di Tích Lịch Sử Nhà Tù Phú Quốc",
+              "image": "https://cdn2.ivivu.com/2018/04/05/15/ivivu-nha-tu-phu-quoc.jpg"
+            },
+            {
+              "time": "16h00",
+              "description": "Tham quan Nhà Thùng Nước Mắm Phú Quốc",
+              "image": ""
+            },
+            {
+              "time": "16h30",
+              "description": "Check In Địa Trung Hải – Nhà Ga Cáp Treo",
+              "image": "https://cdn2.ivivu.com/2022/03/07/10/ivivu-thi-tran-dia-trung-hai.gif"
+            },
+            {
+              "time": "17h00",
+              "description": "Check In Cầu Vồng Hoàng Hôn Trên Đảo Ngọc Phú Quốc ( Phí tự túc )",
+              "image": "https://cdn2.ivivu.com/2023/02/17/11/ivivu-cau-hon-2.gif"
+            },
+            {
+              "time": "Bữa tối",
+              "description": "Xe và hướng dẫn viên đưa quý khách đến nhà hàng địa phương dùng cơm tối với nhiều món hải sản đặc sản biển đảo Phú Quốc",
+              "image": ""
+            },
+            {
+              "time": "Buổi tối",
+              "description": "Sau khi dùng cơm tối quý khách về lại khách sạn nghỉ ngơi, quý khách tự tham quan khám phá đảo ngọc Phú Quốc như tham quan Chợ đêm, đăng ký chương trình câu mực đêm ( Chi phí tự túc )",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "NGÀY 02: VINHOLIDAY FIESTA - GRAND WORLD – VINWONDERS ( ĂN SÁNG, TRƯA)",
+          "timeline": [
+            {
+              "time": "7h30",
+              "description": "Sau bữa sáng tại khách sạn, Quý khách làm thủ tục trả phòng tiếp tục lên xe tham quan: Nông trại nuôi cấy Ngọc Trai Biển Phú Quốc, Vườn Sim Phú Quốc, Hồ tiêu phú quốc.",
+              "image": "https://cdn2.ivivu.com/2020/05/27/12/ivivu-ho-tieu-pq.gif"
+            },
+            {
+              "time": "10h00",
+              "description": "Check in Kiến Trúc Nhà Tre độc đáo tại đảo ngọc tại Grand World",
+              "image": "https://cdn2.ivivu.com/2021/12/14/16/ivivu-nha-tre-lon-phu-quoc.gif"
+            },
+            {
+              "time": "Buổi trưa",
+              "description": "Xe và HDV đưa đoàn dùng cơm trưa tại nhà hàng, sau khi dùng cơm trưa xong quý khách về làm thủ tục nhận phòng khách sạn Vinholidays Fiesta trong hệ thống resort 5 sao tại Vinperl năm ngay trong Thành phố không ngủ Grand World",
+              "image": ""
+            },
+            {
+              "time": "Buổi chiều",
+              "description": "Qúy khách tự do hưởng thụ dịch 5 sao tại khách sạn. Hoặc  Quý khách có thể sắp xếp thời gian tham quan thêm Vinwonders hoặc  Safari ( Chi phí tự túc )",
+              "image": "https://cdn2.ivivu.com/2022/10/04/15/ivivu-grand-world-phu-quoc-1.gif"
+            },
+            {
+              "time": "Buổi tối",
+              "description": "Qúy khách tự do ăn tối tại nhà hàng hoặc Chợ đêm trong Grand World. sau khi dùng cơm tối xong đoàn tiếp tục thư giản giải trí tại các quán bar biển chờ đến giờ xem biểu diễn Show diễn triệu đô trên sông Vencia. Về khách sạn nghỉ đêm.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "NGÀY 03: PHÚ QUỐC  CITY – ĐẶC SẢN BÚN QUẬY-   HẸN GẶP LẠI ( ĂN SÁNG, TRƯA)",
+          "timeline": [
+            {
+              "time": "Buổi sáng",
+              "description": "Quý khách dùng điểm tâm sáng tại khách sạn. Tự do tắm biển tắm hồ bơ tại khách sạn. Đi bộ hoặc xe điện tham quan chụp ảnh Grand world vào ban ngày.",
+              "image": ""
+            },
+            {
+              "time": "Buổi trưa",
+              "description": "Quý khách làm thủ tục trả phòng khách sạn, Xe và hướng dẫn viên đưa Quý khách đến thưởng thức đặc sản nổi tiếng Bún Quậy Phú Quốc.",
+              "image": ""
+            },
+            {
+              "time": "Buổi chiều",
+              "description": "Sau đó đoàn tiếp tục tham quan Đặc sản Khô Phú Quốc. Đến giờ xe và HDV đưa đoàn ra sân bay hoặc bến tàu Phú Quốc, làm thủ tục lên máy bay lên tàu.Kết thúc chương trình tham quan tại Phú Quốc. Hdv và lái xe Chúc sức khỏe quý khách và hẹn gặp lại.",
+              "image": ""
+            }
+          ]
+        }
+      ]
+
+    },
+    {
+      "id": 7,
+      "name": "",
+      "image": "",
+      "catagoryId": 1,
+      "areaId": 1,
+      "price_adult": "",
+      "price_child": "",
+      "quantity_date": "",
+      "start_location": "",
+      "quantity": "",
+      "vehicle": [
+        {
+          "id": 1,
+          "nameVehicle": ""
+        },
+        {
+          "id": 2,
+          "nameVehicle": ""
+        }
+      ],
+      "tour_services": [
+        {
+          "id": 1,
+          "nameService": ""
+        },
+        {
+          "id": 2,
+          "nameService": ""
+        }
+      ],
+      "description": {
+        "title": "",
+        "content": ""
+      },
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "",
+          "timeline": [
+            {
+              "time": "",
+              "description": "",
+              "image": ""
+            },
+            {
+              "time": "",
+              "description": "",
+              "image": ""
+            }
+          ]
+        }
+      ]
+
+    },
+    {
+      "id": 8,
+      "name": "",
+      "image": "",
+      "catagoryId": 1,
+      "areaId": 1,
+      "price_adult": "",
+      "price_child": "",
+      "quantity_date": "",
+      "start_location": "",
+      "quantity": "",
+      "vehicle": [
+        {
+          "id": 1,
+          "nameVehicle": ""
+        },
+        {
+          "id": 2,
+          "nameVehicle": ""
+        }
+      ],
+      "tour_services": [
+        {
+          "id": 1,
+          "nameService": ""
+        },
+        {
+          "id": 2,
+          "nameService": ""
+        }
+      ],
+      "description": {
+        "title": "",
+        "content": ""
+      },
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "",
+          "timeline": [
+            {
+              "time": "",
+              "description": "",
+              "image": ""
+            },
+            {
+              "time": "",
+              "description": "",
+              "image": ""
+            }
+          ]
+        }
+      ]
+
+    },
+    {
+      "id": 9,
+      "name": "",
+      "image": "",
+      "catagoryId": 1,
+      "areaId": 1,
+      "price_adult": "",
+      "price_child": "",
+      "quantity_date": "",
+      "start_location": "",
+      "quantity": "",
+      "vehicle": [
+        {
+          "id": 1,
+          "nameVehicle": ""
+        },
+        {
+          "id": 2,
+          "nameVehicle": ""
+        }
+      ],
+      "tour_services": [
+        {
+          "id": 1,
+          "nameService": ""
+        },
+        {
+          "id": 2,
+          "nameService": ""
+        }
+      ],
+      "description": {
+        "title": "",
+        "content": ""
+      },
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "",
+          "timeline": [
+            {
+              "time": "",
+              "description": "",
+              "image": ""
+            },
+            {
+              "time": "",
+              "description": "",
+              "image": ""
+            }
+          ]
+        }
+      ]
+
+    },
+    {
+      "id": 10,
+      "name": "",
+      "image": "",
+      "catagoryId": 1,
+      "areaId": 1,
+      "price_adult": "",
+      "price_child": "",
+      "quantity_date": "",
+      "start_location": "",
+      "quantity": "",
+      "vehicle": [
+        {
+          "id": 1,
+          "nameVehicle": ""
+        },
+        {
+          "id": 2,
+          "nameVehicle": ""
+        }
+      ],
+      "tour_services": [
+        {
+          "id": 1,
+          "nameService": ""
+        },
+        {
+          "id": 2,
+          "nameService": ""
+        }
+      ],
+      "description": {
+        "title": "",
+        "content": ""
+      },
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "",
+          "timeline": [
+            {
+              "time": "",
+              "description": "",
+              "image": ""
+            },
+            {
+              "time": "",
+              "description": "",
+              "image": ""
+            }
+          ]
+        }
+      ]
+
+    },
+    {
+      "id": 11,
+      "name": "",
+      "image": "",
+      "catagoryId": 1,
+      "areaId": 1,
+      "price_adult": "",
+      "price_child": "",
+      "quantity_date": "",
+      "start_location": "",
+      "quantity": "",
+      "vehicle": [
+        {
+          "id": 1,
+          "nameVehicle": ""
+        },
+        {
+          "id": 2,
+          "nameVehicle": ""
+        }
+      ],
+      "tour_services": [
+        {
+          "id": 1,
+          "nameService": ""
+        },
+        {
+          "id": 2,
+          "nameService": ""
+        }
+      ],
+      "description": {
+        "title": "",
+        "content": ""
+      },
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "",
+          "timeline": [
+            {
+              "time": "",
+              "description": "",
+              "image": ""
+            },
+            {
+              "time": "",
+              "description": "",
+              "image": ""
+            }
+          ]
+        }
+      ]
+
+    },
+    {
+      "id": 12,
+      "name": "",
+      "image": "",
+      "catagoryId": 1,
+      "areaId": 1,
+      "price_adult": "",
+      "price_child": "",
+      "quantity_date": "",
+      "start_location": "",
+      "quantity": "",
+      "vehicle": [
+        {
+          "id": 1,
+          "nameVehicle": ""
+        },
+        {
+          "id": 2,
+          "nameVehicle": ""
+        }
+      ],
+      "tour_services": [
+        {
+          "id": 1,
+          "nameService": ""
+        },
+        {
+          "id": 2,
+          "nameService": ""
+        }
+      ],
+      "description": {
+        "title": "",
+        "content": ""
+      },
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "",
+          "timeline": [
+            {
+              "time": "",
+              "description": "",
+              "image": ""
+            },
+            {
+              "time": "",
+              "description": "",
+              "image": ""
+            }
+          ]
+        }
+      ]
+
+    },
+    {
+      "id": 13,
+      "name": "",
+      "image": "",
+      "catagoryId": 1,
+      "areaId": 1,
+      "price_adult": "",
+      "price_child": "",
+      "quantity_date": "",
+      "start_location": "",
+      "quantity": "",
+      "vehicle": [
+        {
+          "id": 1,
+          "nameVehicle": ""
+        },
+        {
+          "id": 2,
+          "nameVehicle": ""
+        }
+      ],
+      "tour_services": [
+        {
+          "id": 1,
+          "nameService": ""
+        },
+        {
+          "id": 2,
+          "nameService": ""
+        }
+      ],
+      "description": {
+        "title": "",
+        "content": ""
+      },
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "",
+          "timeline": [
+            {
+              "time": "",
+              "description": "",
+              "image": ""
+            },
+            {
+              "time": "",
+              "description": "",
+              "image": ""
+            }
+          ]
+        }
+      ]
+
+    },
+    {
+      "id": 14,
+      "name": "",
+      "image": "",
+      "catagoryId": 1,
+      "areaId": 1,
+      "price_adult": "",
+      "price_child": "",
+      "quantity_date": "",
+      "start_location": "",
+      "quantity": "",
+      "vehicle": [
+        {
+          "id": 1,
+          "nameVehicle": ""
+        },
+        {
+          "id": 2,
+          "nameVehicle": ""
+        }
+      ],
+      "tour_services": [
+        {
+          "id": 1,
+          "nameService": ""
+        },
+        {
+          "id": 2,
+          "nameService": ""
+        }
+      ],
+      "description": {
+        "title": "",
+        "content": ""
+      },
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "",
+          "timeline": [
+            {
+              "time": "",
+              "description": "",
+              "image": ""
+            },
+            {
+              "time": "",
+              "description": "",
+              "image": ""
+            }
+          ]
+        }
+      ]
+
+    },
+    {
+      "id": 15,
+      "name": "",
+      "image": "",
+      "catagoryId": 1,
+      "areaId": 1,
+      "price_adult": "",
+      "price_child": "",
+      "quantity_date": "",
+      "start_location": "",
+      "quantity": "",
+      "vehicle": [
+        {
+          "id": 1,
+          "nameVehicle": ""
+        },
+        {
+          "id": 2,
+          "nameVehicle": ""
+        }
+      ],
+      "tour_services": [
+        {
+          "id": 1,
+          "nameService": ""
+        },
+        {
+          "id": 2,
+          "nameService": ""
+        }
+      ],
+      "description": {
+        "title": "",
+        "content": ""
+      },
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "",
+          "timeline": [
+            {
+              "time": "",
+              "description": "",
+              "image": ""
+            },
+            {
+              "time": "",
+              "description": "",
+              "image": ""
+            }
+          ]
+        }
+      ]
+
+    },
+    {
+      "id": 16,
+      "name": "",
+      "image": "",
+      "catagoryId": 1,
+      "areaId": 1,
+      "price_adult": "",
+      "price_child": "",
+      "quantity_date": "",
+      "start_location": "",
+      "quantity": "",
+      "vehicle": [
+        {
+          "id": 1,
+          "nameVehicle": ""
+        },
+        {
+          "id": 2,
+          "nameVehicle": ""
+        }
+      ],
+      "tour_services": [
+        {
+          "id": 1,
+          "nameService": ""
+        },
+        {
+          "id": 2,
+          "nameService": ""
+        }
+      ],
+      "description": {
+        "title": "",
+        "content": ""
+      },
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "",
+          "timeline": [
+            {
+              "time": "",
+              "description": "",
+              "image": ""
+            },
+            {
+              "time": "",
+              "description": "",
+              "image": ""
+            }
+          ]
+        }
+      ]
+
+    },
+    {
+      "id": 17,
+      "name": "",
+      "image": "",
+      "catagoryId": 1,
+      "areaId": 1,
+      "price_adult": "",
+      "price_child": "",
+      "quantity_date": "",
+      "start_location": "",
+      "quantity": "",
+      "vehicle": [
+        {
+          "id": 1,
+          "nameVehicle": ""
+        },
+        {
+          "id": 2,
+          "nameVehicle": ""
+        }
+      ],
+      "tour_services": [
+        {
+          "id": 1,
+          "nameService": ""
+        },
+        {
+          "id": 2,
+          "nameService": ""
+        }
+      ],
+      "description": {
+        "title": "",
+        "content": ""
+      },
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "",
+          "timeline": [
+            {
+              "time": "",
+              "description": "",
+              "image": ""
+            },
+            {
+              "time": "",
+              "description": "",
+              "image": ""
+            }
+          ]
+        }
+      ]
+
+    },
+    {
+      "id": 18,
+      "name": "",
+      "image": "",
+      "catagoryId": 1,
+      "areaId": 1,
+      "price_adult": "",
+      "price_child": "",
+      "quantity_date": "",
+      "start_location": "",
+      "quantity": "",
+      "vehicle": [
+        {
+          "id": 1,
+          "nameVehicle": ""
+        },
+        {
+          "id": 2,
+          "nameVehicle": ""
+        }
+      ],
+      "tour_services": [
+        {
+          "id": 1,
+          "nameService": ""
+        },
+        {
+          "id": 2,
+          "nameService": ""
+        }
+      ],
+      "description": {
+        "title": "",
+        "content": ""
+      },
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "",
+          "timeline": [
+            {
+              "time": "",
+              "description": "",
+              "image": ""
+            },
+            {
+              "time": "",
+              "description": "",
+              "image": ""
+            }
+          ]
+        }
+      ]
+
+    },
+    {
+      "id": 19,
+      "name": "",
+      "image": "",
+      "catagoryId": 1,
+      "areaId": 1,
+      "price_adult": "",
+      "price_child": "",
+      "quantity_date": "",
+      "start_location": "",
+      "quantity": "",
+      "vehicle": [
+        {
+          "id": 1,
+          "nameVehicle": ""
+        },
+        {
+          "id": 2,
+          "nameVehicle": ""
+        }
+      ],
+      "tour_services": [
+        {
+          "id": 1,
+          "nameService": ""
+        },
+        {
+          "id": 2,
+          "nameService": ""
+        }
+      ],
+      "description": {
+        "title": "",
+        "content": ""
+      },
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "",
+          "timeline": [
+            {
+              "time": "",
+              "description": "",
+              "image": ""
+            },
+            {
+              "time": "",
+              "description": "",
+              "image": ""
+            }
+          ]
+        }
+      ]
+
+    },
+    {
+      "id": 20,
+      "name": "",
+      "image": "",
+      "catagoryId": 1,
+      "areaId": 1,
+      "price_adult": "",
+      "price_child": "",
+      "quantity_date": "",
+      "start_location": "",
+      "quantity": "",
+      "vehicle": [
+        {
+          "id": 1,
+          "nameVehicle": ""
+        },
+        {
+          "id": 2,
+          "nameVehicle": ""
+        }
+      ],
+      "tour_services": [
+        {
+          "id": 1,
+          "nameService": ""
+        },
+        {
+          "id": 2,
+          "nameService": ""
+        }
+      ],
+      "description": {
+        "title": "",
+        "content": ""
+      },
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "",
+          "timeline": [
+            {
+              "time": "",
+              "description": "",
+              "image": ""
+            },
+            {
+              "time": "",
+              "description": "",
+              "image": ""
+            }
+          ]
+        }
+      ]
+
     }
-  ],
-  "carts": {}
+
+  ]
 }
