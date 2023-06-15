@@ -31,8 +31,6 @@ export default function HomeCollection() {
       console.error('Error fetching data:', error);
     }
   }
-  console.log(dataTourTrongNuoc)
-  console.log(dataTourNuocNgoai)
   return (
     <div className='container home-collection'>
         <div className='row'>

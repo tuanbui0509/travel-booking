@@ -2,19 +2,23 @@ import { Done, ErrorOutline } from '@material-ui/icons'
 import React, { useEffect, useState } from 'react'
 import { formatPrice } from '../../utils/utill'
 
-export default function TourRight() {
+export default function TourRight({ data }) {
   const [id, setId] = useState("")
   const [date, setDate] = useState("")
   const [priceDefault, setPriceDefault] = useState(0)
   const [price, setPrice] = useState(0)
   const [totalPrice, setTotalPrice] = useState(0)
   const [quantity, setQuantity] = useState(1)
-
-  useEffect(()=>{
-    setPriceDefault(15990000)
-    setPrice(15990000)
-    setTotalPrice(15990000)
-  },[])
+  const [tourServices, setTourServices] = useState([])
+    useEffect(() => {
+    if (data) {
+      setId(data.tourId)
+      setPriceDefault(Number(data.price_adult))
+      setPrice(Number(data.price_adult))
+      setTotalPrice(Number(data.price_adult))
+      setTourServices(data.tour_services)
+    }
+  }, [data]);
 
   const handleOnchaneDate = (e) => {
     setDate(e.target.value)
@@ -82,38 +86,12 @@ export default function TourRight() {
       </div>
       <div className='bottom'>
         <div className='row'>
-          <div className='col-6 wrap'>
-            <Done className='icon'/>
-            <span>Bảo hiểm</span>
-          </div>
-          <div className='col-6 wrap'>
-            <Done className='icon'/>
-            <span>Bảo hiểm</span>
-          </div>
-          <div className='col-6 wrap'>
-            <Done className='icon'/>
-            <span>Bảo hiểm</span>
-          </div>
-          <div className='col-6 wrap'>
-            <Done className='icon'/>
-            <span>Bảo hiểm</span>
-          </div>
-          <div className='col-6 wrap'>
-            <Done className='icon'/>
-            <span>Bảo hiểm</span>
-          </div>
-          <div className='col-6 wrap'>
-            <Done className='icon'/>
-            <span>Bảo hiểm</span>
-          </div>
-          <div className='col-6 wrap'>
-            <Done className='icon'/>
-            <span>Bảo hiểm</span>
-          </div>
-          <div className='col-6 wrap'>
-            <Done className='icon'/>
-            <span>Bảo hiểm</span>
-          </div>
+          { tourServices && tourServices.length > 0 && tourServices.map(service => (
+            <div key={service.id} className='col-6 wrap'>
+              <Done className='icon'/>
+              <span>{service.nameService}</span>
+            </div>
+          ))}
         </div>
       </div>
     </div>

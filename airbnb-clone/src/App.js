@@ -9,8 +9,6 @@ import Category from "./pages/Category";
 import { Checkout } from "./pages/Checkout";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
-import Product from "./pages/Product";
-import ProductList from "./pages/ProductList";
 import Register from "./pages/Register";
 import Tour from "./pages/Tour";
 import { addCart } from "./redux/slices/CartsSlice";
@@ -28,20 +26,19 @@ function App() {
         });
     }, []);
     return (
-                <Router>
-                    <Routes>
-                        <Route index element={<Home />} />
-                        <Route path="/productList" element={<ProductList />} />
-                        <Route path="/productList/productId:" element={<Product />} />
-                        <Route path="/tourList/tourId:" element={<Tour />} />
-                        <Route path="/register" element={<Register />} />
-                        <Route path="/login" element={<Login />} />
-                        <Route path="/cart" element={<Cart />} />
-                        <Route path="/checkout" element={<Checkout />} />
-                        <Route path="/tour" element={<Tour />} />
-                        <Route path="/category" element={<Category />} />
-                    </Routes>
-                </Router>
+        <Router>
+            <Routes>
+            <Route index element={<Home />} />
+            <Route path="/tourList" element={<Tour />} />
+            <Route path="/tourList/:tourId" element={<Tour />} />
+            <Route path="/register" element={<Register />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/cart" element={<Cart />} />
+            <Route path="/checkout" element={<Checkout />} />
+            <Route path="/tour" element={<Tour />} />
+            <Route path="/category" element={<Category />} />
+            </Routes>
+        </Router>
     );
 }
 
