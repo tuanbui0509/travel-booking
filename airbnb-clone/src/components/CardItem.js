@@ -32,7 +32,7 @@ export default function CardItem(prop) {
   return (
     <div className="col mt-4">
       <div className="card">
-        <img src={prop.image} className="card-img-top" alt="..." />
+        <img src={prop.image} style={{minHeight: '197px'}} className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title">{prop.title}</h5>
           <div className="d-flex flex-row justify-content-between">
@@ -58,10 +58,6 @@ export default function CardItem(prop) {
               <span className="price text-right">
                 {formatPrice(prop.price)}đ
               </span>
-              <Link to={`${prop.idCard}`} className="link text-right">
-                <DoubleArrow className="icon-link" />
-                Xem thêm
-              </Link>
             </div>
           </div>
           <div className="d-flex flex-center">
