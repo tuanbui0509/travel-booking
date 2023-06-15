@@ -1,14 +1,19 @@
 import { EventNote, FlightTakeoff, LocationOn, Search } from '@material-ui/icons'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Footer from '../components/Footer'
 import ListArea from '../components/ListArea'
 import ListCard from '../components/ListCard'
 import Navbar from '../components/Navbar'
 import "../styles/category.scss"
 import "../styles/searchCategory.scss"
-
+import { useParams } from 'react-router-dom'
+import { useDispatch, useSelector } from 'react-redux'
+import { keyfilterSelector, toursRemainingSelector, toursSelector } from '../redux/selectors'
+import { fetchTours} from "../redux/slices/TourSlice";
+import { keyFilterChange } from '../redux/slices/FiltersSlice'
+import { initializeUseSelector } from 'react-redux/es/hooks/useSelector'
 export default function Category() {
- const [tour, setTour] = useState("Trong nước");
+    const [tours, setTours] = useState([]);
     const [starting, setStarting] = useState("");
     const [destination, setDestination] = useState("")
     const [date, setDate] = useState("")
@@ -23,8 +28,22 @@ export default function Category() {
         setDate(e.target.value)
     }
     const handleSearch = () => {
-        console.log(tour," ",starting," ",destination," ",date)
+        console.log(starting," ",destination," ",date)
     }
+    const { key } = useParams();
+
+    const dispatch = useDispatch();
+    useEffect(() => {
+        dispatch(fetchTours());
+    }, [dispatch]);
+    
+    useEffect(() => {
+        dispatch(keyFilterChange(key));
+    }, [dispatch, key]);
+    
+    
+    const toursRemaining = useSelector(toursRemainingSelector);
+
   return (
     <>
         <Navbar />
@@ -110,7 +129,7 @@ export default function Category() {
                                 <div className='item col-3'>Giá tour</div>
                             </div>
                             <div className='content'>
-                                <ListCard />
+                                <ListCard data={toursRemaining} />
                             </div>
                         </div>
                     </div>

@@ -16,17 +16,17 @@ const Navbar = () => {
       <div className="navbar">
         <div className="container container-nav">
           <div className="nav-left">
-            <img src={logo} alt="logo" />
+            <Link to={'/'}><img src={logo} alt="logo" /></Link>
           </div>
           <div className="nav-center">
             <div className="item">
-              <Link to={"/category/trong-nuoc"}>Trong nước</Link>
+              <Link to={"/category/1"}>Trong nước</Link>
             </div>
             <div className="item">
-              <Link to={"/category/trong-ngoai"}>Nước ngoài</Link>
+              <Link to={"/category/2"}>Nước ngoài</Link>
             </div>
             <div className="item">
-              <Link to={"/category/tour-hot"}>Tour hot</Link>
+              <Link to={"/category/3"}>Tour hot</Link>
             </div>
           </div>
           <div className="nav-right">

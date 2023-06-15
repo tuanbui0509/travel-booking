@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Slider from "../components/Slider";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -6,6 +6,7 @@ import HomeCollection from "../components/HomeCollection";
 import SearchHome from "../components/SearchHome";
 
 const Home = () => {
+
   return (
     <div className="bg-white">
       <Navbar />

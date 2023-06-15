@@ -2,20 +2,19 @@ import { createSelector } from "@reduxjs/toolkit";
 
 //export những giá trị trong redux mà chúng ta muốn lấy ra, khi muốn lấy ra chúng ta gọi đến lớp này
 
-export const todoListSelector = (state) => state.todoList
+export const toursSelector = (state) => state.tours.tours
+export const statusToursSelector = (state) => state.tours.status
+export const errorToursSelector = (state) => state.tours.error
 
-export const searchTextSelector = (state) => state.filters.search
+export const filtersSelector = (state) => state.filters
 
-// có thể dùng lại 2 thằng trên để tạo ra cái mới
-export const todoRemainingSelector = createSelector(
-    todoListSelector,
-    searchTextSelector,
-    (todoList, searchText) => {
-        return todoList.filter((todo) => {
-            return todo.name.includes(searchText);
-        }
-        )
+
+export const toursRemainingSelector = createSelector(
+    toursSelector,
+    filtersSelector,
+    (tours, filters) => {
+        return  tours.filter(tour => tour.catagoryId == filters.key);
     }
-)
+);
 
 export const cartsSelector = (state) => state.carts

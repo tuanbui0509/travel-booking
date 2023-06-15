@@ -3,19 +3,18 @@ import { createSlice } from "@reduxjs/toolkit";
 const filterSlice = createSlice({
     name: 'filters',
     initialState: {
-        search: '',
-        status: 'All',
-        prioprity: []
+        key: '',
+        starting: '',
+        destination: '',
+        date:""
     },
     reducers: {
-        //state là initialState
-        //action.payload là giá trị mà chúng ta truyền vào từ dispatch
-        searchFilterChange: (state, action) => {
-            state.search = action.payload
+        keyFilterChange: (state, action) => {
+            state.key = action.payload
         }
     }
 })
 
 // export hàm ra ngoài
-export const { searchFilterChange } = filterSlice.actions
+export const { keyFilterChange } = filterSlice.actions
 export default filterSlice.reducer;

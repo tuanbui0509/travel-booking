@@ -9,9 +9,6 @@ import { useParams } from 'react-router-dom'
 export default function Tour() {
     const { tourId } = useParams();
     const [tour, setTour] = useState([])
-    // const [desc, setDesc] = useState({})
-    // const [tourDetails, setTourDetails] = useState([])
-    // const [priceAdult, setPriceAdult] = useState(0)
     useEffect(() => {
     // Hàm được gọi khi component được render hoặc state thay đổi
     fetchDataTour();
