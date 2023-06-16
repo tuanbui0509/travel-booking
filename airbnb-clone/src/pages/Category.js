@@ -1,35 +1,17 @@
-import { EventNote, FlightTakeoff, LocationOn, Search } from '@material-ui/icons'
 import React, { useEffect, useState } from 'react'
 import Footer from '../components/Footer'
 import ListArea from '../components/ListArea'
 import ListCard from '../components/ListCard'
 import Navbar from '../components/Navbar'
 import "../styles/category.scss"
-import "../styles/searchCategory.scss"
 import { useParams } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
-import { keyfilterSelector, toursRemainingSelector, toursSelector } from '../redux/selectors'
+import { toursRemainingSelector } from '../redux/selectors'
 import { fetchTours} from "../redux/slices/TourSlice";
 import { keyFilterChange } from '../redux/slices/FiltersSlice'
-import { initializeUseSelector } from 'react-redux/es/hooks/useSelector'
+import SearchHome from '../components/SearchHome'
 export default function Category() {
-    const [tours, setTours] = useState([]);
-    const [starting, setStarting] = useState("");
-    const [destination, setDestination] = useState("")
-    const [date, setDate] = useState("")
 
-    const handleOnChaneStart = (e) => {
-        setStarting(e.target.value)
-    }
-    const handleOnchaneDes = (e) => {
-        setDestination(e.target.value)
-    }
-    const handleOnchaneDate = (e) => {
-        setDate(e.target.value)
-    }
-    const handleSearch = () => {
-        console.log(starting," ",destination," ",date)
-    }
     const { key } = useParams();
 
     const dispatch = useDispatch();
@@ -48,67 +30,7 @@ export default function Category() {
     <>
         <Navbar />
             <div className='container category'>
-                <div className='search-category'>
-                <div className='row container-wrap'>
-                    <div className='col-sm-3 col-md-3 col-lg-3 col-xl-3'>
-                        <div className="d-flex flex-row group-input">
-                            <span className="input-group-text bg-icon">
-                                <FlightTakeoff className='icon'/>
-                            </span>
-                            <div className='d-flex flex-column flex-group'>
-                                <label className='title'>Điểm khởi hành</label>
-                                <input
-                                onChange={(e)=> handleOnChaneStart(e)}
-                                className='input'
-                                placeholder="Hồ Chí Minh"
-                                type="text" 
-                                />
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-sm-3 col-md-3 col-lg-3 col-xl-3'>
-                        <div className="d-flex flex-row group-input">
-                            <span className="input-group-text bg-icon">
-                                <LocationOn className='icon'/>
-                            </span>
-                            <div className='d-flex flex-column flex-group'>
-                                <label className='title'>Điểm đến</label>
-                                <input
-                                onChange={(e) => handleOnchaneDes(e)}
-                                className='input'
-                                placeholder="Hồ Chi Minh"
-                                type="text" 
-                                
-                                />
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-sm-3 col-md-3 col-lg-3 col-xl-3'>
-                        <div className="d-flex flex-row group-input">
-                            <span className="input-group-text bg-icon">
-                                <EventNote className='icon'/>
-                            </span>
-                            <div className='d-flex flex-column flex-group'>
-                                <label className='title'>Ngày đi</label>
-                                <input
-                                onChange={(e) => handleOnchaneDate(e)}
-                                className='input'
-                                placeholder="Chọn tour"
-                                type="date" 
-                                />
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-sm-3 col-md-3 col-lg-3 col-xl-3'>
-                        <div className='wrap-icon_search'
-                            onClick={() => handleSearch()}
-                        >
-                            <Search className='icon'/>
-                        </div>
-                    </div>
-                </div>
-                </div>
-
+                <SearchHome image={true}/>
                 <div className='row'>
                     <div className='col-3'>
                         <div className='container-left'>

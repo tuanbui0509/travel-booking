@@ -19,10 +19,12 @@ export default function SearchHome(prop) {
     const handleSearch = () => {
         console.log(tour," ",starting," ",destination," ",date)
     }
+
+    const image = prop.image || false;
   return (
     <div className='search-home container-fluid mb-5 p-0 position-relative'>
-        <img className='w-100' src={"https://cdn2.ivivu.com/2023/04/21/10/tour-top-20230421-1-.png"} alt='...'/>
-        <div className='container container-search position-absolute translate-middle'>
+        <img className={`w-100 ${image ? 'd-none' : ''}`} src={"https://cdn2.ivivu.com/2023/04/21/10/tour-top-20230421-1-.png"} alt='...' />
+            <div className={`container container-search ${image ? 'shadow-none' : 'position-absolute translate-middle'}`}>
             <div className='row container-wrap'>
                 <div className='col-sm-12 col-md-6 col-lg-6 col-xl-3'>
                    <div className="d-flex flex-row group-input">
