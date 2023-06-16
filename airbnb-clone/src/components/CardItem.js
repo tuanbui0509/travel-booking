@@ -66,7 +66,7 @@ export default function CardItem(prop) {
         <div className="col mt-4">
 
             <div className="card">
-                <Link to={'tourList/'+ prop.idCard}>
+                <Link to={`/tourList/${prop.idCard}`}>
                  <img src={prop.image} style={{minHeight: '197px'}} className="card-img-top" alt="..."/>
                 </Link>
                 <div className="card-body">
