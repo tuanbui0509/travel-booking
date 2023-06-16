@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import Swal from "sweetalert2";
 import {isEmailValid, isPassportNumberValid, isPhoneValid} from "../../utils/utill";
 
@@ -40,8 +40,7 @@ export const FormInputInfoCustomer = ({cart, handleContinue}) => {
                 confirmButtonText: "OK",
             });
             return; // Dừng thực thi hàm nếu thông tin chưa đầy đủ
-        }
-        else {
+        } else {
             const customer = customerInfo[0];
             const phone = customer.phone;
             if (!isPhoneValid(phone)) {
@@ -65,8 +64,8 @@ export const FormInputInfoCustomer = ({cart, handleContinue}) => {
                 });
                 return; // Dừng thực thi hàm nếu email không đúng định dạng
             }
-            if(customer.passport_number){
-                if (!isPassportNumberValid(customer.passport_number)){
+            if (customer.passport_number) {
+                if (!isPassportNumberValid(customer.passport_number)) {
                     Swal.fire({
                         title: "Thông báo",
                         text: "Số hộ chiếu gồm 8 ký tự, bắt đầu bằng 1 chữ in hoa tiếp sau là 7 chữ số!",
@@ -91,8 +90,21 @@ export const FormInputInfoCustomer = ({cart, handleContinue}) => {
             return updatedCustomerInfo;
         });
     };
+    const [countries, setCountries] = useState([]);
 
+    useEffect(() => {
+        const fetchCountries = async () => {
+            try {
+                const response = await fetch('https://restcountries.com/v3.1/all');
+                const data = await response.json();
+                setCountries(data);
+            } catch (error) {
+                console.error('Error fetching countries:', error);
+            }
+        };
 
+        fetchCountries();
+    }, []);
 
 
     const forms = []
@@ -176,15 +188,19 @@ export const FormInputInfoCustomer = ({cart, handleContinue}) => {
                                         cart.tour.catagoryId === 2 ?
                                             <div className="form-group">
                                                 <label>Quốc tịch</label>
-                                                <input
-                                                    type="text"
-                                                    className="form-control"
-                                                    id={`nationality-${i}`}
-                                                    placeholder="Nhập quốc tịch"
-                                                    onChange={(e) =>
-                                                        handleInputChange(i, "nationality", e.target.value)
-                                                    }
-                                                /></div>
+                                                <select className="custom-select"
+                                                        onBlur={(e) => handleInputChange(i, "nationality", e.target.value)}>
+                                                    {countries.map((country) => (
+                                                        <option
+                                                            key={country.name.common}
+                                                            value={country.name.common}
+                                                            selected={country.name.common === 'Vietnam'}
+                                                        >
+                                                            {country.name.common}
+                                                        </option>
+                                                    ))}
+                                                </select>
+                                            </div>
                                             : ""
                                     }
                                 </div>
@@ -192,7 +208,8 @@ export const FormInputInfoCustomer = ({cart, handleContinue}) => {
                         </>)
                         :
                         <>
-                            <h3>Thông tin liên hệ:<small className="text-light"><i>bắt buộc(<span className="text-danger">*</span>)</i></small></h3>
+                            <h3>Thông tin liên hệ:<small className="text-light"><i>bắt buộc(<span
+                                className="text-danger">*</span>)</i></small></h3>
                             <div className="row ">
                                 <div className="col-md-6 mt-1">
                                     <div className="form-group">
@@ -264,15 +281,19 @@ export const FormInputInfoCustomer = ({cart, handleContinue}) => {
                                         cart.tour.catagoryId === 2 ?
                                             <div className="form-group">
                                                 <label>Quốc tịch</label>
-                                                <input
-                                                    type="text"
-                                                    className="form-control"
-                                                    id={`nationality-${i}`}
-                                                    placeholder="Nhập quốc tịch"
-                                                    onChange={(e) =>
-                                                        handleInputChange(i, "nationality", e.target.value)
-                                                    }
-                                                /></div>
+                                                <select className="custom-select"
+                                                        onBlur={(e) => handleInputChange(i, "nationality", e.target.value)}>
+                                                    {countries.map((country) => (
+                                                        <option
+                                                            key={country.name.common}
+                                                            value={country.name.common}
+                                                            selected={country.name.common === 'Vietnam'}
+                                                        >
+                                                            {country.name.common}
+                                                        </option>
+                                                    ))}
+                                                </select>
+                                            </div>
                                             : ""
                                     }
                                 </div>
