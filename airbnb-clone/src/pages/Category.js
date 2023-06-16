@@ -7,18 +7,29 @@ import "../styles/category.scss"
 import { useParams } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 import { toursRemainingSelector } from '../redux/selectors'
-import { fetchTours} from "../redux/slices/TourSlice";
 import { keyFilterChange } from '../redux/slices/FiltersSlice'
 import SearchHome from '../components/SearchHome'
+import { arrangementChange } from '../redux/slices/ArrangementSlice'
 export default function Category() {
     const { key } = useParams();
-
+    const [activeSort, setActiveSort] = useState('duration'); // Trạng thái lưu trữ kiểu sắp xếp đang được chọn
     const dispatch = useDispatch();
     
     useEffect(() => {
         dispatch(keyFilterChange(key));
     }, [dispatch, key]);
+
     const toursRemaining = useSelector(toursRemainingSelector);
+
+    const handleSortChange = (sortType) => {
+        setActiveSort(sortType);
+    };
+
+    useEffect(() => {
+        dispatch(arrangementChange(activeSort));
+    }, [dispatch, activeSort]);
+
+    console.log(toursRemaining)
   return (
     <>
         <Navbar />
@@ -39,9 +50,15 @@ export default function Category() {
                             <div className='title'>Tour Du Lịch Hè Giá Tốt từ Hồ Chí Minh</div>
                             <div className='arrangement row'>
                                 <div className='name col-3'>Sắp xếp theo:</div>
-                                <div className='item col-3 active'>Thời lượng tour</div>
-                                <div className='item col-3'>Ngày khởi hành</div>
-                                <div className='item col-3'>Giá tour</div>
+                                <div className={`name col-3 ${activeSort === 'duration' ? 'active' : ''}`} onClick={() => handleSortChange('duration')}>
+                                    Thời lượng tour
+                                </div>
+                                <div className={`item col-3 ${activeSort === 'departure' ? 'active' : ''}`} onClick={() => handleSortChange('departure')}>
+                                    Ngày khởi hành
+                                </div>
+                                <div className={`item col-3 ${activeSort === 'price' ? 'active' : ''}`} onClick={() => handleSortChange('price')}>
+                                    Giá tour
+                                </div>
                             </div>
                             <div className='content'>
                                 <ListCard data={toursRemaining} />
