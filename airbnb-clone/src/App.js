@@ -12,6 +12,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Tour from "./pages/Tour";
 import { addCart } from "./redux/slices/CartsSlice";
+import { fetchTours } from "./redux/slices/TourSlice";
 
 function App() {
     const dispatch = useDispatch();
@@ -25,6 +26,11 @@ function App() {
             dispatch(addCart(item));
         });
     }, []);
+
+    // load dữ liệu tour từ server
+    useEffect(() => {
+        dispatch(fetchTours());
+    }, [dispatch]);
     return (
         <Router>
             <Routes>

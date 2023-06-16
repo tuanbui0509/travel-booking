@@ -14,15 +14,11 @@ export default function Category() {
     const { key } = useParams();
 
     const dispatch = useDispatch();
-    useEffect(() => {
-        dispatch(fetchTours());
-    }, [dispatch]);
     
     useEffect(() => {
         dispatch(keyFilterChange(key));
     }, [dispatch, key]);
     const toursRemaining = useSelector(toursRemainingSelector);
-
   return (
     <>
         <Navbar />

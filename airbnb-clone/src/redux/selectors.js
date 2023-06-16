@@ -13,8 +13,48 @@ export const toursRemainingSelector = createSelector(
     toursSelector,
     filtersSelector,
     (tours, filters) => {
-        return  tours.filter(tour => tour.catagoryId == filters.key);
+        const { key, starting, destination, date } = filters;
+
+        // Kiểm tra nếu các giá trị filters đều rỗng
+        if (!key && !starting && !destination && !date) {
+            return tours;
+        }
+
+        // Áp dụng các bộ lọc nếu các giá trị filters không rỗng
+        let filteredTours = tours;
+        console.log("tour: "+filteredTours)
+        if (key) {
+            filteredTours = filteredTours.filter((tour) => tour.catagoryId == key);
+        }
+        if (starting) {
+            filteredTours = filteredTours.filter((tour) => tour.start_location === starting);
+        }
+        // if (destination) {
+        //     filteredTours = filteredTours.filter((tour) => tour.destination == destination);
+        // }
+
+        if (date) {
+            filteredTours = filteredTours.filter((tour) => tour.start_date === date);
+        }
+
+        return filteredTours;
     }
 );
 
 export const cartsSelector = (state) => state.carts
+
+export const startlocationsSelector = createSelector(
+     toursSelector,
+     (tours) => {
+        const startLocations = tours.map((item) => item.start_location);
+        return startLocations.filter((value, index, self) => self.indexOf(value) === index);
+     }
+)
+
+export const startDatesSelector = createSelector(
+     toursSelector,
+     (tours) => {
+        const startLocations = tours.map((item) => item.start_date);
+        return startLocations.filter((value, index, self) => self.indexOf(value) === index);
+     }
+)
