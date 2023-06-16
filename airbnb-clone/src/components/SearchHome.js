@@ -49,7 +49,7 @@ export default function SearchHome(prop) {
   const image = prop.image || false;
 
   return (
-    <div className="search-home container-fluid mb-5 p-0 position-relative">
+    <div className="search-home container-fluid p-0 position-relative">
       <img
         className={`w-100 ${image ? 'd-none' : ''}`}
         src={'https://cdn2.ivivu.com/2023/04/21/10/tour-top-20230421-1-.png'}

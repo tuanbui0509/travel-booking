@@ -5,6 +5,7 @@ import TourLeft from '../components/tours/TourLeft'
 import TourRight from '../components/tours/TourRight'
 import '../styles/tour.scss'
 import { useParams } from 'react-router-dom'
+import { addTourToLocal } from '../utils/localStorageUtils'
 
 export default function Tour() {
     const { tourId } = useParams();
@@ -19,6 +20,7 @@ export default function Tour() {
       const response = await fetch('http://localhost:5000/api/tours?id='+tourId); // Gọi API để lấy dữ liệu
       const jsonData = await response.json(); // Chuyển đổi dữ liệu nhận được thành JSON
       setTour(jsonData[0]);
+      addTourToLocal(jsonData[0])
     } catch (error) {
       console.error('Error fetching data:', error);
     }

@@ -46,3 +46,42 @@ export const updateCartTourInLocal = (id, quantityAdult, quantityChild, total_pr
 
     localStorage.setItem("cart", JSON.stringify(updatedItems));
 };
+
+// thêm tour vào localstorage
+export const addTourToLocal = (tour) => {
+     const storedItems = JSON.parse(localStorage.getItem("viewedTours")) || [];
+
+  // Kiểm tra xem tour đã tồn tại trong storedItems hay chưa
+  const tourExists = storedItems.some((item) => item.id === tour.id);
+
+  if (!tourExists) {
+    const updatedItems = [
+      ...storedItems,
+      {
+        id: tour.id,
+        name: tour.name,
+        image: tour.image,
+        price: tour.price_adult
+      }
+    ];
+
+    // Lưu mảng dữ liệu mới vào localStorage
+    localStorage.setItem("viewedTours", JSON.stringify(updatedItems));
+  }
+}
+// xóa cart tour khỏi localstorage
+export const removeTourFromLocal = (id) => {
+    const storedItems = JSON.parse(localStorage.getItem("viewedTours")) || [];
+
+    // Lọc ra các mặt hàng khác với mặt hàng có idCard tương ứng
+    const updatedItems = storedItems.filter((item) => item.id !== id);
+
+    // Lưu mảng dữ liệu mới vào localStorage
+    localStorage.setItem("viewedTours", JSON.stringify(updatedItems));
+}
+
+export const getToursFromLocal = () => {
+  const viewedTours = JSON.parse(localStorage.getItem("viewedTours")) || [];
+  const firstThreeTours = viewedTours.slice(0, 3);
+  return firstThreeTours;
+};

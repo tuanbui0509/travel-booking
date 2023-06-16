@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
-import Slider from "../components/Slider";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import HomeCollection from "../components/HomeCollection";
 import SearchHome from "../components/SearchHome";
 import { Search } from "@material-ui/icons";
 import "../styles/buttonSearch.scss"
+import HistoryTour from "../components/HistoryTour";
 
 const Home = () => {
 
@@ -13,7 +13,7 @@ const Home = () => {
     <div className="bg-white position-relative">
       <Navbar />
       <SearchHome />
-      {/* <Slider></Slider> */}
+      <HistoryTour />
       <HomeCollection />
       <Footer />
       <div className="container_search">
