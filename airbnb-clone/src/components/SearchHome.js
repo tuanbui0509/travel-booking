@@ -9,14 +9,14 @@ import { searchChange } from '../redux/slices/FiltersSlice';
 import { useNavigate } from 'react-router-dom';
 
 export default function SearchHome(prop) {
-    const dispatch = useDispatch()
-    const navigate = useNavigate();
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
   const startlocations = useSelector(startlocationsSelector);
-
   const startDates = useSelector(startDatesSelector);
   const [starting, setStarting] = useState('');
   const [destination, setDestination] = useState('');
   const [date, setDate] = useState('');
+  const [isSearchVisible, setIsSearchVisible] = useState(true);
 
   const handleOnChaneStart = (e) => {
     setStarting(e.target.value);
@@ -31,34 +31,49 @@ export default function SearchHome(prop) {
   };
 
   const handleSearch = () => {
-    dispatch(searchChange({starting, destination, date}));
+    dispatch(searchChange({ starting, destination, date }));
     navigate('/category'); // Chuyển hướng đến trang /category
   };
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsSearchVisible(window.innerWidth >= 1000);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   const image = prop.image || false;
 
   return (
-    <div className='search-home container-fluid mb-5 p-0 position-relative'>
+    <div className="search-home container-fluid mb-5 p-0 position-relative">
       <img
         className={`w-100 ${image ? 'd-none' : ''}`}
         src={'https://cdn2.ivivu.com/2023/04/21/10/tour-top-20230421-1-.png'}
-        alt='...'
+        alt="..."
       />
-      <div className={`container container-search ${image ? 'shadow-none' : 'position-absolute translate-middle'}`}>
-        <div className='row container-wrap'>
-          <div className='col-sm-12 col-md-6 col-lg-6 col-xl-3'>
-            <div className='d-flex flex-row group-input'>
-              <span className='input-group-text bg-icon'>
-                <FlightTakeoff className='icon' />
+      <div
+        className={`container container-search ${
+          isSearchVisible ? '' : 'd-none'
+        } ${image ? 'shadow-none' : 'position-absolute translate-middle'}`}
+      >
+        <div className="row container-wrap">
+          <div className="col-sm-12 col-md-6 col-lg-6 col-xl-3">
+            <div className="d-flex flex-row group-input">
+              <span className="input-group-text bg-icon">
+                <FlightTakeoff className="icon" />
               </span>
-              <div className='d-flex flex-column flex-group'>
-                <label className='title'>Điểm khởi hành</label>
+              <div className="d-flex flex-column flex-group">
+                <label className="title">Điểm khởi hành</label>
                 <select
                   onChange={(e) => handleOnChaneStart(e)}
-                  className='input'
-                  defaultValue=''
+                  className="input"
+                  defaultValue=""
                 >
-                  <option value='' disabled hidden>
+                  <option value="" disabled hidden>
                     Chọn điểm khởi hành
                   </option>
                   {startlocations.map((location, index) => (
@@ -70,19 +85,19 @@ export default function SearchHome(prop) {
               </div>
             </div>
           </div>
-          <div className='col-sm-12 col-md-6 col-lg-6 col-xl-3'>
-            <div className='d-flex flex-row group-input'>
-              <span className='input-group-text bg-icon'>
-                <LocationOn className='icon' />
+          <div className="col-sm-12 col-md-6 col-lg-6 col-xl-3">
+            <div className="d-flex flex-row group-input">
+              <span className="input-group-text bg-icon">
+                <LocationOn className="icon" />
               </span>
-              <div className='d-flex flex-column flex-group'>
-                <label className='title'>Điểm đến</label>
+              <div className="d-flex flex-column flex-group">
+                <label className="title">Điểm đến</label>
                 <select
                   onChange={(e) => handleOnchaneDes(e)}
-                  className='input'
-                  defaultValue=''
+                  className="input"
+                  defaultValue=""
                 >
-                  <option value='' disabled hidden>
+                  <option value="" disabled hidden>
                     Chọn điểm đến
                   </option>
                   {startlocations.map((location, index) => (
@@ -94,23 +109,26 @@ export default function SearchHome(prop) {
               </div>
             </div>
           </div>
-          <div className='col-sm-12 col-md-6 col-lg-6 col-xl-3'>
-            <div className='d-flex flex-row group-input'>
-              <span className='input-group-text bg-icon'>
-                <EventNote className='icon' />
+          <div className="col-sm-12 col-md-6 col-lg-6 col-xl-3">
+            <div className="d-flex flex-row group-input">
+              <span className="input-group-text bg-icon">
+                <EventNote className="icon" />
               </span>
-              <div className='d-flex flex-column flex-group'>
-                <label className='title'>Ngày đi</label>
-                <CustomDatePicker date={startDates} onDateChange={handleDateChange} />
+              <div className="d-flex flex-column flex-group">
+                <label className="title">Ngày đi</label>
+                <CustomDatePicker
+                  date={startDates}
+                  onDateChange={handleDateChange}
+                />
               </div>
             </div>
           </div>
-          <div className='col-sm-12 col-md-6 col-lg-6 col-xl-3'>
+          <div className="col-sm-12 col-md-6 col-lg-6 col-xl-3">
             <div
-              className='wrap-icon_search'
+              className="wrap-icon_search"
               onClick={() => handleSearch()}
             >
-              <Search className='icon' />
+              <Search className="icon" />
             </div>
           </div>
         </div>

@@ -10,6 +10,7 @@ import { toursRemainingSelector } from '../redux/selectors'
 import { keyFilterChange } from '../redux/slices/FiltersSlice'
 import SearchHome from '../components/SearchHome'
 import { arrangementChange } from '../redux/slices/ArrangementSlice'
+import { Search } from '@material-ui/icons'
 export default function Category() {
     const { key } = useParams();
     const [activeSort, setActiveSort] = useState('duration'); // Trạng thái lưu trữ kiểu sắp xếp đang được chọn
@@ -30,7 +31,7 @@ export default function Category() {
     }, [dispatch, activeSort]);
 
   return (
-    <>
+    <div className='position-relative'>
         <Navbar />
             <div className='container category'>
                 <SearchHome image={true}/>
@@ -69,6 +70,9 @@ export default function Category() {
             </div>
             
         <Footer />
-    </>
+        <div className="container_search">
+            <Search className='icon' />
+      </div>
+    </div>
   )
 }

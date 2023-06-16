@@ -2,7 +2,7 @@
 
 .navbar {
     background-color: $color-blue_global;
-
+    flex-direction: column;
     .container-nav {
         display: flex;
         flex-direction: row;
@@ -114,5 +114,26 @@
             }
         }
     }
+
+    .link-nav-mobile {
+        .link-tour {
+            font-size: 18px;
+            color: $color-while;
+            padding: 4px 20px;
+            a {
+                color: $color-while;
+            }
+        }
+        .link-user {
+            font-size: 18px;
+                color: $color-while;
+                padding: 4px 20px;
+            
+                a {
+                    color: $color-while;
+                }
+        }
+    }
+    
 }
 
