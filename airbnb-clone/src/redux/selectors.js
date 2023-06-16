@@ -37,7 +37,6 @@ export const toursRemainingSelector = createSelector(
         if (date) {
             filteredTours = filteredTours.filter((tour) => tour.start_date === date);
         }
-        console.log(arrangement);
         // Áp dụng sắp xếp theo arrangement
         if (arrangement === 'duration') {
             filteredTours.sort((a, b) => a.quantity_date.localeCompare(b.quantity_date));

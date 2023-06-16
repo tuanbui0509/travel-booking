@@ -29,23 +29,22 @@ export default function Category() {
         dispatch(arrangementChange(activeSort));
     }, [dispatch, activeSort]);
 
-    console.log(toursRemaining)
   return (
     <>
         <Navbar />
             <div className='container category'>
                 <SearchHome image={true}/>
                 <div className='row'>
-                    <div className='col-3'>
+                    <div className='col-lg-3 areas'>
                         <div className='container-left'>
-                            <ListArea 
+                            <ListArea title={"Địa điểm hot trong nước"}
                             />
-                            <ListArea 
+                            <ListArea title={"Địa điểm hot nước ngoài"}
                             />
                         </div>
                         
                     </div>
-                    <div className='col-9'>
+                    <div className='col-12 col-lg-9'>
                         <div className='container-right'>
                             <div className='title'>Tour Du Lịch Hè Giá Tốt từ Hồ Chí Minh</div>
                             <div className='arrangement row'>

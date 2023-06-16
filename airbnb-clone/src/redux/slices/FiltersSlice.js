@@ -16,10 +16,13 @@ const filterSlice = createSlice({
             state.starting = action.payload.starting
             state.destination = action.payload.destination
             state.date = action.payload.date
+        },
+        areaHot: (state, action) => {
+            state.starting = action.payload
         }
     }
 })
 
 // export hàm ra ngoài
-export const { keyFilterChange, searchChange } = filterSlice.actions
+export const { keyFilterChange, searchChange, areaHot } = filterSlice.actions
 export default filterSlice.reducer;
