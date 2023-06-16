@@ -46,3 +46,21 @@ export const updateCartTourInLocal = (id, quantityAdult, quantityChild, total_pr
 
     localStorage.setItem("cart", JSON.stringify(updatedItems));
 };
+
+export const addCheckoutToLocal = (checkout) => {
+    const storedItems = JSON.parse(localStorage.getItem("checkout")) || [];
+    // Lấy dữ liệu từ localStorage (nếu có) và chuyển đổi từ chuỗi JSON thành mảng
+
+    const updatedItems = [...storedItems, {
+        id: checkout.id,
+        user_id: checkout.user_id,
+        tour: checkout.tour,
+        total_price: checkout.total_price,
+        payment_method: checkout.payment_method,
+        status: checkout.status,
+        passenger_details: checkout.passenger_details
+    }];
+
+    // Lưu mảng dữ liệu mới vào localStorage
+    localStorage.setItem("checkout", JSON.stringify(updatedItems));
+}

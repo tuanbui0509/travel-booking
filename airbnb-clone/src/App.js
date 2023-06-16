@@ -15,6 +15,7 @@ import Category from "./pages/Category";
 import {addCart} from "./redux/slices/CartsSlice";
 import {useDispatch} from "react-redux";
 import {Payment} from "./pages/Payment";
+import {Checkout} from "./pages/Checkout";
 
 function App() {
     const dispatch = useDispatch();
@@ -40,6 +41,7 @@ function App() {
                         <Route path="/cart" element={<Cart />} />
                         <Route path="/payment" element={<Payment />} />
                         <Route path="/booking" element={<Booking />} />
+                        <Route path="/checkout" element={<Checkout />} />
                         <Route path="/tour" element={<Tour />} />
                         <Route path="/category" element={<Category />} />
                     </Routes>

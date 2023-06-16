@@ -30,8 +30,25 @@ const checkoutSlice = createSlice({
                 return item;
             })
         },
+        updateStatusPayment: (state, action) => {
+            const updatedState = state.map((item) => {
+                if (item.id === action.payload.id) {
+                    return {
+                        ...item,
+                        status: action.payload.status
+                    };
+                }
+                return item;
+            });
+            console.log(updatedState)
 
+            return updatedState;
+        },
+        removeCheckout:(state,action)=>{
+            const id = action.payload;
+            return state.filter((item) => item.id !== id);
+        }
     },
 })
-export const {saveInfoPassenger, updatePayment} = checkoutSlice.actions;
+export const {saveInfoPassenger, updatePayment,updateStatusPayment,removeCheckout} = checkoutSlice.actions;
 export default checkoutSlice.reducer;
