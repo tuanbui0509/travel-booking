@@ -11,7 +11,6 @@ import { fetchTours} from "../redux/slices/TourSlice";
 import { keyFilterChange } from '../redux/slices/FiltersSlice'
 import SearchHome from '../components/SearchHome'
 export default function Category() {
-
     const { key } = useParams();
 
     const dispatch = useDispatch();
@@ -22,8 +21,6 @@ export default function Category() {
     useEffect(() => {
         dispatch(keyFilterChange(key));
     }, [dispatch, key]);
-    
-    
     const toursRemaining = useSelector(toursRemainingSelector);
 
   return (
