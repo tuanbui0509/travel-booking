@@ -9,7 +9,7 @@ import {removeCart, updateCart} from "../redux/slices/CartsSlice";
 import {clearSelectedTour, setSelectedTour, updateSelectedTour} from "../redux/slices/SelectedTourSlice";
 import Swal from "sweetalert2";
 import {
-    formatPrice, RATE_PRICE_OF_CHILD_WITH_ADULT, RATE_QUANTITY_OF_CHILD_WITH_ADULT,
+    formatPrice, RATE_QUANTITY_OF_CHILD_WITH_ADULT,
 } from "../utils/utill";
 import {removeCartTourFromLocal, updateCartTourInLocal} from "../utils/localStorageUtils";
 

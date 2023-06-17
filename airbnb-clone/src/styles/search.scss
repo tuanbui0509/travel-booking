@@ -42,6 +42,7 @@
                     input,select, option:focus {
                         outline: none;
                     }
+
                 }
             }
             .input-group-text {
@@ -76,9 +77,5 @@
     .bg-icon {
         background-color: $color-while;
     }
-     @media screen  and (max-width: 1000px){
-        .container-search {
-            display: none;
-        }
-    }
+
 }
