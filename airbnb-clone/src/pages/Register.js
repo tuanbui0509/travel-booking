@@ -5,6 +5,7 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import "../styles/register.scss";
 import Navbar from "../components/Navbar";
+import "react-toastify/dist/ReactToastify.css";
 export const Register = () => {
 
     const [username, usernamechange] = useState("");
@@ -15,7 +16,6 @@ export const Register = () => {
     const [repeatPassword, repeatPasswordchange] = useState("");
 
     const history = useNavigate();
-    const [showAlert, setAlert] = useState(false);
 
     const isValidate =() => {
         let isprocceed = true;
@@ -23,30 +23,37 @@ export const Register = () => {
         if (username === null || username ==='') {
             isprocceed = false;
             errmessage = 'Vui lòng nhập username';
+            toast.warn(errmessage);
         }
         if (fullname === null || fullname ==='') {
             isprocceed = false;
             errmessage = 'Vui lòng nhập Họ tên';
+            toast.warn(errmessage);
         }
         if (email === null || email ==='') {
             isprocceed = false;
             errmessage = 'Vui lòng nhập email';
+            toast.warn(errmessage);
         }
         if (!email.includes("@")) {
             isprocceed = false;
             errmessage = 'Email không hợp lệ';
+            toast.warn(errmessage);
         }
         if (phone.length != 10) {
             isprocceed = false;
             errmessage = 'Số điện thoại phải đủ 10 số';
+            toast.warn(errmessage);
         }
         if (password.length < 4) {
             isprocceed = false;
             errmessage = 'Độ dài mật khẩu phải lớn hơn 4';
+            toast.warn(errmessage);
         }
         if (password !== repeatPassword) {
             isprocceed = false;
             errmessage = 'Mật khẩu không trùng khớp';
+            toast.warn(errmessage);
         }
         return isprocceed;
     }
@@ -68,72 +75,6 @@ export const Register = () => {
             });
         }
     }
-
-    // const addData = (e) => {
-    //     e.preventDefault();
-    //
-    //     const {username, fullname, email, phone, password, repeatPassword} = inpval;
-    //     if (username === "") {
-    //         toast.error('Vui lòng nhập username', {
-    //             position: "top-center",
-    //         });
-    //     } else if (fullname === "") {
-    //         toast.error('Vui lòng nhập Họ tên', {
-    //             position: "top-center",
-    //         });
-    //     } else if (email === "") {
-    //         toast.error('Vui lòng nhập email', {
-    //             position: "top-center",
-    //         })
-    //     } else if (!email.includes("@")) {
-    //         toast.error('Email không hợp lệ', {
-    //             position: "top-center",
-    //         })
-    //     } else if (phone.length != 10) {
-    //         toast.error('Số điện thoại không hợp lệ', {
-    //             position: "top-center",
-    //         })
-    //     } else if (password.length < 7) {
-    //         toast.error('Độ dài mật khẩu phải lớn hơn 7', {
-    //             position: "top-center",
-    //         })
-    //     } else if (repeatPassword.length < 7) {
-    //         toast.error('Độ dài mật khẩu phải lớn hơn 7', {
-    //             position: "top-center",
-    //         })
-    //     } else if (password !== repeatPassword) {
-    //         toast.error('Mật khẩu không trùng khớp')
-    //     }
-    //     else {
-    //         console.log("Đăng ký thành công");
-    //         history("/login")
-    //         localStorage.setItem("user",JSON.stringify([...data,inpval]));
-    //         fetch("http://localhost:5000/users", {
-    //             method: "POST",
-    //             headers: {'content-type': 'application/json'},
-    //             body: JSON.stringify(inpval)
-    //         }).then((res) => {
-    //             toast.success('Đăng ký thành công')
-    //             history('/login')
-    //         }).catch((err) => {
-    //             toast.error('Vui lòng nhập lại thông tin');
-    //         })
-    //     }
-    //
-    //     // if (getdata(e)) {
-    //     //     fetch("http://localhost:5000/users", {
-    //     //         method: "POST",
-    //     //         headers: {'content-type': 'application/json'},
-    //     //         body: JSON.stringify(inpval)
-    //     //     }).then((res) => {
-    //     //         toast.success('Đăng ký thành công')
-    //     //         history('/login')
-    //     //         localStorage.setItem("user",JSON.stringify([...data,inpval]));
-    //     //     }).catch((err) => {
-    //     //         toast.error('Vui lòng nhập lại thông tin');
-    //     //     })
-    //     // }
-    // }
     return (
         <>
             <title>Tạo tài khoản</title>
@@ -174,7 +115,8 @@ export const Register = () => {
                         <span> <Link to = "/login">Đăng nhập</Link></span>
                     </p>
                 </div>
-            </div>
+            <ToastContainer/>
+        </div>
         </>
     )
 }
