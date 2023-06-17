@@ -11,7 +11,7 @@ const filterSlice = createSlice({
     },
     reducers: {
         keyFilterChange: (state, action) => {
-            state.type = action.payload
+            state.key = action.payload
         },
         searchChange: (state, action) => {
             state.starting = action.payload.starting
