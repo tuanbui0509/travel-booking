@@ -35,7 +35,7 @@ export const FormInputInfoCustomer = ({cart, handleContinue}) => {
             // Hiển thị cảnh báo nếu thông tin chưa đầy đủ
             Swal.fire({
                 title: "Thông báo",
-                text: "Vui lòng nhập đầy đủ thông tin cần thiết!",
+                text: "Vui lòng nhập đầy đủ thông tin liên hệ!",
                 icon: "error",
                 confirmButtonText: "OK",
             });

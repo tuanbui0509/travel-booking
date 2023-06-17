@@ -11,13 +11,34 @@ import {formatPrice} from "../utils/utill";
 import {saveInfoPassenger} from "../redux/slices/CheckoutSlice";
 import {useNavigate} from "react-router-dom";
 import {ItemTourCheckout} from "../components/checkout/ItemTourCheckout";
+import Swal from "sweetalert2";
+import {user} from "../utils/localStorageUtils";
 
 export const Booking = () => {
+    const navigate = useNavigate();
     const selectedTour = useSelector((state) => state.selectedTour);
+    useEffect(() => {
+        const isAuthenticated = user; // Kiểm tra trạng thái đăng nhập
+
+        if (!isAuthenticated && !selectedTour) {
+            navigate('/cart'); // Chuyển hướng nếu không đăng nhập và không có selectedTour
+        } else if (!isAuthenticated) {
+            Swal.fire({
+                title: "Thông báo",
+                text: "Vui lòng đăng nhập trước khi thanh toán thanh toán",
+                icon: "warning",
+                confirmButtonText: "OK",
+            });
+            return;
+            navigate('/login'); // Chuyển hướng nếu không đăng nhập
+            // Chuyển hướng nếu không đăng nhập
+        } else if (!selectedTour) {
+            navigate('/cart'); // Chuyển hướng nếu không có selectedTour
+        }
+    }, []);
     const [step, setStep] = useState(3);
     const checkout = useSelector((state) => state.checkout);
     const dispatch = useDispatch();
-    const navigate = useNavigate();
 
     const count = checkout ? checkout.length : 0;
     const [passengerInfo, setPassengerInfo] = useState([]);
@@ -61,7 +82,7 @@ export const Booking = () => {
         <>
             <Navbar/>
             <Process step={step}/>
-            <div className="container">
+            <div className="container pb-3 mt-2 rounded" id="booking" >
                 <div className="row flex-wrap">
                     <div className="col-md-8 mt-4 ">
 

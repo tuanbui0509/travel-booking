@@ -1,17 +1,34 @@
 import {formatPrice} from "../utils/utill";
-import React from "react";
+import React, {useEffect} from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Service from "../components/Service";
+import {user} from "../utils/localStorageUtils";
+import Swal from "sweetalert2";
+import {useNavigate} from "react-router-dom";
 
 export const BookTour = () => {
+    const navigate = useNavigate()
     const storedItems = JSON.parse(localStorage.getItem("checkout")) || [];
-    console.log(storedItems)
+    useEffect(() => {
+        const isAuthenticated = user; // Kiểm tra trạng thái đăng nhập
+       if(!isAuthenticated) {
+            Swal.fire({
+                title: "Thông báo",
+                text: "Vui lòng đăng nhập trước khi xem trang này",
+                icon: "warning",
+                confirmButtonText: "OK",
+            });
+            navigate('/login'); // Chuyển hướng nếu không đăng nhập
+            return;
+        }
+    }, []);
     return (<>
         <Navbar/>
         <div className="container">
-            <div className="row pt-4"><Service/>  </div>
-            <h3 className="  mt-4 title">Tour đã xác nhận</h3>
+            <div className="row pt-4"><Service/> </div>
+            <div className="p-4 mt-4 rounded"id="booked">
+            <h3 className=" title">Tour đã xác nhận</h3>
             <div className="hr-light"></div>
             <div className={`overflow-auto overflow-cart scrollbar ${storedItems.length > 0 ? '' : 'd-flex justify-content-center align-items-center'}`}>
                 {storedItems.length>0 ? storedItems.map((item) => (<>
@@ -83,6 +100,7 @@ export const BookTour = () => {
                 </div>
                     </>)
                 ) : <h5 className="d-flex justify-content-center align-items-center"><i>Chưa có tour nào được xác nhận thanh toán!</i></h5>}
+            </div>
             </div>
         </div>
         <Footer/>
