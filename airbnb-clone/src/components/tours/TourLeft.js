@@ -1,41 +1,28 @@
 import { DirectionsCar, FlightTakeoff, LocationOn, QueryBuilder } from '@material-ui/icons'
 import React, { useEffect, useState } from 'react'
-export default function TourLeft() {
-
-    const [listTourDetails, setlistTourDetails] = useState([])
-    useEffect(() => {
-        fetch('http://localhost:5000/api/tours/1')
-        .then(results => results.json())
-        .then(data => {
-           setlistTourDetails(data.tour_details)
-        })
-        .catch(err => {
-             console.log('connect server error, searchome');
-        }) ;
-    }, [])
-    const [apiData, setApiData] = useState("<p>Quý khách tập trung tại sân bay Tân Sơn Nhất, đoàn làm thủ tục cho đoàn đi <strong>Hong Kong.</strong></p><img src='https://picsum.photos/800/304/?random' class='img-fluid' alt='...'></img><div className='text-center'>Cầu Thanh Mã.</div><p>Đến <strong>sân bay Quốc Tế Chek Lap Kok</strong>, xe và HDV địa phương đón và đưa đoàn bắt đầu hành trình đi qua <strong>‘’Cầu Thanh Mã”</strong>  (Tsing Ma Bridge) được xây dựng năm 1997 nối liền hai hòn đảo quan trọng của Hồng Kông là Tsing Yi và Ma Wan – cầu treo đẹp nhất Châu Á và lớn thứ 7 trên thế giới.</p><img src='https://picsum.photos/800/304/?random' class='img-fluid' alt='...'></img><div className='text-center'>Cầu Thanh Mã.</div><p>Xe đưa Quý khách về khách sạn nhận phòng nghỉ ngơi, Buổi chiều tham quan mua sắm tại các khu trung tâm mua sắm sầm uất nhất Hồng Kông như khu “Mong kok” khu “chợ Quý Bà” tự do khám phá Hồng Kông về đêm.</p>");
-    const processApiData = (data) => {
-      // Loại bỏ dấu ngoặc kép ngoài cùng
-      const processedData = data.slice(1, -1);
-      return processedData;
-  };
-  const processedData = processApiData(apiData);
-
-
+export default function TourLeft({data}) {
+  const [tour, setTour] = useState([])
+  const [tourDetails, setTourDetails] = useState([])
+  useEffect(() => {
+    if (data) {
+      setTour(data)
+      setTourDetails(data.tour_details)
+    }
+  }, [data]);
   return (
     <div className='tour-left'>
         <div className='container-image'>
-          <img src="https://picsum.photos/800/304/?random" class="img-fluid" alt="..."></img>
+          <img src={tour && tour.image} className="img-fluid" alt="..."></img>
         </div>
         <div className='tour-header_info'>
           <div className='left'>
             <div className='wrap'>
               <LocationOn className='icon'/>
-              <div className='content'>Hồ Chí Minh</div>
+              <div className='content'>{tour && tour.start_location}</div>
             </div>
             <div className='wrap'>
               <QueryBuilder className='icon'/>
-              <div className='content'>4 Ngày 3 Đêm</div>
+              <div className='content'>{tour && tour.quantity_date}</div>
             </div>
             <div className='wrap'>
               <div className='content'>Phương tiện:</div>
@@ -45,45 +32,56 @@ export default function TourLeft() {
           </div>
           <div className='right'>
             <div className='name'>Mã Tour:</div>
-            <div className='id'>TO451</div>
+            <div className='id'>{tour && tour.id}</div>
           </div>
         </div>
         <div className='description'>
           <div className='wrap-des'>
-            <div className='des-title'>Lạc lối giữa chốn Hương Cảng</div>
-           <div className='content'>Là 1 trong 10 địa điểm hấp dẫn khách du lịch nhất trên thế giới, Hong Kong là một điểm du lịch an toàn và thú vị cho khách du lịch khắp nơi. Hong Kong được chia thành 4 khu: đảo Hong Kong, Cửu Long, Lạn Đầu và Tân Giới. Đảo Hong Kong và Cửu Long có các địa điểm du lịch nổi tiếng như Công viên Disneyland, Vịnh Vitoria, đỉnh núi Thái Bình, Miếu Huỳnh Đại Tiên, Đại lộ Ngôi Sao. Tha hồ cho bạn vui chơi và ngắm cảnh đẹp. Hong Kong còn là thiên đường mua sắm đầy thú vị với hàng trăm siêu thị và những con phố mua sắm nổi tiếng như chợ cho quý bà, chợ hoa, chợ cá vàng, chợ ngọc bán cẩm thạch. Cùng iVIVU khám phá thành phố Hương Cảng ngay hôm nay!</div>
+            <div className='des-title'>{tour && tour.description && tour.description.title}</div>
+           <div className='content'>{tour && tour.description && tour.description.content}</div>
           </div>
         </div>
         <div className='description'>
           <div className='wrap-des'>
-            <div className='des-title'>Lạc lối giữa chốn Hương Cảng</div>
+            <div className='des-title'>{tour && tour.name}</div>
            <div className='content'>
-            <div className='content-des'>
-              <div className='content-des_title'>
-                NGÀY 01: TPHCM – HONGKONG (ĂN TỐI)
+          {
+            tourDetails && tourDetails.map((detail) => (
+            <div key={detail.id} className='content-des'>
+                <div className='content-des_title'>
+                  {detail.name}
+                </div>
+                {
+                  detail.timeline.map((t, id) => (
+                    <div key={id} className='content'>
+                      <p><strong>{t.time} :</strong> {t.description}</p>
+                      {
+                        t.image && <img src={t.image} className="img-fluid" alt="..."></img>
+                      }
+                     
+     
+                    </div>
+                  ))
+                }
+                
               </div>
-              <div className='content'>
-                {processedData}
-            </div>
-            </div>
+            ))
+          }
 
-           <div className='content-des'>
-              <div className='content-des_title'>
-                NGÀY 02: TPHCM – HONGKONG (ĂN TỐI)
-              </div>
-              <div className='content'>
-                <p>
-                  Quý khách tập trung tại sân bay Tân Sơn Nhất, đoàn làm thủ tục cho đoàn đi <strong>Hong Kong.</strong>
-                </p>
-                <img src="https://picsum.photos/800/304/?random" class="img-fluid" alt="..."></img>
-                <div className='text-center'>Cầu Thanh Mã.</div>
-                <p>Đến <strong>sân bay Quốc Tế Chek Lap Kok</strong>, xe và HDV địa phương đón và đưa đoàn bắt đầu hành trình đi qua <strong>‘’Cầu Thanh Mã”</strong>  (Tsing Ma Bridge) được xây dựng năm 1997 nối liền hai hòn đảo quan trọng của Hồng Kông là Tsing Yi và Ma Wan – cầu treo đẹp nhất Châu Á và lớn thứ 7 trên thế giới.</p>
-                <img src="https://picsum.photos/800/304/?random" class="img-fluid" alt="..."></img>
-                <div className='text-center'>Cầu Thanh Mã.</div>
-                <p>Xe đưa Quý khách về khách sạn nhận phòng nghỉ ngơi, Buổi chiều tham quan mua sắm tại các khu trung tâm mua sắm sầm uất nhất Hồng Kông như khu “Mong kok” khu “chợ Quý Bà” tự do khám phá Hồng Kông về đêm.</p>
             </div>
-            </div>
-            </div>
+          </div>
+        </div>
+         <div className='description'>
+          <div className='wrap-des'>
+            <div className='des-title'>Thông tin Visa</div>
+           <div className='content'>- Quý khách chỉ cần hộ Việt Nam còn nguyên vẹn và có hạn sử dụng ít nhất 6 tháng tính từ ngày kết thúc tour.</div>
+           <div className='content'>- Miễn Visa cho khách Việt Nam.</div>
+          </div>
+        </div>
+        <div className='description'>
+          <div className='wrap-des'>
+            <div className='des-title'>Hướng dẫn viên</div>
+           <div className='content'>Trước 1 ngày hoặc 2 ngày đi sẽ gửi thông tin họp đoàn cho quý khách hàng, trước ngày khởi hành Hướng Dẫn Viên sẽ liên hệ trao đổi một số thông tin trong chuyến hành trình. </div>
           </div>
         </div>
     </div>

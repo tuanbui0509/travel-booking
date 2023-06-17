@@ -9,21 +9,25 @@ export const ItemTourCheckout = (prop) => {
                 </a>
             <div className="mt-3">
                 <div className="card" style={{width: "100%"}}>
-                    <img className="card-img-top"
+                    <img className="card-img-top" style={{minHeight: "200px"}}
                          src={prop.selectedTour.tour.image}
                          alt={prop.selectedTour.tour.title}/>
                     <div className="card-body">
-                        <h3>{prop.selectedTour.tour.title}</h3>
+                        <h4>{prop.selectedTour.tour.title}</h4>
                         <div className="ml-2">
                             <ul style={{whiteSpace: "nowrap"}} className="ml-1">
                                 <li>
                           <span className="spec text-center">
-                            <i className="far fa-clock item-icon"></i>Thời gian: {prop.selectedTour.tour.time}
+                            <i className="fas fa-barcode item-icon-fas"></i>Mã tour: {prop.selectedTour.tour.idCard}
+                          </span>
+                                </li> <li>
+                          <span className="spec text-center">
+                            <i className="far fa-clock item-icon-fas"></i>Thời gian: {prop.selectedTour.tour.time}
                           </span>
                                 </li>
                                 <li>
                           <span className="spec text-center">
-                            <i className="far fa-calendar-alt item-icon"></i>Ngày khởi hành: {prop.selectedTour.tour.date}
+                            <i className="far fa-calendar-alt item-icon-fas"></i>Ngày khởi hành: {prop.selectedTour.tour.date}
                           </span>
                                 </li>
                                 <li>
@@ -43,18 +47,18 @@ export const ItemTourCheckout = (prop) => {
                                 </li>
                                 <li>
                           <span className="spec text-center">
-                            <i className="fas fa-user item-icon"></i>Số người lớn: {prop.selectedTour.quantityAdult}
+                            <i className="fas fa-user item-icon-fas"></i>Số người lớn: {prop.selectedTour.quantityAdult}
                           </span>
                                 </li>
                                 <li>
                           <span className="spec text-center">
-                            <i className="fas fa-child item-icon "></i>Số trẻ em: {prop.selectedTour.quantityChild}
+                            <i className="fas fa-child item-icon-fas "></i>Số trẻ em: {prop.selectedTour.quantityChild}
                           </span>
                                 </li>
                             </ul>
                         </div>
                         <div className="priceTotal">
-                            <h2>Tổng: <span id="total-price" className="amber-text">{formatPrice(prop.selectedTour.total_price)}</span><small>đ</small></h2>
+                            <h4>Tổng: <span id="total-price" className="amber-text">{formatPrice(prop.selectedTour.total_price)}</span><small>đ</small></h4>
                         </div>
 
                     </div>

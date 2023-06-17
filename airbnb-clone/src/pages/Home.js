@@ -1,31 +1,24 @@
-import React, { useState } from "react";
-import Slider from "../components/Slider";
+import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import HomeCollection from "../components/HomeCollection";
 import SearchHome from "../components/SearchHome";
-import { useDispatch, useSelector } from 'react-redux';
-import { searchFilterChange } from "../redux/slices/FiltersSlice";
-import { searchTextSelector, todoListSelector } from "../redux/selectors";
+import { Search } from "@material-ui/icons";
+import "../styles/buttonSearch.scss"
+import HistoryTour from "../components/HistoryTour";
 
 const Home = () => {
-  //lấy ra todolist trong redux
-  const todoList = useSelector(todoListSelector)
-  console.log(todoList);
-  // truyền dữ liệu vào redux
-  const dispatch = useDispatch();
-  dispatch(searchFilterChange("123"));
 
-  //lấy dữ liệu search trong FilterSlice
-   const search = useSelector(searchTextSelector)
-  console.log(search)
   return (
-    <div className="bg-white">
+    <div className="bg-white position-relative">
       <Navbar />
       <SearchHome />
-      {/* <Slider></Slider> */}
+      <HistoryTour />
       <HomeCollection />
       <Footer />
+      <div className="container_search">
+        <Search className='icon' />
+      </div>
     </div>
   );
 };

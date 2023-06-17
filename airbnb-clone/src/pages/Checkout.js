@@ -288,29 +288,41 @@ export const Checkout = () => {
                     </div>
 
                 </div>
-                { !id ? <div className="row ">
-                    <div className="col-md-12 d-flex justify-content-around flex-wrap">
-                        <Link to={'/'}>
-                            <button
-                                className="btn btn-block btn-continue-booking rounded">
-                                Trở về trang chủ
-                            </button>
-                        </Link>
-                        <Link to={'/cart'}>
-                            <button
-                                className="btn btn-block btn-amber btn-continue-booking rounded">
-                                Tiếp tục mua tour
-                            </button>
-                        </Link>
-                        <Link to={'/Booked'}>
-                            <button
-                                className="btn btn-block pr-5 pl-5 btn-continue-booking rounded">
-                                Tour đã đặt
-                            </button>
-                        </Link>
-                    </div>
-                </div>
-                    :""
+                {!id ? (<>
+                        <div className="row d-flex justify-content-center">
+                            <div className="bg-light col-md-10 rounded mb-2 p-3">
+                                <h3 className="text-center text-primary">Xác nhận thành công!</h3>
+                                <p>Quý khách vui lòng kiểm tra email để biết thêm thông tin</p>
+                                <p>Quý khách có bất kì thắc mắc hoặc vấn để gì hãy liên hệ: <span className="text-primary">1900 1808</span> để được tư vấn</p>
+                                <p>Rất vui khi được phục vụ quý khách</p>
+                                <p>Xin cảm ơn!</p>
+                            </div>
+                        </div>
+                        <div className="row ">
+                            <div className="col-md-12 d-flex justify-content-around flex-wrap">
+                                <Link to={'/'}>
+                                    <button
+                                        className="btn btn-block btn-continue-booking rounded">
+                                        Trở về trang chủ
+                                    </button>
+                                </Link>
+                                <Link to={'/cart'}>
+                                    <button
+                                        className="btn btn-block btn-amber btn-continue-booking rounded">
+                                        Tiếp tục mua tour
+                                    </button>
+                                </Link>
+                                <Link to={'/Booked'}>
+                                    <button
+                                        className="btn btn-block pr-5 pl-5 btn-continue-booking rounded">
+                                        Tour đã đặt
+                                    </button>
+                                </Link>
+                            </div>
+                        </div>
+
+                    </>)
+                    : ""
                 }
             </div>
             <Footer/>

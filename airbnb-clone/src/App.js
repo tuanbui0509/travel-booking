@@ -1,21 +1,21 @@
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap-css-only/css/bootstrap.min.css";
 import "mdbreact/dist/css/mdb.css";
-import Home from "./pages/Home";
-import ProductList from "./pages/ProductList";
-import Product from "./pages/Product";
-import Register from "./pages/Register";
-import Login from "./pages/Login";
 import React, {useEffect} from "react";
-import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
-import {Cart} from "./pages/Cart";
-import {Booking} from "./pages/Booking";
-import Tour from "./pages/Tour";
-import Category from "./pages/Category";
-import {addCart} from "./redux/slices/CartsSlice";
 import {useDispatch} from "react-redux";
-import {Payment} from "./pages/Payment";
+import {Route, BrowserRouter as Router, Routes} from "react-router-dom";
+import {Cart} from "./pages/Cart";
+import Category from "./pages/Category";
 import {Checkout} from "./pages/Checkout";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
+import Tour from "./pages/Tour";
+import {addCart} from "./redux/slices/CartsSlice";
+import {fetchTours} from "./redux/slices/TourSlice";
+import {BookTour} from "./pages/BookTour";
+import {Booking} from "./pages/Booking";
+import {Payment} from "./pages/Payment";
 
 function App() {
     const dispatch = useDispatch();
@@ -29,23 +29,30 @@ function App() {
             dispatch(addCart(item));
         });
     }, []);
+
+    // load dữ liệu tour từ server
+    useEffect(() => {
+        dispatch(fetchTours());
+    }, [dispatch]);
     return (
-                <Router>
-                    <Routes>
-                        <Route index element={<Home />} />
-                        <Route path="/productList" element={<ProductList />} />
-                        <Route path="/productList/productId:" element={<Product />} />
-                        <Route path="/tourList/tourId:" element={<Tour />} />
-                        <Route path="/register" element={<Register />} />
-                        <Route path="/login" element={<Login />} />
-                        <Route path="/cart" element={<Cart />} />
-                        <Route path="/payment" element={<Payment />} />
-                        <Route path="/booking" element={<Booking />} />
-                        <Route path="/checkout" element={<Checkout />} />
-                        <Route path="/tour" element={<Tour />} />
-                        <Route path="/category" element={<Category />} />
-                    </Routes>
-                </Router>
+        <Router>
+            <Routes>
+                <Route index element={<Home/>}/>
+                <Route path="/tourList" element={<Tour/>}/>
+                <Route path="/tourList/:tourId" element={<Tour/>}/>
+                <Route path="/register" element={<Register/>}/>
+                <Route path="/login" element={<Login/>}/>
+                <Route path="/cart" element={<Cart/>}/>
+                <Route path="/payment" element={<Payment/>}/>
+                <Route path="/booking" element={<Booking/>}/>
+                <Route path="/checkout" element={<Checkout/>}/>
+                <Route path="/booked" element={<BookTour/>}/>
+                <Route path="/tour" element={<Tour/>}/>
+                <Route path="/category" element={<Category/>}/>
+                <Route path="/category/:key" element={<Category/>}/>
+
+            </Routes>
+        </Router>
     );
 }
 
