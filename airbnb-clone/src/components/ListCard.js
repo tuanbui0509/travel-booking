@@ -45,7 +45,7 @@ export default function ListCard(props) {
           priceAdult={tour.price_adult}
           priceChild={tour.price_child}
           quantity = {tour.quantity}
-
+          catagoryId={tour.catagoryId}
           // idCard={"1"}
           // title={"PHÚ QUỐC | THỊ TRẤN HOÀNG HÔN SUNSET TOWN"}
           // image={"https://picsum.photos/800/300/?random"}
