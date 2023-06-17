@@ -152,6 +152,7 @@ export const FormInputInfoCustomer = ({cart, handleContinue}) => {
                                                     className="form-control"
                                                     id={`passport_number-${i}`}
                                                     placeholder="A1234567"
+                                                    maxLength={8}
                                                     onChange={(e) =>
                                                         handleInputChange(i, "passport_number", e.target.value)
                                                     }
@@ -244,6 +245,7 @@ export const FormInputInfoCustomer = ({cart, handleContinue}) => {
                                                     type="text"
                                                     className="form-control"
                                                     id={`passport_number-${i}`}
+                                                    maxLength={8}
                                                     placeholder="A1234567"
                                                     onChange={(e) =>
                                                         handleInputChange(i, "passport_number", e.target.value)

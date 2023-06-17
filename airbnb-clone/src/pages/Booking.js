@@ -22,7 +22,6 @@ export const Booking = () => {
     const count = checkout ? checkout.length : 0;
     const [passengerInfo, setPassengerInfo] = useState([]);
 
-    // để
     const [isInitialRender, setIsInitialRender] = useState(true);
 
     const handleContinue = (listPassengerInfo) => {
@@ -36,6 +35,8 @@ export const Booking = () => {
                     id : count,
                     user_id: 1,
                     tour: selectedTour.tour,
+                    quantityAdult: selectedTour.quantityAdult,
+                    quantityChild: selectedTour.quantityChild,
                     total_price: selectedTour.total_price,
                     payment_method: "Phương thức thanh toán",
                     status: "pending",

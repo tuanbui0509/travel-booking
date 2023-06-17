@@ -8,10 +8,13 @@ const checkoutSlice = createSlice({
     initialState: [],
     reducers: {
         saveInfoPassenger: (state, action) => {
+            console.log(action.payload)
             const newCheckout = {
                 id: action.payload.id,
                 user_id: action.payload.user_id,
                 tour: action.payload.tour,
+                quantityAdult: action.payload.quantityAdult,
+                quantityChild: action.payload.quantityChild,
                 total_price: action.payload.total_price,
                 payment_method: action.payload.payment_method,
                 status: "pending",
