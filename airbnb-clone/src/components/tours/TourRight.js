@@ -1,41 +1,55 @@
-import { Done, ErrorOutline } from '@material-ui/icons'
+import { Done, ErrorOutline, ChildCare } from '@material-ui/icons'
 import React, { useEffect, useState } from 'react'
 import { formatPrice } from '../../utils/utill'
 
-export default function TourRight() {
+export default function TourRight({ data }) {
   const [id, setId] = useState("")
   const [date, setDate] = useState("")
-  const [priceDefault, setPriceDefault] = useState(0)
-  const [price, setPrice] = useState(0)
+  const [priceAdult, setPriceAdult] = useState(0)
+  const [priceChild, setPriceChild] = useState(0)
   const [totalPrice, setTotalPrice] = useState(0)
-  const [quantity, setQuantity] = useState(1)
+  const [quantityAdult, setQuantityAdult] = useState(1)
+  const [quantityChild, setQuantityChild] = useState(0)
+  const [tourServices, setTourServices] = useState([])
+    useEffect(() => {
+    if (data && data.start_date) {
+      setId(data.id)
+      setPriceAdult(Number(data.price_adult))
+      setPriceChild(Number(data.price_child))
+      setTotalPrice(Number(data.price_adult))
+      setTourServices(data.tour_services)
+      setDate(data.start_date)
+    }
+  }, [data]);
 
-  useEffect(()=>{
-    setPriceDefault(15990000)
-    setPrice(15990000)
-    setTotalPrice(15990000)
-  },[])
-
-  const handleOnchaneDate = (e) => {
-    setDate(e.target.value)
-  }
-  const handlePrev = () => {
-    if(quantity > 1) {
-      setQuantity(quantity-1)
-      setPrice(price - priceDefault)
-      setTotalPrice(price - priceDefault)
+  const handlePrevAdult = () => {
+    if(quantityAdult > 1) {
+      setQuantityAdult(quantityAdult-1)
+      setTotalPrice(totalPrice - priceAdult)
     }
     
   }
 
-  const handleNext = () => {
-    setQuantity(quantity+1)
-    setPrice(price + priceDefault)
-    setTotalPrice(price + priceDefault)
+  const handleNextAdult = () => {
+    setQuantityAdult(quantityAdult+1)
+    setTotalPrice(totalPrice + priceAdult)
+  }
+
+  const handlePrevChild = () => {
+    if(quantityChild > 0) {
+      setQuantityChild(quantityChild-1)
+      setTotalPrice(totalPrice - priceChild)
+    }
+    
+  }
+
+  const handleNextChild = () => {
+    setQuantityChild(quantityChild+1)
+    setTotalPrice(totalPrice + priceChild)
   }
 
   const handleAddCart = () => {
-    console.log("id: ", id,", quantity:", quantity, ", totalPrice: ",totalPrice);
+    console.log("id: ", id,", quantityAdult:", quantityAdult,  "quantityChild:", quantityChild, ", totalPrice: ",totalPrice);
   }
   return (
     <div className='tour-right'>
@@ -45,20 +59,38 @@ export default function TourRight() {
         <div className='input'>
           <input
             value={date}
-            onChange={(e) => handleOnchaneDate(e)}
-            type='date'
+            type='text'
+            readOnly
           />
         </div>
          <div className='couter'>
-          <div className='p-2'>Số lượng</div>
-          <div className='p-2 couter-price'>x {formatPrice(price)}</div>
+          <div className='p-2'>Người lớn</div>
+          <div className='p-2 couter-price'>x {formatPrice(priceAdult)}</div>
           <div className='wrap-couter'>
             <div className='prev'
-              onClick={() =>handlePrev()}
+              onClick={() =>handlePrevAdult()}
             >&#8722;</div>
-            <div className='number'>{quantity}</div>
+            <div className='number'>{quantityAdult}</div>
             <div className='next'
-              onClick={() =>handleNext()}
+              onClick={() =>handleNextAdult()}
+            >&#43;</div>
+          </div>
+        </div>
+        <div className='couter'>
+          <div className='p-2'>Trẻ em</div>
+          <div className='p-2 couter-price'>
+            {
+               quantityChild > 0 && 
+                "x" + formatPrice(priceChild)
+            }
+          </div>
+          <div className='wrap-couter'>
+            <div className='prev'
+              onClick={() =>handlePrevChild()}
+            >&#8722;</div>
+            <div className='number'>{quantityChild}</div>
+            <div className='next'
+              onClick={() =>handleNextChild()}
             >&#43;</div>
           </div>
         </div>
@@ -66,6 +98,16 @@ export default function TourRight() {
           <ErrorOutline className='icon' />
           <span>Liên hệ để xác nhận chỗ</span>
         </div>
+        {
+          quantityChild > 0 && 
+          (
+            <div className='note-des ml-1'>
+              <ChildCare />
+              <span>Trẻ em từ 2 đến 7 tuổi</span>
+            </div>
+          )
+        }
+         
         <div className='wrap-price'>
           <div className='name'>Tổng cộng</div>
           <div className='content'>
@@ -82,38 +124,12 @@ export default function TourRight() {
       </div>
       <div className='bottom'>
         <div className='row'>
-          <div className='col-6 wrap'>
-            <Done className='icon'/>
-            <span>Bảo hiểm</span>
-          </div>
-          <div className='col-6 wrap'>
-            <Done className='icon'/>
-            <span>Bảo hiểm</span>
-          </div>
-          <div className='col-6 wrap'>
-            <Done className='icon'/>
-            <span>Bảo hiểm</span>
-          </div>
-          <div className='col-6 wrap'>
-            <Done className='icon'/>
-            <span>Bảo hiểm</span>
-          </div>
-          <div className='col-6 wrap'>
-            <Done className='icon'/>
-            <span>Bảo hiểm</span>
-          </div>
-          <div className='col-6 wrap'>
-            <Done className='icon'/>
-            <span>Bảo hiểm</span>
-          </div>
-          <div className='col-6 wrap'>
-            <Done className='icon'/>
-            <span>Bảo hiểm</span>
-          </div>
-          <div className='col-6 wrap'>
-            <Done className='icon'/>
-            <span>Bảo hiểm</span>
-          </div>
+          { tourServices && tourServices.length > 0 && tourServices.map(service => (
+            <div key={service.id} className='col-6 wrap'>
+              <Done className='icon'/>
+              <span>{service.nameService}</span>
+            </div>
+          ))}
         </div>
       </div>
     </div>

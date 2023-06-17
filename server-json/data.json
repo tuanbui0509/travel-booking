@@ -7,6 +7,10 @@
     {
       "id": 2,
       "name": "Nước ngoài"
+    },
+    {
+      "id": 3,
+      "name": "Tour hot"
     }
   ],
   "areas": [
@@ -55,7 +59,8 @@
       "quantity_date": "5 ngày 4 đêm",
       "start_location": "Hà Nội",
       "quantity": "12",
-      "vehicle": [
+      "start_date": "20/6/2023",
+          "vehicle": [
         {
           "id": 1,
           "nameVehicle": "Ô tô"
@@ -75,11 +80,11 @@
           "nameService": "Vé tham quan"
         },
         {
-          "id": 2,
+          "id": 4,
           "nameService": "Hướng dẫn viên"
         },
         {
-          "id": 2,
+          "id": 5,
           "nameService": "Bữa ăn"
         }
       ],
@@ -222,7 +227,8 @@
       "quantity_date": "5 ngày 4 đêm",
       "start_location": "Hồ Chí Minh",
       "quantity": "7",
-      "vehicle": [
+      "start_date": "20/7/2023",
+          "vehicle": [
         {
           "id": 1,
           "nameVehicle": "Máy bay"
@@ -419,7 +425,8 @@
       "quantity_date": "3 ngày 2 đêm",
       "start_location": "Hồ Chí Minh",
       "quantity": "10",
-      "vehicle": [
+      "start_date": "25/6/2023",
+          "vehicle": [
         {
           "id": 1,
           "nameVehicle": "Máy bay"
@@ -590,7 +597,8 @@
       "quantity_date": "8 ngày 8 đêm",
       "start_location": "Hồ Chí Minh",
       "quantity": "10",
-      "vehicle": [
+      "start_date": "20/6/2023",
+          "vehicle": [
         {
           "id": 1,
           "nameVehicle": "Máy bay"
@@ -817,7 +825,8 @@
       "quantity_date": "4 ngày 3 đêm",
       "start_location": "Hồ Chí Minh",
       "quantity": "2",
-      "vehicle": [
+      "start_date": "20/6/2023",
+          "vehicle": [
         {
           "id": 1,
           "nameVehicle": "Máy bay"
@@ -1035,7 +1044,8 @@
       "quantity_date": "3 ngày 2 đêm",
       "start_location": "Hồ Chí Minh",
       "quantity": "5",
-      "vehicle": [
+      "start_date": "22/6/2023",
+          "vehicle": [
         {
           "id": 1,
           "nameVehicle": "Máy bay"
@@ -1201,7 +1211,8 @@
       "quantity_date": "",
       "start_location": "",
       "quantity": "",
-      "vehicle": [
+      "start_date": "20/6/2023",
+          "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1256,7 +1267,8 @@
       "quantity_date": "",
       "start_location": "",
       "quantity": "",
-      "vehicle": [
+      "start_date": "20/6/2023",
+          "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1311,7 +1323,8 @@
       "quantity_date": "",
       "start_location": "",
       "quantity": "",
-      "vehicle": [
+      "start_date": "20/6/2023",
+          "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1366,7 +1379,8 @@
       "quantity_date": "",
       "start_location": "",
       "quantity": "",
-      "vehicle": [
+      "start_date": "20/6/2023",
+          "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1421,7 +1435,8 @@
       "quantity_date": "",
       "start_location": "",
       "quantity": "",
-      "vehicle": [
+      "start_date": "20/6/2023",
+          "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1476,7 +1491,8 @@
       "quantity_date": "",
       "start_location": "",
       "quantity": "",
-      "vehicle": [
+      "start_date": "20/6/2023",
+          "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1531,7 +1547,8 @@
       "quantity_date": "",
       "start_location": "",
       "quantity": "",
-      "vehicle": [
+      "start_date": "20/6/2023",
+          "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1586,7 +1603,8 @@
       "quantity_date": "",
       "start_location": "",
       "quantity": "",
-      "vehicle": [
+      "start_date": "20/6/2023",
+          "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1641,7 +1659,8 @@
       "quantity_date": "",
       "start_location": "",
       "quantity": "",
-      "vehicle": [
+      "start_date": "20/6/2023",
+          "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1696,7 +1715,8 @@
       "quantity_date": "",
       "start_location": "",
       "quantity": "",
-      "vehicle": [
+      "start_date": "20/6/2023",
+          "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1751,7 +1771,8 @@
       "quantity_date": "",
       "start_location": "",
       "quantity": "",
-      "vehicle": [
+      "start_date": "20/6/2023",
+          "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1806,7 +1827,8 @@
       "quantity_date": "",
       "start_location": "",
       "quantity": "",
-      "vehicle": [
+      "start_date": "20/6/2023",
+          "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1861,7 +1883,8 @@
       "quantity_date": "",
       "start_location": "",
       "quantity": "",
-      "vehicle": [
+      "start_date": "20/6/2023",
+          "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1916,7 +1939,8 @@
       "quantity_date": "",
       "start_location": "",
       "quantity": "",
-      "vehicle": [
+      "start_date": "20/6/2023",
+          "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
