@@ -2,6 +2,7 @@ const jsonServer = require('json-server')
 const server = jsonServer.create()
 const router = jsonServer.router('data.json')
 const middlewares = jsonServer.defaults()
+const { v4: uuidv4 } = require('uuid');
 
 // Set default middlewares (logger, static, cors and no-cache)
 server.use(middlewares)
@@ -16,12 +17,19 @@ server.get('/echo', (req, res) => {
 server.use(jsonServer.bodyParser)
 server.use((req, res, next) => {
   if (req.method === 'POST') {
-    req.body.createdAt = Date.now()
-    req.body.updatedAt = Date.now()
+    const { username, fullname, email, phone, password } = req.body;
+    // Tạo id ngẫu nhiên
+    const id = uuidv4();
+    const newRecord = { id, username, fullname, email, phone, password };
+    // Thêm bản ghi mới vào cơ sở dữ liệu
+    router.db.get('users').push(newRecord).write();
+    res.status(201).json(newRecord);
+  } else {
+    // Continue to JSON Server router
+    next();
   }
-  // Continue to JSON Server router
-  next()
-})
+});
+
 
 // Use default router
 server.use("/api",router)
