@@ -11,22 +11,31 @@ const Navbar = () => {
   const handleIsUser = () => {
     setIsUser(!isUser);
   };
+  const [isUserOpen, setIsUserOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const handleUserToggle = () => {
+    setIsUserOpen(!isUserOpen);
+  };
+
+  const handleMenuToggle = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
   return (
       <div className="navbar">
         <div className="container container-nav">
           <div className="nav-left">
-            <img src={logo} alt="logo" />
+            <Link to={'/'}><img src={logo} alt="logo" /></Link>
           </div>
           <div className="nav-center">
             <div className="item">
-              <Link to={"/category/trong-nuoc"}>Trong nước</Link>
+              <Link to={"/category/1"}>Trong nước</Link>
             </div>
             <div className="item">
-              <Link to={"/category/trong-ngoai"}>Nước ngoài</Link>
+              <Link to={"/category/2"}>Nước ngoài</Link>
             </div>
             <div className="item">
-              <Link to={"/category/tour-hot"}>Tour hot</Link>
+              <Link to={"/category/3"}>Tour hot</Link>
             </div>
           </div>
           <div className="nav-right">
@@ -50,9 +59,25 @@ const Navbar = () => {
             </div>
           </div>
           <div className="container-menu">
-            <Menu className="icon"/>
+            <Menu onClick={handleMenuToggle} className="icon"/>
+             <Link style={{marginLeft: '6px'}} className="text-reset me-3" to={"/cart"}>
+                <IconCart />
+              </Link>
           </div>
         </div>
+        <ul className={`link-nav-mobile ${isMenuOpen ? '': 'd-none'}`}>
+          <li className='link-tour'><Link to={"/category/1"}>Trong nước</Link></li>
+          <li className='link-tour'><Link to={"/category/2"}>Nước ngoài</Link></li>
+          <li className='link-tour'><Link to={"/category/3"}>Tour hot</Link></li>
+          <li className='link-tour' onClick={handleUserToggle}>
+            <span className="toggle-user">Tài khoản</span>
+              <ExpandMore className="icon" />
+              <ul className={`${!isUserOpen && 'd-none'}`}>
+                <li className='link-user'><Link to={"/login"}>Đăng nhập</Link></li>
+                <li className='link-user'><Link to={"/register"}>Đăng kí</Link></li>
+              </ul>
+          </li>
+        </ul>
       </div>
   );
 };

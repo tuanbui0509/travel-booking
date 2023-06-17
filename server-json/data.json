@@ -7,6 +7,10 @@
     {
       "id": 2,
       "name": "Nước ngoài"
+    },
+    {
+      "id": 3,
+      "name": "Tour hot"
     }
   ],
   "areas": [
@@ -55,6 +59,7 @@
       "quantity_date": "5 ngày 4 đêm",
       "start_location": "Hà Nội",
       "quantity": "12",
+      "start_date": "20/6/2023",
       "vehicle": [
         {
           "id": 1,
@@ -75,11 +80,11 @@
           "nameService": "Vé tham quan"
         },
         {
-          "id": 2,
+          "id": 4,
           "nameService": "Hướng dẫn viên"
         },
         {
-          "id": 2,
+          "id": 5,
           "nameService": "Bữa ăn"
         }
       ],
@@ -221,6 +226,7 @@
       "quantity_date": "5 ngày 4 đêm",
       "start_location": "Hồ Chí Minh",
       "quantity": "7",
+      "start_date": "20/7/2023",
       "vehicle": [
         {
           "id": 1,
@@ -417,6 +423,7 @@
       "quantity_date": "3 ngày 2 đêm",
       "start_location": "Hồ Chí Minh",
       "quantity": "10",
+      "start_date": "25/6/2023",
       "vehicle": [
         {
           "id": 1,
@@ -587,6 +594,7 @@
       "quantity_date": "8 ngày 8 đêm",
       "start_location": "Hồ Chí Minh",
       "quantity": "10",
+      "start_date": "20/6/2023",
       "vehicle": [
         {
           "id": 1,
@@ -813,6 +821,7 @@
       "quantity_date": "4 ngày 3 đêm",
       "start_location": "Hồ Chí Minh",
       "quantity": "2",
+      "start_date": "20/6/2023",
       "vehicle": [
         {
           "id": 1,
@@ -1030,6 +1039,7 @@
       "quantity_date": "3 ngày 2 đêm",
       "start_location": "Hồ Chí Minh",
       "quantity": "5",
+      "start_date": "22/6/2023",
       "vehicle": [
         {
           "id": 1,
@@ -1195,6 +1205,7 @@
       "quantity_date": "",
       "start_location": "",
       "quantity": "",
+      "start_date": "20/6/2023",
       "vehicle": [
         {
           "id": 1,
@@ -1249,6 +1260,7 @@
       "quantity_date": "",
       "start_location": "",
       "quantity": "",
+      "start_date": "20/6/2023",
       "vehicle": [
         {
           "id": 1,
@@ -1303,6 +1315,7 @@
       "quantity_date": "",
       "start_location": "",
       "quantity": "",
+      "start_date": "20/6/2023",
       "vehicle": [
         {
           "id": 1,
@@ -1357,6 +1370,7 @@
       "quantity_date": "",
       "start_location": "",
       "quantity": "",
+      "start_date": "20/6/2023",
       "vehicle": [
         {
           "id": 1,
@@ -1411,6 +1425,7 @@
       "quantity_date": "",
       "start_location": "",
       "quantity": "",
+      "start_date": "20/6/2023",
       "vehicle": [
         {
           "id": 1,
@@ -1465,6 +1480,7 @@
       "quantity_date": "",
       "start_location": "",
       "quantity": "",
+      "start_date": "20/6/2023",
       "vehicle": [
         {
           "id": 1,
@@ -1519,6 +1535,7 @@
       "quantity_date": "",
       "start_location": "",
       "quantity": "",
+      "start_date": "20/6/2023",
       "vehicle": [
         {
           "id": 1,
@@ -1573,6 +1590,7 @@
       "quantity_date": "",
       "start_location": "",
       "quantity": "",
+      "start_date": "20/6/2023",
       "vehicle": [
         {
           "id": 1,
@@ -1627,6 +1645,7 @@
       "quantity_date": "",
       "start_location": "",
       "quantity": "",
+      "start_date": "20/6/2023",
       "vehicle": [
         {
           "id": 1,
@@ -1681,6 +1700,7 @@
       "quantity_date": "",
       "start_location": "",
       "quantity": "",
+      "start_date": "20/6/2023",
       "vehicle": [
         {
           "id": 1,
@@ -1735,6 +1755,7 @@
       "quantity_date": "",
       "start_location": "",
       "quantity": "",
+      "start_date": "20/6/2023",
       "vehicle": [
         {
           "id": 1,
@@ -1789,6 +1810,7 @@
       "quantity_date": "",
       "start_location": "",
       "quantity": "",
+      "start_date": "20/6/2023",
       "vehicle": [
         {
           "id": 1,
@@ -1843,6 +1865,7 @@
       "quantity_date": "",
       "start_location": "",
       "quantity": "",
+      "start_date": "20/6/2023",
       "vehicle": [
         {
           "id": 1,
@@ -1897,6 +1920,7 @@
       "quantity_date": "",
       "start_location": "",
       "quantity": "",
+      "start_date": "20/6/2023",
       "vehicle": [
         {
           "id": 1,
@@ -1943,10 +1967,18 @@
   ],
   "users": [
     {
-      "id": 1,
-      "username": "abc",
-      "fullname": "Lenh",
-      "email": "123@",
+      "id": "46fc70ef-95e9-4855-b3ea-012a6a2fddbd",
+      "username": "LenhhhLenhhh",
+      "fullname": "Lap",
+      "email": "abc@example.com",
+      "phone": "1234567890",
+      "password": "12345678"
+    },
+    {
+      "id": "c05fe8e2-8162-4dec-9dea-d69f3804fcaa",
+      "username": "LLing",
+      "fullname": "LinhLinh",
+      "email": "abc@example.com",
       "phone": "1234567890",
       "password": "12345678"
     }
