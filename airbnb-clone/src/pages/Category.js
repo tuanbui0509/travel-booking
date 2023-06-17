@@ -33,6 +33,7 @@ export default function Category() {
   return (
     <div className='position-relative'>
         <Navbar />
+        <div style={{backgroundColor: '#eeeeee'}}>
             <div className='container category'>
                 <SearchHome image={true}/>
                 <div className='row'>
@@ -68,6 +69,8 @@ export default function Category() {
                 </div>
               
             </div>
+        </div>
+
             
         <Footer />
         <div className="container_search">
