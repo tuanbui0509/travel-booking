@@ -15,10 +15,10 @@ export const toursRemainingSelector = createSelector(
     filtersSelector,
     arrangementSelector,
     (tours, filters, arrangement) => {
-        const { key, starting, destination, date } = filters;
+        const { key, starting, destination, date, areaHot } = filters;
 
         // Kiểm tra nếu các giá trị filters đều rỗng
-        if (!key && !starting && !destination && !date) {
+        if (!key && !starting && !destination && !date && !areaHot) {
             return tours;
         }
 
@@ -36,6 +36,9 @@ export const toursRemainingSelector = createSelector(
 
         if (date) {
             filteredTours = filteredTours.filter((tour) => tour.start_date === date);
+        }
+        if (areaHot) {
+            filteredTours = filteredTours.filter((tour) => tour.start_location === areaHot);
         }
         // Áp dụng sắp xếp theo arrangement
         if (arrangement === 'duration') {

@@ -6,7 +6,8 @@ const filterSlice = createSlice({
         key: '',
         starting: '',
         destination: '',
-        date:""
+        date:"",
+        areaHot:""
     },
     reducers: {
         keyFilterChange: (state, action) => {
@@ -18,7 +19,7 @@ const filterSlice = createSlice({
             state.date = action.payload.date
         },
         areaHot: (state, action) => {
-            state.starting = action.payload
+            state.areaHot = action.payload
         }
     }
 })
