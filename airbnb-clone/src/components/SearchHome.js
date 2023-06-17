@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import '../styles/search.scss';
 import { LocationOn, Search, EventNote, FlightTakeoff } from '@material-ui/icons';
 import { useDispatch, useSelector } from 'react-redux';
-import { startDatesSelector, startlocationsSelector } from '../redux/selectors';
+import { endLocationsSelector, startDatesSelector, startlocationsSelector } from '../redux/selectors';
 import 'react-datepicker/dist/react-datepicker.css';
 import CustomDatePicker from './CustomDatePicker';
 import { searchChange } from '../redux/slices/FiltersSlice';
@@ -12,6 +12,7 @@ export default function SearchHome(prop) {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const startlocations = useSelector(startlocationsSelector);
+  const endLocations = useSelector(endLocationsSelector);
   const startDates = useSelector(startDatesSelector);
   const [starting, setStarting] = useState('');
   const [destination, setDestination] = useState('');
@@ -100,7 +101,7 @@ export default function SearchHome(prop) {
                   <option value="" disabled hidden>
                     Chọn điểm đến
                   </option>
-                  {startlocations.map((location, index) => (
+                  {endLocations.map((location, index) => (
                     <option key={index} value={location}>
                       {location}
                     </option>

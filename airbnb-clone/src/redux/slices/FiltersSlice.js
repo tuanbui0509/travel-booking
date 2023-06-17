@@ -12,14 +12,23 @@ const filterSlice = createSlice({
     reducers: {
         keyFilterChange: (state, action) => {
             state.key = action.payload
+            state.starting = ""
+            state.destination = ""
+            state.date = ""
+            state.areaHot = ""
         },
         searchChange: (state, action) => {
             state.starting = action.payload.starting
             state.destination = action.payload.destination
             state.date = action.payload.date
+            state.areaHot = ""
         },
         areaHot: (state, action) => {
             state.areaHot = action.payload
+            state.key = ""
+            state.starting = ""
+            state.destination = ""
+            state.date = ""
         }
     }
 })

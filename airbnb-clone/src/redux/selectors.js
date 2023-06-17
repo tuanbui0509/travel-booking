@@ -30,15 +30,15 @@ export const toursRemainingSelector = createSelector(
         if (starting) {
             filteredTours = filteredTours.filter((tour) => tour.start_location === starting);
         }
-        // if (destination) {
-        //     filteredTours = filteredTours.filter((tour) => tour.destination == destination);
-        // }
+        if (destination) {
+            filteredTours = filteredTours.filter((tour) => tour.end_location === destination);
+        }
 
         if (date) {
             filteredTours = filteredTours.filter((tour) => tour.start_date === date);
         }
         if (areaHot) {
-            filteredTours = filteredTours.filter((tour) => tour.start_location === areaHot);
+            filteredTours = filteredTours.filter((tour) => tour.end_location === areaHot);
         }
         // Áp dụng sắp xếp theo arrangement
         if (arrangement === 'duration') {
@@ -68,4 +68,44 @@ export const startDatesSelector = createSelector(
         const startLocations = tours.map((item) => item.start_date);
         return startLocations.filter((value, index, self) => self.indexOf(value) === index);
      }
+)
+
+export const endLocationsSelector = createSelector(
+     toursSelector,
+     (tours) => {
+        const endlocations = tours.map((item) => item.end_location);
+        return endlocations.filter((value, index, self) => self.indexOf(value) === index);
+     }
+)
+
+export const locationHotDomestic = createSelector(
+  toursSelector,
+  (tours) => {
+    const categoryIdToFilter = 1;
+
+    // Lọc danh sách các end_location có catagoryId = 1 và loại bỏ giá trị trùng lặp
+    const Locations = [...new Set(
+      tours
+        .filter(tour => tour.catagoryId === categoryIdToFilter)
+        .map(tour => tour.end_location)
+    )].slice(0, 10);;
+
+    return Locations;
+  }
+);
+
+
+export const locationHotForeign = createSelector(
+     toursSelector,
+     (tours) => {
+        const categoryIdToFilter = 2;
+        const Locations = [...new Set(
+            tours
+            .filter(tour => tour.catagoryId === categoryIdToFilter)
+            .map(tour => tour.end_location)
+        )].slice(0, 10);;
+
+        return Locations;
+    }
+
 )

@@ -6,7 +6,7 @@ import Navbar from '../components/Navbar'
 import "../styles/category.scss"
 import { useParams } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
-import { toursRemainingSelector } from '../redux/selectors'
+import { locationHotDomestic, locationHotForeign, toursRemainingSelector } from '../redux/selectors'
 import { keyFilterChange } from '../redux/slices/FiltersSlice'
 import SearchHome from '../components/SearchHome'
 import { arrangementChange } from '../redux/slices/ArrangementSlice'
@@ -29,7 +29,8 @@ export default function Category() {
     useEffect(() => {
         dispatch(arrangementChange(activeSort));
     }, [dispatch, activeSort]);
-
+    const areasHotDomestic = useSelector(locationHotDomestic);
+    const areasHotForeign = useSelector(locationHotForeign);
   return (
     <div className='position-relative'>
         <Navbar />
@@ -40,8 +41,10 @@ export default function Category() {
                     <div className='col-lg-3 areas'>
                         <div className='container-left'>
                             <ListArea title={"Địa điểm hot trong nước"}
+                                data={areasHotDomestic}
                             />
                             <ListArea title={"Địa điểm hot nước ngoài"}
+                                data={areasHotForeign}
                             />
                         </div>
                         
