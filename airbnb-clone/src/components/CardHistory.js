@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/cardHistory.scss'
 import {Link} from "react-router-dom";
+import { formatPrice } from '../utils/utill';
 
 export default function CardHistory(props) {
   const handleRemoveTour = () => {
@@ -24,7 +25,7 @@ export default function CardHistory(props) {
                             <div className='text-score'>Rất tốt</div>
                         </div>
                         <div className="card-text wrap-price">
-                            <div className='text-price price-history'>{props.tour.price}</div>
+                            <div className='text-price price-history'>{formatPrice(props.tour.price)}</div>
                             <div className='text-price'>VND</div>
                         </div>
                     </div>

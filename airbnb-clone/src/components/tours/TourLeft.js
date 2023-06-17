@@ -71,6 +71,19 @@ export default function TourLeft({data}) {
             </div>
           </div>
         </div>
+         <div className='description'>
+          <div className='wrap-des'>
+            <div className='des-title'>Thông tin Visa</div>
+           <div className='content'>- Quý khách chỉ cần hộ Việt Nam còn nguyên vẹn và có hạn sử dụng ít nhất 6 tháng tính từ ngày kết thúc tour.</div>
+           <div className='content'>- Miễn Visa cho khách Việt Nam.</div>
+          </div>
+        </div>
+        <div className='description'>
+          <div className='wrap-des'>
+            <div className='des-title'>Hướng dẫn viên</div>
+           <div className='content'>Trước 1 ngày hoặc 2 ngày đi sẽ gửi thông tin họp đoàn cho quý khách hàng, trước ngày khởi hành Hướng Dẫn Viên sẽ liên hệ trao đổi một số thông tin trong chuyến hành trình. </div>
+          </div>
+        </div>
     </div>
   )
 }
