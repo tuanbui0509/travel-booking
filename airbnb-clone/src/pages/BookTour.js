@@ -2,6 +2,7 @@ import {formatPrice} from "../utils/utill";
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Service from "../components/Service";
 
 export const BookTour = () => {
     const storedItems = JSON.parse(localStorage.getItem("checkout")) || [];
@@ -9,15 +10,17 @@ export const BookTour = () => {
     return (<>
         <Navbar/>
         <div className="container">
-            <h3 className="text-center mt-4 title">Tour đã xác nhận</h3>
+            <div className="row pt-4"><Service/>  </div>
+            <h3 className="  mt-4 title">Tour đã xác nhận</h3>
             <div className="hr-light"></div>
             <div className={`overflow-auto overflow-cart scrollbar ${storedItems.length > 0 ? '' : 'd-flex justify-content-center align-items-center'}`}>
                 {storedItems.length>0 ? storedItems.map((item) => (<>
-                        <div className="d-flex justify-content-between align-items-center m-2 p-2 items rounded mr-1 flex-wrap ">
-                            <div className="d-flex flex-row flex-1 align-items-center">
-                                <img className="rounded image-tour-cart" src={item.tour.image} alt={item.tour.title}/>
+                    <div className="m-2 p-2 items rounded mr-1">
+                        <span className="font-weight-bold d-block title">{item.tour.title}</span>
+                         <div className="d-flex justify-content-between flex-wrap ">
+                            <div className="d-flex flex-row flex-1">
+                                <img className="rounded image-tour-cart mt-1" src={item.tour.image} alt={item.tour.title}/>
                                 <div className="ml-2">
-                                    <span className="font-weight-bold d-block">{item.tour.title}</span>
                                     <ul  className="ml-1">
                                         <li>
                                           <span className="spec text-center">
@@ -62,7 +65,7 @@ export const BookTour = () => {
                                         <li>
                                           <span className="spec text-center">
 
-                                            <i className="fas fa-money-check item-icon"></i> {item.status === "Đã thanh toán"?"Ngày thanh toán":"Ngày xác nhận thanh toán:"}: {item.date}
+                                            <i className="fas fa-calendar-check item-icon"></i>{item.status === "Đã thanh toán"?"Ngày thanh toán":"Ngày xác nhận thanh toán:"}: {item.date}
                                           </span>
                                         </li>
                                         <li>
@@ -74,9 +77,10 @@ export const BookTour = () => {
                                 </div>
                             </div>
                             <div className="d-flex align-items-center mr-2">
-                                <span className="font-weight-bold text-warning">{item.status}...</span>
+                                <span className="font-weight-bold text-warning">{item.status === "Đã thanh toán"?"Đã thanh toán":"Chờ thanh toán..."}</span>
                             </div>
                         </div>
+                </div>
                     </>)
                 ) : <h5 className="d-flex justify-content-center align-items-center"><i>Chưa có tour nào được xác nhận thanh toán!</i></h5>}
             </div>
