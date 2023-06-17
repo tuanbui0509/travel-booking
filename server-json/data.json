@@ -60,7 +60,7 @@
       "start_location": "Hà Nội",
       "quantity": "12",
       "start_date": "20/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": "Ô tô"
@@ -214,7 +214,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 2,
@@ -228,7 +227,7 @@
       "start_location": "Hồ Chí Minh",
       "quantity": "7",
       "start_date": "20/7/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": "Máy bay"
@@ -298,7 +297,7 @@
             {
               "time": "Buổi tối",
               "description": "Đoàn dùng cơm tối BBQ hải sản, sau đó về khách sạn nhận phòng, nghỉ ngơi. Quý khách có thể tự do khám phá thành phố nhộn nhịp, sầm uất bậc nhất Thái Lan về đêm. Nghỉ đêm tại Pattaya - Resort 5* Le Bali.",
-              "image":""
+              "image": ""
             }
           ]
         },
@@ -412,7 +411,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 3,
@@ -426,7 +424,7 @@
       "start_location": "Hồ Chí Minh",
       "quantity": "10",
       "start_date": "25/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": "Máy bay"
@@ -584,7 +582,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 4,
@@ -598,7 +595,7 @@
       "start_location": "Hồ Chí Minh",
       "quantity": "10",
       "start_date": "20/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": "Máy bay"
@@ -812,7 +809,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 5,
@@ -826,7 +822,7 @@
       "start_location": "Hồ Chí Minh",
       "quantity": "2",
       "start_date": "20/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": "Máy bay"
@@ -908,7 +904,7 @@
           ]
         },
         {
-          "id":2,
+          "id": 2,
           "name": "NGÀY 2: THÁNH ĐỊA LA VANG -CẦU HIỀN LƯƠNG-ĐỘNG PHONG NHA ( ĂN 3 BỮA)",
           "timeline": [
             {
@@ -1031,7 +1027,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 6,
@@ -1045,7 +1040,7 @@
       "start_location": "Hồ Chí Minh",
       "quantity": "5",
       "start_date": "22/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": "Máy bay"
@@ -1198,7 +1193,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 7,
@@ -1212,7 +1206,7 @@
       "start_location": "",
       "quantity": "",
       "start_date": "20/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1254,7 +1248,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 8,
@@ -1268,7 +1261,7 @@
       "start_location": "",
       "quantity": "",
       "start_date": "20/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1310,7 +1303,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 9,
@@ -1324,7 +1316,7 @@
       "start_location": "",
       "quantity": "",
       "start_date": "20/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1366,7 +1358,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 10,
@@ -1380,7 +1371,7 @@
       "start_location": "",
       "quantity": "",
       "start_date": "20/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1422,7 +1413,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 11,
@@ -1436,7 +1426,7 @@
       "start_location": "",
       "quantity": "",
       "start_date": "20/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1478,7 +1468,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 12,
@@ -1492,7 +1481,7 @@
       "start_location": "",
       "quantity": "",
       "start_date": "20/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1534,7 +1523,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 13,
@@ -1548,7 +1536,7 @@
       "start_location": "",
       "quantity": "",
       "start_date": "20/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1590,7 +1578,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 14,
@@ -1604,7 +1591,7 @@
       "start_location": "",
       "quantity": "",
       "start_date": "20/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1646,7 +1633,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 15,
@@ -1660,7 +1646,7 @@
       "start_location": "",
       "quantity": "",
       "start_date": "20/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1702,7 +1688,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 16,
@@ -1716,7 +1701,7 @@
       "start_location": "",
       "quantity": "",
       "start_date": "20/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1758,7 +1743,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 17,
@@ -1772,7 +1756,7 @@
       "start_location": "",
       "quantity": "",
       "start_date": "20/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1814,7 +1798,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 18,
@@ -1828,7 +1811,7 @@
       "start_location": "",
       "quantity": "",
       "start_date": "20/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1870,7 +1853,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 19,
@@ -1884,7 +1866,7 @@
       "start_location": "",
       "quantity": "",
       "start_date": "20/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1926,7 +1908,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 20,
@@ -1940,7 +1921,7 @@
       "start_location": "",
       "quantity": "",
       "start_date": "20/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1982,8 +1963,24 @@
           ]
         }
       ]
-
     }
-
+  ],
+  "users": [
+    {
+      "id": "46fc70ef-95e9-4855-b3ea-012a6a2fddbd",
+      "username": "LenhhhLenhhh",
+      "fullname": "Lap",
+      "email": "abc@example.com",
+      "phone": "1234567890",
+      "password": "12345678"
+    },
+    {
+      "id": "c05fe8e2-8162-4dec-9dea-d69f3804fcaa",
+      "username": "LLing",
+      "fullname": "LinhLinh",
+      "email": "abc@example.com",
+      "phone": "1234567890",
+      "password": "12345678"
+    }
   ]
 }
