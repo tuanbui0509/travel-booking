@@ -61,7 +61,7 @@ export default function CardItem(prop) {
     }, [cartItems, prop.idCard]);
 // Hàm useEffect được gọi mỗi khi cartItems hoặc prop.idCard thay đổi, để kiểm tra xem mặt hàng có trong giỏ hàng hay không
 
-
+    const priceRow = prop.priceRow || false
     return (
         <div className="col mt-4">
 
@@ -71,7 +71,7 @@ export default function CardItem(prop) {
                 </Link>
                 <div className="card-body">
                     <h5 className="card-title">{prop.title}</h5>
-                    <div className="d-flex flex-row justify-content-between">
+                    <div className={`d-flex ${ priceRow ? 'flex-row' : 'flex-column'} justify-content-between`}>
                         <div className="d-flex flex-column">
                             <div className="time">
                                 <QueryBuilder className="icon"/>
