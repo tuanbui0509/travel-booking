@@ -3,19 +3,15 @@ import { createSlice } from "@reduxjs/toolkit";
 const filterSlice = createSlice({
     name: 'filters',
     initialState: {
-        key: '',
-        starting: '',
-        destination: '',
+        key: "",
+        starting: "",
+        destination: "",
         date:"",
         areaHot:""
     },
     reducers: {
         keyFilterChange: (state, action) => {
-            state.key = action.payload
-            state.starting = ""
-            state.destination = ""
-            state.date = ""
-            state.areaHot = ""
+            state.type = action.payload
         },
         searchChange: (state, action) => {
             state.starting = action.payload.starting
@@ -24,11 +20,13 @@ const filterSlice = createSlice({
             state.areaHot = ""
         },
         areaHot: (state, action) => {
-            state.areaHot = action.payload
-            state.key = ""
-            state.starting = ""
-            state.destination = ""
-            state.date = ""
+            if (state.areaHot !== action.payload) {
+                state.areaHot = action.payload
+                state.key = ""
+                state.starting = ""
+                state.destination = ""
+                state.date = ""
+            }
         }
     }
 })
