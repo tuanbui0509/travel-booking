@@ -40,9 +40,23 @@ export default function ListCard(props) {
           image={tour.image}
           time={tour.quantity_date}
           date={tour.start_date}
-          plane="Bay khứ hồi"
-          start="4 sao"
-          price={tour.price_adult}
+          plane={tour.vehicle[0].nameVehicle}
+          start={tour.star}
+          priceAdult={tour.price_adult}
+          priceChild={tour.price_child}
+          quantity = {tour.quantity}
+
+          // idCard={"1"}
+          // title={"PHÚ QUỐC | THỊ TRẤN HOÀNG HÔN SUNSET TOWN"}
+          // image={"https://picsum.photos/800/300/?random"}
+          // time={"4 ngày 3 đêm"}
+          // date={"11/06/2023"}
+          // plane={"Bay khứ hồi"}
+          // start={"3 sao"}
+          // priceAdult={5000000}
+          // priceChild={5000000}
+          // quantity = {10}
+          // catagoryId={2}
         />
       ))}
     </div>

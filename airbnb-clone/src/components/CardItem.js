@@ -92,7 +92,7 @@ export default function CardItem(prop) {
                         </div>
                         <div className="d-flex flex-column justify-content-between">
               <span className="price text-right">
-                {formatPrice(prop.price)}đ
+                {formatPrice(prop.priceAdult)}đ
               </span>
                             
                         </div>

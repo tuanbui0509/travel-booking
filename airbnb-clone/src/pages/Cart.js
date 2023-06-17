@@ -9,7 +9,7 @@ import {removeCart, updateCart} from "../redux/slices/CartsSlice";
 import {clearSelectedTour, setSelectedTour, updateSelectedTour} from "../redux/slices/SelectedTourSlice";
 import Swal from "sweetalert2";
 import {
-    formatPrice, RATE_PRICE_OF_CHILD_WITH_ADULT, RATE_QUANTITY_OF_CHILD_WITH_ADULT,
+    formatPrice, RATE_QUANTITY_OF_CHILD_WITH_ADULT,
 } from "../utils/utill";
 import {removeCartTourFromLocal, updateCartTourInLocal} from "../utils/localStorageUtils";
 
@@ -47,10 +47,10 @@ export const Cart = () => {
     const calculateTotal = () => {
         let total = 0;
         cartItems.forEach((item) => {
-            if (item.tour.price) {
+            if (item.tour.priceAdult) {
                 const quantityChild = item.quantityChild !== null ? item.quantityChild : 0;
-                const priceAdult = parseFloat(item.tour.price);
-                const priceChild = parseFloat(item.tour.price) * RATE_PRICE_OF_CHILD_WITH_ADULT;
+                const priceAdult = parseFloat(item.tour.priceAdult);
+                const priceChild = parseFloat(item.tour.priceChild);
                 total += priceAdult * item.quantityAdult + priceChild * quantityChild;
             }
         });
@@ -62,10 +62,10 @@ export const Cart = () => {
     const calculateTourSelected = () => {
         let total = 0;
         cartItems.forEach((item) => {
-            if (item.id === selectedItemId && item.tour.price) {
+            if (item.id === selectedItemId) {
                 const qChild = quantityChild !== null ? quantityChild : 0;
-                const priceAdult = parseFloat(item.tour.price);
-                const priceChild = parseFloat(item.tour.price) * RATE_PRICE_OF_CHILD_WITH_ADULT;
+                const priceAdult = parseFloat(item.tour.priceAdult);
+                const priceChild = parseFloat(item.tour.priceChild);
                 total += priceAdult * quantityAdult + priceChild * qChild;
             }
         });
@@ -241,7 +241,7 @@ export const Cart = () => {
                         <div className="col-md-8">
                             <div className="product-details mr-2">
                                 <h4 className="mb-0 mb-2 item-title-cart">Giỏ hàng</h4>
-                                <div className=" overflow-auto overflow-cart scrollbar">
+                                <div className={`overflow-auto overflow-cart scrollbar ${ cartItems.length > 0 ?'':'d-flex justify-content-center align-items-center'}`}>
                                     {cartItems.length > 0 ? (
                                         cartItems.map((item) => (
                                             <CartItem
@@ -253,7 +253,7 @@ export const Cart = () => {
                                             />
                                         ))
                                     ) : (
-                                        <h5 className="text-center"><i>Chưa có gì trong giỏ!</i></h5>
+                                        <h5 className="d-flex justify-content-center align-items-center"><i>Chưa có gì trong giỏ!</i></h5>
                                     )}
                                 </div>
                             </div>
@@ -266,7 +266,7 @@ export const Cart = () => {
                                         type="number"
                                         className="form-control"
                                         id="name"
-                                        placeholder={`${selectedTour !== null ? cartItems.find((item) => item.id === selectedTour.id)?.tour.price : ""} x số người lớn`}
+                                        placeholder={`${selectedTour !== null ? cartItems.find((item) => item.id === selectedTour.id)?.tour.priceAdult : ""} x số người lớn`}
                                         inputMode="numeric"
                                         min="1"
                                         max={maxAdults}
@@ -281,7 +281,7 @@ export const Cart = () => {
                                         className="form-control"
                                         id="name"
                                         inputMode="numeric"
-                                        placeholder={`${selectedTour !== null ? cartItems.find((item) => item.id === selectedTour.id)?.tour.price * RATE_PRICE_OF_CHILD_WITH_ADULT : ""} x số trẻ em dưới 7 tuổi`}
+                                        placeholder={`${selectedTour !== null ? cartItems.find((item) => item.id === selectedTour.id)?.tour.priceChild : ""} x số trẻ em từ 2 đến 7 tuổi`}
                                         min="0"
                                         max={maxChildren}
                                         value={quantityChild === null ? "" : quantityChild}
@@ -297,18 +297,18 @@ export const Cart = () => {
                                 {selectedTour ? (<>
                                     <div className="d-flex justify-content-between information">
                                         <span>Giá vé cho người lớn:</span>
-                                        <span>{formatPrice(selectedTour.tour.price)}đ</span>
+                                        <span>{formatPrice(selectedTour.tour.priceAdult)}đ</span>
                                     </div>
                                     <div className="d-flex justify-content-between information">
                                         <span>Giá vé cho trẻ em:</span>
-                                        <span>{formatPrice(selectedTour.tour.price * RATE_PRICE_OF_CHILD_WITH_ADULT)}đ</span>
+                                        <span>{formatPrice(selectedTour.tour.priceChild)}đ</span>
                                     </div>
                                     <div className="d-flex justify-content-between information">
                                         <span>Tổng tiền tour được chọn:</span>
                                         <span>{formatPrice(calculateTourSelected())}đ</span>
                                     </div>
                                 </>) : ""}
-                                <Link className="text-reset me-3" to={`/checkout`}>
+                                <Link className="text-reset me-3" to={`/booking`}>
                                     <button
                                         className="btn btn-begin-checkout btn-block d-flex justify-content-center mt-3 rounded"
                                         type="button">

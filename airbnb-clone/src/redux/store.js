@@ -4,6 +4,7 @@ import cartReducer from "./slices/CartsSlice";
 import selectedTourReducer from "./slices/SelectedTourSlice";
 import tourReducer from "./slices/TourSlice"
 import arrangementReducer from "./slices/ArrangementSlice";
+import checkoutReducer from "./slices/CheckoutSlice"
 
 const store = configureStore({
     reducer: {
@@ -11,7 +12,8 @@ const store = configureStore({
         filters: filtersReducer,
         carts: cartReducer,
         tours: tourReducer,
-        arrangement: arrangementReducer
+        arrangement: arrangementReducer,
+        checkout: checkoutReducer
     }
 })
 

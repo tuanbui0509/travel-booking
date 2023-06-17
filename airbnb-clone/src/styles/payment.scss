@@ -1,0 +1,19 @@
+@import './root.scss';
+body{
+  background-color: $color-while;
+.header-payment{
+  cursor: pointer;
+  border: 1px solid #cccccc;
+  background-color: $color-blue_third;
+  .icon-tick{
+    font-size: 2rem;
+  }
+}
+.content-payment{
+border: 1px dashed;
+}
+.payment-selected{
+  color: $color-while;
+  background-color: $color-blue_second;
+}
+}

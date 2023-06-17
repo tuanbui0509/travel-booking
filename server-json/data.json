@@ -1,4 +1,32 @@
 {
+  "payment": [
+    {
+      "id": 1,
+      "title": "THANH TOÁN BẰNG THẺ NỘI ĐỊA ATM",
+      "description": "Sau khi đặt vé và thanh toán thành công, Lữ hành Saigontourist sẽ gửi vé điện tử của Quý khách qua email.",
+      "content": "Saigontourist chấp nhận thanh toán bằng các thẻ ATM nội địa do các ngân hàng tại Việt Nam phát hành.Thẻ ghi nợ nội địa (thẻ ATM): Vietcombank, Vietinbank, DongA , VIBank, Techcombank, HDBank, Tienphong Bank, Military Bank, VietA Bank, Maritime Bank, Eximbank, SHB, Sacombank,  NamA Bank,...(23 Ngân hàng)",
+      "status": false
+    },
+    {
+      "id": 2,
+      "title": "THANH TOÁN BẰNG THẺ TÍN DỤNG",
+      "description": "Sau khi đặt vé và thanh toán thành công, Lữ hành Saigontourist sẽ gửi vé điện tử của Quý khách qua email.",
+      "content": "Saigontourist chấp nhận thanh toán dịch vụ bằng các loại thẻ tín dụng quốc tế như Visa, Master và Amex.",
+      "status": false
+    }, {
+      "id": 3,
+      "title": "THANH TOÁN CHUYỂN KHOẢN QUA NGÂN HÀNG",
+      "description": "Sau khi đặt vé và thanh toán thành công, Lữ hành Saigontourist sẽ gửi vé điện tử của Quý khách qua email.",
+      "content": "TÀI KHOẢN NGÂN HÀNG CỦA SAIGONTOURIST.Lưu ý khi chuyển khoản:KHÔNG ÁP DỤNG CHUYỂN KHOẢN CHO CÁC TOUR BÁN DỊP SỰ KIỆN Quý khách vui lòng liên hệ nhân viên tư vấn, để xác nhận số chỗ trước khi thanh toán qua ngân hàngKhi chuyển khoản, quý khách vui lòng nhập nội dung chuyển khoản là:'MDH madonhang, Họ tên, Noi dung thanh toan'Ví dụ:  'MDH 0000001, Ten khach , Mua tour tren web'Ðể việc thanh toán được chính xác. Xin cảm ơn quý khách!",
+      "status": false
+    }, {
+      "id": 4,
+      "title": "THANH TOÁN BẰNG TIỀN MẶT TẠI VĂN PHÒNG LỮ HÀNH SAIGONTOURIST",
+      "description": "Quý khách vui lòng đến các văn phòng Saigontourist để thanh toán và nhận vé.",
+      "content": "VĂN PHÒNG LỮ HÀNH SAIGONTOURIST",
+      "status": false
+    }
+  ],
   "catagories": [
     {
       "id": 1,
@@ -58,7 +86,8 @@
       "price_child": "5350000",
       "quantity_date": "5 ngày 4 đêm",
       "start_location": "Hà Nội",
-      "quantity": "12",
+      "star": "4",
+      "quantity": 10,
       "start_date": "20/6/2023",
       "vehicle": [
         {
@@ -225,7 +254,8 @@
       "price_child": "6990000",
       "quantity_date": "5 ngày 4 đêm",
       "start_location": "Hồ Chí Minh",
-      "quantity": "7",
+      "star": "4",
+      "quantity": 10,
       "start_date": "20/7/2023",
       "vehicle": [
         {
@@ -422,7 +452,8 @@
       "price_child": "10190000",
       "quantity_date": "3 ngày 2 đêm",
       "start_location": "Hồ Chí Minh",
-      "quantity": "10",
+      "star": "4",
+      "quantity": 10,
       "start_date": "25/6/2023",
       "vehicle": [
         {
@@ -593,7 +624,8 @@
       "price_child": "60349150",
       "quantity_date": "8 ngày 8 đêm",
       "start_location": "Hồ Chí Minh",
-      "quantity": "10",
+      "star": "4",
+      "quantity": 10,
       "start_date": "20/6/2023",
       "vehicle": [
         {
@@ -820,7 +852,8 @@
       "price_child": "6740000",
       "quantity_date": "4 ngày 3 đêm",
       "start_location": "Hồ Chí Minh",
-      "quantity": "2",
+      "star": "4",
+      "quantity": 10,
       "start_date": "20/6/2023",
       "vehicle": [
         {
@@ -1038,7 +1071,8 @@
       "price_child": "3935000",
       "quantity_date": "3 ngày 2 đêm",
       "start_location": "Hồ Chí Minh",
-      "quantity": "5",
+      "star": "4",
+      "quantity": 10,
       "start_date": "22/6/2023",
       "vehicle": [
         {
@@ -1204,7 +1238,8 @@
       "price_child": "",
       "quantity_date": "",
       "start_location": "",
-      "quantity": "",
+      "star": "4",
+      "quantity": 10,
       "start_date": "20/6/2023",
       "vehicle": [
         {
@@ -1259,7 +1294,8 @@
       "price_child": "",
       "quantity_date": "",
       "start_location": "",
-      "quantity": "",
+      "star": "4",
+      "quantity": 10,
       "start_date": "20/6/2023",
       "vehicle": [
         {
@@ -1314,7 +1350,8 @@
       "price_child": "",
       "quantity_date": "",
       "start_location": "",
-      "quantity": "",
+      "star": "4",
+      "quantity": 10,
       "start_date": "20/6/2023",
       "vehicle": [
         {
@@ -1369,7 +1406,8 @@
       "price_child": "",
       "quantity_date": "",
       "start_location": "",
-      "quantity": "",
+      "star": "4",
+      "quantity": 10,
       "start_date": "20/6/2023",
       "vehicle": [
         {
@@ -1424,7 +1462,8 @@
       "price_child": "",
       "quantity_date": "",
       "start_location": "",
-      "quantity": "",
+      "star": "4",
+      "quantity": 10,
       "start_date": "20/6/2023",
       "vehicle": [
         {
@@ -1479,7 +1518,8 @@
       "price_child": "",
       "quantity_date": "",
       "start_location": "",
-      "quantity": "",
+      "star": "4",
+      "quantity": 10,
       "start_date": "20/6/2023",
       "vehicle": [
         {
@@ -1534,7 +1574,8 @@
       "price_child": "",
       "quantity_date": "",
       "start_location": "",
-      "quantity": "",
+      "star": "4",
+      "quantity": 10,
       "start_date": "20/6/2023",
       "vehicle": [
         {
@@ -1589,7 +1630,8 @@
       "price_child": "",
       "quantity_date": "",
       "start_location": "",
-      "quantity": "",
+      "star": "4",
+      "quantity": 10,
       "start_date": "20/6/2023",
       "vehicle": [
         {
@@ -1644,7 +1686,8 @@
       "price_child": "",
       "quantity_date": "",
       "start_location": "",
-      "quantity": "",
+      "star": "4",
+      "quantity": 10,
       "start_date": "20/6/2023",
       "vehicle": [
         {
@@ -1699,7 +1742,8 @@
       "price_child": "",
       "quantity_date": "",
       "start_location": "",
-      "quantity": "",
+      "star": "4",
+      "quantity": 10,
       "start_date": "20/6/2023",
       "vehicle": [
         {
@@ -1754,7 +1798,8 @@
       "price_child": "",
       "quantity_date": "",
       "start_location": "",
-      "quantity": "",
+      "star": "4",
+      "quantity": 10,
       "start_date": "20/6/2023",
       "vehicle": [
         {
@@ -1809,7 +1854,8 @@
       "price_child": "",
       "quantity_date": "",
       "start_location": "",
-      "quantity": "",
+      "star": "4",
+      "quantity": 10,
       "start_date": "20/6/2023",
       "vehicle": [
         {
@@ -1864,7 +1910,8 @@
       "price_child": "",
       "quantity_date": "",
       "start_location": "",
-      "quantity": "",
+      "star": "4",
+      "quantity": 10,
       "start_date": "20/6/2023",
       "vehicle": [
         {
@@ -1919,7 +1966,8 @@
       "price_child": "",
       "quantity_date": "",
       "start_location": "",
-      "quantity": "",
+      "star": "4",
+      "quantity": 10,
       "start_date": "20/6/2023",
       "vehicle": [
         {
