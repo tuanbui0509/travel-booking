@@ -34,3 +34,13 @@ export const isNumericString = (str) => {
   const numericStr = str.replace(/\s/g, ''); // Loại bỏ dấu khoảng trắng
   return /^\d+$/.test(numericStr); // Kiểm tra chuỗi số
 };
+
+export const now = () => {
+  const currentDate = new Date();
+  const day = String(currentDate.getDate()).padStart(2, '0');
+  const month = String(currentDate.getMonth() + 1).padStart(2, '0');
+  const year = currentDate.getFullYear();
+  const formattedDate = `${day}/${month}/${year}`;
+
+  return formattedDate;
+};
