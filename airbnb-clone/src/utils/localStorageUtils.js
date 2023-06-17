@@ -1,4 +1,6 @@
 // thêm cart tour vào localstorage
+import {now} from "./utill";
+
 export const addCartTourToLocal = (cart) => {
     const storedItems = JSON.parse(localStorage.getItem("cart")) || [];
     // Lấy dữ liệu từ localStorage (nếu có) và chuyển đổi từ chuỗi JSON thành mảng
@@ -85,3 +87,23 @@ export const getToursFromLocal = () => {
   const firstThreeTours = viewedTours.slice(0, 3);
   return firstThreeTours;
 };
+export const addCheckoutToLocal = (checkout) => {
+    const storedItems = JSON.parse(localStorage.getItem("checkout")) || [];
+    // Lấy dữ liệu từ localStorage (nếu có) và chuyển đổi từ chuỗi JSON thành mảng
+
+    const updatedItems = [...storedItems, {
+        id: checkout.id,
+        user_id: checkout.user_id,
+        tour:checkout.tour,
+        quantityAdult: checkout.quantityAdult,
+        quantityChild: checkout.quantityChild,
+        total_price: checkout.total_price,
+        payment_method: checkout.payment_method,
+        status: checkout.status,
+        date: now()
+        // passenger_details: checkout.passenger_details
+    }];
+
+    // Lưu mảng dữ liệu mới vào localStorage
+    localStorage.setItem("checkout", JSON.stringify(updatedItems));
+}
