@@ -36,6 +36,13 @@
             justify-content: flex-end;
             position: relative;
             .item {
+                .avatar {
+                    vertical-align: middle;
+                    width: 35px;
+                    height: 35px;
+                    border-radius: 50%;
+                    margin-right: 10px
+                }
                 .icon {
                     color: $color-while;
                     font-size: 32px;
@@ -56,16 +63,18 @@
                         position: absolute;
                         z-index: 10;
                         background-color: $color-while;
-                        // display: flex;
+                        //display: flex;
                         flex-direction: column;
                         width: 220px;
                         padding: 12px;
                         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
                         .button-login {
-                            margin: 0 auto;
+                            margin: 10px 0;
                             border: none;
                             button {
+                                width: 200px;
                                 border: none;
+                                margin-top: 10px;
                                 background-color: $color-yellow;
                                 color: $color-while;
                                 font-weight: 600;

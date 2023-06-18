@@ -1636,53 +1636,117 @@
     },
     {
       "id": 15,
-      "name": "",
-      "image": "",
+      "name": "Tour Mộc Châu 2N1Đ: Săn Mây Tà Xùa - Sống Lưng Khủng Long",
+      "image": "https://cdn2.ivivu.com/2022/08/04/16/ivivu-ta-xua-san-may-750x390.gif",
       "catagoryId": 1,
       "areaId": 1,
-      "price_adult": "",
-      "price_child": "",
-      "quantity_date": "",
-      "start_location": "",
-      "quantity": "",
-      "start_date": "20/6/2023",
+      "price_adult": 1690000,
+      "price_child": 1490000,
+      "quantity_date": "2 Ngày 1 Đêm",
+      "start_location": "Hà Nội",
+      "end_location": "Mộc Châu",
+      "quantity": 5,
+      "start_date": "29/6/2023",
       "vehicle": [
         {
           "id": 1,
-          "nameVehicle": ""
-        },
-        {
-          "id": 2,
-          "nameVehicle": ""
+          "nameVehicle": "Ô tô"
         }
       ],
       "tour_services": [
         {
           "id": 1,
-          "nameService": ""
+          "nameService": "Bảo hiểm"
         },
         {
           "id": 2,
-          "nameService": ""
+          "nameService": "Hướng dẫn viên"
+        },
+        {
+          "id": 3,
+          "nameService": "Vé tham quan"
+        },
+        {
+          "id": 4,
+          "nameService": "Bữa ăn"
+        },
+        {
+          "id": 5,
+          "nameService": "Khách sạn 3*"
+        },
+        {
+          "id": 6,
+          "nameService": "Xe đưa đón"
         }
       ],
       "description": {
-        "title": "",
-        "content": ""
+        "title": "Mộc Châu Mùa Hoa Mận",
+        "content": "Mộc Châu khiến dân tình 'đứng ngồi không yên' bởi cao nguyên xanh tươi mát lành đẹp cả bốn mùa, có núi rừng hùng vĩ bao la, có thác cao suối chảy róc rách, có đỉnh Pha Luông lồng lộng gió trời mây phủ, có những đồi chè xanh bạt ngàn, đàn bò sữa nhởn nhơ gặm cỏ… Và được yêu thích nhất có lẽ là những mùa hoa đầy màu sắc, tạo nên bức tranh tươi đẹp, mới mẻ theo từng tháng trong năm. Bên cạnh đó liên tuyến Tà Xùa những biển mây trắng muốt, bồng bềnh, khiến con tim xốn xang, rộn ràng."
       },
       "tour_details": [
         {
           "id": 1,
-          "name": "",
+          "name": "NGÀY 01: HÀ NỘI - MỘC CHÂU - BẮC YÊN (ĂN TRƯA, TỐI)",
           "timeline": [
             {
-              "time": "",
-              "description": "",
+              "time": "5h30",
+              "description": "Xe ô tô và hướng dẫn đón quý khách tại Nhà hát lớn Hà Nội, khởi hành đi Mộc Châu. Quý khách dừng chân dùng bữa sáng (chi phí tự túc). Tiếp tục hành trình đến đèo Đá Trắng (Thung Khe), Thung Chuối, quý khách dừng chân chụp ảnh và cùng đón những tia nắng đầu tiên của buổi bình minh nơi núi rừng.",
+              "image": "https://cdn2.ivivu.com/2019/12/24/14/ivivu-deo-thung-khe.gif"
+            },
+            {
+              "time": "11h30",
+              "description": "Đến Mộc Châu khách dùng bữa trưa tại nhà hàng với những món ăn đặc sắc nhất của vùng núi rừng Tây Bắc.",
               "image": ""
             },
             {
-              "time": "",
-              "description": "",
+              "time": "13h00",
+              "description": "Tiếp tục hành trình quý khách khởi hành đi tham quan Đồi chè trái tim: Đây là một trong những khu vực đẹp nhất Mộc Châu. Cho dù vào mùa đông cành khô trơ trụi lá hay mùa xuân mơn mởn khoe sắc lá non, Mộc Châu vẫn luôn được bao bọc trong màu sắc xanh tuyệt đẹp của những đồi chè. Đồi chè đẹp nhất có lẽ là đồi chè trái tim, đồi chè chữ S.",
+              "image": "https://cdn2.ivivu.com/2020/11/11/11/ivivu-doi-che-trai-tim.gif"
+            },
+            {
+              "time": "14h30",
+              "description": "Tham quan Thung Lũng mận Nà Ka: Nằm trên đường vào xã Tân Lập, thung lũng mận Nà Ka cách thị trấn Nông trường Mộc Châu 16km. Từ tỉnh lộ 104, rẽ trái vào thung lũng chỉ mất vài phút đi xe máy. Trước mắt bạn sẽ hiện ra thung lũng mận bạt ngàn, bằng phẳng. Hàng năm vào mùa hoa mận nở, thung lũng được phủ một lớp màn trắng lung linh bất tận của hoa mận thời gian đẹp nhất khoảng tháng 11, 12 hàng năm. Tháng 5, tháng 6 sẽ là mùa mận chín.",
+              "image": "https://cdn2.ivivu.com/2019/12/24/14/ivivu-thung-lung-man-na-ka.gif"
+            },
+            {
+              "time": "15h30",
+              "description": "Sau đó đoàn khởi hành đi Bắc Yên qua ngã ba Cò Nòi đến trung tâm thị trấn Bắc Yên. Quãng đường này đặt biệt thơ mộng với vẻ đẹp đan sen là những ngôi làng người Thái men theo bờ sông Đà…",
+              "image": ""
+            },
+            {
+              "time": "18h30",
+              "description": "Quý khách dùng bữa tối tại nhà hàng. Nghỉ đêm tại khách sạn tại Bắc Yên.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "NGÀY 02: BẮC YÊN - SĂN MÂY TÀ XÙA  - HÀ NỘI (ĂN SÁNG, TRƯA)",
+          "timeline": [
+            {
+              "time": "5h00",
+              "description": "Quý khách làm thủ tục trả phòng, sau đó xe ô tô và hướng dẫn viên đưa đoàn đi chinh phục Sống lưng khủng long Háng Đồng. Sống lưng khủng long - con đường mòn trên Tà Xùa dài chừng 1,5km uốn lượn trên đỉnh núi - ẩn hiện trong làn mây trắng, giúp bạn có thể cảm nhận được vẻ đẹp như tranh vẽ của thiên nhiên vùng cao. Trên đường về, quý khách có thể đến Thào Coffee thưởng thức coffee với khung cảnh núi đồi và nắng sớm (chi phí coffee tự túc).",
+              "image": "https://cdn2.ivivu.com/2022/11/01/12/ivivu-ta-xua1.gif"
+            },
+            {
+              "time": "9h00",
+              "description": "Tạm biệt Sống lưng khủng long, quý khách lên xe di chuyển đến Mỏm Cá Heo. Mỏm đá này được tạo bởi hai phến lớn tựa như hai con cá heo đang bơi lượn giữa “biển” mây. Khách du lịch đều tỏ ra thích thú khi được check-in, sống ảo tại đây.",
+              "image": "https://cdn2.ivivu.com/2022/11/01/12/ivivu-mom-ca-heo.gif"
+            },
+            {
+              "time": "11h30",
+              "description": "Quý khách cùng lên xe quay trở về trên đường đi, quý khách dừng chân nghỉ ngơi và thưởng thức bữa trưa tại thị trấn Bắc Yên.",
+              "image": ""
+            },
+            {
+              "time": "15h00",
+              "description": "Tạm biệt Bắc Yên, quý khách lên xe cùng khởi hành về lại Hà Nội.",
+              "image": ""
+            },
+            {
+              "time": "18h30",
+              "description": "Về đến Hà Nội, kết thúc lịch trình tour Mộc Châu – Tà Xùa 2 ngày 1 đêm. Chia tay và hẹn gặp lại quý khách trong những chương trình tiếp theo cùng",
               "image": ""
             }
           ]
@@ -1691,53 +1755,238 @@
     },
     {
       "id": 16,
-      "name": "",
-      "image": "",
+      "name": "Tour Miền Bắc 5N4Đ: Sài Gòn - Hạ Long - Ninh Bình - Tam Chúc - Sapa",
+      "image": "https://cdn2.ivivu.com/2020/11/20/15/ivivu-ninh-binh-bia2-750x390.gif",
       "catagoryId": 1,
       "areaId": 1,
-      "price_adult": "",
-      "price_child": "",
-      "quantity_date": "",
-      "start_location": "",
-      "quantity": "",
-      "start_date": "20/6/2023",
+      "price_adult": 8790000,
+      "price_child": 7990000,
+      "quantity_date": "5 Ngày 4 Đêm",
+      "start_location": "Hồ Chí Minh",
+      "end_location": "Hà Nội",
+      "quantity": 15,
+      "start_date": "02/07/2023",
       "vehicle": [
         {
           "id": 1,
-          "nameVehicle": ""
+          "nameVehicle": "Máy bay"
         },
         {
           "id": 2,
-          "nameVehicle": ""
+          "nameVehicle": "Ô tô"
         }
       ],
       "tour_services": [
         {
           "id": 1,
-          "nameService": ""
+          "nameService": "Bảo hiểm"
         },
         {
           "id": 2,
-          "nameService": ""
+          "nameService": "Hướng dẫn viên"
+        },
+        {
+          "id": 3,
+          "nameService": "Vé máy bay"
+        },
+        {
+          "id": 4,
+          "nameService": "Xe đưa đón"
+        },
+        {
+          "id": 5,
+          "nameService": "Bữa ăn"
+        },
+        {
+          "id": 6,
+          "nameService": "Khách sạn 3*"
+        },
+        {
+          "id": 7,
+          "nameService": "Vé tham quan"
         }
       ],
       "description": {
-        "title": "",
-        "content": ""
+        "title": "Chiêm Ngưỡng Các Danh Lam Thắng Cảnh Phía Bắc.",
+        "content": "Hành trình liên tuyến Sài Gòn - Hạ Long - Ninh Bình - Sapa hứa hẹn sẽ đưa du khách tới những danh lam thắng cảnh đặc sắc của Miền Bắc và miền Tây Bắc Việt Nam, với Thủ đô Hà Nội mang trong mình nét trầm ngâm của lịch sử, mảnh đất Cố Đô, ngôi chùa Tam Chúc lớn nhất thế giới...Từ du lịch hành hương đến du lịch trải nghiệm, khám phá các di sản Thiên Nhiên, thưởng thức các đặc sản từng vùng miền, dân tộc...Du khách sẽ cảm thấy tự hào khi sống trên mảnh đất hình chữ S nhiều cảnh sắc tuyệt vời này."
       },
       "tour_details": [
         {
           "id": 1,
-          "name": "",
+          "name": "NGÀY 1: HCM - HÀ NỘI - HẠ LONG ( ĂN NHẸ TRÊN MÁY BAY, TỐI)",
           "timeline": [
             {
-              "time": "",
-              "description": "",
+              "time": "8h50",
+              "description": "Hướng dẫn viên đón Quý khách tại điểm hẹn - ga đi trong nước sân bay Quốc tế Tân Sơn Nhất (Khu vực làm thủ tục của Bamboo Airways), hỗ trợ Quý khách làm thủ tục đáp chuyến bay đi Nội Bài – Hà Nội theo giờ đã chọn.",
               "image": ""
             },
             {
-              "time": "",
-              "description": "",
+              "time": "Buổi trưa",
+              "description": "Quý khách dùng bữa ăn nhẹ trên máy bay (theo xuất ăn của hãng hàng không cung cấp). Đến Sân bay Quốc tế Nội Bài Xe và HDV đón đoàn khởi hành đi Hạ Long.",
+              "image": ""
+            },
+            {
+              "time": "Buổi chiều",
+              "description": "Quý khách đến khách sạn, nhận phòng, nghỉ ngơi, tự do tắm biển, vui chơi với các dịch vụ trò chơi trên biển: dù lượn, moto nước, pháo bơi, kayak,…(chi phí trò chơi tự túc theo nhu cầu). Hoặc đăng ký các option tham quan: Khu Du Lịch Quốc Tế Tuần Châu (tự túc): Ngôi Nhà Kỳ Bí, Khu Games World, Khu vui chơi Giải trí ngoài trời, Khu Bắn Súng Sơn, CLB Biểu Diễn Cá Sấu Xiếc Thú, Sân Khấu Nhạc Nước. Sun World Hạ Long Park (tự túc): Tổ hợp trên 214hn được thiết kế bao gồm 03 phân khu chính với Hệ thống trò chơi hiện đại, đẳng cấp cùng với không gian kỳ vĩ của vịnh Hạ Long chắc chắn sẽ mang tới cho du khách những trải nghiệm khó quên: Cáp Treo Nữ Hoàng & Ngọn Đồi Huyền Bí (Vòng quay Mặt Trời Sun Wheel, Vườn nhật Zen Garden, Khu vui chơi trẻ em Kidoland, Khu trưng bày tượng sáp, Khu Video Game Arcade Zone, Làn trượt Samurai, Hồ cá Koi), Công Viên Rồng (Dragon Park: Phi Long Thần Tốc, Chiếc Ô Kỳ Diệu, Chiếc Cốc Thần, Chuyến Xe Tuổi Thơ, Theo Dấu Chân Rồng, Đu Quay Kỳ Diệu, Tê Giác Cuồng Nộ, Tầu Hải Tặc), Công Viên Nước (Typhoon Water Park : Thử thách mãng xà, Biển sóng Thần, Đảo Quốc Kỳ Diệu, Dòng Sông Lơ Đãng, Cơn Bão Nhiệt Đới, Tia Chớp Khổng Lồ).",
+              "image": "https://cdn2.ivivu.com/2020/09/10/16/ivivu-sun-world-ha-long-park-1.gif"
+            },
+            {
+              "time": "Buổi tối",
+              "description": "Đến nhà hàng dùng bữa tối. Đoàn tự do thăm quan và mua sắm tại chợ đêm Hạ Long hoặc sử dụng các dịch vụ massage, spa, thuê xe đạp đôi dạo quanh thành phố ngắm cầu dây văng Bãi Cháy….",
+              "image": "https://cdn2.ivivu.com/2020/10/19/16/ivivu-bai-chay.gif"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "NGÀY 2: VỊNH HẠ LONG – NINH BÌNH ( ĂN SÁNG, TRƯA, TỐI)",
+          "timeline": [
+            {
+              "time": "6h30",
+              "description": "Quý khách dùng điểm tâm tại nhà hàng. Quý khách trả phòng, Sau đó, xe đưa quý khách ra bến tàu du lịch, lên các động theo lộ trình tuyến 4 tiếng tham quan.",
+              "image": ""
+            },
+            {
+              "time": "7h15",
+              "description": "Tham quan Động Thiên Cung: tức là “Cung điện của trời”, một trong những hang động đẹp nhất ở Hạ Long. Hang rộng, có nhiều cấp nhiều ngăn với vô vàn nhũ đá, măng đá mang những hình thù kỳ lạ.",
+              "image": "https://cdn2.ivivu.com/2020/06/26/09/ivivu-dong-thien-cung.gif"
+            },
+            {
+              "time": "9h30",
+              "description": "Hang Đầu Gỗ: là nơi gắn liền với câu chuyện lịch sử chống quân Nguyên Mông năm 1228 của Trần Hưng Đạo, hải trình du thuyền đi giữa Hạ Long với hàng ngàn đảo đá sừng sững, du khách sẽ có dịp chiêm ngưỡng bức tranh thiên tạo khổng lồ như Hòn Đỉnh Hương, Hòn Gà Chọi, Hòn Chó Đá,….",
+              "image": "https://cdn2.ivivu.com/2020/07/08/14/ivivu-hang-dau-go.gif"
+            },
+            {
+              "time": "Buổi trưa",
+              "description": "Quý khách dùng bữa trưa trên tàu với các đặc sản nổi tiếng Hạ Long. Sau đó tàu đưa đoàn về lại đất liền.",
+              "image": ""
+            },
+            {
+              "time": "Buổi chiều",
+              "description": "Xe đưa quý khách di chuyển về Ninh Bình theo Quốc Lộ 10. Trên đường đi Quý khách sẽ được cảm nhận, khám phá cuộc sống, phong cảnh đặc trưng của Đồng Bằng Bắc Bộ với cảnh làng quê thanh bình qua các tỉnh Hải Phòng, Thái Bình, Nam Định. Đến Ninh Bình, đoàn làm thụ tục nhận phòng và nghỉ ngơi.",
+              "image": ""
+            },
+            {
+              "time": "Buổi tối",
+              "description": "Quý khách dùng bữa tại nhà hàng với đặc sản Dê núi Ninh Bình, sau đó là chương trình tự do của quý khách với phố đêm Ninh bình.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "NGÀY 3: NINH BÌNH – KDL TRÀNG AN – CỐ ĐÔ HOA LƯ – HÀ NAM - CHÙA TAM CHÚC - HÀ NỘI ( ĂN SÁNG, TRƯA, TỐI)",
+          "timeline": [
+            {
+              "time": "Sáng",
+              "description": "Quý khách dùng bữa tại nhà hàng, sau đó làm thủ tục trả phòng khách sạn.",
+              "image": ""
+            },
+            {
+              "time": "8h30",
+              "description": "Đoàn khởi hành đi tham quan thắng cảnh của Ninh Bình. Khu Du Lịch Tràng An - Di sản được UNESCO công nhận là di sản văn hóa và thiên nhiên Thế giới, giúp cho Việt Nam lần đầu lọt vào danh sách 30 di sản hỗn hợp Thế Giới. Nơi những dải đá vôi, thung lũng và sông ngòi đan xen tạo nên một không gian huyền ảo, kỳ bí. Ngồi trên chiếc thuyền nhỏ, trên sông Sào Khê uốn lượn giữa cánh đồng lúa, quý khách đi đò thăm Hang sáng , Hang tối , Hang nấu rượu...",
+              "image": "https://cdn2.ivivu.com/2020/06/26/09/ivivu-trang-an.gif"
+            },
+            {
+              "time": "10h00",
+              "description": "Cố Đô Hoa Lư - Kinh đô của nước ta vào thế kỷ X, nơi đây quý khách cùng tham quan hai ngôi đền thờ vua Đinh và vua Lê.",
+              "image": "https://cdn2.ivivu.com/2020/09/29/13/ivivu-co-do-hoa-lu-2.gif"
+            },
+            {
+              "time": "Trưa",
+              "description": "Quý khách dùng bữa trưa tại nhà hàng tiêp tục lộ trình về Hà Nội.",
+              "image": ""
+            },
+            {
+              "time": "Chiều",
+              "description": "Đoàn qua Hà Nam tham quan tại quần thể danh thắng Tâm Linh Tam Chúc: Thuyền VIP đi trên lòng hồ vào quần thể tự do thăm qua Tam Chúc: một trong những hồ nước tự nhiên rộng nhất Việt Nam, có dãy núi đá vôi bao quanh. Giữa hồ có 6 quả núi nhỏ nhô lên khiến phong cảnh thơ mộng, đủ ‘sơn thủy hữu tình’. Đi thuyền trên hồ, du khách sẽ được ghé tới tham quan hòn đảo nhỏ và ngôi đình trên đó, gọi là đình Tam Chúc – ngôi đình với đầy đủ nét tinh hoa kiến trúc đền chùa Bắc Bộ. Sau đó tiếp tục lộ trình di chuyển về Hà Nội. Đến hà Nội, Sau đó đoàn nhận phòng khach sạn và nghỉ ngơi.",
+              "image": "https://cdn2.ivivu.com/2022/09/30/14/ivivu-chua-tam-chuc.gif"
+            },
+            {
+              "time": "Tối",
+              "description": "Quý khách đến dùng bữa tối tai nhà hàng. Đoàn tự do tham quan phố cổ Hà Nội, dạo Hồ Gươm, mua sắm tại Chợ đêm Hà Nội sầm uất... Nghỉ đêm tại khách sạn ở Hà Nội.",
+              "image": "https://cdn2.ivivu.com/2022/10/17/16/ivivu-ho-guom.gif"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "NGÀY 4: HÀ NỘI - SAPA – CỔNG TRỜI SAPA – ĐÈO Ô QUY HỒ - CẦU KÍNH RỒNG MÂY ( ĂN SÁNG, TRƯA, TỐI)",
+          "timeline": [
+            {
+              "time": "6h00",
+              "description": "Đoàn trả phòng và dùng bữa sáng tại nhà hàng",
+              "image": ""
+            },
+            {
+              "time": "7h00",
+              "description": "Quý khách tiếp tục Khởi hành đi Lào Cai, chạy theo đường cao tốc Nội Bài – Lào Cai dài 245Km với chưa đầy 5h đồng hồ. Quý khách có cơ hội ngắm phong cảnh tuyệt đẹp trên cung đường Tây Bắc, dừng chân nghỉ ngơi ,khám phá phong cảnh.",
+              "image": ""
+            },
+            {
+              "time": "Trưa",
+              "description": "Quý khách ăn trưa tại Sapa. Về khách sạn nhận phòng nghỉ ngơi.",
+              "image": ""
+            },
+            {
+              "time": "13h00",
+              "description": "Quý khách tham quan Cổng Trời Sapa - Đứng giữa cổng trời Sapa, có thể phóng tầm mắt bao quát cả thung lũng rộng lớn phía dưới với những ruộng nương xanh rì, con đường ôtô xuôi ngược Phong Thổ (Lai Châu) – Sapa (Lào Cai), xa xa là Thác Bạc – một trong 10 thác nước đẹp nhất Lào Cai, luôn được giới trẻ tìm đến khám phá.",
+              "image": "https://cdn2.ivivu.com/2020/06/26/14/ivivu-cong-troi-sapa.gif"
+            },
+            {
+              "time": "15h00",
+              "description": "Hoặc Qúy khách có thể lựa chọn tham quan khu du lịch Cầu Kính Rồng Mây trải nghiệm cây cầu kính có 1 không 2 tại Sapa. Thỏa sức chiêm ngưỡng vẻ đẹp, sự hùng vĩ của dãy Hoàng Liên Sơn. (Chưa bao gồm vé Cầu kính)",
+              "image": "https://cdn2.ivivu.com/2020/09/10/10/ivivu-cau-kinh-rong-may.gif"
+            },
+            {
+              "time": "16h30",
+              "description": "Chụp hình lưu niệm tại đỉnh đèo Ô Quy Hồ - một trong tứ đại đỉnh đèo của Việt Nam",
+              "image": "https://cdn2.ivivu.com/2022/08/04/11/ivivu-o-quy-ho-o.gif"
+            },
+            {
+              "time": "18h00",
+              "description": "Quý khách dùng bữa tối tại nhà hàng, sau đó Quý khách tham quan: Nhà thờ Đá, Chợ tình Sapa (nếu đúng vào đêm thứ Bảy). Tự do thưởng thức các món ăn đặc trưng của người dân tộc thiểu số vùng Tây Bắc: Thắng Cố, cơm lam, lợn cắp nách, khoai nướng, bắp nướng……",
+              "image": "https://cdn2.ivivu.com/2022/10/24/17/ivivu-nha-tho-sapa.gif"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "NGÀY 5: SAPA – FANSIPAN – LÀO CAI – HÀ KHẨU - HÀ NỘI ( ĂN SÁNG, TRƯA, TỐI)",
+          "timeline": [
+            {
+              "time": "6h00",
+              "description": "Đoàn trả phòng và dùng bữa sáng tại nhà hàng",
+              "image": ""
+            },
+            {
+              "time": "7h30",
+              "description": "Quý khách di chuyển đến khu vực cáp treo, lên cáp treo chinh phục đỉnh: KDL Fansipan – với 2 kỷ lục Guinness cho cáp treo Fansipan Sapa là: Cáp treo ba dây có độ chênh giữa ga đi và ga đến lớn nhất thế giới: 1410m và Cáp treo ba dây dài nhất thế giới: 6292.5m. Trải nghiệm cảm giác đi giữa biển mây, ngắm toàn cảnh Sapa và thung lũng Mường Hoa, vườn quốc gia Hoàng Liên từ trên cao. Quý khách sẽ thách thức bản thân leo thêm 600 bậc thang nữa để chinh phục “Nóc nhà Đông Dương” - đỉnh Fansipan ở độ cao 3,143m. (Chi phí cáp treo tự túc)",
+              "image": "https://cdn2.ivivu.com/2022/03/15/11/ivivu-dinh-fansipan-lao-cai.gif"
+            },
+            {
+              "time": "8h45",
+              "description": "Quần Thể Chùa Trên Đỉnh Fansipan: Bước ra khỏi ga Fansipan, bạn sẽ đến ngay chùa Hạ (Thanh Phong Thiền tự). Đến đây, bạn có thể viết sớ cầu an cho bản thân và gia đình. Suốt quãng đường 600 bậc thang lên đỉnh Fansipan, từ chùa Hạ lên chùa Thượng, đâu đâu bạn cũng được nghe những bản nhạc thiền rất dễ chịu, cảm giác như đang bước vào cõi Phật. Bạn nhớ đừng bỏ qua chiêm bái đại tượng Phật A Di Đà bằng đồng cao nhất Việt Nam (21,5m), được coi là biểu tượng của quần thể văn hóa tâm linh Fansipan. Nơi đây còn có Kim Sơn Bảo Thắng Tự, Đại hùng Bảo Điện với nhiều pho tượng Phật được tạo tác kỳ công, bảo tháp 11 tầng bằng đá nguyên khối, con đường La Hán với 18 bức tượng La Hán bằng đồng, hai bên là hoa đỗ quyên rực rỡ khoe sắc. Cùng với đó là nhiều công trình Phật giáo tiêu biểu như Bích Vân Thiền tự, tượng Quan Thế Âm Bồ Tát, Tháp chuông – Vọng lĩnh cao đài, miếu Sơn Thần",
+              "image": "https://cdn2.ivivu.com/2022/08/05/10/ivivu-dinh-fansipan.gif"
+            },
+            {
+              "time": "10h00",
+              "description": "Đoàn có thể trải nghiệm thêm các dịch vụ trên đỉnh núi theo nhu cầu cá nhân (tự túc): Tàu Hỏa Leo Núi Đổ Quyên: Đối với những ai khoẻ mạnh hay vào những hôm thời tiết đẹp thì điều này không phải là vấn đề. Nhưng với những người lớn tuổi hoặc không may đi vào những hôm trời mù nhiều gió thì bạn nên chọn phương tiện này để lên thẳng đỉnh Fansipan. Vân Sơn Trà Quán (tự túc tùy món có giá khác nhau): Cũng trên con đường 600 bậc thang đến đỉnh Fansipan, gần chùa Hạ, bạn sẽ đi ngang Vân Sơn Trà Quán. Nơi này có thiết kế khiến bạn gợi nhớ đến Trú Vũ Trà Quán ở Bà Nà Hills. Cũng với phong cách kiểu trà đạo, ngồi xếp bằng, bàn thấp. Nơi này mây bao phủ xung quanh, bạn có thể thưởng thức một tách trà nóng, ngắm hoa đỗ quyên nở và cảm nhận không gian thanh tịnh khắp nơi.",
+              "image": "https://cdn2.ivivu.com/2019/10/17/15/ivivu-tau-hoa-leo-nui1.jpg"
+            },
+            {
+              "time": "Trưa",
+              "description": "Chia tay Sapa, Quý khách lên xe khởi hành về Lào Cai, nghỉ ngơi, ăn trưa tại nhà hàng",
+              "image": ""
+            },
+            {
+              "time": "Chiều",
+              "description": "Sau đó sẽ ghé tham quan: Chụp hình lưu niệm tại Cửa Khẩu Hà Khẩu nơi tiếp giáp với Trung Quốc … Điểm du lịch vùng biên Chợ Cốc Lếu - tham quan và mua sắm các sản phẩm từ Trung Quốc với giá siêu rẻ (nếu còn thời gian). Quý khách khởi hành về Hà Nội - trên đường đi đoàn tự do nghỉ ngơi, ngắm cảnh đẹp của núi rừng Tây Bắc hoặc tham gia các trò chơi vui nhộn do hướng dẫn viên tổ chức, sau đó tiếp tục lộ trình về lại Sân bay.",
+              "image": ""
+            },
+            {
+              "time": "17h30",
+              "description": "Đến khu vực sân bay, Quý khách dùng bữa tối tại nhà hàng, Sau đó, xe đưa quý khách vào của làm thủ tục sân bay nội bài làm thủ tục đáp chuyến bay  (sau 20h00) về lại Tp. Hồ Chí Minh. Kết thúc chuyến tham quan chia tay, chúc sức khoẻ và hẹn ngày gặp lại.",
               "image": ""
             }
           ]
@@ -1746,53 +1995,103 @@
     },
     {
       "id": 17,
-      "name": "",
-      "image": "",
+      "name": "Tour Sapa 2N1Đ: Hà Nội - Khám Phá Sapa Xe Limousine",
+      "image": "https://cdn2.ivivu.com/2016/08/31/14/ivivu-tour-sa…3n2d-lao-chai-ta-van-cat-cat-ham-rong-750x390.jpg",
       "catagoryId": 1,
       "areaId": 1,
-      "price_adult": "",
-      "price_child": "",
-      "quantity_date": "",
-      "start_location": "",
-      "quantity": "",
-      "start_date": "20/6/2023",
+      "price_adult": 2300000,
+      "price_child": 1725000,
+      "quantity_date": "2 Ngày 1 Đêm",
+      "start_location": "Hà Nội",
+      "end_location": "Sapa",
+      "quantity": 8,
+      "start_date": "09/07/2023",
       "vehicle": [
         {
           "id": 1,
-          "nameVehicle": ""
-        },
-        {
-          "id": 2,
-          "nameVehicle": ""
+          "nameVehicle": "Ô tô"
         }
       ],
       "tour_services": [
         {
           "id": 1,
-          "nameService": ""
+          "nameService": "Bảo hiểm"
         },
         {
           "id": 2,
-          "nameService": ""
+          "nameService": "Bữa ăn"
+        },
+        {
+          "id": 3,
+          "nameService": "Hướng dẫn viên"
+        },
+        {
+          "id": 4,
+          "nameService": "Vé tham quan"
+        },
+        {
+          "id": 5,
+          "nameService": "Xe đưa đón"
         }
       ],
       "description": {
-        "title": "",
-        "content": ""
+        "title": "Ngỡ ngàng cung đường chinh phục Nóc nhà Đông Dương",
+        "content": "Sa Pa là một thị trấn vùng cao, là một khu nghỉ mát nổi tiếng thuộc huyện Sa Pa, tỉnh Lào Cai, Việt Nam. Nơi đây ẩn chứa nhiều điều kỳ diệu của tự nhiên, phong cảnh thiên nhiên với địa hình của núi đồi, màu xanh của rừng cây, tạo nên bức tranh có bố cục hài hoà, có cảnh sắc thơ mộng và hấp dẫn từ cảnh quan đất trời vùng đất phía Tây Bắc. Tại đây, du khách có thể chinh phục đỉnh Fansipan của dãy Hoàng Liên Sơn, ngắm vườn hoa Hàm Rồng và khám phá thung lũng Mường Hoa."
       },
       "tour_details": [
         {
           "id": 1,
-          "name": "",
+          "name": "NGÀY 1: HÀ NỘI - SAPA - BẢN CÁT CÁT ( ĂN TRƯA, TỐI)",
           "timeline": [
             {
-              "time": "",
-              "description": "",
+              "time": "6h30 - 7h00",
+              "description": "Xe đón quý khách tại khách sạn khu vực Phố Cổ, Nhà hát lớn Hà Nội, sau đó khởi hành đi Sa Pa.  Đoàn sẽ khởi hành đi Sapa trên đường cao tốc Nội Bài mới, rút ngắn thời gian đi từ Hà Nội đến Sapa. Quý khách có dịp chiêm ngưỡng khung cảnh núi rừng hùng vĩ trên cung đường cao tốc dài nhất Việt Nam trước khi đến với thị trấn Sa Pa thơ mộng, chìm trong mây.",
+              "image": "https://cdn2.ivivu.com/2022/05/27/10/ivivu-xedcar.gif"
+            },
+            {
+              "time": "12h30",
+              "description": "Xe đến thị trấn Sa Pa nơi có rất nhiều dân tộc sinh sống như H’mong, Dao, Tày. Hướng dẫn viên sẽ đưa Quý khách ăn trưa tại nhà hàng.",
+              "image": "https://cdn2.ivivu.com/2019/10/17/14/ivivu-sapa.jpg"
+            },
+            {
+              "time": "13h00",
+              "description": "Đoàn bắt đầu hành trình khám phá bản làng Cát Cát - Sìn Chải của người H’Mông - do người Pháp phát hiện và chọn nơi đây làm khu nghỉ dưỡng cho các quan chức từ đầu thế kỷ XX. Đến với bản Cát Cát, du khách sẽ được thăm bản làng Cát Cát, trạm thủy điện Cát Cát, thác nước Cát Cát, tìm hiểu văn hóa, phong tục độc đáo của người dân nơi đây với nghề truyền thống như dệt vải, chạm trổ bạc, rèn nông cụ, tục kéo vợ,...",
+              "image": "https://cdn2.ivivu.com/2022/10/17/14/ivivu-cat-cat.gif"
+            },
+            {
+              "time": "17h00",
+              "description": "Đoàn trở lại thị trấn Sa Pa, dùng bữa tối và nghỉ đêm tại khách sạn.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "NGÀY 2: SAPA – KDL HÀM RỒNG/FANSIPAN - HÀ NỘI ( ĂN SÁNG, TRƯA)",
+          "timeline": [
+            {
+              "time": "7h00",
+              "description": "Quý khách thưởng thức bữa sáng tại khách sạn.",
               "image": ""
             },
             {
-              "time": "",
-              "description": "",
+              "time": "7h45",
+              "description": "Qúy khách bắt đầu hành trình khám phá Hàm Rồng với phong cảnh kỳ vỹ. Thăm vườn lan Đông Dương với đủ loại lan muôn màu sắc, đầu Rồng Thạch Lâm kỳ vĩ. Vượt qua cổng Trởi 1, cồng Trời 2, Qúy khách sẽ lên tới nơi cao nhất của Hàm Rồng là Sân Mây – nơi giao thoa của đất trời, ngắm nhìn toàn cảnh Sapa trên cao.",
+              "image": "https://cdn2.ivivu.com/2019/02/20/11/tour-mien-bac-6n5d-ha-noi-chua-huong-sapa-halong-ha-noi-ham-rong.jpg"
+            },
+            {
+              "time": "9h15",
+              "description": "Quý khách khởi hành chinh phục đỉnh Fansipan cao 3143m – nóc nhà Đông Dương. Đây là tuyến cáp treo đạt 2 Kỷ lục Thế giới – Guinness World Record là tuyến cáp treo ba dây có độ chênh giữa ga đi và ga đến lớn nhất thế giới: 1410m và tuyến cáp treo ba dây dài nhất thế giới: 6292.5m. (Vé cáp treo tự túc)",
+              "image": "https://cdn2.ivivu.com/2020/06/15/16/ivivu-fansipang.gif"
+            },
+            {
+              "time": "12h30",
+              "description": "Quý khách thưởng thức ẩm thực Tây Bắc với những nguyên liệu tuơi ngon tại nhà hàng thị trấn Sapa.",
+              "image": ""
+            },
+            {
+              "time": "14h00",
+              "description": "Xe đưa đoàn trở về Hà Nội. Chuyến đi kết thúc tại đây. Cảm ơn quý khách đã lựa chọn công ty và xin hẹn gặp lại quý khách!",
               "image": ""
             }
           ]
@@ -1801,53 +2100,216 @@
     },
     {
       "id": 18,
-      "name": "",
-      "image": "",
+      "name": "Tour Hà Giang 4N3Đ: HCM - Lũng Cú - Sông Nho Quế - Dốc Thẩm Mã - Dinh Thự Vua Mèo",
+      "image": "https://cdn2.ivivu.com/2022/08/22/12/ivivu-am-thuc-ha-noi-750x390.gif",
       "catagoryId": 1,
       "areaId": 1,
-      "price_adult": "",
-      "price_child": "",
-      "quantity_date": "",
-      "start_location": "",
-      "quantity": "",
-      "start_date": "20/6/2023",
+      "price_adult": 7788000,
+      "price_child": 7302000,
+      "quantity_date": "4 Ngày 3 Đêm",
+      "start_location": "Hồ Chí Minh",
+      "end_location": "Hà Giang",
+      "quantity": 10,
+      "start_date": "30/6/2023",
       "vehicle": [
         {
           "id": 1,
-          "nameVehicle": ""
+          "nameVehicle": "Máy bay"
         },
         {
           "id": 2,
-          "nameVehicle": ""
+          "nameVehicle": "Ô tô"
         }
       ],
       "tour_services": [
         {
           "id": 1,
-          "nameService": ""
+          "nameService": "Ăn sáng"
         },
         {
           "id": 2,
-          "nameService": ""
+          "nameService": "Bữa ăn"
+        },
+        {
+          "id": 3,
+          "nameService": "Khách sạn 3*"
+        },
+        {
+          "id": 4,
+          "nameService": "Vé máy bay"
+        },
+        {
+          "id": 5,
+          "nameService": "Bảo hiểm"
+        },
+        {
+          "id": 6,
+          "nameService": "Hướng dẫn viên"
+        },
+        {
+          "id": 7,
+          "nameService": "Nhà dân homestay"
+        },
+        {
+          "id": 8,
+          "nameService": "Vé tham quan"
         }
       ],
       "description": {
-        "title": "",
-        "content": ""
+        "title": "Khám Phá Sắc Màu Vùng Cao",
+        "content": "Có người đến Hà Giang vì mải mê với những nụ tam giác hồng chúm chím, hay ngẩn ngơ trước những bông cúc cam rực rỡ trên phiến đá tai mèo. Nhưng cũng không ít người đến với Hà Giang vì mê mải những cung đường uốn lượn. Hà Giang luôn đẹp, không chỉ bởi những mùa hoa mà cả bốn mùa trong năm. Đến Hà Nội, hãy cảm nhận bằng cả con tim, không ngẫu nhiên khi có quá nhiều thơ văn, âm nhạc lấy Hà Nội làm cảm hứng để sáng tác? Ai đi xa cũng nhớ về Hà Nội với một nỗi niềm khắc khoải, bâng khâng…."
       },
       "tour_details": [
         {
           "id": 1,
-          "name": "",
+          "name": "NGÀY 1: TP. HỒ CHÍ MINH - HÀ NỘI - QUẢN BẠ - YÊN MINH ( ĂN TRƯA, TỐI)",
           "timeline": [
             {
-              "time": "",
-              "description": "",
+              "time": "Buổi sáng",
+              "description": "HDV hỗ trợ quý khách làm thủ tục check in tại sân bay Tân Sơn Nhất bay đến Hà Nội. Đến sân bay Nội Bài, quý khách khởi hành đi Hà Giang. Trên đường đi Quý khách có thể ngắm cảnh rừng núi rừng Đông Bắc vô cùng hùng vĩ và hoang sơ và dừng chân chụp những bức hình lưu niệm.",
               "image": ""
             },
             {
-              "time": "",
-              "description": "",
+              "time": "Buổi trưa",
+              "description": "Quý khách dùng cơm trưa tại Tuyên Quang.",
+              "image": ""
+            },
+            {
+              "time": "13h30",
+              "description": "Quý khách tiếp tục hành trình lên núi khám phá Huyện Quản Bạ với: Núi Đôi Cô Tiên - “tác phẩm nghệ thuật” của tạo hoá ban tặng cho vùng đất này. “Núi Đôi” nổi tiếng đã tạo cho thung lũng Quản Bạ một cảnh quan độc nhất vô nhị hết sức hấp dẫn.",
+              "image": "https://cdn2.ivivu.com/2022/06/23/14/ivivu-nui-doi-co-tien.gif"
+            },
+            {
+              "time": "15h30",
+              "description": "Cổng Trời Quản Bạ: Cổng trời nằm trên đỉnh cao nhất của con đèo từ Hà Giang lên Quản Bạ. Đứng ở đây Quý khách được đứng giữa biển mây bồng bềnh, cảm giác như đang ở chốn bồng lai tiên cảnh, mọi lo âu mệt mỏi dường như tan biến.",
+              "image": ""
+            },
+            {
+              "time": "Bữa tối",
+              "description": "Quý khách ăn tối tại nhà hàng, về nhận phòng nghỉ ngơi và tự do khám phá về đêm tại Yên Minh.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "NGÀY 2: CAO NGUYÊN ĐÁ ĐỒNG VĂN – DINH THỰ VUA MÈO – CỘT CỜ LỦNG CÚ – PHỐ CỔ ĐỒNG VĂN ( ĂN SÁNG, TRƯA)",
+          "timeline": [
+            {
+              "time": "Buổi sáng",
+              "description": "Quý khách trả phòng. Ăn sáng tại nhà hàng. Sau đó đi tham quan:",
+              "image": ""
+            },
+            {
+              "time": "7h50",
+              "description": "Cao Nguyên Đá Đồng Văn: Qua cổng trời, du khách chính thức đặt chân vào cao nguyên đá, nơi nhiều nhà khoa học trên thế giới cho rằng vẫn còn là ẩn số của thiên nhiên.",
+              "image": "https://cdn2.ivivu.com/2021/05/05/15/ivivu-cao-nguyen-da.jpg"
+            },
+            {
+              "time": "8h30",
+              "description": "Đoàn tham quan Dốc Thẩm Mã là con đường đèo nằm ngay trên Quốc Lộ 4C. Con dốc này gồm có 9 khúc uốn lượn trông rất đẹp mắt. Ngoài những điều hiện hữu thiên nhiên ban tặng. Nét Văn hóa được thể hiện qua từng ngôi nhà, bản làng. Sẽ khiến du khách có những - Phố Cáo - một thung lũng ở vùng cao Tây Bắc, đến đây du khách sẽ nhận ra được nét hoang sơ, mộc mạc của địa danh này. Những người dân Phố Cáo phần lớn là người dân tộc cuộc sống còn nghèo khó tuy nhiên lại rất thân thiện. Họ chào đón những người khách lạ bằng bằng những nụ cười ấm áp, luôn mở rộng cửa mời khách vào nhà chơi.",
+              "image": "https://cdn2.ivivu.com/2020/10/01/16/ivivu-doc-tham-ma.gif"
+            },
+            {
+              "time": "10h00",
+              "description": "Tại đây Quý khách có thể dừng chân tham quan làng văn hóa Lũng Cẩm – Nhà của Pao nơi lấy bối cảnh những thước phim nổi tiếng “Chuyện của Pao” - thời gian này đang nở rộ với những đồng hoa tam giác mạch, hoa cải vàng…",
+              "image": "https://cdn2.ivivu.com/2019/12/20/16/ivivu-van-hoa-lung-cam.gif"
+            },
+            {
+              "time": "Buổi trưa",
+              "description": "Quý khách ăn trưa tại nhà hàng Cực Bắc – Lũng Cú. Sau đó tham quan:",
+              "image": ""
+            },
+            {
+              "time": "13h00",
+              "description": "Tham quan Dinh thự vua Mèo Vương Chí Sình nằm trong một thung lũng của xã Sà Phìn với nhiều kiến trúc độc đáo và những câu chuyện ly kỳ về Gia Tộc Họ Vương của vùng núi rừng Hà Giang. ",
+              "image": "https://cdn2.ivivu.com/2019/12/20/16/ivivu-dinh-thu-vua-meo.gif"
+            },
+            {
+              "time": "15h00",
+              "description": "Tham quan Cột Cờ Lũng Cú - Nơi địa đầu Tổ Quốc, hay còn được miêu tả là: “Nơi cúi mặt sát đất, ngẩng mặt đụng trời”. Quý khách thăm quan Cột cờ Tổ Quốc và chụp hình lưu niệm. ",
+              "image": "https://cdn2.ivivu.com/2019/12/20/16/ivivu-cot-co-lung-cu.gif"
+            },
+            {
+              "time": "Tối",
+              "description": "Nghỉ đêm tại Đồng Văn. Tự do  khám phá ẩm thực Phố cổ Đồng Văn để thưởng thức ly cà phê phố cổ, hai bên đường có rất nhiều quán cà phê để bạn tha hồ nhàn nhã thưởng thức và “chill” theo bầu không khí đó. Song song đó, đoàn sẽ nghe HDV giới thiệu về các hoạt động buôn bán nơi đây và có dịp tự mình trải nghiệm thực tế.",
+              "image": "https://cdn2.ivivu.com/2022/12/01/17/ivivu-pho-co-dong-van.gif"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "NGÀY 3: ĐỒNG VĂN - ĐÈO MÃ PÌ LÈNG – SÔNG NHO QUẾ - TP HÀ GIANG ( ĂN SÁNG, TRƯA, TỐI)",
+          "timeline": [
+            {
+              "time": "Buổi sáng",
+              "description": "Quý khách ăn sáng. Trả phòng khách sạn. Di chuyển đi tham quan",
+              "image": ""
+            },
+            {
+              "time": "7h30",
+              "description": "HDV và xe đưa quý khách đi Mèo Vạc. Trên đường Quý khách chiêm ngưỡng Đèo Mã Pì Lèng - Nơi được mệnh danh là ông vua của những con đèo tại Việt Nam. Mã Pì Lèng là điểm đến không thể thiếu khi tham quan công viên địa chất Đồng Văn, được công nhận là công viên địa chất toàn cầu vào ngày 3/10/2010. Trên địa bàn, dân cư chủ yếu là người Mông trắng với bản sắc văn hóa độc đáo, hầu như nguyên sơ.",
+              "image": "https://cdn2.ivivu.com/2020/06/24/11/ivivu-deo-ma-pi-leng-ha-giang-1.gif"
+            },
+            {
+              "time": "8h30",
+              "description": "Đoàn ghé quán Đồng Văn Bar coffee. Ghé đây, bạn có thể uống cafe trong biển mây, ngắm nhìn toàn bộ quang cảnh của cao nguyên đá Đồng Văn hay thả mình theo dòng sông Nho Quế để cảm nhận vẻ đẹp đầy mê hoặc của thiên nhiên vùng cao. Check in những tấm hình thật lung linh tại đây ( Chi phí cà phê tự túc)",
+              "image": "https://media-cdn.tripadvisor.com/media/photo-s/17/ae/64/8d/dong-van-bar-hotel.jpg"
+            },
+            {
+              "time": "9h00",
+              "description": "Quý khách tiếp tục hành trình với trải nghiệm đi thuyền trên sông Nho Quế, đoàn sẽ có những tấm hình check-in độc lạ với dòng sông Nho Quế và hẻm vực Tu Sản nơi đây - Tu Sản được xem là “đệ nhất hùng quan” với chiều cao vách đá lên tới 700–800m, chiều dài tới 1,7km, sâu 700–900m, là danh thắng kỳ vĩ độc nhất của vùng cao nguyên đá Đồng Văn. (chi phí tự túc)",
+              "image": "https://cdn2.ivivu.com/2022/07/08/16/ivivu-nho-que-1.gif"
+            },
+            {
+              "time": "Trưa",
+              "description": "Đoàn dùng cơm trưa tại nhà hàng",
+              "image": ""
+            },
+            {
+              "time": "Buổi chiều",
+              "description": "Đoàn di chuyển về TP Hà Giang. Trên đường đi đoàn ghé Dốc Bắc Sum - Nhìn từ phía xa, dốc Bắc Sum tựa như một dải lụa mềm mại, vắt ngang qua đỉnh núi trập trùng sương mây mờ ảo và những dãy núi đá tai mèo cheo leo. Khung cảnh đẹp như mơ của con dốc này hiện dần ra trước mắt du khách qua từng đoạn khúc cua.",
+              "image": "https://cdn2.ivivu.com/2016/09/06/09/ivivu-tour-mie-n-ba-c-3n2d-ha-giang-meo-vac-dong-van-lung-cu-tam-giac-mach.jpg"
+            },
+            {
+              "time": "Bữa tối",
+              "description": "Quý khách đến TP Hà Giang. Nhận phòng khách sạn nghỉ ngơi. Ăn tối, nghỉ ngơi.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "NGÀY 4: HÀ GIANG – KM 0 HÀ GIANG - HÀ NỘI – THÀNH PHỐ HCM ( ĂN SÁNG, TRƯA)",
+          "timeline": [
+            {
+              "time": "Buổi sáng",
+              "description": "Qúy khách dùng bữa sáng, trả phòng khách sạn di chuyển về Tuyên Quang. Trên đường đi, đoàn dừng chân chụp hình kỷ niệm tại Km0 của Hà Giang. Điểm giao nhau của QL2, QL34 và QL4C hay còn gọi là Con đường hạnh phúc.",
+              "image": "https://cdn2.ivivu.com/2022/07/08/16/ivivu-cot-km0.gif"
+            },
+            {
+              "time": "Trưa",
+              "description": "Đoàn dùng cơm trưa tại nhà hang ở Tuyên Quang.",
+              "image": ""
+            },
+            {
+              "time": "14h00",
+              "description": " Đoàn dừng chân tham quan Quảng trường Nguyễn Tất Thành đã trở thành một điểm nhấn độc đáo về kiến trúc và cảnh quan của TP Tuyên Quang. Đây cũng là công trình duy nhất trong cả nước đạt 'Giải thưởng phong cảnh thành phố Châu Á' năm 2022.",
+              "image": "https://cdn2.ivivu.com/2023/02/21/10/ivivu-quang-truong-nguyen-tat-thanh-tuyen-quang.gif"
+            },
+            {
+              "time": "15h30",
+              "description": "Tham quan Thành cổ Tuyên Quang là thành nhà Mạc, là một di tích lịch sử văn hóa ở phường Tân Quang. thành phố Tuyên Quang, tỉnh Tuyên Quang, Việt Nam. Thành nhà Mạc được xây dựng ở vị trí án ngữ giao thông đường thủy và đường bộ bên bờ sông Lô – Khu vực phát triển về thương nghiệp và các triều đại phong kiến. Từ thời nhà Lý đã đóng quân tại đây với tên gọi đồn Tam Kỳ (hay Tam Cờ).",
+              "image": "https://cdn2.ivivu.com/2023/02/21/10/ivivu-thanh-co-tuyen-quang.gif"
+            },
+            {
+              "time": "18h00",
+              "description": "Đoàn dùng bữa tối nhẹ tại nhà hàng gần sân bay.",
+              "image": ""
+            },
+            {
+              "time": "19h00",
+              "description": "Xe và HDV đưa đoàn ra sân bay Nội Bài làm thủ tục cho đoàn bay về lại Tp HCM, chia tay đoàn và kết thúc chương trình tham quan. Kết thúc chương trình, chia tay và hẹn gặp lại quý khách.",
               "image": ""
             }
           ]
@@ -1856,53 +2318,201 @@
     },
     {
       "id": 19,
-      "name": "",
-      "image": "",
+      "name": "Tour Đông Bắc 5N4Đ: Cần Thơ - Hà Giang - Cao Bằng - Bắc Kạn",
+      "image": "https://cdn2.ivivu.com/2022/06/23/14/ivivu-nui-rung-ha-giang-750x390.gif",
       "catagoryId": 1,
       "areaId": 1,
-      "price_adult": "",
-      "price_child": "",
-      "quantity_date": "",
-      "start_location": "",
-      "quantity": "",
-      "start_date": "20/6/2023",
+      "price_adult": 9290000,
+      "price_child": 6745000,
+      "quantity_date": "5 Ngày 4 Đêm",
+      "start_location": "Cần Thơ",
+      "end_location": "Cao Bằng",
+      "quantity": 9,
+      "start_date": "08/08/2023",
       "vehicle": [
         {
           "id": 1,
-          "nameVehicle": ""
+          "nameVehicle": "Máy bay"
         },
         {
           "id": 2,
-          "nameVehicle": ""
+          "nameVehicle": "Ô tô"
+        },
+        {
+          "id": 3,
+          "nameVehicle": "Xuồng chèo"
         }
       ],
       "tour_services": [
         {
           "id": 1,
-          "nameService": ""
+          "nameService": "Bảo hiểm"
         },
         {
           "id": 2,
-          "nameService": ""
+          "nameService": "Hướng dẫn viên"
+        },
+        {
+          "id": 3,
+          "nameService": "Khách sạn 3*"
+        },
+        {
+          "id": 4,
+          "nameService": "Vé tham quan"
+        },
+        {
+          "id": 5,
+          "nameService": "Bữa ăn"
+        },
+        {
+          "id": 6,
+          "nameService": "Khách sạn 2*"
+        },
+        {
+          "id": 7,
+          "nameService": "Vé máy bay"
+        },
+        {
+          "id": 8,
+          "nameService": "Xe đưa đón"
         }
       ],
       "description": {
-        "title": "",
-        "content": ""
+        "title": "Ngắm Tuyệt Tác Thiên Nhiên Vòng Cung Đông Bắc",
+        "content": "Vòng Cung Đông Bắc thuộc vùng Đồng bằng Sông Hồng, sở hữu nhiều danh lam thắng cảnh nổi tiếng (Cao nguyên đá Đồng Văn, Cột cờ Hà Giang, Đèo Mã Pì Lèng, Thác Bản Giốc, Hồ Ba Bể,…). Đến với du lịch Đông Bắc du khách sẽ có dịp được trải nghiệm nhiều nét văn hóa đặc sắc của nhiều dân tộc khác nhau, thưởng thức những món ẩm thực hấp dẫn và cùng giao lưu văn hóa dân tộc,... Chuyến du lịch Vòng Cung Đông Bắc hứa hẹn sẽ là một hành trình khám phá nghỉ dưỡng thú vị, đem lại những kiến thức, những cảm nhận mới về khu di tích tạo nên lịch sử."
       },
       "tour_details": [
         {
           "id": 1,
-          "name": "",
+          "name": "NGÀY 01: CẦN THƠ - HÀ NỘI - TUYÊN QUANG - HÀ GIANG (ĂN TRƯA, TỐI)",
           "timeline": [
             {
-              "time": "",
-              "description": "",
+              "time": "Sáng",
+              "description": "Xe và HDV đón Quý khách tại sân bay Nội Bài (chuyến bay hạ cánh từ 8h00 – 9h00), khởi hành đi Hà Giang. Quý khách dừng chân nghỉ ngơi và ăn trưa tại Tuyên Quang.",
               "image": ""
             },
             {
-              "time": "",
-              "description": "",
+              "time": "Chiều",
+              "description": "Quý khách tiếp tục hành trình đi Hà Giang, dừng chân thăm quan, chụp hình tại đồi chè Hàm Yên, ngắm dòng sông Lô hùng vĩ. Đến thành phố Hà Giang, chụp hình kỷ niệm tại Km0 của Hà Giang. Điểm giao nhau của QL2, QL34 và QL4C hay còn gọi là Con đường hạnh phúc.",
+              "image": "https://cdn2.ivivu.com/2022/07/08/16/ivivu-cot-km0.gif"
+            },
+            {
+              "time": "Tối",
+              "description": "Quý khách ăn tối và tự do dạo chơi thăm Hà Giang về đêm.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "NGÀY 02: HÀ GIANG - YÊN MINH - ĐỒNG VĂN - LŨNG CÚ ( ĂN SÁNG, TRƯA, TỐI)",
+          "timeline": [
+            {
+              "time": "Sáng",
+              "description": "Quý khách ăn sáng, trả phòng khách sạn, lên xe khởi hành đi Cao nguyên đá Đồng Văn - Khám phá vẻ đẹp hoang sơ, hùng vĩ của núi rừng Đông Bắc, dừng chân tại Cổng Trời Quản Bạ ngắm toàn bộ thị trấnTam Sơn, xã Quản Bạ, dừng chân thăm & chụp hình lưu niệm tại Núi Đôi (núi Cô Tiên) - một thắng cảnh đẹp nổi tiếng của thị trấn và cũng là một minh chứng về lòng chung thủy của nhân gian truyền lại từ đời này qua đời khác.",
+              "image": "https://cdn2.ivivu.com/2022/06/23/14/ivivu-nui-doi-co-tien.gif"
+            },
+            {
+              "time": "9h00",
+              "description": "Tham quan Phố Cáo với những ngôi nhà đặc trưng của người H'mông bởi những hàng rào đá cung quanh nhà.",
+              "image": "https://dulichkhampha24.com/wp-content/uploads/2022/11/phoc-cao-ha-giang-c.jpg"
+            },
+            {
+              "time": "10h00",
+              "description": "Thăm bản Sủng Là thăm ngôi nhà Cổ của người H'mông với tường trình bằng đất - nơi đã được sử dụng làm bối cảnh để quay bộ phim nhựa 'Chuyện của Pao' năm 2006 của đạo diễn Ngô Quang Hải được chuyển thể từ truyện ngắn 'Tiếng đàn môi sau bờ rào đá' của nhà văn Đỗ Bích Thủy đã giành được 4 giải Cánh diều vàng. Quý khách dừng chân nghỉ ngơi và chụp hình hoa tam giác mạch gần dốc chín khoanh.",
+              "image": "https://cdn2.ivivu.com/2020/06/25/11/ivivu-sung-la.gif"
+            },
+            {
+              "time": "13h00",
+              "description": "Thăm Cột Cờ Lũng Cũ - nơi địa đầu Tổ quốc, điểm có vĩ độ cao nhất trên bản đồ của Việt Nam.",
+              "image": "https://cdn2.ivivu.com/2019/12/20/16/ivivu-cot-co-lung-cu.gif"
+            },
+            {
+              "time": "15h00",
+              "description": "Dinh Vua Mèo - Vương Chính Đức nằm trong một thung lũng của xã Sà Phìn, đây là dòng họ giàu có và quyền uy nhất Châu Đồng Văn vào đầu thế kỷ 20.",
+              "image": "https://cdn2.ivivu.com/2019/12/20/16/ivivu-dinh-thu-vua-meo.gif"
+            },
+            {
+              "time": "Tối",
+              "description": "Quý khách tự do khám phá Đồng Văn về đêm.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "NGÀY 03: ĐỒNG VĂN – MÈO VẠC – CAO BẰNG – PẮC PÓ ( ĂN 3 BỮA)",
+          "timeline": [
+            {
+              "time": "Sáng",
+              "description": "Quý khách trả phòng khách sạn, chinh phục đèo Mã Pì Lèng trên đường đi Mèo Vạc, cũng là đoạn đẹp nhất trên con đường mang tên 'Đường Hạnh phúc'.",
+              "image": "https://cdn2.ivivu.com/2022/06/23/14/ivivu-con-duong-hanh-phuc.gif"
+            },
+            {
+              "time": "8h30",
+              "description": "Chụp hình với vẻ đẹp hùng vĩ của hẻm vực Mã Pì Lèng sâu 800m - nơi địa hình bị chia cắt sâu nhất của Việt Nam.",
+              "image": "https://pystravel.vn/uploads/posts/albums/3758/129f750e6cf4a56418dac9d2cb34540b.jpg"
+            },
+            {
+              "time": "9h30",
+              "description": "Du thuyền trên Sông Nho Quế Lên thuyền xuôi dòng Nho Quế đến với Hẻm Tu sản, là hẻm vực sâu nhất của Việt Nam nằm trên dòng sông Nho Quế. Dòng Nho Quế chảy vào Việt Nam từ địa phận thôn Xéo Lủng, xã Lũng Cú, huyện Đồng Văn đi qua Hẻm núi Tu Sản chạy men theo chân đèo Mã Pì Lèng (Chí phí vé tự túc).",
+              "image": "https://cdn2.ivivu.com/2022/06/23/14/ivivu-song-nho-que.gif"
+            },
+            {
+              "time": "Chiều",
+              "description": "Quý khách tiếp tục khởi hành đi Cao Bằng. Đến Pác Bó, Quý khách thăm quan Khu di tích lịch sử Pắc Bó. Vào thăm nơi ở và hoạt động của Chủ tịch Hồ Chí Minh trong những năm kháng chiến từ 1941 đến 1945, đoàn chụp hình lưu niệm tại Suối Lê Nin - Núi Các Mác, thăm hang Cốc Bó. Trở về Cao Bằng nhận phòng nghỉ ngơi.",
+              "image": "https://cdn2.ivivu.com/2020/05/26/16/ivivu-suoi-le-nin.gif"
+            },
+            {
+              "time": "Tối",
+              "description": "Khám phá Cao Bằng về đêm.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "NGÀY 04: CAO BẰNG – THÁC BẢN GIỐC - HỒ BA BỂ ( ĂN 3 BỮA)",
+          "timeline": [
+            {
+              "time": "7h00",
+              "description": "Quý khách ăn sáng, trả phòng khách sạn, lên xe khởi hành đi tham quan.",
+              "image": ""
+            },
+            {
+              "time": "7h30",
+              "description": "Tham quan Thác Bản Giốc, thác có độ cao 53m, chia làm 3 tầng được coi là thác đẹp nhất Việt Nam và là thác lớn nhất Đông Nam Á. Đây là thác nước lớn thứ 4 trong top10 thác nước trên thế giới nằm trên đường biên giới giữa hai quốc gia.",
+              "image": "https://cdn2.ivivu.com/2022/07/08/16/ivivu-thac-ban-gioc-cao-bang.gif"
+            },
+            {
+              "time": "9h30",
+              "description": "Thăm quan động Ngườm Ngao (động Hổ), một trong những hang động đẹp nhất không chỉ của Cao Bằng mà của cả miền Bắc.",
+              "image": "https://cdn2.ivivu.com/2020/05/26/16/ivivu-dong-nguom-ngao.gif"
+            },
+            {
+              "time": "Chiều",
+              "description": "Quý khách khởi hành đi Hồ Ba Bể, ngắm cảnh đẹp yên bình nông thôn miền núi phía Bắc, nhận phòng, ăn tối, nghỉ ngơi.",
+              "image": ""
+            },
+            {
+              "time": "Tối",
+              "description": "Khám phá Ba Bể về đêm",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "NGÀY 05: BA BỂ - SÂN BAY NỘI BÀI ( ĂN SÁNG, TRƯA, CHIỀU ĂN NHẸ)",
+          "timeline": [
+            {
+              "time": "7h00",
+              "description": "Qúy khách ăn sáng, ra bến xuống thuyền thăm quan hồ Ba Bể: Ao tiên: Ao Tiên nằm ở góc hồ ba của hồ Ba Bể, là một hồ nước nhỏ nằm lọt giữa một ngọn núi nhô cao trên mặt hồ. Tương truyền là nơi xưa kia các vị thần tiên thường ngồi chơi cờ ở đây; Đền An Mạ: Đền nằm trên một ngọn núi nhỏ giữa lòng hồ. Tương truyền, trong chiến tranh phong kiến thời Lê - Mạc, các tướng nhà Mạc đã thất trận, chạy đến Động Puông rồi tuẫn tiết tại đó. Cảm kích tinh thần trung liệt, người dân đã dựng đền thờ họ Mạc, song lo bị quan quân nhà Lê phát hiện dẹp bỏ nên đã đổi tên thành Đền An Mạ. Hai từ “An Mạ” theo tiếng dân tộc Tày có nghĩa là “mồ yên mả đẹp”, nơi yên nghỉ của các trung thần họ Mạc; Đảo Bà Góa - một hòn đảo nhỏ xinh xắn nằm ngay vị trí trung tâm của Hồ, gắn liền với sự tích hình thành của Hồ. Thuyền đi chậm một vòng quanh đảo để Quý khách chụp hình.",
+              "image": "https://cdn2.ivivu.com/2021/01/08/15/ivivu-ho-ba-be.gif"
+            },
+            {
+              "time": "Chiều",
+              "description": "Xe đưa Quý khách ăn nhẹ bữa chiều gần sân bay và sau đó làm thủ tục đáp chuyến bay về Cần Thơ, chia tay đoàn và hẹn ngày gặp lại",
               "image": ""
             }
           ]
@@ -1911,53 +2521,496 @@
     },
     {
       "id": 20,
-      "name": "",
-      "image": "",
+      "name": "Tour Miền Bắc 5N4Đ: Sài Gòn - Hạ Long - Ninh Bình - Tam Chúc - Sapa",
+      "image": "https://cdn2.ivivu.com/2020/11/20/15/ivivu-ninh-binh-bia2-750x390.gif",
       "catagoryId": 1,
       "areaId": 1,
-      "price_adult": "",
-      "price_child": "",
-      "quantity_date": "",
-      "start_location": "",
-      "quantity": "",
-      "start_date": "20/6/2023",
+      "price_adult": 9190000,
+      "price_child": 8590000,
+      "quantity_date": "5 Ngày 4 Đêm",
+      "start_location": "Hồ Chí Minh",
+      "end_location": "Hạ Long",
+      "quantity": 5,
+      "start_date": "28/6/2023",
       "vehicle": [
         {
           "id": 1,
-          "nameVehicle": ""
+          "nameVehicle": "Máy bay"
         },
         {
           "id": 2,
-          "nameVehicle": ""
+          "nameVehicle": "Ô tô"
         }
       ],
       "tour_services": [
         {
           "id": 1,
-          "nameService": ""
+          "nameService": "Bảo hiểm"
         },
         {
           "id": 2,
-          "nameService": ""
+          "nameService": "Hướng dẫn viên"
+        },
+        {
+          "id": 3,
+          "nameService": "Vé máy bay"
+        },
+        {
+          "id": 4,
+          "nameService": "Xe đưa đón"
+        },
+        {
+          "id": 5,
+          "nameService": "Bữa ăn"
+        },
+        {
+          "id": 6,
+          "nameService": "Khách sạn 3*"
+        },
+        {
+          "id": 7,
+          "nameService": "Vé tham quan"
         }
       ],
       "description": {
-        "title": "",
-        "content": ""
+        "title": "Chiêm Ngưỡng Các Danh Lam Thắng Cảnh Phía Bắc.",
+        "content": "Hành trình liên tuyến Sài Gòn - Hạ Long - Ninh Bình - Sapa hứa hẹn sẽ đưa du khách tới những danh lam thắng cảnh đặc sắc của Miền Bắc và miền Tây Bắc Việt Nam, với Thủ đô Hà Nội mang trong mình nét trầm ngâm của lịch sử, mảnh đất Cố Đô, ngôi chùa Tam Chúc lớn nhất thế giới...Từ du lịch hành hương đến du lịch trải nghiệm, khám phá các di sản Thiên Nhiên, thưởng thức các đặc sản từng vùng miền, dân tộc...Du khách sẽ cảm thấy tự hào khi sống trên mảnh đất hình chữ S nhiều cảnh sắc tuyệt vời này."
       },
       "tour_details": [
         {
           "id": 1,
-          "name": "",
+          "name": "NGÀY 1: HCM - HÀ NỘI - HẠ LONG ( ĂN NHẸ TRÊN MÁY BAY, TỐI)",
           "timeline": [
             {
-              "time": "",
-              "description": "",
+              "time": "8h50",
+              "description": "Hướng dẫn viên đón Quý khách tại điểm hẹn - ga đi trong nước sân bay Quốc tế Tân Sơn Nhất (Khu vực làm thủ tục của Bamboo Airways), hỗ trợ Quý khách làm thủ tục đáp chuyến bay đi Nội Bài – Hà Nội theo giờ đã chọn.",
               "image": ""
             },
             {
-              "time": "",
-              "description": "",
+              "time": "Trưa",
+              "description": "Quý khách dùng bữa ăn nhẹ trên máy bay (theo xuất ăn của hãng hàng không cung cấp). Đến Sân bay Quốc tế Nội Bài Xe và HDV đón đoàn khởi hành đi Hạ Long.",
+              "image": ""
+            },
+            {
+              "time": "Chiều",
+              "description": " Quý khách đến khách sạn, nhận phòng, nghỉ ngơi, tự do tắm biển, vui chơi với các dịch vụ trò chơi trên biển: dù lượn, moto nước, pháo bơi, kayak,…(chi phí trò chơi tự túc theo nhu cầu). Hoặc đăng ký các option tham quan: Khu Du Lịch Quốc Tế Tuần Châu (tự túc): Ngôi Nhà Kỳ Bí, Khu Games World, Khu vui chơi Giải trí ngoài trời, Khu Bắn Súng Sơn, CLB Biểu Diễn Cá Sấu Xiếc Thú, Sân Khấu Nhạc Nước; Sun World Hạ Long Park (tự túc): Tổ hợp trên 214hn được thiết kế bao gồm 03 phân khu chính với Hệ thống trò chơi hiện đại, đẳng cấp cùng với không gian kỳ vĩ của vịnh Hạ Long chắc chắn sẽ mang tới cho du khách những trải nghiệm khó quên: Cáp Treo Nữ Hoàng & Ngọn Đồi Huyền Bí (Vòng quay Mặt Trời Sun Wheel, Vườn nhật Zen Garden, Khu vui chơi trẻ em Kidoland, Khu trưng bày tượng sáp, Khu Video Game Arcade Zone, Làn trượt Samurai, Hồ cá Koi), Công Viên Rồng (Dragon Park: Phi Long Thần Tốc, Chiếc Ô Kỳ Diệu, Chiếc Cốc Thần, Chuyến Xe Tuổi Thơ, Theo Dấu Chân Rồng, Đu Quay Kỳ Diệu, Tê Giác Cuồng Nộ, Tầu Hải Tặc), Công Viên Nước (Typhoon Water Park : Thử thách mãng xà, Biển sóng Thần, Đảo Quốc Kỳ Diệu, Dòng Sông Lơ Đãng, Cơn Bão Nhiệt Đới, Tia Chớp Khổng Lồ).",
+              "image": "https://cdn2.ivivu.com/2020/09/10/16/ivivu-sun-world-ha-long-park-1.gif"
+            },
+            {
+              "time": "Tối",
+              "description": "Đến nhà hàng dùng bữa tối. Đoàn tự do thăm quan và mua sắm tại chợ đêm Hạ Long hoặc sử dụng các dịch vụ massage, spa, thuê xe đạp đôi dạo quanh thành phố ngắm cầu dây văng Bãi Cháy….",
+              "image": "https://cdn2.ivivu.com/2020/10/19/16/ivivu-bai-chay.gif"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "NGÀY 2: VỊNH HẠ LONG – NINH BÌNH ( ĂN SÁNG, TRƯA, TỐI)",
+          "timeline": [
+            {
+              "time": "6h30 - 7h00",
+              "description": "Quý khách dùng điểm tâm tại nhà hàng. Quý khách trả phòng, Sau đó, xe đưa quý khách ra bến tàu du lịch, lên các động theo lộ trình tuyến 4 tiếng tham quan:",
+              "image": ""
+            },
+            {
+              "time": "7h30",
+              "description": "Động Thiên Cung: tức là “Cung điện của trời”, một trong những hang động đẹp nhất ở Hạ Long. Hang rộng, có nhiều cấp nhiều ngăn với vô vàn nhũ đá, măng đá mang những hình thù kỳ lạ.",
+              "image": "https://cdn2.ivivu.com/2020/06/26/09/ivivu-dong-thien-cung.gif"
+            },
+            {
+              "time": "9h15",
+              "description": "Hang Đầu Gỗ: là nơi gắn liền với câu chuyện lịch sử chống quân Nguyên Mông năm 1228 của Trần Hưng Đạo, hải trình du thuyền đi giữa Hạ Long với hàng ngàn đảo đá sừng sững, du khách sẽ có dịp chiêm ngưỡng bức tranh thiên tạo khổng lồ như Hòn Đỉnh Hương, Hòn Gà Chọi, Hòn Chó Đá,…",
+              "image": "https://cdn2.ivivu.com/2020/07/08/14/ivivu-hang-dau-go.gif"
+            },
+            {
+              "time": "Trưa",
+              "description": "Quý khách dùng bữa trưa trên tàu với các đặc sản nổi tiếng Hạ Long. Sau đó tàu đưa đoàn về lại đất liền.",
+              "image": ""
+            },
+            {
+              "time": "Chiều",
+              "description": "Xe đưa quý khách di chuyển về Ninh Bình theo Quốc Lộ 10. Trên đường đi Quý khách sẽ được cảm nhận, khám phá cuộc sống, phong cảnh đặc trưng của Đồng Bằng Bắc Bộ với cảnh làng quê thanh bình qua các tỉnh Hải Phòng, Thái Bình, Nam Định. Đến Ninh Bình, đoàn làm thụ tục nhận phòng và nghỉ ngơi.",
+              "image": ""
+            },
+            {
+              "time": "Tối",
+              "description": "Quý khách dùng bữa tại nhà hàng với đặc sản Dê núi Ninh Bình, sau đó là chương trình tự do của quý khách với phố đêm Ninh bình.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "NGÀY 3: NINH BÌNH – KDL TRÀNG AN – CỐ ĐÔ HOA LƯ – HÀ NAM - CHÙA TAM CHÚC - HÀ NỘI ( ĂN SÁNG, TRƯA, TỐI)",
+          "timeline": [
+            {
+              "time": "Sáng",
+              "description": "Quý khách dùng bữa tại nhà hàng, sau đó làm thủ tục trả phòng khách sạn.",
+              "image": ""
+            },
+            {
+              "time": "8h00",
+              "description": "Đoàn khởi hành đi tham quan thắng cảnh của Ninh Bình.",
+              "image": ""
+            },
+            {
+              "time": "8h15",
+              "description": "Khu Du Lịch Tràng An - Di sản được UNESCO công nhận là di sản văn hóa và thiên nhiên Thế giới, giúp cho Việt Nam lần đầu lọt vào danh sách 30 di sản hỗn hợp Thế Giới. Nơi những dải đá vôi, thung lũng và sông ngòi đan xen tạo nên một không gian huyền ảo, kỳ bí. Ngồi trên chiếc thuyền nhỏ, trên sông Sào Khê uốn lượn giữa cánh đồng lúa, quý khách đi đò thăm Hang sáng , Hang tối , Hang nấu rượu...",
+              "image": "https://cdn2.ivivu.com/2020/06/26/09/ivivu-trang-an.gif"
+            },
+            {
+              "time": "9h30",
+              "description": "Cố Đô Hoa Lư - Kinh đô của nước ta vào thế kỷ X, nơi đây quý khách cùng tham quan hai ngôi đền thờ vua Đinh và vua Lê.",
+              "image": "https://cdn2.ivivu.com/2020/09/29/13/ivivu-co-do-hoa-lu-2.gif"
+            },
+            {
+              "time": "Trưa",
+              "description": "Quý khách dùng bữa trưa tại nhà hàng tiêp tục lộ trình về Hà Nội.",
+              "image": ""
+            },
+            {
+              "time": "Chiều",
+              "description": "Đoàn qua Hà Nam tham quan tại quần thể danh thắng Tâm Linh Tam Chúc: Thuyền VIP đi trên lòng hồ vào quần thể tự do thăm qua Tam Chúc: một trong những hồ nước tự nhiên rộng nhất Việt Nam, có dãy núi đá vôi bao quanh. Giữa hồ có 6 quả núi nhỏ nhô lên khiến phong cảnh thơ mộng, đủ ‘sơn thủy hữu tình’. Đi thuyền trên hồ, du khách sẽ được ghé tới tham quan hòn đảo nhỏ và ngôi đình trên đó, gọi là đình Tam Chúc – ngôi đình với đầy đủ nét tinh hoa kiến trúc đền chùa Bắc Bộ. Sau đó tiếp tục lộ trình di chuyển về Hà Nội. Đến hà Nội, Sau đó đoàn nhận phòng khach sạn và nghỉ ngơi.",
+              "image": ""
+            },
+            {
+              "time": "Tối",
+              "description": "Quý khách đến dùng bữa tối tai nhà hàng. Đoàn tự do tham quan phố cổ Hà Nội, dạo Hồ Gươm, mua sắm tại Chợ đêm Hà Nội sầm uất... Nghỉ đêm tại khách sạn ở Hà Nội.",
+              "image": "https://cdn2.ivivu.com/2022/10/17/16/ivivu-ho-guom.gif"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "NGÀY 4: HÀ NỘI - SAPA – CỔNG TRỜI SAPA – ĐÈO Ô QUY HỒ - CẦU KÍNH RỒNG MÂY ( ĂN SÁNG, TRƯA, TỐI)",
+          "timeline": [
+            {
+              "time": "6h00",
+              "description": "Đoàn trả phòng và dùng bữa sáng tại nhà hàng.",
+              "image": ""
+            },
+            {
+              "time": "7h00",
+              "description": "Quý khách tiếp tục Khởi hành đi Lào Cai, chạy theo đường cao tốc Nội Bài – Lào Cai dài 245Km với chưa đầy 5h đồng hồ. Quý khách có cơ hội ngắm phong cảnh tuyệt đẹp trên cung đường Tây Bắc, dừng chân nghỉ ngơi ,khám phá phong cảnh.",
+              "image": ""
+            },
+            {
+              "time": "Trưa",
+              "description": "Quý khách ăn trưa tại Sapa. Về khách sạn nhận phòng nghỉ ngơi.",
+              "image": ""
+            },
+            {
+              "time": "13h30",
+              "description": "Tham quan Cổng Trời Sapa - Đứng giữa cổng trời Sapa, có thể phóng tầm mắt bao quát cả thung lũng rộng lớn phía dưới với những ruộng nương xanh rì, con đường ôtô xuôi ngược Phong Thổ (Lai Châu) – Sapa (Lào Cai), xa xa là Thác Bạc – một trong 10 thác nước đẹp nhất Lào Cai, luôn được giới trẻ tìm đến khám phá.",
+              "image": "https://cdn2.ivivu.com/2020/06/26/14/ivivu-cong-troi-sapa.gif"
+            },
+            {
+              "time": "15h00",
+              "description": "Qúy khách có thể lựa chọn tham quan khu du lịch Cầu Kính Rồng Mây trải nghiệm cây cầu kính có 1 không 2 tại Sapa. Thỏa sức chiêm ngưỡng vẻ đẹp, sự hùng vĩ của dãy Hoàng Liên Sơn. (Chưa bao gồm vé Cầu kính)",
+              "image": "https://cdn2.ivivu.com/2020/09/10/10/ivivu-cau-kinh-rong-may.gif"
+            },
+            {
+              "time": "16h30",
+              "description": "Chụp hình lưu niệm tại đỉnh đèo Ô Quy Hồ - một trong tứ đại đỉnh đèo của Việt Nam.",
+              "image": "https://cdn2.ivivu.com/2022/08/04/11/ivivu-o-quy-ho-o.gif"
+            },
+            {
+              "time": "18h00",
+              "description": "Quý khách dùng bữa tối tại nhà hàng, sau đó Quý khách tham quan: Nhà thờ Đá, Chợ tình Sapa (nếu đúng vào đêm thứ Bảy). Tự do thưởng thức các món ăn đặc trưng của người dân tộc thiểu số vùng Tây Bắc: Thắng Cố, cơm lam, lợn cắp nách, khoai nướng, bắp nướng……",
+              "image": "https://cdn2.ivivu.com/2022/10/24/17/ivivu-nha-tho-sapa.gif"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "NGÀY 5: SAPA – FANSIPAN – LÀO CAI – HÀ KHẨU - HÀ NỘI ( ĂN SÁNG, TRƯA, TỐI)",
+          "timeline": [
+            {
+              "time": "6h00",
+              "description": "Đoàn trả phòng và dùng bữa sáng tại nhà hàng.",
+              "image": ""
+            },
+            {
+              "time": "7h30",
+              "description": "Quý khách di chuyển đến khu vực cáp treo, lên cáp treo chinh phục đỉnh: KDL Fansipan – với 2 kỷ lục Guinness cho cáp treo Fansipan Sapa là: Cáp treo ba dây có độ chênh giữa ga đi và ga đến lớn nhất thế giới: 1410m và Cáp treo ba dây dài nhất thế giới: 6292.5m. Trải nghiệm cảm giác đi giữa biển mây, ngắm toàn cảnh Sapa và thung lũng Mường Hoa, vườn quốc gia Hoàng Liên từ trên cao. Quý khách sẽ thách thức bản thân leo thêm 600 bậc thang nữa để chinh phục “Nóc nhà Đông Dương” - đỉnh Fansipan ở độ cao 3,143m. (Chi phí cáp treo tự túc)",
+              "image": "https://cdn2.ivivu.com/2022/03/15/11/ivivu-dinh-fansipan-lao-cai.gif"
+            },
+            {
+              "time": "8h30",
+              "description": "Quần Thể Chùa Trên Đỉnh Fansipan: Bước ra khỏi ga Fansipan, bạn sẽ đến ngay chùa Hạ (Thanh Phong Thiền tự). Đến đây, bạn có thể viết sớ cầu an cho bản thân và gia đình. Suốt quãng đường 600 bậc thang lên đỉnh Fansipan, từ chùa Hạ lên chùa Thượng, đâu đâu bạn cũng được nghe những bản nhạc thiền rất dễ chịu, cảm giác như đang bước vào cõi Phật. Bạn nhớ đừng bỏ qua chiêm bái đại tượng Phật A Di Đà bằng đồng cao nhất Việt Nam (21,5m), được coi là biểu tượng của quần thể văn hóa tâm linh Fansipan. Nơi đây còn có Kim Sơn Bảo Thắng Tự, Đại hùng Bảo Điện với nhiều pho tượng Phật được tạo tác kỳ công, bảo tháp 11 tầng bằng đá nguyên khối, con đường La Hán với 18 bức tượng La Hán bằng đồng, hai bên là hoa đỗ quyên rực rỡ khoe sắc. Cùng với đó là nhiều công trình Phật giáo tiêu biểu như Bích Vân Thiền tự, tượng Quan Thế Âm Bồ Tát, Tháp chuông – Vọng lĩnh cao đài, miếu Sơn Thần…",
+              "image": "https://cdn2.ivivu.com/2022/08/05/10/ivivu-dinh-fansipan.gif"
+            },
+            {
+              "time": "9h30",
+              "description": "Tàu Hỏa Leo Núi Đổ Quyên: Đối với những ai khoẻ mạnh hay vào những hôm thời tiết đẹp thì điều này không phải là vấn đề. Nhưng với những người lớn tuổi hoặc không may đi vào những hôm trời mù nhiều gió thì bạn nên chọn phương tiện này để lên thẳng đỉnh Fansipan.",
+              "image": "https://cdn2.ivivu.com/2019/10/17/15/ivivu-tau-hoa-leo-nui1.jpg"
+            },
+            {
+              "time": "10h30",
+              "description": "Vân Sơn Trà Quán (tự túc tùy món có giá khác nhau): Cũng trên con đường 600 bậc thang đến đỉnh Fansipan, gần chùa Hạ, bạn sẽ đi ngang Vân Sơn Trà Quán. Nơi này có thiết kế khiến bạn gợi nhớ đến Trú Vũ Trà Quán ở Bà Nà Hills. Cũng với phong cách kiểu trà đạo, ngồi xếp bằng, bàn thấp. Nơi này mây bao phủ xung quanh, bạn có thể thưởng thức một tách trà nóng, ngắm hoa đỗ quyên nở và cảm nhận không gian thanh tịnh khắp nơi.",
+              "image": ""
+            },
+            {
+              "time": "Trưa",
+              "description": "Chia tay Sapa, Quý khách lên xe khởi hành về Lào Cai, nghỉ ngơi, ăn trưa tại nhà hàng.",
+              "image": ""
+            },
+            {
+              "time": "Chiều",
+              "description": "Sau đó sẽ ghé tham quan: Chụp hình lưu niệm tại Cửa Khẩu Hà Khẩu nơi tiếp giáp với Trung Quốc …; Điểm du lịch vùng biên Chợ Cốc Lếu - tham quan và mua sắm các sản phẩm từ Trung Quốc với giá siêu rẻ (nếu còn thời gian). Quý khách khởi hành về Hà Nội - trên đường đi đoàn tự do nghỉ ngơi, ngắm cảnh đẹp của núi rừng Tây Bắc hoặc tham gia các trò chơi vui nhộn do hướng dẫn viên tổ chức, sau đó tiếp tục lộ trình về lại Sân bay.",
+              "image": "https://file1.dangcongsan.vn/data/0/images/2020/09/20/chientq/1.jpg"
+            },
+            {
+              "time": "17h00",
+              "description": "Đến khu vực sân bay, Quý khách dùng bữa tối tại nhà hàng, Sau đó, xe đưa quý khách vào của làm thủ tục sân bay nội bài làm thủ tục đáp chuyến bay  (sau 20h00) về lại Tp. Hồ Chí Minh. Kết thúc chuyến tham quan chia tay, chúc sức khoẻ và hẹn ngày gặp lại.",
+              "image": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Tour Hạ Long - Lan Hạ 2N1Đ: Du Thuyền 5 Sao La Casta",
+      "image": "https://cdn2.ivivu.com/2022/08/08/16/ivivu-la-caste-750x390.gif",
+      "catagoryId": 1,
+      "areaId": 1,
+      "price_adult": 3790000,
+      "price_child": 3411000,
+      "quantity_date": "2 Ngày 1 Đêm",
+      "start_location": "Hà Nội",
+      "end_location": "Hạ Long",
+      "quantity": 7,
+      "start_date": "20/6/2023",
+      "vehicle": [
+        {
+          "id": 1,
+          "nameVehicle": "Du thuyền"
+        },
+        {
+          "id": 2,
+          "nameVehicle": "Ô tô"
+        }
+      ],
+      "tour_services": [
+        {
+          "id": 1,
+          "nameService": "Bảo hiểm"
+        },
+        {
+          "id": 2,
+          "nameService": "Hướng dẫn viên"
+        },
+        {
+          "id": 3,
+          "nameService": "Xe đưa đón"
+        },
+        {
+          "id": 4,
+          "nameService": "Bữa ăn"
+        },
+        {
+          "id": 5,
+          "nameService": "Vé tham quan"
+        }
+      ],
+      "description": {
+        "title": "Hải Trình Thượng Hạng Khám Phá Vịnh Lan Hạ",
+        "content": "Trải nghiệm Du thuyền thiết kế theo phong cách Tân Cổ Điển. Thiết kế sang trọng với bể bơi bốn mùa (bể sục Jacuzzi) ngoài trời và ban công riêng view trọn vịnh Hạ Long – Lan Hạ. Du thuyền mang đến cho quý khách một chuyến tham quan và tận hưởng cảnh sắc đẹp nao lòng của Vịnh Hạ Long."
+      },
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "NGÀY 01: HÀ NỘI – CẢNG TUẦN CHÂU – DU THUYỀN LA CASTA (ĂN TRƯA, TỐI)",
+          "timeline": [
+            {
+              "time": "8h30-9h00",
+              "description": "Xe Limousine sẽ đón quý khách tại khách sạn Phố Cổ, Nhà hát lớn Hà Nội, di chuyển đi Hạ Long. Xe sẽ đưa quý khách qua đường cao tốc Hải Phòng.",
+              "image": ""
+            },
+            {
+              "time": "11h00-11h30",
+              "description": "Quý khách xuống tới bến cảng Tuần Châu. Có mặt ở ô 17 Bến Cảng Quốc Tế Tuần Châu – Nhà chờ Du thuyền La Casta. Nhân viên nhà chờ sẽ hướng dẫn Quý khách làm thủ tục lên tàu chuyển tải và di chuyển từ Bến Tuần Châu tới Du thuyền La Casta Cruise 5 sao Hạ Long – Lan Hạ.",
+              "image": ""
+            },
+            {
+              "time": "12h30",
+              "description": "Thuỷ thuỷ đoàn chào mừng Quý khách đến với hành trình 2 Ngày 1 Đêm cùng Du thuyền La Casta. Quý khách làm thủ tục nhận phòng và nghe tóm tắt về lịch trình, các quy định về an toàn trong khi thưởng thức đồ uống chào mừng.",
+              "image": "https://cdn2.ivivu.com/2022/08/08/16/ivivu-la-caste.gif"
+            },
+            {
+              "time": "13h00",
+              "description": "Quý khách thưởng thức bữa trưa tại nhà hàng trên Du thuyền La Casta 5 sao, trong khi du thuyền đang di chuyển trên Vịnh Hạ Long - Lan Hạ tráng lệ, chiêm ngưỡng những cảnh quan tuyệt đẹp, những kiến tạo đá hấp dẫn do thiên nhiên ban tặng trên Vịnh.",
+              "image": ""
+            },
+            {
+              "time": "15h15",
+              "description": "Quý khách có thể lựa chọn trải nghiệm dịch vụ Spa, thư giãn trên Sundeck, tắm bể bơi trên du thuyền.",
+              "image": "https://cdn2.ivivu.com/2022/08/08/16/ivivu-room.gif"
+            },
+            {
+              "time": "16h00",
+              "description": "quý khách tham gia trải nghiệm chèo Kayak trên vịnh hoặc ngồi thuyền nan thăm quan, tắm biển và bơi lội ở khu vực Ba Trái Đào. Đây là khu vực có bãi tắm hoang sơ và đẹp nhất ở Vịnh Lan Hạ. (Vào các ngày thời tiết không thuận lợi, để đảm bảo sự an toàn của quý khách, lịch trình sẽ thay đổi sang tham quan hang Sáng – Tối – một trong những hang nước đẹp nhất vịnh Lan Hạ, tại đây quý khách tham gia Chèo Kayak hoặc ngồi thuyền nan ngắm cảnh sẽ có nhân viên chèo thuyền đưa Quý khách đi tham quan)",
+              "image": "https://cdn2.ivivu.com/2022/08/08/16/ivivu-kayak.gif"
+            },
+            {
+              "time": "17h30",
+              "description": "Quý khách quay trở lại du thuyền tự do giải trí, ngắm hoàng hôn và thưởng thức trà chiều, trái cây tươi hoặc tắm bể bơi trên du thuyền.",
+              "image": ""
+            },
+            {
+              "time": "18h00",
+              "description": "Quý khách tham gia chương trình Cooking Class được tổ chức trên khu vực nhà hàng hoặc sundeck.",
+              "image": ""
+            },
+            {
+              "time": "19h30",
+              "description": "Quý khách thưởng thức bữa tối Buffet hải sản trên Du thuyền (Nếu ngày dưới 30 khách sẽ bố trí bữa tối Setmenu).",
+              "image": ""
+            },
+            {
+              "time": "Sau bữa tối",
+              "description": "Quý khách có thể tham gia chương trình câu mực, thư giãn trên sundesk, thưởng thức ly rượu vang tại quầy bar…Ngủ đêm trên Du thuyền 5 Sao La Casta Cruise",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "NGÀY 02: VỊNH LAN HẠ - TRÀ BÁU – CẢNG TUẦN CHÂU – HÀ NỘI (ĂN SÁNG, TRƯA)",
+          "timeline": [
+            {
+              "time": "6h15",
+              "description": "Quý khách ngắm bình minh trên Vịnh, tham gia Tai Chi class – Lớp học Thái cực quyền với hướng dẫn viên trên tàu, thưởng thức bầu không khí trong lành trên Vịnh Lan Hạ.",
+              "image": ""
+            },
+            {
+              "time": "7h00-7h45",
+              "description": "Quý khách thưởng thức trà, cafe, bánh ngọt cùng bữa sáng nhẹ tại nhà hàng.",
+              "image": ""
+            },
+            {
+              "time": "8h15",
+              "description": "Du khách thăm khu địa danh Trà Báu, đây chính là địa điểm quay bộ phim Kong Skull Island (King Kong) nổi tiếng ở Quảng Ninh năm 2018. Tại đây quý khách có thể tự do chèo Kayak khám phá cảnh quan, hoặc đắm mình trong làn nước trong xanh, mát lành của nơi đây.",
+              "image": "https://cdn2.ivivu.com/2022/08/08/16/ivivu-tra-bau.gif"
+            },
+            {
+              "time": "9h00",
+              "description": "Quý khách quy trở lại phòng nghỉ ngơi, tận hưởng kỳ nghỉ tuyệt vời trên vịnh.",
+              "image": ""
+            },
+            {
+              "time": "9h30",
+              "description": "Quý khách làm thủ tục trả phòng và thanh toán những hoá đơn phát sinh nếu có.",
+              "image": ""
+            },
+            {
+              "time": "10h30",
+              "description": "Thưởng thức bữa trưa tại nhà hàng trên Du thuyền.",
+              "image": ""
+            },
+            {
+              "time": "11h30",
+              "description": "Chào tạm biệt thuỷ thủ đoàn. Quý khách rời Du thuyền lên Cano cao tốc trở lại bến Tuần Châu.",
+              "image": ""
+            },
+            {
+              "time": "12h00",
+              "description": "Xe limousine đón Quý khách về lại Hà Nội.",
+              "image": ""
+            },
+            {
+              "time": "14h30",
+              "description": "Về tới Hà Nội. Xe trả khách lại điểm đón ban đầu, kết thúc kỳ nghỉ 2 Ngày 1 Đêm cùng Du thuyền 5 sao La Casta Cruise Hạ Long – Lan Hạ. Hẹn gặp lại quý khách trong những hành trình sắp tới.",
+              "image": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Tour Hạ Long 1N: Hà Nội - Sửng Sốt - Ti Tốp",
+      "image": "https://cdn2.ivivu.com/2018/12/24/17/ivivu-ha-long-aerial-03-750x390.jpg",
+      "catagoryId": 1,
+      "areaId": 1,
+      "price_adult": 900000,
+      "price_child": 800000,
+      "quantity_date": "Trong ngày",
+      "start_location": "Hà Nội",
+      "end_location": "Hạ Long",
+      "quantity": 12,
+      "start_date": "04/07/2023",
+      "vehicle": [
+        {
+          "id": 1,
+          "nameVehicle": "Du thuyền"
+        },
+        {
+          "id": 2,
+          "nameVehicle": "Ô tô"
+        }
+      ],
+      "tour_services": [
+        {
+          "id": 1,
+          "nameService": "Bữa ăn"
+        },
+        {
+          "id": 2,
+          "nameService": "Vé tham quan"
+        },
+        {
+          "id": 3,
+          "nameService": "Hướng dẫn viên"
+        },
+        {
+          "id": 4,
+          "nameService": "Xe đưa đón"
+        }
+      ],
+      "description": {
+        "title": "Khám phá Hạ Long - Hành trình không bao giờ cũ",
+        "content": "Vịnh Hạ Long là một trong những di sản thế giới tại Việt Nam được UNESCO công nhận vào năm 1994. Vịnh Hạ Long tiếp tục được bầu chọn là một trong bảy kỳ quan thiên nhiên mới của thế giới năm 2011. Trong Vịnh có hàng ngàn đảo đá với hình dạng kỳ diệu. Bạn có thể hành trình xung quanh vịnh để ngắm cảnh quan tuyệt vời và thăm một số hang động đẹp."
+      },
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "Chương trình tour",
+          "timeline": [
+            {
+              "time": "7h30-8h00",
+              "description": "Xe và hướng dẫn viên đón Quý khách tại các khách sạn khu vực trung tâm phố Cổ và Nhà Hát Lớn khởi hành cho chuyến đi thăm Vịnh Hạ Long với hành trình tuyến 2 hấp dẫn giống với hành trình của những con tàu ngủ đêm trên Vịnh.",
+              "image": ""
+            },
+            {
+              "time": "12h00-12h30",
+              "description": "Đến cảng tàu Hạ Long, Đoàn tập trung tại nhà chờ theo sự hướng dẫn của hướng dẫn viên, lên tàu bắt đầu hành trình khám phá Vịnh. Tàu sẽ đi qua rất nhiều các hòn đảo lớn nhỏ với nhiều hình dáng khác nhau có những tên gọi đặc biệt như: Hòn Gà Chọi, hòn Chó Đá, hòn Đỉnh Hương… Quý khách thưởng thức bữa trưa trên tàu.",
+              "image": "https://cdn2.ivivu.com/2021/05/06/16/ivivu-hang-cho-da.gif"
+            },
+            {
+              "time": "14h00",
+              "description": "Đến đảo Bồ Hòn. Quý khách thăm quan Hang Sửng Sốt - Một trong những hang động đẹp nhất vịnh Hạ Long. Tiếp theo, Quý khách sẽ chèo Kayak hoặc đi thuyền nan thăm Hang Luồn ( chi phí tự túc)",
+              "image": "https://cdn2.ivivu.com/2021/05/06/16/ivivu-hang-sung-sot.gif"
+            },
+            {
+              "time": "15h00",
+              "description": "Quý khách lên tàu để đến với đảo Titop. Quý khách có thể tắm biển tại bãi tắm Titop với bãi cát trắng, hoặc thử trekking leo lên đỉnh núi Titop ngắm nhìn toàn cảnh Vịnh Hạ Long.",
+              "image": ""
+            },
+            {
+              "time": "16h30",
+              "description": "Quý khách quay trở lại tàu. Tàu sẽ di chuyển đưa Quý khách về lại cảng. Quý khách có thể tắm nắng trên boong tàu, nghe nhạc và thư giãn, hòa mình vào thiên nhiên của Vịnh Hạ Long.",
+              "image": "https://cdn2.ivivu.com/2021/05/06/16/ivivu-daqo-ti-top.gif"
+            },
+            {
+              "time": "18h00",
+              "description": "Về cập lại cảng tàu Hạ Long. Quý khách lên xe về Hà Nội.",
+              "image": ""
+            },
+            {
+              "time": "21h00 - 21h30",
+              "description": " Về tới Hà Nội, xe đưa Quý khách về lại điểm đón ban đầu. Kết thúc chương trình khám phá kỳ quan thiên nhiên thế giới Vịnh Hạ Long trong ngày. Hẹn gặp lại Quý khách! Lưu ý quan trọng: Thời gian đi thăm quan Vịnh Hạ Long có thể được điều chỉnh phụ thuộc vào thời tiết Hạ Long hoặc sự điều phối của Ban quản lý Vịnh Hạ Long. Mong Quý khách thông cảm!",
               "image": ""
             }
           ]
@@ -1972,39 +3025,35 @@
       "fullname": "Lap",
       "email": "abc@example.com",
       "phone": "1234567890",
-      "password": "12345678"
+      "password": "12345678",
+      "img": "https://img6.thuthuatphanmem.vn/uploads/2022/10/23/anime-avatar-chibi-cute_031456807.jpg"
     },
     {
       "id": "c05fe8e2-8162-4dec-9dea-d69f3804fcaa",
       "username": "LLing",
-      "fullname": "LinhLinh",
+      "fullname": "Linh",
       "email": "abc@example.com",
       "phone": "1234567890",
-      "password": "12345678"
+      "password": "12345678",
+      "img": "https://i0.wp.com/thatnhucuocsong.com.vn/wp-content/uploads/2023/02/Hinh-anh-avatar-cute.jpg?ssl=1"
     },
     {
       "id": "04b3de35-f505-4cbc-b2b6-1068850aae35",
       "username": "tlinhn",
-      "fullname": "Thuỳ Linh",
+      "fullname": "Thuỳ Linh Nguyễn",
       "email": "tlinh@gmail.com",
       "phone": "1234567890",
-      "password": "1234"
-    },
-    {
-      "id": "0088cf88-2869-4d99-a40a-13c06921c2e6",
-      "username": "linh",
-      "fullname": "Thuỳ Linh",
-      "email": "tlinhn@gmail.com",
-      "phone": "1234567890",
-      "password": "1111"
+      "password": "1234",
+      "img": "https://www.studytienganh.vn/upload/2022/05/112273.jpg"
     },
     {
       "id": "8ad24285-f25f-499a-8fa9-0a85d664976c",
       "username": "a",
-      "fullname": "a",
+      "fullname": "Karry Wang",
       "email": "a@gmail",
       "phone": "1234567890",
-      "password": "1111"
+      "password": "1111",
+      "img": "https://khoinguonsangtao.vn/wp-content/uploads/2022/08/hinh-anh-chibi-423x560.jpg"
     }
   ]
 }
