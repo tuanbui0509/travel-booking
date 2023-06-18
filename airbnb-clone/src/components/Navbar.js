@@ -37,7 +37,7 @@ const Navbar = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-
+console.log(user.img)
   return (
       <div className={` ${scrollPosition > 15 ? 'fixed-top navbar fixed-top-nav' : 'navbar'}`}>
         <div className="container container-nav">
@@ -59,7 +59,10 @@ const Navbar = () => {
             {
               user? (
                   <div className="item container-user">
-                    <img src={user.img} alt="" className="avatar"></img>
+                    {
+                      user.img?  <img src={user.img} alt="" className="avatar"></img> : <AccountCircle className='icon icon-user'/>
+                    }
+
                     <Link to={"/account"}>
                       <span className="text">{user.fullname}</span>
                     </Link>
