@@ -1,14 +1,10 @@
 import {createSlice} from "@reduxjs/toolkit";
-import {addCheckoutToLocal, removeCartTourFromLocal} from "../../utils/localStorageUtils";
-import {clearSelectedTour} from "./SelectedTourSlice";
-import {removeCart} from "./CartsSlice";
 
 const checkoutSlice = createSlice({
     name: "checkout",
     initialState: [],
     reducers: {
         saveInfoPassenger: (state, action) => {
-            console.log(action.payload)
             const newCheckout = {
                 id: action.payload.id,
                 user_id: action.payload.user_id,
@@ -43,7 +39,6 @@ const checkoutSlice = createSlice({
                 }
                 return item;
             });
-            console.log(updatedState)
 
             return updatedState;
         },
