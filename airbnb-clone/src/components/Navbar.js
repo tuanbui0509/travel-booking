@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {useEffect, useState} from "react";
 import { Link } from "react-router-dom";
 import "../styles/navbar.scss";
 import { Home } from "@material-ui/icons";
@@ -21,11 +21,25 @@ const Navbar = () => {
   const handleMenuToggle = () => {
     setIsMenuOpen(!isMenuOpen);
   };
-
   const user = JSON.parse(localStorage.getItem("user")) || null;
   console.log(user);
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const position = window.pageYOffset;
+      setScrollPosition(position);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-      <div className="navbar">
+      <div className={` ${scrollPosition > 15 ? 'fixed-top navbar fixed-top-nav' : 'navbar'}`}>
         <div className="container container-nav">
           <div className="nav-left">
             <Link to={'/'}><img src={logo} alt="logo" /></Link>

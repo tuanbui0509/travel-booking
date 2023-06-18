@@ -61,7 +61,7 @@ export default function CardItem(prop) {
     }, [cartItems, prop.idCard]);
 // Hàm useEffect được gọi mỗi khi cartItems hoặc prop.idCard thay đổi, để kiểm tra xem mặt hàng có trong giỏ hàng hay không
 
-
+    const priceRow = prop.priceRow || false
     return (
         <div className="col mt-4">
 
@@ -70,8 +70,8 @@ export default function CardItem(prop) {
                  <img src={prop.image} style={{minHeight: '197px'}} className="card-img-top" alt="..."/>
                 </Link>
                 <div className="card-body">
-                    <h5 className="card-title">{prop.title}</h5>
-                    <div className="d-flex flex-row justify-content-between">
+                    <h6 className="card-title mb-1">{prop.title}</h6>
+                    <div className={`d-flex ${ priceRow ? 'flex-row' : 'flex-column'} justify-content-between`}>
                         <div className="d-flex flex-column">
                             <div className="time">
                                 <QueryBuilder className="icon"/>
@@ -87,19 +87,19 @@ export default function CardItem(prop) {
                             </div>
                             <div className="building">
                                 <Apartment className="icon"/>
-                                <span>{prop.start}</span>
+                                <span>{prop.start} sao</span>
                             </div>
                         </div>
                         <div className="d-flex flex-column justify-content-between">
               <span className="price text-right">
-                {formatPrice(prop.price)}đ
+                {formatPrice(prop.priceAdult)}đ
               </span>
                             
                         </div>
                     </div>
                     <div className="d-flex flex-center">
                         <button
-                            className={`btn ${inCart ? "btn-danger" : "btn-success"} rounded`}
+                            className={`btn ${inCart ? "btn-danger remove-cart" : "add-cart"} rounded`}
                             onClick={inCart ? handleRemoveFromCart : handleAddToCart}
                         >
                             <i className="fas fa-cart-plus"></i>{" "}

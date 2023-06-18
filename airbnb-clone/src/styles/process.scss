@@ -31,7 +31,7 @@
       text-align: center;
       margin: 0 auto 10px auto;
       border-radius: 50%;
-      background-color: #fff;
+      background-color: $color-blue_third;
     }
 
     &:after {
@@ -39,7 +39,7 @@
       height: 10px;
       content: '';
       position: absolute;
-      background-color: #fff;
+      background-color: $color-blue_third;
       top: 21px;
       left: -50%;
       z-index: -1;

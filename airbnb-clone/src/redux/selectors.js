@@ -1,4 +1,5 @@
 import { createSelector } from "@reduxjs/toolkit";
+import { useSelector } from "react-redux";
 
 //export những giá trị trong redux mà chúng ta muốn lấy ra, khi muốn lấy ra chúng ta gọi đến lớp này
 
@@ -15,10 +16,10 @@ export const toursRemainingSelector = createSelector(
     filtersSelector,
     arrangementSelector,
     (tours, filters, arrangement) => {
-        const { key, starting, destination, date } = filters;
+        const { key, starting, destination, date, areaHot } = filters;
 
         // Kiểm tra nếu các giá trị filters đều rỗng
-        if (!key && !starting && !destination && !date) {
+        if (!key && !starting && !destination && !date && !areaHot) {
             return tours;
         }
 
@@ -30,12 +31,15 @@ export const toursRemainingSelector = createSelector(
         if (starting) {
             filteredTours = filteredTours.filter((tour) => tour.start_location === starting);
         }
-        // if (destination) {
-        //     filteredTours = filteredTours.filter((tour) => tour.destination == destination);
-        // }
+        if (destination) {
+            filteredTours = filteredTours.filter((tour) => tour.end_location === destination);
+        }
 
         if (date) {
             filteredTours = filteredTours.filter((tour) => tour.start_date === date);
+        }
+        if (areaHot) {
+            filteredTours = filteredTours.filter((tour) => tour.end_location === areaHot);
         }
         // Áp dụng sắp xếp theo arrangement
         if (arrangement === 'duration') {
@@ -66,3 +70,61 @@ export const startDatesSelector = createSelector(
         return startLocations.filter((value, index, self) => self.indexOf(value) === index);
      }
 )
+
+export const endLocationsSelector = createSelector(
+     toursSelector,
+     (tours) => {
+        const endlocations = tours.map((item) => item.end_location);
+        return endlocations.filter((value, index, self) => self.indexOf(value) === index);
+     }
+)
+
+export const locationHotDomestic = createSelector(
+  toursSelector,
+  (tours) => {
+    const categoryIdToFilter = 1;
+
+    // Lọc danh sách các end_location có catagoryId = 1 và loại bỏ giá trị trùng lặp
+    const Locations = [...new Set(
+      tours
+        .filter(tour => tour.catagoryId === categoryIdToFilter)
+        .map(tour => tour.end_location)
+    )].slice(0, 10);;
+
+    return Locations;
+  }
+);
+
+
+export const locationHotForeign = createSelector(
+     toursSelector,
+     (tours) => {
+        const categoryIdToFilter = 2;
+        const Locations = [...new Set(
+            tours
+            .filter(tour => tour.catagoryId === categoryIdToFilter)
+            .map(tour => tour.end_location)
+        )].slice(0, 10);;
+
+        return Locations;
+    }
+
+)
+
+export const commentsSelector = (state) => state.comments.comments
+
+export const getcommentsByIdTour = createSelector(
+  [commentsSelector, (_, idTour) => idTour], // Đặt tham số idComment vào selector
+  (comments, idTour) =>
+    comments.filter((comment) => comment.idTour === idTour)
+);
+
+
+export const subCommentsSelector = (state) => state.subComments.subComments
+// Selector lấy ra các object trong mảng "subComments" dựa trên giá trị của "idComment"
+export const getSubCommentsByIdComment = createSelector(
+  [subCommentsSelector, (_, idComment) => idComment], // Đặt tham số idComment vào selector
+  (subComments, idComment) =>
+    subComments.filter((comment) => comment.idComment === idComment)
+);
+

@@ -3,7 +3,7 @@ import CardItem from './CardItem';
 
 export default function ListCard(props) {
   const { data } = props;
-  const [visibleCards, setVisibleCards] = useState(9);
+  const [visibleCards, setVisibleCards] = useState(6);
 
   // xử lí load thêm dữ liệu khi kéo trang xuống
   const handleScroll = () => {
@@ -19,7 +19,7 @@ export default function ListCard(props) {
     const scrollHeight = window.pageYOffset + windowHeight;
 
     if (scrollHeight >= documentHeight) {
-      setVisibleCards((prevVisibleCards) => prevVisibleCards + 9);
+      setVisibleCards((prevVisibleCards) => prevVisibleCards + 6);
     }
   };
 
@@ -40,9 +40,13 @@ export default function ListCard(props) {
           image={tour.image}
           time={tour.quantity_date}
           date={tour.start_date}
-          plane="Bay khứ hồi"
-          start="4 sao"
-          price={tour.price_adult}
+          plane={tour.vehicle[0].nameVehicle}
+          start={tour.star}
+          priceAdult={tour.price_adult}
+          priceChild={tour.price_child}
+          quantity = {tour.quantity}
+          catagoryId={tour.catagoryId}
+          priceRow={props.priceRow}
         />
       ))}
     </div>

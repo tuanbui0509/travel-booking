@@ -1,4 +1,4 @@
-import {Link} from "react-router-dom";
+import {Link, useNavigate} from "react-router-dom";
 import {CartItem} from "../components/CartItem";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
@@ -9,12 +9,12 @@ import {removeCart, updateCart} from "../redux/slices/CartsSlice";
 import {clearSelectedTour, setSelectedTour, updateSelectedTour} from "../redux/slices/SelectedTourSlice";
 import Swal from "sweetalert2";
 import {
-    formatPrice, RATE_PRICE_OF_CHILD_WITH_ADULT, RATE_QUANTITY_OF_CHILD_WITH_ADULT,
+    formatPrice, RATE_QUANTITY_OF_CHILD_WITH_ADULT,
 } from "../utils/utill";
-import {removeCartTourFromLocal, updateCartTourInLocal} from "../utils/localStorageUtils";
+import {removeCartTourFromLocal, updateCartTourInLocal, user} from "../utils/localStorageUtils";
 
 export const Cart = () => {
-
+    const user = JSON.parse(localStorage.getItem("user"));
 
     // Lấy danh sách các tour trong giỏ hàng từ Redux store
     const cartItems = useSelector((state) => state.carts);
@@ -27,6 +27,8 @@ export const Cart = () => {
 
     // Trạng thái khỏi tạo của tour được chọn (selectedItemId)
     const [selectedItemId, setSelectedItemId] = useState(selectedTour ? selectedTour.id : null);
+
+    const navigate = useNavigate();
 
     // xóa tour khỏi giỏ
     const handleDelete = (id) => {
@@ -47,10 +49,10 @@ export const Cart = () => {
     const calculateTotal = () => {
         let total = 0;
         cartItems.forEach((item) => {
-            if (item.tour.price) {
+            if (item.tour.priceAdult) {
                 const quantityChild = item.quantityChild !== null ? item.quantityChild : 0;
-                const priceAdult = parseFloat(item.tour.price);
-                const priceChild = parseFloat(item.tour.price) * RATE_PRICE_OF_CHILD_WITH_ADULT;
+                const priceAdult = parseFloat(item.tour.priceAdult);
+                const priceChild = parseFloat(item.tour.priceChild);
                 total += priceAdult * item.quantityAdult + priceChild * quantityChild;
             }
         });
@@ -62,10 +64,10 @@ export const Cart = () => {
     const calculateTourSelected = () => {
         let total = 0;
         cartItems.forEach((item) => {
-            if (item.id === selectedItemId && item.tour.price) {
+            if (item.id === selectedItemId) {
                 const qChild = quantityChild !== null ? quantityChild : 0;
-                const priceAdult = parseFloat(item.tour.price);
-                const priceChild = parseFloat(item.tour.price) * RATE_PRICE_OF_CHILD_WITH_ADULT;
+                const priceAdult = parseFloat(item.tour.priceAdult);
+                const priceChild = parseFloat(item.tour.priceChild);
                 total += priceAdult * quantityAdult + priceChild * qChild;
             }
         });
@@ -100,7 +102,6 @@ export const Cart = () => {
     };
     const handleAdultQuantityChange = (e) => {
         const value = parseInt(e.target.value);
-        console.log(value, maxAdults);
         // nếu số lượng người lớn mà == null ( mặc định bằng 1) thì reset lại child == null (mặc định bằng 0)
         if (isNaN(value) || !selectedTour) {
             setQuantityAdult(null);
@@ -222,17 +223,41 @@ export const Cart = () => {
         }
     }, [selectedItemId, quantityAdult, quantityChild]);
 
-
+    const handCheckIsLogin = ()=> {
+        const isAuthenticated = user; // Kiểm tra trạng thái đăng nhập
+        if(!selectedTour){
+            Swal.fire({
+                title: "Thông báo",
+                text: "Vui lòng tick chọn tour mà bạn cần thanh toán!",
+                icon: "success",
+                confirmButtonText: "OK",
+            });
+            return;
+        }
+        else if (!isAuthenticated) {
+            Swal.fire({
+                title: "Thông báo",
+                text: "Vui lòng đăng nhập trước khi thanh toán",
+                icon: "warning",
+                confirmButtonText: "OK",
+            });
+            navigate('/login'); // Chuyển hướng nếu không đăng nhập
+            return;
+        } else navigate('/booking')
+    }
     return (
         <>
             <Navbar/>
-            <div className="container">
+            <div className="bg-white">
+            <div className="container ">
                 <div className="container mt-5 p-3 rounded cart">
                     <div className="row">
                         <div className="col-md-12">
                             <div className="d-flex flex-row align-items-center">
                                 <i className="fas fa-arrow-left"></i>
+                                <Link to={'/'}>
                                 <span className="ml-2">Tiếp tục thêm</span>
+                                </Link>
                             </div>
                             <hr/>
                         </div>
@@ -241,7 +266,7 @@ export const Cart = () => {
                         <div className="col-md-8">
                             <div className="product-details mr-2">
                                 <h4 className="mb-0 mb-2 item-title-cart">Giỏ hàng</h4>
-                                <div className=" overflow-auto overflow-cart scrollbar">
+                                <div className={`overflow-auto overflow-cart scrollbar ${ cartItems.length > 0 ?'':'d-flex justify-content-center align-items-center'}`}>
                                     {cartItems.length > 0 ? (
                                         cartItems.map((item) => (
                                             <CartItem
@@ -253,7 +278,7 @@ export const Cart = () => {
                                             />
                                         ))
                                     ) : (
-                                        <h5 className="text-center"><i>Chưa có gì trong giỏ!</i></h5>
+                                        <h5 className="d-flex justify-content-center align-items-center"><i>Chưa có gì trong giỏ!</i></h5>
                                     )}
                                 </div>
                             </div>
@@ -266,7 +291,7 @@ export const Cart = () => {
                                         type="number"
                                         className="form-control"
                                         id="name"
-                                        placeholder={`${selectedTour !== null ? cartItems.find((item) => item.id === selectedTour.id)?.tour.price : ""} x số người lớn`}
+                                        placeholder={`${selectedTour !== null ? cartItems.find((item) => item.id === selectedTour.id)?.tour.priceAdult : ""} x số người lớn`}
                                         inputMode="numeric"
                                         min="1"
                                         max={maxAdults}
@@ -281,7 +306,7 @@ export const Cart = () => {
                                         className="form-control"
                                         id="name"
                                         inputMode="numeric"
-                                        placeholder={`${selectedTour !== null ? cartItems.find((item) => item.id === selectedTour.id)?.tour.price * RATE_PRICE_OF_CHILD_WITH_ADULT : ""} x số trẻ em dưới 7 tuổi`}
+                                        placeholder={`${selectedTour !== null ? cartItems.find((item) => item.id === selectedTour.id)?.tour.priceChild : ""} x số trẻ em từ 2 đến 7 tuổi`}
                                         min="0"
                                         max={maxChildren}
                                         value={quantityChild === null ? "" : quantityChild}
@@ -297,31 +322,32 @@ export const Cart = () => {
                                 {selectedTour ? (<>
                                     <div className="d-flex justify-content-between information">
                                         <span>Giá vé cho người lớn:</span>
-                                        <span>{formatPrice(selectedTour.tour.price)}đ</span>
+                                        <span>{formatPrice(selectedTour.tour.priceAdult)}đ</span>
                                     </div>
                                     <div className="d-flex justify-content-between information">
                                         <span>Giá vé cho trẻ em:</span>
-                                        <span>{formatPrice(selectedTour.tour.price * RATE_PRICE_OF_CHILD_WITH_ADULT)}đ</span>
+                                        <span>{formatPrice(selectedTour.tour.priceChild)}đ</span>
                                     </div>
                                     <div className="d-flex justify-content-between information">
                                         <span>Tổng tiền tour được chọn:</span>
                                         <span>{formatPrice(calculateTourSelected())}đ</span>
                                     </div>
                                 </>) : ""}
-                                <Link className="text-reset me-3" to={`/checkout`}>
                                     <button
                                         className="btn btn-begin-checkout btn-block d-flex justify-content-center mt-3 rounded"
-                                        type="button">
+                                        type="button"
+                                        onClick={handCheckIsLogin}
+                                    >
                                         <span>
                                           Tiến hành thanh toán <i className="fas fa-arrow-right ml-1"></i>
                                         </span>
                                     </button>
-                                </Link>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
             <Footer/>
         </>);
 };

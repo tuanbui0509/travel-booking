@@ -6,11 +6,12 @@ import Button from 'react-bootstrap/Button';
 import {useNavigate} from "react-router-dom";
 import {toast, ToastContainer} from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import {useSelector} from "react-redux";
 
 export const Login = () => {
     const [username, usernameupdate] = useState('');
     const [passwordS, passwordupdate] = useState('');
-
+    const selectedTour = useSelector(state => state.selectedTour)
     const history = useNavigate();
 
     useEffect(() => {
@@ -30,7 +31,7 @@ export const Login = () => {
                         toast.success('Đăng nhập thành công');
                         localStorage.setItem("user", JSON.stringify({id, username, fullname, email, phone, img}));
                         sessionStorage.setItem('user', JSON.stringify({id, username, fullname, email, phone, img}));
-                        history('/category');
+                        selectedTour ? history('/cart'):history('/');
                         return
                     } else {
                         return toast.error('username hoặc mật khẩu không đúng');

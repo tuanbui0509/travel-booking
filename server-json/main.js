@@ -16,7 +16,18 @@ server.get('/echo', (req, res) => {
 // You can use the one used by JSON Server
 server.use(jsonServer.bodyParser)
 server.use((req, res, next) => {
-  if (req.method === 'POST') {
+
+if (req.method === 'POST' && req.path.startsWith('/api/subComments')) {
+    const { idComment, commenter, content } = req.body;
+    // Tạo id ngẫu nhiên
+    const id = uuidv4();
+    const newRecord = { id ,idComment, commenter, content };
+    // Thêm bản ghi mới vào cơ sở dữ liệu
+    router.db.get('subComments').push(newRecord).write();
+    res.status(201).json(newRecord);
+  }
+
+  if (req.method === 'POST' && req.path.startsWith('/api/users')) {
     const { username, fullname, email, phone, password } = req.body;
     // Tạo id ngẫu nhiên
     const id = uuidv4();
@@ -29,6 +40,8 @@ server.use((req, res, next) => {
     next();
   }
 });
+
+
 
 
 // Use default router

@@ -97,7 +97,7 @@ ul {
 }
 
 .item-icon {
-  padding-right: 0.7rem;
+  padding-right: 0.3rem;
   min-width: 25px;
   color: $color-blue_global;
 }
@@ -105,7 +105,6 @@ ul {
 .item-icon-fas {
   padding-right: 0.3rem;
   min-width: 25px;
-  color: $color-blue_global;
 }
 
 .tick-icon-selected {
@@ -114,7 +113,7 @@ ul {
   cursor: pointer;
 }
 .bg-tour-selected{
-  background-color: #edf7ff;
+  background-color: $color-blue_third;
 }
 .icon-trash-tour-selected{
   border: 1px solid #edf7ff;
@@ -127,6 +126,7 @@ ul {
 }
 
 .overflow-cart{
+  min-height: 12rem;
   max-height: 28rem;
   box-shadow: 5px 5px 15px -2px rgba(0, 0, 0, 0.42);
   border-radius: 5px;
