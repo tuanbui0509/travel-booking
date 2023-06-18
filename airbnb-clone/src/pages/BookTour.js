@@ -3,15 +3,14 @@ import React, {useEffect} from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Service from "../components/Service";
-import {user} from "../utils/localStorageUtils";
 import Swal from "sweetalert2";
 import {Link, useNavigate} from "react-router-dom";
-import {removeCheckout} from "../redux/slices/CheckoutSlice";
 
 export const BookTour = () => {
     const user = JSON.parse(localStorage.getItem("user"));
     const navigate = useNavigate()
-    const storedItems = JSON.parse(localStorage.getItem("checkout")) || [];
+    let storedItems = JSON.parse(localStorage.getItem("checkout")) || [];
+    storedItems = storedItems.filter((item) => item.user_id === user.id);
     useEffect(() => {
         const isAuthenticated = user; // Kiểm tra trạng thái đăng nhập
         if (!isAuthenticated) {
@@ -38,7 +37,7 @@ export const BookTour = () => {
                     <div
                         className={`overflow-auto overflow-cart scrollbar ${storedItems.length > 0 ? '' : 'd-flex justify-content-center align-items-center'}`}>
                         {storedItems.length > 0 ? storedItems.map((item) => (<>
-                                <div className="m-2 p-2 items rounded mr-1">
+                                <div className="m-2 p-2 items rounded mr-1" key={item.id}>
                                     <Link to={`/tourList/${item.tour.idCard}`}>
                                     <span className="font-weight-bold d-block title">{item.tour.title}</span>
                                     </Link>
@@ -93,7 +92,7 @@ export const BookTour = () => {
                                                     <li>
                                           <span className="spec text-center">
 
-                                            <i className="fas fa-calendar-check item-icon"></i>{item.status === "Đã thanh toán" ? "Ngày thanh toán" : "Ngày xác nhận thanh toán:"}: {item.date}
+                                            <i className="fas fa-calendar-check item-icon"></i>{item.status === "Đã thanh toán" ? "Ngày thanh toán" : "Ngày xác nhận thanh toán"}: {item.date}
                                           </span>
                                                     </li>
                                                     <li>

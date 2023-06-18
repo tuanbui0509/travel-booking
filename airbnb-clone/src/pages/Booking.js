@@ -7,12 +7,10 @@ import '../styles/process.scss'
 import '../styles/booking.scss'
 import {useDispatch, useSelector} from "react-redux";
 import {setSelectedTour} from "../redux/slices/SelectedTourSlice";
-import {formatPrice} from "../utils/utill";
-import { saveInfoPassenger} from "../redux/slices/CheckoutSlice";
+import {saveInfoPassenger} from "../redux/slices/CheckoutSlice";
 import {useNavigate} from "react-router-dom";
 import {ItemTourCheckout} from "../components/checkout/ItemTourCheckout";
 import Swal from "sweetalert2";
-import {user} from "../utils/localStorageUtils";
 
 export const Booking = () => {
     let user = JSON.parse(localStorage.getItem("user"));
@@ -21,7 +19,8 @@ export const Booking = () => {
     const [step, setStep] = useState(3);
     const checkout = useSelector((state) => state.checkout);
     const dispatch = useDispatch();
-    const count = checkout ? checkout.length : 0;
+    const checkoutStore = JSON.parse(localStorage.getItem("checkout")) || []
+    const count =checkoutStore.length;
     const [passengerInfo, setPassengerInfo] = useState([]);
     const [isInitialRender, setIsInitialRender] = useState(true);
 
