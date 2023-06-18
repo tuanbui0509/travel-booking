@@ -89,7 +89,7 @@
       "star": "4",
       "quantity": 10,
       "start_date": "20/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": "Ô tô"
@@ -243,7 +243,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 2,
@@ -258,7 +257,7 @@
       "star": "4",
       "quantity": 10,
       "start_date": "20/7/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": "Máy bay"
@@ -328,7 +327,7 @@
             {
               "time": "Buổi tối",
               "description": "Đoàn dùng cơm tối BBQ hải sản, sau đó về khách sạn nhận phòng, nghỉ ngơi. Quý khách có thể tự do khám phá thành phố nhộn nhịp, sầm uất bậc nhất Thái Lan về đêm. Nghỉ đêm tại Pattaya - Resort 5* Le Bali.",
-              "image":""
+              "image": ""
             }
           ]
         },
@@ -442,7 +441,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 3,
@@ -457,7 +455,7 @@
       "star": "4",
       "quantity": 10,
       "start_date": "25/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": "Máy bay"
@@ -615,7 +613,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 4,
@@ -630,7 +627,7 @@
       "star": "4",
       "quantity": 10,
       "start_date": "20/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": "Máy bay"
@@ -844,7 +841,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 5,
@@ -859,7 +855,7 @@
       "star": "4",
       "quantity": 10,
       "start_date": "20/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": "Máy bay"
@@ -941,7 +937,7 @@
           ]
         },
         {
-          "id":2,
+          "id": 2,
           "name": "NGÀY 2: THÁNH ĐỊA LA VANG -CẦU HIỀN LƯƠNG-ĐỘNG PHONG NHA ( ĂN 3 BỮA)",
           "timeline": [
             {
@@ -1064,7 +1060,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 6,
@@ -1079,7 +1074,7 @@
       "star": "4",
       "quantity": 10,
       "start_date": "22/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": "Máy bay"
@@ -1232,7 +1227,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 7,
@@ -1247,7 +1241,7 @@
       "star": "4",
       "quantity": 10,
       "start_date": "20/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1289,7 +1283,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 8,
@@ -1304,7 +1297,7 @@
       "star": "4",
       "quantity": 10,
       "start_date": "20/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1346,7 +1339,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 9,
@@ -1361,7 +1353,7 @@
       "star": "4",
       "quantity": 10,
       "start_date": "20/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1403,7 +1395,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 10,
@@ -1418,7 +1409,7 @@
       "star": "4",
       "quantity": 10,
       "start_date": "20/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1460,7 +1451,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 11,
@@ -1475,7 +1465,7 @@
       "star": "4",
       "quantity": 10,
       "start_date": "20/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1517,7 +1507,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 12,
@@ -1532,7 +1521,7 @@
       "star": "4",
       "quantity": 10,
       "start_date": "20/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1574,7 +1563,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 13,
@@ -1589,7 +1577,7 @@
       "star": "4",
       "quantity": 10,
       "start_date": "20/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1631,7 +1619,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 14,
@@ -1646,7 +1633,7 @@
       "star": "4",
       "quantity": 10,
       "start_date": "20/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1688,7 +1675,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 15,
@@ -1703,7 +1689,7 @@
       "star": "4",
       "quantity": 10,
       "start_date": "20/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1745,7 +1731,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 16,
@@ -1760,7 +1745,7 @@
       "star": "4",
       "quantity": 10,
       "start_date": "20/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1802,7 +1787,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 17,
@@ -1817,7 +1801,7 @@
       "star": "4",
       "quantity": 10,
       "start_date": "20/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1859,7 +1843,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 18,
@@ -1874,7 +1857,7 @@
       "star": "4",
       "quantity": 10,
       "start_date": "20/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1916,7 +1899,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 19,
@@ -1931,7 +1913,7 @@
       "star": "4",
       "quantity": 10,
       "start_date": "20/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -1973,7 +1955,6 @@
           ]
         }
       ]
-
     },
     {
       "id": 20,
@@ -1988,7 +1969,7 @@
       "star": "4",
       "quantity": 10,
       "start_date": "20/6/2023",
-          "vehicle": [
+      "vehicle": [
         {
           "id": 1,
           "nameVehicle": ""
@@ -2030,8 +2011,48 @@
           ]
         }
       ]
-
     }
-
+  ],
+  "users": [
+    {
+      "id": "46fc70ef-95e9-4855-b3ea-012a6a2fddbd",
+      "username": "LenhhhLenhhh",
+      "fullname": "Lap",
+      "email": "abc@example.com",
+      "phone": "1234567890",
+      "password": "12345678"
+    },
+    {
+      "id": "c05fe8e2-8162-4dec-9dea-d69f3804fcaa",
+      "username": "LLing",
+      "fullname": "LinhLinh",
+      "email": "abc@example.com",
+      "phone": "1234567890",
+      "password": "12345678"
+    },
+    {
+      "id": "04b3de35-f505-4cbc-b2b6-1068850aae35",
+      "username": "tlinhn",
+      "fullname": "Thuỳ Linh",
+      "email": "tlinh@gmail.com",
+      "phone": "1234567890",
+      "password": "1234"
+    },
+    {
+      "id": "0088cf88-2869-4d99-a40a-13c06921c2e6",
+      "username": "linh",
+      "fullname": "Thuỳ Linh",
+      "email": "tlinhn@gmail.com",
+      "phone": "1234567890",
+      "password": "1111"
+    },
+    {
+      "id": "8ad24285-f25f-499a-8fa9-0a85d664976c",
+      "username": "a",
+      "fullname": "a",
+      "email": "a@gmail",
+      "phone": "1234567890",
+      "password": "1111"
+    }
   ]
 }
