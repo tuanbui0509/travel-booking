@@ -4,6 +4,8 @@ import { useDispatch, useSelector } from 'react-redux';
 import { getcommentsByIdTour } from '../redux/selectors';
 import SubComment from './SubComment';
 import { fetchComments } from '../redux/slices/CommentSlice';
+import { useNavigate } from 'react-router-dom';
+import Swal from 'sweetalert2';
 
 export default function Comment({ id }) {
     const dispatch = useDispatch()      // load dữ liệu tour từ server
@@ -21,8 +23,20 @@ export default function Comment({ id }) {
     setComment(e.target.value);
   };
   const [showInput, setShowInput] = useState([]);
-
+  const navigate = useNavigate();
+    let user = JSON.parse(localStorage.getItem("user")) || null;
   const handleToggleInput = (index) => {
+    const isAuthenticated = user;
+     if (!isAuthenticated) {
+            Swal.fire({
+                title: "Thông báo",
+                text: "Vui lòng đăng nhập trước khi bình luận",
+                icon: "warning",
+                confirmButtonText: "OK",
+            });
+            navigate('/login'); // Chuyển hướng nếu không đăng nhập
+            return;
+        }
     setShowInput((prevShowInput) => {
       const updatedShowInput = [...prevShowInput];
       updatedShowInput[index] = !updatedShowInput[index];
@@ -41,7 +55,7 @@ export default function Comment({ id }) {
 
   const handleSubmitInput = (index) => {
     let idComment = index
-    let commenter = "Ma"
+    let commenter = user.fullname
     let content = comment
     let comObj = { idComment, commenter, content};
     fetch("http://localhost:5000/api/subComments", {

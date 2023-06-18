@@ -1,10 +1,19 @@
 import { DirectionsCar, FlightTakeoff, LocationOn, QueryBuilder } from '@material-ui/icons'
 import React, { useEffect, useState } from 'react'
 import Comment from '../Comment';
+import { useDispatch, useSelector } from 'react-redux';
+import { getcommentsByIdTour } from '../../redux/selectors';
+import { fetchComments } from '../../redux/slices/CommentSlice';
 export default function TourLeft({data}) {
   const [tour, setTour] = useState([])
   const [tourDetails, setTourDetails] = useState([])
-
+  const dispatch = useDispatch()
+      useEffect(() => {
+        dispatch(fetchComments());
+    }, [dispatch]);
+    const comments = useSelector((state) =>
+    getcommentsByIdTour(state, tour.id)
+  );
   useEffect(() => {
     if (data) {
       setTour(data)
@@ -89,14 +98,22 @@ export default function TourLeft({data}) {
         <div className='description'>
           <div className='wrap-des'>
             <div className='des-title-comment'>Đánh giá khách hàng về {tour && tour.name}</div>
-           <div className='content'>
-            <div className='container-rate'>
-              <div className='score'>8.6/10</div>
-              <div className='text-core'>Rất tốt</div>
-              <div className='quantity-comment'>7 đánh giá</div>
-            </div>
-            <Comment id={tour.id}/>
-           </div>
+           {
+            comments.length === 0 ? <div style={{fontSize: '24px', padding: '24px'}}>Tour chưa có bình luận</div> : 
+            (
+              <div className='content'>
+                <div className='container-rate'>
+                  <div className='score'>8.6/10</div>
+                  <div className='text-core'>Rất tốt</div>
+                  <div className='quantity-comment'>7 đánh giá</div>
+                </div>
+                <Comment id={tour.id}/>
+              </div>
+              
+            )
+           }
+           
+
           </div>
         </div>
     </div>
