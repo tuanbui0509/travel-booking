@@ -21,6 +21,7 @@ const Navbar = () => {
   const handleMenuToggle = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+  const user = JSON.parse(localStorage.getItem("user")) || null;
   const [scrollPosition, setScrollPosition] = useState(0);
 
   useEffect(() => {
@@ -35,9 +36,8 @@ const Navbar = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-
   return (
-      <div className={` ${scrollPosition > 15 ? 'fixed-top navbar fixed-top-nav' : 'navbar'}`}>
+      <div className={` ${scrollPosition > 15 ? 'navbar fixed-top-nav' : 'navbar'}`}>
         <div className="container container-nav">
           <div className="nav-left">
             <Link to={'/'}><img src={logo} alt="logo" /></Link>
@@ -54,18 +54,44 @@ const Navbar = () => {
             </div>
           </div>
           <div className="nav-right">
-            <div className="item container-user">
-              <AccountCircle className='icon icon-user'/>
-              <span className="text">Tài khoản</span>
-              <ExpandMore className="icon" />
+            {
+              user? (
+                  <div className="item container-user">
+                    {
+                      user.img?  <img src={user.img} alt="" className="avatar"></img> : <AccountCircle className='icon icon-user'/>
+                    }
 
-              <div className="content">
-                <Link to={"/login"} className="button-login">
-                  <button>Đăng nhập</button>
-                </Link>
-                <div>Chưa có tài khoản? <Link to={"/register"}>Đăng ký</Link> ngay</div>
-              </div>
-            </div>
+                    <Link to={"/account"}>
+                      <span className="text">{user.fullname}</span>
+                    </Link>
+                    <ExpandMore className="icon" />
+
+                    <div className="content">
+                      <Link to={"/booked"} className="button-login">
+                        <button>Tour đã đặt</button>
+                      </Link>
+                      <Link to={"/login"} className="button-login">
+                        <button onClick={() => {
+                          localStorage.removeItem('user');
+                        }
+                        }>Đăng xuất</button>
+                      </Link>
+                    </div>
+                  </div>
+              ) : (
+                  <div className="item container-user">
+                    <AccountCircle className='icon icon-user'/>
+                    <span className="text">Tài khoản</span>
+                    <ExpandMore className="icon" />
+                    <div className="content">
+                      <Link to={"/login"} className="button-login">
+                        <button>Đăng nhập</button>
+                      </Link>
+                      <div>Chưa có tài khoản? <Link to={"/register"}>Đăng ký</Link> ngay</div>
+                    </div>
+                  </div>
+              )
+            }
             <div className="item">
               <Link className="text-reset me-3" to={"/cart"}>
                 <IconCart />

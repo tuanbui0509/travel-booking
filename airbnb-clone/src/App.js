@@ -3,7 +3,7 @@ import "bootstrap-css-only/css/bootstrap.min.css";
 import "mdbreact/dist/css/mdb.css";
 import React, {useEffect} from "react";
 import {useDispatch} from "react-redux";
-import {Route, BrowserRouter as Router, Routes} from "react-router-dom";
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import {Cart} from "./pages/Cart";
 import Category from "./pages/Category";
 import {Checkout} from "./pages/Checkout";
@@ -16,8 +16,7 @@ import {fetchTours} from "./redux/slices/TourSlice";
 import {BookTour} from "./pages/BookTour";
 import {Booking} from "./pages/Booking";
 import {Payment} from "./pages/Payment";
-import { fetchComments } from "./redux/slices/CommentSlice";
-import { fetchSubComments } from "./redux/slices/SubCommentSlice";
+import {Account} from "./pages/Account";
 
 function App() {
     const dispatch = useDispatch();
@@ -55,6 +54,7 @@ function App() {
                 <Route path="/tour" element={<Tour/>}/>
                 <Route path="/category" element={<Category/>}/>
                 <Route path="/category/:key" element={<Category/>}/>
+                <Route path="/account" element={<Account/>}/>
 
             </Routes>
         </Router>

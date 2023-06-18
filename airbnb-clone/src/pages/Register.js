@@ -60,7 +60,6 @@ export const Register = () => {
     const handlesubmit = (e) => {
         e.preventDefault();
         let regisObj = { username, fullname, email, phone, password, repeatPassword};
-        // console.log(regisObj);
 
         if (isValidate()) {
             fetch("http://localhost:5000/api/users", {
