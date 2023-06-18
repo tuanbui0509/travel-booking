@@ -6,13 +6,14 @@ import {Process} from "../components/Process";
 import Footer from "../components/Footer";
 import {ItemTourCheckout} from "../components/checkout/ItemTourCheckout";
 import {useDispatch, useSelector} from "react-redux";
-import {updatePayment} from "../redux/slices/CheckoutSlice";
+import {removeCheckout, updatePayment} from "../redux/slices/CheckoutSlice";
 import Swal from "sweetalert2";
 import {addCheckoutToLocal, removeCartTourFromLocal, user} from "../utils/localStorageUtils";
 import {clearSelectedTour} from "../redux/slices/SelectedTourSlice";
 import {removeCart} from "../redux/slices/CartsSlice";
 
 export const Payment = () => {
+    const user = JSON.parse(localStorage.getItem("user"));
     const navigate = useNavigate();
     const selectedTour = useSelector((state) => state.selectedTour);
     const [checkedRules, setCheckedRules] = useState();
@@ -24,10 +25,11 @@ export const Payment = () => {
         } else if (!isAuthenticated) {
             Swal.fire({
                 title: "Thông báo",
-                text: "Vui lòng đăng nhập trước khi thanh toán thanh toán",
+                text: "Vui lòng đăng nhập trước khi thanh toán",
                 icon: "warning",
                 confirmButtonText: "OK",
             });
+            dispatch(removeCheckout(checkout[checkout.length-1]))
             navigate('/login'); // Chuyển hướng nếu không đăng nhập
             return;
         } else if (!selectedTour) {
@@ -57,7 +59,21 @@ export const Payment = () => {
         setCheckedRules(event.target.checked);
     };
     const handlePaymentSubmit = () => {
+        const isAuthenticated = user; // Kiểm tra trạng thái đăng nhập
 
+        if (!isAuthenticated && !selectedTour) {
+            navigate('/cart'); // Chuyển hướng nếu không đăng nhập và không có selectedTour
+        } else if (!isAuthenticated) {
+            Swal.fire({
+                title: "Thông báo",
+                text: "Vui lòng đăng nhập trước khi thanh toán",
+                icon: "warning",
+                confirmButtonText: "OK",
+            });
+            dispatch(removeCheckout(checkout.id))
+            navigate('/login'); // Chuyển hướng nếu không đăng nhập
+            return;
+        }
         if (!selectedPayment) {
             Swal.fire({
                 title: "Thông báo",

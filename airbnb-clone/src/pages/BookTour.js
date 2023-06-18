@@ -6,8 +6,10 @@ import Service from "../components/Service";
 import {user} from "../utils/localStorageUtils";
 import Swal from "sweetalert2";
 import {Link, useNavigate} from "react-router-dom";
+import {removeCheckout} from "../redux/slices/CheckoutSlice";
 
 export const BookTour = () => {
+    const user = JSON.parse(localStorage.getItem("user"));
     const navigate = useNavigate()
     const storedItems = JSON.parse(localStorage.getItem("checkout")) || [];
     useEffect(() => {

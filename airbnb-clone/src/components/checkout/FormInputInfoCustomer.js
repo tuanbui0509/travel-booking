@@ -1,11 +1,13 @@
 import React, {useEffect, useState} from "react";
 import Swal from "sweetalert2";
 import {isEmailValid, isPassportNumberValid, isPhoneValid} from "../../utils/utill";
+import {useNavigate} from "react-router-dom";
 
 export const FormInputInfoCustomer = ({cart, handleContinue}) => {
     const [customerInfo, setCustomerInfo] = useState([]);
     const quantity = cart.quantityAdult + cart.quantityChild;
-
+    const navigate = useNavigate();
+    let user = JSON.parse(localStorage.getItem("user"));
     const isCustomerInfoComplete = (index) => {
         const customer = customerInfo[index];
         // Kiểm tra các trường cần nhập đầy đủ
@@ -31,6 +33,17 @@ export const FormInputInfoCustomer = ({cart, handleContinue}) => {
     const handleSave = () => {
         // Kiểm tra thông tin khách hàng
         const isComplete = isCustomerInfoComplete(0); // Kiểm tra khách hàng đầu tiên
+        const isAuthenticated = user;
+        if (!isAuthenticated) {
+            Swal.fire({
+                title: "Thông báo",
+                text: "Vui lòng đăng nhập trước khi thanh toán",
+                icon: "warning",
+                confirmButtonText: "OK",
+            });
+            navigate('/login'); // Chuyển hướng nếu không đăng nhập
+            return;
+        }
         if (!isComplete) {
             // Hiển thị cảnh báo nếu thông tin chưa đầy đủ
             Swal.fire({

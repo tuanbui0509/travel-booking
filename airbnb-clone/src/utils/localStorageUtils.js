@@ -110,4 +110,3 @@ export const addCheckoutToLocal = (checkout) => {
     // Lưu mảng dữ liệu mới vào localStorage
     localStorage.setItem("checkout", JSON.stringify(updatedItems));
 }
-export let user = JSON.parse(localStorage.getItem("user"));

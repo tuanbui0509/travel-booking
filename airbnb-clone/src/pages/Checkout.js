@@ -22,6 +22,7 @@ import paymentImage from "../data/imgs/payment.png"
 import cvcimage from "../data/imgs/cvc.png"
 
 export const Checkout = () => {
+    const user = JSON.parse(localStorage.getItem("user"));
     const navigate = useNavigate();
     const selectedTour = useSelector((state) => state.selectedTour);
 
@@ -31,7 +32,15 @@ export const Checkout = () => {
         if (!isAuthenticated && !selectedTour) {
             navigate('/cart'); // Chuyển hướng nếu không đăng nhập và không có selectedTour
         } else if (!isAuthenticated) {
+            Swal.fire({
+                title: "Thông báo",
+                text: "Vui lòng đăng nhập trước khi thanh toán",
+                icon: "warning",
+                confirmButtonText: "OK",
+            });
+            dispatch(removeCheckout(checkout.id))
             navigate('/login'); // Chuyển hướng nếu không đăng nhập
+            return;
         } else if (!selectedTour) {
             navigate('/cart'); // Chuyển hướng nếu không có selectedTour
         }
@@ -66,6 +75,19 @@ export const Checkout = () => {
     }
     const handleConfirmCheckout = () => {
         let status;
+        const isAuthenticated = JSON.parse(localStorage.getItem("user")); // Kiểm tra trạng thái đăng nhập
+
+       if (!isAuthenticated) {
+            Swal.fire({
+                title: "Thông báo",
+                text: "Vui lòng đăng nhập trước khi thanh toán",
+                icon: "warning",
+                confirmButtonText: "OK",
+            });
+            dispatch(removeCheckout(checkout.id))
+            navigate('/login'); // Chuyển hướng nếu không đăng nhập
+            return;
+       }
         if (id === 0) {
             Swal.fire({
                 title: "Thông báo",

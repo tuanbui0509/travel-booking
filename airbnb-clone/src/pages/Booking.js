@@ -8,15 +8,23 @@ import '../styles/booking.scss'
 import {useDispatch, useSelector} from "react-redux";
 import {setSelectedTour} from "../redux/slices/SelectedTourSlice";
 import {formatPrice} from "../utils/utill";
-import {saveInfoPassenger} from "../redux/slices/CheckoutSlice";
+import { saveInfoPassenger} from "../redux/slices/CheckoutSlice";
 import {useNavigate} from "react-router-dom";
 import {ItemTourCheckout} from "../components/checkout/ItemTourCheckout";
 import Swal from "sweetalert2";
 import {user} from "../utils/localStorageUtils";
 
 export const Booking = () => {
+    let user = JSON.parse(localStorage.getItem("user"));
     const navigate = useNavigate();
     const selectedTour = useSelector((state) => state.selectedTour);
+    const [step, setStep] = useState(3);
+    const checkout = useSelector((state) => state.checkout);
+    const dispatch = useDispatch();
+    const count = checkout ? checkout.length : 0;
+    const [passengerInfo, setPassengerInfo] = useState([]);
+    const [isInitialRender, setIsInitialRender] = useState(true);
+
     useEffect(() => {
         const isAuthenticated = user; // Kiểm tra trạng thái đăng nhập
 
@@ -25,36 +33,30 @@ export const Booking = () => {
         } else if (!isAuthenticated) {
             Swal.fire({
                 title: "Thông báo",
-                text: "Vui lòng đăng nhập trước khi thanh toán thanh toán",
+                text: "Vui lòng đăng nhập trước khi thanh toán",
                 icon: "warning",
                 confirmButtonText: "OK",
             });
-            return;
+
             navigate('/login'); // Chuyển hướng nếu không đăng nhập
+            return;
             // Chuyển hướng nếu không đăng nhập
         } else if (!selectedTour) {
             navigate('/cart'); // Chuyển hướng nếu không có selectedTour
         }
     }, []);
-    const [step, setStep] = useState(3);
-    const checkout = useSelector((state) => state.checkout);
-    const dispatch = useDispatch();
-
-    const count = checkout ? checkout.length : 0;
-    const [passengerInfo, setPassengerInfo] = useState([]);
-
-    const [isInitialRender, setIsInitialRender] = useState(true);
 
     const handleContinue = (listPassengerInfo) => {
         setPassengerInfo(listPassengerInfo);
         setIsInitialRender(false);
     };
     useEffect(() => {
+
         if (!isInitialRender) {
             try {
                 const checkoutData = {
                     id : count,
-                    user_id: 1,
+                    user_id: user.id ? user.id:0,
                     tour: selectedTour.tour,
                     quantityAdult: selectedTour.quantityAdult,
                     quantityChild: selectedTour.quantityChild,

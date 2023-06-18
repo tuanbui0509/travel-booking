@@ -14,7 +14,7 @@ import {
 import {removeCartTourFromLocal, updateCartTourInLocal, user} from "../utils/localStorageUtils";
 
 export const Cart = () => {
-
+    const user = JSON.parse(localStorage.getItem("user"));
 
     // Lấy danh sách các tour trong giỏ hàng từ Redux store
     const cartItems = useSelector((state) => state.carts);
@@ -226,10 +226,19 @@ export const Cart = () => {
 
     const handCheckIsLogin = ()=> {
         const isAuthenticated = user; // Kiểm tra trạng thái đăng nhập
-        if (!isAuthenticated) {
+        if(!selectedTour){
             Swal.fire({
                 title: "Thông báo",
-                text: "Vui lòng đăng nhập trước khi thanh toán thanh toán",
+                text: "Vui lòng tick chọn tour mà bạn cần thanh toán!",
+                icon: "success",
+                confirmButtonText: "OK",
+            });
+            return;
+        }
+        else if (!isAuthenticated) {
+            Swal.fire({
+                title: "Thông báo",
+                text: "Vui lòng đăng nhập trước khi thanh toán",
                 icon: "warning",
                 confirmButtonText: "OK",
             });
