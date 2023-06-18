@@ -83,7 +83,6 @@ export default function TourRight({data}) {
         }
     }
     useEffect(() => {
-        console.log(quantityChild)
     }, [quantityChild])
 
     const handleAddToCart = () => {

@@ -102,7 +102,6 @@ export const Cart = () => {
     };
     const handleAdultQuantityChange = (e) => {
         const value = parseInt(e.target.value);
-        console.log(value, maxAdults);
         // nếu số lượng người lớn mà == null ( mặc định bằng 1) thì reset lại child == null (mặc định bằng 0)
         if (isNaN(value) || !selectedTour) {
             setQuantityAdult(null);
