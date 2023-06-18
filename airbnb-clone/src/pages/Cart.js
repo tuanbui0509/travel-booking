@@ -240,7 +240,8 @@ export const Cart = () => {
     return (
         <>
             <Navbar/>
-            <div className="container">
+            <div className="bg-white">
+            <div className="container ">
                 <div className="container mt-5 p-3 rounded cart">
                     <div className="row">
                         <div className="col-md-12">
@@ -338,6 +339,7 @@ export const Cart = () => {
                     </div>
                 </div>
             </div>
+        </div>
             <Footer/>
         </>);
 };

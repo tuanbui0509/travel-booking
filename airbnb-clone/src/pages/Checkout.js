@@ -178,6 +178,7 @@ export const Checkout = () => {
         <>
             <Navbar/>
             <Process step={step}/>
+            <div className="bg-white">
             <div className="container pt-3 pb-3 mt-2 rounded" id="checkout">
                 <div className="row">
                     <div className="col-md-8 mt-3">
@@ -338,6 +339,7 @@ export const Checkout = () => {
                     : ""
                 }
             </div>
+                </div>
             <Footer/>
         </>
     )

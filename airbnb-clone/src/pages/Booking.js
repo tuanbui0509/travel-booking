@@ -82,6 +82,7 @@ export const Booking = () => {
         <>
             <Navbar/>
             <Process step={step}/>
+            <div className="bg-white">
             <div className="container pb-3 mt-2 rounded" id="booking" >
                 <div className="row flex-wrap">
                     <div className="col-md-8 mt-4 ">
@@ -104,6 +105,7 @@ export const Booking = () => {
 
                     </div>
                 </div>
+            </div>
             </div>
             <Footer/>
         </>

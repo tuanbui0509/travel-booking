@@ -119,6 +119,7 @@ export const Payment = () => {
         <>
             <Navbar/>
             <Process step={4}/>
+            <div className="bg-white">
             <div className="container pt-3 pb-3 mt-2 rounded" id="payment">
                 <div className="row">
                     <div className="col-md-8">
@@ -287,6 +288,7 @@ export const Payment = () => {
                     </div>
                 </div>
 
+            </div>
             </div>
             <Footer/>
         </>

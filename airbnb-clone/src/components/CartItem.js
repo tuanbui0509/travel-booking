@@ -21,7 +21,9 @@ export const CartItem = ({item, handleDelete, selectedItemId, handleSelection}) 
             <span className="font-weight-bold d-block title">{item.tour.title}</span>
             </Link>
             <div className="d-flex flex-row flex-1">
+                <Link to={`/tourList/${item.tour.idCard}`}>
                 <img className="rounded image-tour-cart" src={item.tour.image} alt={item.tour.title}/>
+                </Link>
                 <div className="ml-2">
                     <ul style={{whiteSpace: "nowrap"}} className="ml-1">
                         <li>
