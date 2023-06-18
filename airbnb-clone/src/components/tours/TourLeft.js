@@ -1,12 +1,10 @@
-import { DirectionsCar, FlightTakeoff, LocationOn, QueryBuilder, Person, ThumbUpAlt, SendSharp } from '@material-ui/icons'
+import { DirectionsCar, FlightTakeoff, LocationOn, QueryBuilder } from '@material-ui/icons'
 import React, { useEffect, useState } from 'react'
+import Comment from '../Comment';
 export default function TourLeft({data}) {
   const [tour, setTour] = useState([])
   const [tourDetails, setTourDetails] = useState([])
-  const [comment, setComment] = useState("")
-  const handleOnChaneComment = (e) => {
-    setComment(e.target.value)
-  }
+
   useEffect(() => {
     if (data) {
       setTour(data)
@@ -97,72 +95,7 @@ export default function TourLeft({data}) {
               <div className='text-core'>Rất tốt</div>
               <div className='quantity-comment'>7 đánh giá</div>
             </div>
-            <div className='container-comment'>
-              <div className='title'>Đánh giá gần đây</div>
-              <div className='comments'>
-                <div className='item'>
-                  <div className='account'><Person /> Nguyen DU Lap</div>
-                  <div className='content-comment'>
-                    <div className='container-rate'>
-                      <div className='score'>8.6</div>
-                      <div className='text-core'>Rất tốt</div>
-                      <div className='date'>18-11-2022</div>
-                    </div>
-                    <div className='text-comment-1'>Khách sạn không có nước nóng không có wifi cầu tiêu thì lúc dội được lúc không. Đồ ăn cũng tạm ổn tour thì không được đi chơi thoải mái chủ yếu ngắm cảnh rồi tham quan. Thời gian 2 ngày đầu đi hơi gấp rút. Thích được cái đi grandworld nhưng mà trời mưa . Hdv rất nhiệt tình và thân thiện. Chỉ là chỗ khách sạn và tour đi không được hài lòng cho lắm</div>
-                    <div className='text-comment-server'>iVIVU chân thành cảm ơn những lời góp ý từ gia đình chị Thu Vân, iVIVU rất tiếc vì chuyến đi của mình không như mong đợi, iVIVU sẽ ghi nhận và làm việc lại các dịch vụ và từng bước cải thiện, iVIVU hi vọng trong những chuyến đi sau iVIVU sẽ hỗ trợ gia đình chị tốt hơn nữa.</div>
-                    <div className='container-feedback'>
-                      <div className='text-like'>Thích</div>
-                      <div className='feedback'>Phản hồi</div>
-                      <div className='quantity-like'><div className='number'>10 </div><div className='container-like'><ThumbUpAlt /></div></div>
-                    </div>
-                    <div className='container-input-feedback'>
-                      <input onChange={handleOnChaneComment} className='input-feedback' value={comment} type='text'/>
-                      <div className='icon-send'><SendSharp /></div>
-                    </div>
-                  </div>
-                </div>
-                <div className='item'>
-                  <div className='account'><Person /> Nguyen DU Lap</div>
-                  <div className='content-comment'>
-                    <div className='container-rate'>
-                      <div className='score'>8.6</div>
-                      <div className='text-core'>Rất tốt</div>
-                      <div className='date'>18-11-2022</div>
-                    </div>
-                    <div className='text-comment-1'>Khách sạn không có nước nóng không có wifi cầu tiêu thì lúc dội được lúc không. Đồ ăn cũng tạm ổn tour thì không được đi chơi thoải mái chủ yếu ngắm cảnh rồi tham quan. Thời gian 2 ngày đầu đi hơi gấp rút. Thích được cái đi grandworld nhưng mà trời mưa . Hdv rất nhiệt tình và thân thiện. Chỉ là chỗ khách sạn và tour đi không được hài lòng cho lắm</div>
-                    <div className='container-feedback'>
-                      <div className='text-like'>Thích</div>
-                      <div className='feedback'>Phản hồi</div>
-                      <div className='quantity-like'><div className='number'>10 </div><div className='container-like'><ThumbUpAlt /></div></div>
-                    </div>
-                    <div className='d-none container-input-feedback'>
-                      <input onChange={handleOnChaneComment} className='input-feedback' value={""} type='text'/>
-                      <div className='icon-send'><SendSharp /></div>
-                    </div>
-                  </div>
-                </div>
-                <div className='item'>
-                  <div className='account'><Person /> Nguyen DU Lap</div>
-                  <div className='content-comment'>
-                    <div className='container-rate'>
-                      <div className='score'>8.6</div>
-                      <div className='text-core'>Rất tốt</div>
-                      <div className='date'>18-11-2022</div>
-                    </div>
-                    <div className='text-comment-1'>Khách sạn không có nước nóng không có wifi cầu tiêu thì lúc dội được lúc không. Đồ ăn cũng tạm ổn tour thì không được đi chơi thoải mái chủ yếu ngắm cảnh rồi tham quan. Thời gian 2 ngày đầu đi hơi gấp rút. Thích được cái đi grandworld nhưng mà trời mưa . Hdv rất nhiệt tình và thân thiện. Chỉ là chỗ khách sạn và tour đi không được hài lòng cho lắm</div>
-                    <div className='container-feedback'>
-                      <div className='text-like'>Thích</div>
-                      <div className='feedback'>Phản hồi</div>
-                      <div className='quantity-like'><div className='number'>10 </div><div className='container-like'><ThumbUpAlt /></div></div>
-                    </div>
-                    <div className='d-none container-input-feedback'>
-                      <input onChange={handleOnChaneComment} className='input-feedback' value={""} type='text'/>
-                      <div className='icon-send'><SendSharp /></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <Comment id={tour.id}/>
            </div>
           </div>
         </div>

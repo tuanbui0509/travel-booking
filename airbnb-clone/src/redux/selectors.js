@@ -1,4 +1,5 @@
 import { createSelector } from "@reduxjs/toolkit";
+import { useSelector } from "react-redux";
 
 //export những giá trị trong redux mà chúng ta muốn lấy ra, khi muốn lấy ra chúng ta gọi đến lớp này
 
@@ -109,3 +110,21 @@ export const locationHotForeign = createSelector(
     }
 
 )
+
+export const commentsSelector = (state) => state.comments.comments
+
+export const getcommentsByIdTour = createSelector(
+  [commentsSelector, (_, idTour) => idTour], // Đặt tham số idComment vào selector
+  (comments, idTour) =>
+    comments.filter((comment) => comment.idTour === idTour)
+);
+
+
+export const subCommentsSelector = (state) => state.subComments.subComments
+// Selector lấy ra các object trong mảng "subComments" dựa trên giá trị của "idComment"
+export const getSubCommentsByIdComment = createSelector(
+  [subCommentsSelector, (_, idComment) => idComment], // Đặt tham số idComment vào selector
+  (subComments, idComment) =>
+    subComments.filter((comment) => comment.idComment === idComment)
+);
+

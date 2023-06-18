@@ -13,13 +13,15 @@
       "description": "Sau khi đặt vé và thanh toán thành công, Lữ hành Saigontourist sẽ gửi vé điện tử của Quý khách qua email.",
       "content": "Saigontourist chấp nhận thanh toán dịch vụ bằng các loại thẻ tín dụng quốc tế như Visa, Master và Amex.",
       "status": false
-    }, {
+    },
+    {
       "id": 3,
       "title": "THANH TOÁN CHUYỂN KHOẢN QUA NGÂN HÀNG",
       "description": "Sau khi đặt vé và thanh toán thành công, Lữ hành Saigontourist sẽ gửi vé điện tử của Quý khách qua email.",
       "content": "TÀI KHOẢN NGÂN HÀNG CỦA SAIGONTOURIST.Lưu ý khi chuyển khoản:KHÔNG ÁP DỤNG CHUYỂN KHOẢN CHO CÁC TOUR BÁN DỊP SỰ KIỆN Quý khách vui lòng liên hệ nhân viên tư vấn, để xác nhận số chỗ trước khi thanh toán qua ngân hàngKhi chuyển khoản, quý khách vui lòng nhập nội dung chuyển khoản là:'MDH madonhang, Họ tên, Noi dung thanh toan'Ví dụ:  'MDH 0000001, Ten khach , Mua tour tren web'Ðể việc thanh toán được chính xác. Xin cảm ơn quý khách!",
       "status": false
-    }, {
+    },
+    {
       "id": 4,
       "title": "THANH TOÁN BẰNG TIỀN MẶT TẠI VĂN PHÒNG LỮ HÀNH SAIGONTOURIST",
       "description": "Quý khách vui lòng đến các văn phòng Saigontourist để thanh toán và nhận vé.",
@@ -1235,1089 +1237,1089 @@
       ]
     },
     {
-    "id": 7,
-    "name": "Tour Đà Nẵng 4N3Đ: Sơn Trà - Hội An - Bà Nà (Cầu Vàng) - Huế",
-    "image": "https://cdn2.ivivu.com/2021/05/07/10/ivivu-ba-na-hill.gif",
-    "catagoryId": 1,
-    "areaId": 1,
-    "price_adult": 3050000,
-    "price_child": 1525000,
-    "quantity_date": "4 ngày 3 đêm",
-    "start_location": "Đà Nẵng",
-    "end_location": "Huế",
-    "star": "4",
-    "quantity": 10,
-    "start_date": "21/06/2023",
-    "vehicle": [
-      {
-        "id": 1,
-        "nameVehicle": "Ô tô"
-      }
-    ],
-    "tour_services": [
-      {
-        "id": 1,
-        "nameService": "Bảo hiểm"
+      "id": 7,
+      "name": "Tour Đà Nẵng 4N3Đ: Sơn Trà - Hội An - Bà Nà (Cầu Vàng) - Huế",
+      "image": "https://cdn2.ivivu.com/2021/05/07/10/ivivu-ba-na-hill.gif",
+      "catagoryId": 1,
+      "areaId": 1,
+      "price_adult": 3050000,
+      "price_child": 1525000,
+      "quantity_date": "4 ngày 3 đêm",
+      "start_location": "Đà Nẵng",
+      "end_location": "Huế",
+      "star": "4",
+      "quantity": 10,
+      "start_date": "21/06/2023",
+      "vehicle": [
+        {
+          "id": 1,
+          "nameVehicle": "Ô tô"
+        }
+      ],
+      "tour_services": [
+        {
+          "id": 1,
+          "nameService": "Bảo hiểm"
+        },
+        {
+          "id": 2,
+          "nameService": "Hướng dẫn viên"
+        },
+        {
+          "id": 3,
+          "nameService": "Xe đưa đón"
+        },
+        {
+          "id": 4,
+          "nameService": "Bữa ăn"
+        },
+        {
+          "id": 5,
+          "nameService": "Khách sạn 4*"
+        },
+        {
+          "id": 6,
+          "nameService": "Vé tham quan"
+        }
+      ],
+      "description": {
+        "title": "Chinh phục cung đường di sản miền Trung",
+        "content": "Miền Trung, dải đất thân thương nối liền hai miền Nam - Bắc của Việt Nam. “Cung đường di sản miền Trung” sẽ kết nối du khách với các di sản văn hóa của nhân loại được UNESCO công nhận bao gồm: Huế với hai di sản là Quần thể di tích Cố đô Huế và Nhã Nhạc cung đình; Quảng Nam với hai di sản là Thánh địa Mỹ Sơn và đô thị cổ Hội An. Trên mỗi bước đi, du khách còn có thể khám phá cho mình nhiều điểm đến hấp dẫn: Bà Nà Hill, Làng Chài Lăng Cô, và nhiều bãi tắm tuyệt đẹp: Cửa Đại, Non Nước, Lăng Cô, Nhật Lệ, cùng với những nét ẩm thực độc đáo của Miền Trung. Cùng iVIVU khám phá cung đường tuyệt vời này ngay hôm nay!"
       },
-      {
-        "id": 2,
-        "nameService": "Hướng dẫn viên"
-      },
-      {
-        "id": 3,
-        "nameService": "Xe đưa đón"
-      },
-      {
-        "id": 4,
-        "nameService": "Bữa ăn"
-      },
-      {
-        "id": 5,
-        "nameService": "Khách sạn 4*"
-      },
-      {
-        "id": 6,
-        "nameService": "Vé tham quan"
-      }
-    ],
-    "description": {
-      "title": "Chinh phục cung đường di sản miền Trung",
-      "content": "Miền Trung, dải đất thân thương nối liền hai miền Nam - Bắc của Việt Nam. “Cung đường di sản miền Trung” sẽ kết nối du khách với các di sản văn hóa của nhân loại được UNESCO công nhận bao gồm: Huế với hai di sản là Quần thể di tích Cố đô Huế và Nhã Nhạc cung đình; Quảng Nam với hai di sản là Thánh địa Mỹ Sơn và đô thị cổ Hội An. Trên mỗi bước đi, du khách còn có thể khám phá cho mình nhiều điểm đến hấp dẫn: Bà Nà Hill, Làng Chài Lăng Cô, và nhiều bãi tắm tuyệt đẹp: Cửa Đại, Non Nước, Lăng Cô, Nhật Lệ, cùng với những nét ẩm thực độc đáo của Miền Trung. Cùng iVIVU khám phá cung đường tuyệt vời này ngay hôm nay!"
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "NGÀY 01: ĐÓN KHÁCH – SƠN TRÀ - ĐÀ NẴNG (ĂN TRƯA, TỐI)",
+          "timeline": [
+            {
+              "time": "Sáng",
+              "description": " Đón quý khách tại Đà Nẵng (Sân bay, Ga, điểm hẹn trung tâm) từ 07h00 đến 13h00 (Sau thời gian này, quý khách tự túc nhập đoàn). Xe đưa đi ăn trưa đặc sản nổi tiếng Đà Nẵng “Bánh tráng thịt heo 2 đầu da & Mỳ Quảng”.",
+              "image": "https://cdn2.ivivu.com/2018/08/23/15/ivivu-banh-trang-thit-heo-2-dau-da.jpg"
+            },
+            {
+              "time": "Chiều",
+              "description": "Khởi hành đến Bán Đảo Sơn Trà – Rừng già giữa lòng phố trẻ viếng Linh Ứng Tự - nơi có tượng Phật Bà 67m hướng ra biển Đông.",
+              "image": "https://cdn2.ivivu.com/2017/09/20/10/ivivu-chua-linh-ung.jpg"
+            },
+            {
+              "time": "Tối",
+              "description": " Ăn tối nhà hàng. Tự do trải nghiệm Công viên Châu Á - Asia Park Đà Nẵng là sự kết hợp những nét độc đáo, mới lạ của các mô hình giải trí trên thế giới với những nét văn hóa đặc sắc đậm chất Á Đông.",
+              "image": "https://cdn2.ivivu.com/2017/09/20/10/ivivu-chua-linh-ung.jpg"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "NGÀY 02: NGŨ HÀNH SƠN – PHỐ CỔ HỘI AN (ĂN SÁNG, TRƯA, TỐI)",
+          "timeline": [
+            {
+              "time": "Sáng",
+              "description": "Điểm tâm. Vòng qua Cầu Rồng lưu lại dấu ấn trên Cầu Tình Yêu, tản bộ thưởng thức không khí trong lành bên bờ Hàn Giang với tượng Cá Chép Hóa Long - Biểu tượng mong muốn vươn lên của người Đà Nẵng.Tham quan Cụm danh thắng di tích Ngũ Hành Sơn và Làng Nghề Điêu Khắc Đá. Mua sắm đặc sản Quà Miền Trung",
+              "image": "https://cdn2.ivivu.com/2017/09/20/10/ivivu-cau-rong.jpg"
+            },
+            {
+              "time": "Trưa",
+              "description": "Ăn trưa nhà hàng.",
+              "image": ""
+            },
+            {
+              "time": "Chiều",
+              "description": " Khởi hành vào Hội An bách bộ tham quan và mua sắm Phố Cổ với: Chùa Cầu Nhật Bản, Nhà Cổ hàng trăm năm tuổi, Hội Quán Phước Kiến & Xưởng thủ công mỹ nghệ.",
+              "image": "https://cdn2.ivivu.com/2021/05/07/10/ivivu-hoi-an.gif"
+            },
+            {
+              "time": "Tối",
+              "description": "Ăn tối nhà hàng. Tự do thưởng ngoạn du thuyền trên sông Hàn ngắm cảnh Đà Thành về đêm, chụp ảnh Cầu Quay Sông Hàn, cầu Rồng phun lửa và nước vào cuối tuần.",
+              "image": "https://cdn2.ivivu.com/2022/07/01/09/ivivu-bar-radission.gif"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "NGÀY 03: BÀ NÀ - CỐ ĐÔ HUẾ (ĂN SÁNG, TỐI)",
+          "timeline": [
+            {
+              "time": "Sáng",
+              "description": "Điểm tâm. Khởi hành đi Bà Nà - Núi Chúa (Tự túc chi phí Option Bà Nà theo giá của SunGroup)Quý khách sẽ tận hưởng cảm giác bồng bền khi ngồi trên Cabin lơ lững giữa chừng mây. Viếng chùa Linh Ứng với tượng Phật Thích Ca cao 27m, viếng đền thờ Bà Chúa Mẫu Thượng Ngàn. Tham quan Cầu vàng - HOT Cây cầu độc đáo nằm trong vườn Thiên Thai ở Bà Nà Hill - được xây dựng trên độ cao 1.400m so với mặt nước biển, cây cầu gồm 8 nhịp và có độ dài là 150m. Cây cầu được nâng đỡ bởi đôi bàn tay khổng lồ. Người đi như lạc giữa tiên cảnh nơi có mây, trời bao la. Tham gia vui chơi tại công viên Fantasy Park: với các trò chơi phiêu lưu mới lạ như: Vòng Quay Tình Yêu, Phi Công Skiver, Đường Đua Lửa, Ngôi Nhà Ma và Khu trưng bày hơn 40 tượng sáp những nhân vật nổi tiếng trên thế giới.",
+              "image": "https://cdn2.ivivu.com/2021/05/07/10/ivivu-ba-na-hill.gif"
+            },
+            {
+              "time": "Trưa",
+              "description": "Ăn trưa nhà hàng.",
+              "image": ""
+            },
+            {
+              "time": "Chiều",
+              "description": "Khởi hành đi Cố Đô Huế - Di sản văn hoá Thế Giới, xuyên hầm đường bộ đèo Hải vân, dừng chân chụp ảnh làng Chài Lăng Cô.",
+              "image": "https://cdn2.ivivu.com/2018/12/06/17/ivivu-lang-chai-lang-co.jpg"
+            },
+            {
+              "time": "Tối",
+              "description": "Ăn tối nhà hàng với đặc sản xứ Huế (Bánh bèo, lọc, nậm, khoái,...). Ngồi thuyền Rồng nghe Ca Huế và thả hoa đăng cầu may trên dòng Hương Giang thơ mộng",
+              "image": "https://cdn2.ivivu.com/2022/07/01/09/ivivu-bar-radission.gif"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "NGÀY 04: ĐẠI NỘI – CHÙA THIÊN MỤ - TIỄN KHÁCH (ĂN SÁNG, TRƯA)",
+          "timeline": [
+            {
+              "time": "Sáng",
+              "description": "Điểm tâm. Trả phòng. Khởi hành tham quan:Đại Nội - Hoàng cung triều Nguyễn, tham quan Ngọ Môn, Điện Thái Hòa, Tử Cấm Thành, Thế Miếu, Hiển Lâm Các, Cửu Đỉnh,...",
+              "image": "https://cdn2.ivivu.com/2018/05/14/17/ivivu-dai-noi-hue.jpg"
+            },
+            {
+              "time": "Trưa",
+              "description": "Ăn trưa nhà hàng tại Huế.",
+              "image": ""
+            },
+            {
+              "time": "Chiều",
+              "description": "Tiễn quý khách ra sân bay Huế (các chuyến sau 15h00).Và sân bay Đà Nẵng (các chuyến sau 17h00)",
+              "image": ""
+            }
+          ]
+        }
+      ]
     },
-    "tour_details": [
-      {
-        "id": 1,
-        "name": "NGÀY 01: ĐÓN KHÁCH – SƠN TRÀ - ĐÀ NẴNG (ĂN TRƯA, TỐI)",
-        "timeline": [
-          {
-            "time": "Sáng",
-            "description": " Đón quý khách tại Đà Nẵng (Sân bay, Ga, điểm hẹn trung tâm) từ 07h00 đến 13h00 (Sau thời gian này, quý khách tự túc nhập đoàn). Xe đưa đi ăn trưa đặc sản nổi tiếng Đà Nẵng “Bánh tráng thịt heo 2 đầu da & Mỳ Quảng”.",
-            "image": "https://cdn2.ivivu.com/2018/08/23/15/ivivu-banh-trang-thit-heo-2-dau-da.jpg"
-          },
-          {
-            "time": "Chiều",
-            "description": "Khởi hành đến Bán Đảo Sơn Trà – Rừng già giữa lòng phố trẻ viếng Linh Ứng Tự - nơi có tượng Phật Bà 67m hướng ra biển Đông.",
-            "image": "https://cdn2.ivivu.com/2017/09/20/10/ivivu-chua-linh-ung.jpg"
-          },
-          {
-            "time": "Tối",
-            "description": " Ăn tối nhà hàng. Tự do trải nghiệm Công viên Châu Á - Asia Park Đà Nẵng là sự kết hợp những nét độc đáo, mới lạ của các mô hình giải trí trên thế giới với những nét văn hóa đặc sắc đậm chất Á Đông.",
-            "image": "https://cdn2.ivivu.com/2017/09/20/10/ivivu-chua-linh-ung.jpg"
-          }
-        ]
+    {
+      "id": 8,
+      "name": "Tour Limosine Cao Cấp Phan Thiết 2N1Đ: Tà Kú - Bikini Beach - Circus Land",
+      "image": "https://cdn2.ivivu.com/2022/03/09/16/ivivu-kdl-nui-ta-cu.gif",
+      "catagoryId": 1,
+      "areaId": 1,
+      "price_adult": 2390000,
+      "price_child": 1900000,
+      "quantity_date": "2 ngày 1 đêm",
+      "start_location": "Hồ Chí Minh",
+      "end_location": "Phan Thiết",
+      "star": "4.",
+      "quantity": 15,
+      "start_date": "24/6/2023",
+      "vehicle": [
+        {
+          "id": 1,
+          "nameVehicle": "Xe Limousine"
+        }
+      ],
+      "tour_services": [
+        {
+          "id": 1,
+          "nameService": "Bảo hiểm"
+        },
+        {
+          "id": 2,
+          "nameService": "Hướng dẫn viên"
+        },
+        {
+          "id": 3,
+          "nameService": "Xe đưa đón"
+        }
+      ],
+      "description": {
+        "title": "Phan Thiết - Hương Vị Của Biển",
+        "content": "Xe Limousine hay được gọi là “Chuyên Cơ Mặt Đất” Xe Limousine là dòng xe hiện đại, tối ưu và sang trọng, được cải tiến từ những chiếc xe du lịch 40 chỗ thành những chiếc xe 20 chỗ sang trọng, xe du lịch 29 chỗ thành 18-20 chỗ. Xe Limousine được áp dụng phục vụ cho hành khách tuyến đường dài để đảm bảo sự nghỉ ngơi và thoải mái khi đi trên xe. Cả nội thất bên trong của các xe đều được lắp đặt các thiết bị hiện đại và tiện ích nhất cho các trải nghiệm của hành khách.Thiên nhiên dường như quá ưu đãi cho bờ biển Phan Thiết, bởi nó chứa đựng những điều cuốn hút du khách, biển xanh, cát trắng, rặng dừa xanh,…đã tạo cho Phan Thiết sức hấp dẫn khó cưỡng cho những ai yêu biển, yêu cái nắng vàng trên cát. Ngỡ như khô cằn nhưng lại vô cùng lãng mạn. Đừng nghĩ Phan Thiết không có gì để khám phá, thật ra nó là một điểm nghĩ dưỡng sau những ngày làm mệt mỏi, căng thẳng nơi phố thị vô cùng hữu hiệu, là nơi để bạn và gia đình thư giãn vào những ngày hè oi bức, gắn kết tình thân hay là nơi trăng mật vô cùng lãng mạn."
       },
-      {
-        "id": 2,
-        "name": "NGÀY 02: NGŨ HÀNH SƠN – PHỐ CỔ HỘI AN (ĂN SÁNG, TRƯA, TỐI)",
-        "timeline": [
-          {
-            "time": "Sáng",
-            "description": "Điểm tâm. Vòng qua Cầu Rồng lưu lại dấu ấn trên Cầu Tình Yêu, tản bộ thưởng thức không khí trong lành bên bờ Hàn Giang với tượng Cá Chép Hóa Long - Biểu tượng mong muốn vươn lên của người Đà Nẵng.Tham quan Cụm danh thắng di tích Ngũ Hành Sơn và Làng Nghề Điêu Khắc Đá. Mua sắm đặc sản Quà Miền Trung",
-            "image": "https://cdn2.ivivu.com/2017/09/20/10/ivivu-cau-rong.jpg"
-          },
-          {
-            "time": "Trưa",
-            "description": "Ăn trưa nhà hàng.",
-            "image": ""
-          },
-          {
-            "time": "Chiều",
-            "description": " Khởi hành vào Hội An bách bộ tham quan và mua sắm Phố Cổ với: Chùa Cầu Nhật Bản, Nhà Cổ hàng trăm năm tuổi, Hội Quán Phước Kiến & Xưởng thủ công mỹ nghệ.",
-            "image": "https://cdn2.ivivu.com/2021/05/07/10/ivivu-hoi-an.gif"
-          },
-          {
-            "time": "Tối",
-            "description": "Ăn tối nhà hàng. Tự do thưởng ngoạn du thuyền trên sông Hàn ngắm cảnh Đà Thành về đêm, chụp ảnh Cầu Quay Sông Hàn, cầu Rồng phun lửa và nước vào cuối tuần.",
-            "image": "https://cdn2.ivivu.com/2022/07/01/09/ivivu-bar-radission.gif"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "NGÀY 03: BÀ NÀ - CỐ ĐÔ HUẾ (ĂN SÁNG, TỐI)",
-        "timeline": [
-          {
-            "time": "Sáng",
-            "description": "Điểm tâm. Khởi hành đi Bà Nà - Núi Chúa (Tự túc chi phí Option Bà Nà theo giá của SunGroup)Quý khách sẽ tận hưởng cảm giác bồng bền khi ngồi trên Cabin lơ lững giữa chừng mây. Viếng chùa Linh Ứng với tượng Phật Thích Ca cao 27m, viếng đền thờ Bà Chúa Mẫu Thượng Ngàn. Tham quan Cầu vàng - HOT Cây cầu độc đáo nằm trong vườn Thiên Thai ở Bà Nà Hill - được xây dựng trên độ cao 1.400m so với mặt nước biển, cây cầu gồm 8 nhịp và có độ dài là 150m. Cây cầu được nâng đỡ bởi đôi bàn tay khổng lồ. Người đi như lạc giữa tiên cảnh nơi có mây, trời bao la. Tham gia vui chơi tại công viên Fantasy Park: với các trò chơi phiêu lưu mới lạ như: Vòng Quay Tình Yêu, Phi Công Skiver, Đường Đua Lửa, Ngôi Nhà Ma và Khu trưng bày hơn 40 tượng sáp những nhân vật nổi tiếng trên thế giới.",
-            "image": "https://cdn2.ivivu.com/2021/05/07/10/ivivu-ba-na-hill.gif"
-          },
-          {
-            "time": "Trưa",
-            "description": "Ăn trưa nhà hàng.",
-            "image": ""
-          },
-          {
-            "time": "Chiều",
-            "description": "Khởi hành đi Cố Đô Huế - Di sản văn hoá Thế Giới, xuyên hầm đường bộ đèo Hải vân, dừng chân chụp ảnh làng Chài Lăng Cô.",
-            "image": "https://cdn2.ivivu.com/2018/12/06/17/ivivu-lang-chai-lang-co.jpg"
-          },
-          {
-            "time": "Tối",
-            "description": "Ăn tối nhà hàng với đặc sản xứ Huế (Bánh bèo, lọc, nậm, khoái,...). Ngồi thuyền Rồng nghe Ca Huế và thả hoa đăng cầu may trên dòng Hương Giang thơ mộng",
-            "image": "https://cdn2.ivivu.com/2022/07/01/09/ivivu-bar-radission.gif"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "name": "NGÀY 04: ĐẠI NỘI – CHÙA THIÊN MỤ - TIỄN KHÁCH (ĂN SÁNG, TRƯA)",
-        "timeline": [
-          {
-            "time": "Sáng",
-            "description": "Điểm tâm. Trả phòng. Khởi hành tham quan:Đại Nội - Hoàng cung triều Nguyễn, tham quan Ngọ Môn, Điện Thái Hòa, Tử Cấm Thành, Thế Miếu, Hiển Lâm Các, Cửu Đỉnh,...",
-            "image": "https://cdn2.ivivu.com/2018/05/14/17/ivivu-dai-noi-hue.jpg"
-          },
-          {
-            "time": "Trưa",
-            "description": "Ăn trưa nhà hàng tại Huế.",
-            "image": ""
-          },
-          {
-            "time": "Chiều",
-            "description": "Tiễn quý khách ra sân bay Huế (các chuyến sau 15h00).Và sân bay Đà Nẵng (các chuyến sau 17h00)",
-            "image": ""
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "name": "Tour Limosine Cao Cấp Phan Thiết 2N1Đ: Tà Kú - Bikini Beach - Circus Land",
-    "image": "https://cdn2.ivivu.com/2022/03/09/16/ivivu-kdl-nui-ta-cu.gif",
-    "catagoryId": 1,
-    "areaId": 1,
-    "price_adult": 2390000,
-    "price_child": 1900000,
-    "quantity_date": "2 ngày 1 đêm",
-    "start_location": "Hồ Chí Minh",
-    "end_location": "Phan Thiết",
-    "star": "4.",
-    "quantity": 15,
-    "start_date": "24/6/2023",
-    "vehicle": [
-      {
-        "id": 1,
-        "nameVehicle": "Xe Limousine"
-      }
-    ],
-    "tour_services": [
-      {
-        "id": 1,
-        "nameService": "Bảo hiểm"
-      },
-      {
-        "id": 2,
-        "nameService": "Hướng dẫn viên"
-      },
-      {
-        "id": 3,
-        "nameService": "Xe đưa đón"
-      }
-    ],
-    "description": {
-      "title": "Phan Thiết - Hương Vị Của Biển",
-      "content": "Xe Limousine hay được gọi là “Chuyên Cơ Mặt Đất” Xe Limousine là dòng xe hiện đại, tối ưu và sang trọng, được cải tiến từ những chiếc xe du lịch 40 chỗ thành những chiếc xe 20 chỗ sang trọng, xe du lịch 29 chỗ thành 18-20 chỗ. Xe Limousine được áp dụng phục vụ cho hành khách tuyến đường dài để đảm bảo sự nghỉ ngơi và thoải mái khi đi trên xe. Cả nội thất bên trong của các xe đều được lắp đặt các thiết bị hiện đại và tiện ích nhất cho các trải nghiệm của hành khách.Thiên nhiên dường như quá ưu đãi cho bờ biển Phan Thiết, bởi nó chứa đựng những điều cuốn hút du khách, biển xanh, cát trắng, rặng dừa xanh,…đã tạo cho Phan Thiết sức hấp dẫn khó cưỡng cho những ai yêu biển, yêu cái nắng vàng trên cát. Ngỡ như khô cằn nhưng lại vô cùng lãng mạn. Đừng nghĩ Phan Thiết không có gì để khám phá, thật ra nó là một điểm nghĩ dưỡng sau những ngày làm mệt mỏi, căng thẳng nơi phố thị vô cùng hữu hiệu, là nơi để bạn và gia đình thư giãn vào những ngày hè oi bức, gắn kết tình thân hay là nơi trăng mật vô cùng lãng mạn."
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "NGÀY 1: TP. HCM – PHAN THIẾT - KDL NÚI TÀ CÚ – TẮM BIỂN ( ĂN SÁNG, TRƯA)",
+          "timeline": [
+            {
+              "time": "Buổi sáng: 05h00",
+              "description": "Xe và hướng dẫn viên đón khách tại điểm hẹn, khởi hành đi Phan Thiết.",
+              "image": "https://cdn2.ivivu.com/2021/03/23/15/ivivu-xe-limousine.gif"
+            },
+            {
+              "time": "07h30",
+              "description": "Đoàn dùng điểm tâm sáng tại Nhà hàng.",
+              "image": ""
+            },
+            {
+              "time": "10h30",
+              "description": "Đến Phan Thiết, xe đưa đoàn tham quan KDL Núi Tà Cú, du khách đi cáp treo lên đỉnh núi độ cao 505m, tham quan quần thể di tích chùa tháp, tượng Phật và hang động. Đặc biệt là “Song Lâm Thị tịch” – tượng Phật Thích Ca nhập niết bàn dài 49m, cao 11m và bộ tượng Tam Thế Phật được xếp hạng Di tích lịch sử – Văn hoá Quốc gia. (chi phí cáp treo tự túc)",
+              "image": "https://cdn2.ivivu.com/2022/03/09/16/ivivu-kdl-nui-ta-cu.gif"
+            },
+            {
+              "time": "12h00",
+              "description": "Đoàn dùng cơm tại nhà hàng dưới chân núi.",
+              "image": "https://cdn2.ivivu.com/2021/03/18/10/ivivu-khu-du-lich-nui-ta-cu.gif"
+            },
+            {
+              "time": "13h00",
+              "description": "Đoàn di chuyển đến resort nhận phòng nghỉ ngơi. Quý khách có thể tắm biển tự do hoặc thư giãn tại resort.",
+              "image": ""
+            },
+            {
+              "time": "Buổi tối",
+              "description": "Qúy khách tự do thưởng thức hải sản tại Phan Thiết (bữa tối tự túc), nghỉ ngơi tại resort, tự do khám phá Phan Thiết về đêm. Hoặc qúy khách có thể đăng kí tham gia chương trình Fishermen Show.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "CHƯƠNG TRÌNH ĐẶC BIỆT: THAM DỰ FISHERMEN SHOW",
+          "timeline": [
+            {
+              "time": "Buổi tối",
+              "description": "Fishermen Show – Huyền Thoại Làng Chài (chi phí tự túc: 300.000đ – 500.000đ/vé tùy vị trí ghế ngồi) Show vũ kịch đương đại trên sân khấu nhạc nước, ĐẦU TIÊN và DUY NHẤT tại VIỆT NAM.Thời lượng: 1 tiếng, bao gồm phần giải trí và 6 chương múa của 25 diễn viên trên sân khấu nhạc nước.",
+              "image": "https://cdn2.ivivu.com/2020/11/26/11/ivivu-nhac-nuoc-fishermen-show.gif"
+            },
+            {
+              "time": "0h00",
+              "description": "Nghỉ đêm tại Phan Thiết.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "NGÀY 2: CÔNG VIÊN GIẢI TRÍ PHONG CÁCH KIỂU MỸ – BẢO TÀNG NƯỚC MẮM - TP. HCM ( ĂN SÁNG, TRƯA)",
+          "timeline": [
+            {
+              "time": "Buổi sáng",
+              "description": " Đoàn dùng điểm tâm tại Nhà hàng. Quý khách tắm biển tự do. Thả mình dưới dòng nước mát lành trong những ngày nắng oi bức.Hoặc quý khách có thể tự do khám phá Công viên giải trí Circus Land. Được thiết kế với cảnh quan sinh động, mô phỏng âm hưởng sôi động, náo nhiệt của những khu hội chợ xứ sở cờ hoa, sức hấp dẫn của Circus Land còn đến từ 7 trò chơi theo phong cách gánh xiếc và 7 trò chơi trúng thưởng lưu động xoay quanh những chủ đề li kì, độc đáo. (chi phí tự túc)",
+              "image": "https://cdn2.ivivu.com/2022/12/28/11/ivivu-cong-vien-circus-land.gif"
+            },
+            {
+              "time": "9h30",
+              "description": " Đáng chú ý là loại hình biểu diễn hoạt náo – Xiếc cà kheo tại Circus Land. Theo phong cách bãi biển Mỹ, mô hình hoạt náo này với các màn trình diễn linh hoạt và liên tục sẽ dẫn dắt du khách bước vào những không gian sôi động, vui tươi.Trải nghiệm càng thêm phần hấp dẫn với các buổi biểu diễn công phu của những nghệ sĩ chuyên nghiệp trong trang phục phát sáng. Khán giả có cơ hội chiêm ngưỡng các tiết mục uốn dẻo, nhào lộn bật cầu trên không, giữ thăng bằng trên dây.",
+              "image": ""
+            },
+            {
+              "time": "11h00",
+              "description": "Quý khách làm thủ tục trả phòng. Sau đó di chuyển đến nhà hàng dùng cơm trưa.",
+              "image": ""
+            },
+            {
+              "time": "Buổi chiều: 13h00",
+              "description": " Đoàn tham quan Bảo tàng nước mắm Làng Chài Xưa độc đáo duy nhất tại Việt Nam là nơi chứa đựng không gian tái hiện sống động lại 300 năm lịch sử của làng chài Phan Thiết xưa, từ thời Chăm Pa, vua Nguyễn, trải dài cho đến tận thời Pháp thuộc và những năm của thập niên 40 – 60.",
+              "image": ""
+            },
+            {
+              "time": "14h00",
+              "description": "Quý khách trở về HCM, trên đường ghé mua đặc sản của Bình Thuận như: Thanh Long, nước mắm, mực khô…. về làm quà cho người thân.",
+              "image": ""
+            },
+            {
+              "time": "17h30",
+              "description": " Đến Tp. HCM chia tay và hẹn gặp lại quý khách.",
+              "image": ""
+            }
+          ]
+        }
+      ]
     },
-    "tour_details": [
-      {
-        "id": 1,
-        "name": "NGÀY 1: TP. HCM – PHAN THIẾT - KDL NÚI TÀ CÚ – TẮM BIỂN ( ĂN SÁNG, TRƯA)",
-        "timeline": [
-          {
-            "time": "Buổi sáng: 05h00",
-            "description": "Xe và hướng dẫn viên đón khách tại điểm hẹn, khởi hành đi Phan Thiết.",
-            "image": "https://cdn2.ivivu.com/2021/03/23/15/ivivu-xe-limousine.gif"
-          },
-          {
-            "time": "07h30",
-            "description": "Đoàn dùng điểm tâm sáng tại Nhà hàng.",
-            "image": ""
-          },
-          {
-            "time": "10h30",
-            "description": "Đến Phan Thiết, xe đưa đoàn tham quan KDL Núi Tà Cú, du khách đi cáp treo lên đỉnh núi độ cao 505m, tham quan quần thể di tích chùa tháp, tượng Phật và hang động. Đặc biệt là “Song Lâm Thị tịch” – tượng Phật Thích Ca nhập niết bàn dài 49m, cao 11m và bộ tượng Tam Thế Phật được xếp hạng Di tích lịch sử – Văn hoá Quốc gia. (chi phí cáp treo tự túc)",
-            "image": "https://cdn2.ivivu.com/2022/03/09/16/ivivu-kdl-nui-ta-cu.gif"
-          },
-          {
-            "time": "12h00",
-            "description": "Đoàn dùng cơm tại nhà hàng dưới chân núi.",
-            "image": "https://cdn2.ivivu.com/2021/03/18/10/ivivu-khu-du-lich-nui-ta-cu.gif"
-          },
-          {
-            "time": "13h00",
-            "description": "Đoàn di chuyển đến resort nhận phòng nghỉ ngơi. Quý khách có thể tắm biển tự do hoặc thư giãn tại resort.",
-            "image": ""
-          },
-          {
-            "time": "Buổi tối",
-            "description": "Qúy khách tự do thưởng thức hải sản tại Phan Thiết (bữa tối tự túc), nghỉ ngơi tại resort, tự do khám phá Phan Thiết về đêm. Hoặc qúy khách có thể đăng kí tham gia chương trình Fishermen Show.",
-            "image": ""
-          }
-        ]
+    {
+      "id": 9,
+      "name": "Tour Tây Nguyên 3N3Đ: Măng Đen - Kon Tum - Gia Lai - Buôn Mê - Tà Đùng",
+      "image": "https://cdn2.ivivu.com/2018/11/29/11/ivivu-khu-du-lich-thac-pa-si.jpg",
+      "catagoryId": 1,
+      "areaId": 1,
+      "price_adult": 27500000,
+      "price_child": 20000000,
+      "quantity_date": "3 ngày 2 đêm",
+      "start_location": "Hồ Chí Minh",
+      "end_location": "Kon Tum - Gia Lai - Buôn Mê",
+      "star": "5",
+      "quantity": 14,
+      "start_date": "29/6/2023",
+      "vehicle": [
+        {
+          "id": 1,
+          "nameVehicle": "Xe Limousine"
+        }
+      ],
+      "tour_services": [
+        {
+          "id": 1,
+          "nameService": "Bảo hiểm"
+        },
+        {
+          "id": 2,
+          "nameService": "Hướng dẫn viên"
+        },
+        {
+          "id": 3,
+          "nameService": "Xe đưa đón"
+        },
+        {
+          "id": 4,
+          "nameService": "Bữa ăn"
+        },
+        {
+          "id": 5,
+          "nameService": "Khách sạn 4*"
+        },
+        {
+          "id": 6,
+          "nameService": "Vé tham quan"
+        }
+      ],
+      "description": {
+        "title": "Liên Tuyến Tây Nguyên Đại Ngàn",
+        "content": "Khu du lịch sinh thái Măng Đen được du khách xa gần biết đến như “Đà Lạt thứ hai” của Tây Nguyên. Măng Đen vẫn giữ nguyên vẻ đẹp hoang sơ hiếm có của đại ngàn Tây Nguyên với rừng, suối, hồ và thác nước. Măng Đen e ấp ẩn mình bên cánh rừng nguyên sinh với những rặng thông đỏ bạt ngàn trải dài như vô tận, xen lẫn tiếng nước chảy róc rách quanh năm... Cảm giác thú vị bất ngờ xâm chiếm sau hành trình dài giữa đại ngàn hùng vĩ, du khách thấy Măng Đen bốn phía được bao bọc bởi sương mù, rừng thông, biệt thự và cái lạnh nhè nhẹ... Ngoài bạt ngàn cây xanh, ở Măng Đen thỉnh thoảng khách bộ hành còn bắt gặp nhiều suối, thác đẹp nổi tiếng như: Pa Sỹ, Đăk Ke, Lô Ba và những hồ thơ mộng: Toong Zơri, Toong Pô, Toong Đam.Là một thị trấn thuộc huyện Kon Plong, tỉnh Kon Tum, Măng Đen được tự nhiên ưu ái khi mang trong mình đến tận bảy hồ, ba thác với dòng nước xanh trong ngọt ngào quanh năm. Cùng iVIVU khám phá ngay hôm nay!"
       },
-      {
-        "id": 2,
-        "name": "CHƯƠNG TRÌNH ĐẶC BIỆT: THAM DỰ FISHERMEN SHOW",
-        "timeline": [
-          {
-            "time": "Buổi tối",
-            "description": "Fishermen Show – Huyền Thoại Làng Chài (chi phí tự túc: 300.000đ – 500.000đ/vé tùy vị trí ghế ngồi) Show vũ kịch đương đại trên sân khấu nhạc nước, ĐẦU TIÊN và DUY NHẤT tại VIỆT NAM.Thời lượng: 1 tiếng, bao gồm phần giải trí và 6 chương múa của 25 diễn viên trên sân khấu nhạc nước.",
-            "image": "https://cdn2.ivivu.com/2020/11/26/11/ivivu-nhac-nuoc-fishermen-show.gif"
-          },
-          {
-            "time": "0h00",
-            "description": "Nghỉ đêm tại Phan Thiết.",
-            "image": ""
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "NGÀY 2: CÔNG VIÊN GIẢI TRÍ PHONG CÁCH KIỂU MỸ – BẢO TÀNG NƯỚC MẮM - TP. HCM ( ĂN SÁNG, TRƯA)",
-        "timeline": [
-          {
-            "time": "Buổi sáng",
-            "description": " Đoàn dùng điểm tâm tại Nhà hàng. Quý khách tắm biển tự do. Thả mình dưới dòng nước mát lành trong những ngày nắng oi bức.Hoặc quý khách có thể tự do khám phá Công viên giải trí Circus Land. Được thiết kế với cảnh quan sinh động, mô phỏng âm hưởng sôi động, náo nhiệt của những khu hội chợ xứ sở cờ hoa, sức hấp dẫn của Circus Land còn đến từ 7 trò chơi theo phong cách gánh xiếc và 7 trò chơi trúng thưởng lưu động xoay quanh những chủ đề li kì, độc đáo. (chi phí tự túc)",
-            "image": "https://cdn2.ivivu.com/2022/12/28/11/ivivu-cong-vien-circus-land.gif"
-          },
-          {
-            "time": "9h30",
-            "description": " Đáng chú ý là loại hình biểu diễn hoạt náo – Xiếc cà kheo tại Circus Land. Theo phong cách bãi biển Mỹ, mô hình hoạt náo này với các màn trình diễn linh hoạt và liên tục sẽ dẫn dắt du khách bước vào những không gian sôi động, vui tươi.Trải nghiệm càng thêm phần hấp dẫn với các buổi biểu diễn công phu của những nghệ sĩ chuyên nghiệp trong trang phục phát sáng. Khán giả có cơ hội chiêm ngưỡng các tiết mục uốn dẻo, nhào lộn bật cầu trên không, giữ thăng bằng trên dây.",
-            "image": ""
-          },
-          {
-            "time": "11h00",
-            "description": "Quý khách làm thủ tục trả phòng. Sau đó di chuyển đến nhà hàng dùng cơm trưa.",
-            "image": ""
-          },
-          {
-            "time": "Buổi chiều: 13h00",
-            "description": " Đoàn tham quan Bảo tàng nước mắm Làng Chài Xưa độc đáo duy nhất tại Việt Nam là nơi chứa đựng không gian tái hiện sống động lại 300 năm lịch sử của làng chài Phan Thiết xưa, từ thời Chăm Pa, vua Nguyễn, trải dài cho đến tận thời Pháp thuộc và những năm của thập niên 40 – 60.",
-            "image": ""
-          },
-          {
-            "time": "14h00",
-            "description": "Quý khách trở về HCM, trên đường ghé mua đặc sản của Bình Thuận như: Thanh Long, nước mắm, mực khô…. về làm quà cho người thân.",
-            "image": ""
-          },
-          {
-            "time": "17h30",
-            "description": " Đến Tp. HCM chia tay và hẹn gặp lại quý khách.",
-            "image": ""
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "name": "Tour Tây Nguyên 3N3Đ: Măng Đen - Kon Tum - Gia Lai - Buôn Mê - Tà Đùng",
-    "image": "https://cdn2.ivivu.com/2018/11/29/11/ivivu-khu-du-lich-thac-pa-si.jpg",
-    "catagoryId": 1,
-    "areaId": 1,
-    "price_adult": 27500000,
-    "price_child": 20000000,
-    "quantity_date": "3 ngày 2 đêm",
-    "start_location": "Hồ Chí Minh",
-    "end_location": "Kon Tum - Gia Lai - Buôn Mê",
-    "star": "5",
-    "quantity": 14,
-    "start_date": "29/6/2023",
-    "vehicle": [
-      {
-        "id": 1,
-        "nameVehicle": "Xe Limousine"
-      }
-    ],
-    "tour_services": [
-      {
-        "id": 1,
-        "nameService": "Bảo hiểm"
-      },
-      {
-        "id": 2,
-        "nameService": "Hướng dẫn viên"
-      },
-      {
-        "id": 3,
-        "nameService": "Xe đưa đón"
-      },
-      {
-        "id": 4,
-        "nameService": "Bữa ăn"
-      },
-      {
-        "id": 5,
-        "nameService": "Khách sạn 4*"
-      },
-      {
-        "id": 6,
-        "nameService": "Vé tham quan"
-      }
-    ],
-    "description": {
-      "title": "Liên Tuyến Tây Nguyên Đại Ngàn",
-      "content": "Khu du lịch sinh thái Măng Đen được du khách xa gần biết đến như “Đà Lạt thứ hai” của Tây Nguyên. Măng Đen vẫn giữ nguyên vẻ đẹp hoang sơ hiếm có của đại ngàn Tây Nguyên với rừng, suối, hồ và thác nước. Măng Đen e ấp ẩn mình bên cánh rừng nguyên sinh với những rặng thông đỏ bạt ngàn trải dài như vô tận, xen lẫn tiếng nước chảy róc rách quanh năm... Cảm giác thú vị bất ngờ xâm chiếm sau hành trình dài giữa đại ngàn hùng vĩ, du khách thấy Măng Đen bốn phía được bao bọc bởi sương mù, rừng thông, biệt thự và cái lạnh nhè nhẹ... Ngoài bạt ngàn cây xanh, ở Măng Đen thỉnh thoảng khách bộ hành còn bắt gặp nhiều suối, thác đẹp nổi tiếng như: Pa Sỹ, Đăk Ke, Lô Ba và những hồ thơ mộng: Toong Zơri, Toong Pô, Toong Đam.Là một thị trấn thuộc huyện Kon Plong, tỉnh Kon Tum, Măng Đen được tự nhiên ưu ái khi mang trong mình đến tận bảy hồ, ba thác với dòng nước xanh trong ngọt ngào quanh năm. Cùng iVIVU khám phá ngay hôm nay!"
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "ĐÊM 01: TP HỒ CHÍ MINH - MĂNG ĐEN",
+          "timeline": [
+            {
+              "time": "Buổi tối: 17h30",
+              "description": "Xe và hướng dẫn viên đón đoàn rời TP Hồ Chí Minh theo QL14 đi Măng Đen qua Sóc Bombo, Bù Đăng, đường mòn Hồ Chí Minh, quý khách nghỉ đêm trên xe.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "NGÀY 2: KHÁM PHÁ MĂNG ĐEN ( ĂN SÁNG, TRƯA, TỐI)",
+          "timeline": [
+            {
+              "time": "Buổi sáng: 07h30",
+              "description": "Đoàn dùng điểm tâm tại Gia Lai, tiếp tục hành trình đến với Măng Đen.",
+              "image": ""
+            },
+            {
+              "time": "09h30",
+              "description": "Đoàn tham quan Nhà Thờ Gỗ Kom Tum trên 100 tuổi - là biểu tượng của vùng đất Tây Nguyên, là niềm tự hào của người dân thành phố Kon Tum và luôn có sức hút mãnh liệt cho những du khách đến với vùng cao nguyên bạt ngàn.",
+              "image": "https://cdn2.ivivu.com/2022/06/02/14/ivivu-nha-tho-go-kon-tum.jpg"
+            },
+            {
+              "time": "11h30",
+              "description": "Đoàn đến với Măng Đen - nơi được mệnh danh là “Đà Lạt thứ 2” của Việt Nam. Điểm đến này rất đáng để đi bởi không khí rất dễ chịu mát mẻ quanh năm, điểm tô vào đó là nét đẹp còn nguyên sơ của cao nguyên đại ngàn, của rừng thông đầy quyến rũ và nơi xứ sở của hồ của thác, Măng Đen có đến 7 hồ và 3 thác đẹp tuyệt vời. Ngoài ra đây còn là nơi vẫn còn lưu giữ nét văn hóa bản địa mộc mạc khiến cho du khách không khỏi bỡ ngỡ và tò mò. Đoàn dùng cơm trưa và nhận phòng khách sạn nghỉ ngơi.",
+              "image": "https://cdn2.ivivu.com/2022/06/02/14/ivivu-mang-den.jpg"
+            },
+            {
+              "time": "Buổi chiều: 14h00",
+              "description": "Xe đưa quý khách tham quan Khu du lịch thác Pa Sĩ, cầu treo dây văng lệch nhịp duy nhất Miền Trung - Tây Nguyên; tham quan thác Đăk Ke và hồ Đăk Ke.",
+              "image": "https://cdn2.ivivu.com/2022/06/02/14/ivivu-ho-dak-ke.jpg"
+            },
+            {
+              "time": "15h30",
+              "description": "Quý khách tham quan chùa Khánh Lâm - nơi thiền định giữa rừng thiêng, sau đó tham quan Đức mẹ Măng Đen. ",
+              "image": "https://cdn2.ivivu.com/2022/06/02/14/ivivu-mang-den.jpg"
+            },
+            {
+              "time": "18h00",
+              "description": "Quý khách dùng điểm tâm tại nhà hàng, sau đó làm thủ tục trả phòng khách sạn.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "NGÀY 3: MĂNG ĐEN - GIA LAI - BUÔN MÊ THUỘT ( ĂN SÁNG, TRƯA)",
+          "timeline": [
+            {
+              "time": "Buổi sáng: 06h00",
+              "description": "Quý khách dùng điểm tâm tại nhà hàng, sau đó làm thủ tục trả phòng khách sạn.",
+              "image": ""
+            },
+            {
+              "time": "09h30",
+              "description": "Đến với Gia Lai, đoàn tham quan và check in tại Rừng Thông Trăm Tuổi, với hàng thông cổ thụ tuyệt đẹp cạnh rung chè xanh bạt ngàn. Đây được mệnh danh là “con đường Hàn Quốc” tại Pleiku Gia Lai.  Nơi đây rất thu hút lượng khách đến tham quan, các bạn trẻ thì ghi dấu thanh xuân và tình iu nơi con đường tuyệt đẹp này.",
+              "image": "https://cdn2.ivivu.com/2022/06/02/14/ivivu-rung-thong-tram-tuoi.jpg"
+            },
+            {
+              "time": "11h30",
+              "description": "Đoàn dùng buổi trưa tai nhà hàng.",
+              "image": ""
+            },
+            {
+              "time": "Buổi chiều: 12h30",
+              "description": "Tiếp tục khởi hành về Buôn Mê Thuột.",
+              "image": ""
+            },
+            {
+              "time": "16h00",
+              "description": "Đoàn tham quan buôn làng Ako Dhông của dân tộc Êđê trong lòng Thành Phố",
+              "image": "https://cdn2.ivivu.com/2022/06/02/14/ivivu-buon-lang-ako-dhong.jpg"
+            },
+            {
+              "time": "18h00",
+              "description": "Quý khách dùng điểm tâm tại nhà hàng, sau đó làm thủ tục trả phòng khách sạn.",
+              "image": ""
+            },
+            {
+              "time": "19h00",
+              "description": "Quý khách tự do khám phá phố núi về đêm, tự túc khám phá âm thực xứ núi, dừng chân thưởng thức “ly café Buôn Mê” hoặc thưởng thức đặc sản núi rừng cùng nhâm nhi rượu cần nổi tiếng.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "NGÀY 3: MĂNG ĐEN - GIA LAI - BUÔN MÊ THUỘT ( ĂN SÁNG, TRƯA)",
+          "timeline": [
+            {
+              "time": "Buổi sáng: 06h00",
+              "description": "Quý khách dùng điểm tâm tại nhà hàng, sau đó làm thủ tục trả phòng khách sạn.",
+              "image": ""
+            },
+            {
+              "time": "08h00",
+              "description": "Đoàn tiếp tục hành trình đến với Tà Đùng, quý khách có thể thả hồn để tận hưởng cái thi vị mà thiên nhiên đã ban tặng.",
+              "image": "https://cdn2.ivivu.com/2019/12/13/13/ivivu-ta-dung-dak-nong.gif"
+            },
+            {
+              "time": "Buổi chiều: 13h30",
+              "description": "Tiếp tục khởi hành về lại Sài Gòn.Về đến Hồ Chí Minh, chia tay và hẹn gặp lại quý khách.",
+              "image": ""
+            }
+          ]
+        }
+      ]
     },
-    "tour_details": [
-      {
-        "id": 1,
-        "name": "ĐÊM 01: TP HỒ CHÍ MINH - MĂNG ĐEN",
-        "timeline": [
-          {
-            "time": "Buổi tối: 17h30",
-            "description": "Xe và hướng dẫn viên đón đoàn rời TP Hồ Chí Minh theo QL14 đi Măng Đen qua Sóc Bombo, Bù Đăng, đường mòn Hồ Chí Minh, quý khách nghỉ đêm trên xe.",
-            "image": ""
-          }
-        ]
+    {
+      "id": 10,
+      "name": "Tour Miền Trung 3N3Đ: Quy Nhơn - Phú Yên Xe VIP",
+      "image": "https://cdn2.ivivu.com/2022/06/14/17/ivivu-ghenh-da-dia-phu-yen.gif",
+      "catagoryId": 1,
+      "areaId": 1,
+      "price_adult": 3500000,
+      "price_child": 2700000,
+      "quantity_date": "3 ngày 3 đêm",
+      "start_location": "Phan Thiết",
+      "end_location": "Quy Nhơn - Phú Yên",
+      "star": "5",
+      "quantity": 20,
+      "start_date": "06/7/2023",
+      "vehicle": [
+        {
+          "id": 1,
+          "nameVehicle": "Xe Limousine"
+        }
+      ],
+      "tour_services": [
+        {
+          "id": 1,
+          "nameService": "Bảo hiểm"
+        },
+        {
+          "id": 2,
+          "nameService": "Hướng dẫn viên"
+        },
+        {
+          "id": 3,
+          "nameService": "Xe đưa đón"
+        },
+        {
+          "id": 4,
+          "nameService": "Bữa ăn"
+        },
+        {
+          "id": 5,
+          "nameService": "Khách sạn 4*"
+        },
+        {
+          "id": 6,
+          "nameService": "Vé tham quan"
+        }
+      ],
+      "description": {
+        "title": "Liên Tuyến Quy Nhơn - Phú Yên hương vị của biển",
+        "content": "Sau cơn sốt được tạo nên từ bộ phim 'Tôi thấy hoa vàng trên cỏ xanh', Phú Yên - Bình Định trở thành điểm nổi bật cho chuyến du lịch hè đáng nhớ cho du khách mọi miền. Không chỉ mang nét duyên của thành phố ôm trọn hai ngọn núi, Phú Yên còn mê đắm lòng người ở những đầm nước trong vắt, những bãi biển bao la, ghềnh Đá Đĩa kỳ thú. Qua đến Quy Nhơn trải nghiệm những hành trình hấp dẫn như Kỳ Co nước trong xanh màu ngọc bích được mệnh danh là “Maldives của Việt Nam”; Trung Lương – “Jeju Việt Nam” với hàng dương rì rào, những eo núi uốn lượn, bãi biển cát trắng; Eo Gió vừa lãng mạn vừa hùng vĩ để ngắm hoàng hôn; Hòn Khô nước trong vắt. Cùng iVIVU trải nghiệm kỳ nghỉ đáng nhớ tại vùng đất này ngay hôm nay!"
       },
-      {
-        "id": 2,
-        "name": "NGÀY 2: KHÁM PHÁ MĂNG ĐEN ( ĂN SÁNG, TRƯA, TỐI)",
-        "timeline": [
-          {
-            "time": "Buổi sáng: 07h30",
-            "description": "Đoàn dùng điểm tâm tại Gia Lai, tiếp tục hành trình đến với Măng Đen.",
-            "image": ""
-          },
-          {
-            "time": "09h30",
-            "description": "Đoàn tham quan Nhà Thờ Gỗ Kom Tum trên 100 tuổi - là biểu tượng của vùng đất Tây Nguyên, là niềm tự hào của người dân thành phố Kon Tum và luôn có sức hút mãnh liệt cho những du khách đến với vùng cao nguyên bạt ngàn.",
-            "image": "https://cdn2.ivivu.com/2022/06/02/14/ivivu-nha-tho-go-kon-tum.jpg"
-          },
-          {
-            "time": "11h30",
-            "description": "Đoàn đến với Măng Đen - nơi được mệnh danh là “Đà Lạt thứ 2” của Việt Nam. Điểm đến này rất đáng để đi bởi không khí rất dễ chịu mát mẻ quanh năm, điểm tô vào đó là nét đẹp còn nguyên sơ của cao nguyên đại ngàn, của rừng thông đầy quyến rũ và nơi xứ sở của hồ của thác, Măng Đen có đến 7 hồ và 3 thác đẹp tuyệt vời. Ngoài ra đây còn là nơi vẫn còn lưu giữ nét văn hóa bản địa mộc mạc khiến cho du khách không khỏi bỡ ngỡ và tò mò. Đoàn dùng cơm trưa và nhận phòng khách sạn nghỉ ngơi.",
-            "image": "https://cdn2.ivivu.com/2022/06/02/14/ivivu-mang-den.jpg"
-          },
-          {
-            "time": "Buổi chiều: 14h00",
-            "description": "Xe đưa quý khách tham quan Khu du lịch thác Pa Sĩ, cầu treo dây văng lệch nhịp duy nhất Miền Trung - Tây Nguyên; tham quan thác Đăk Ke và hồ Đăk Ke.",
-            "image": "https://cdn2.ivivu.com/2022/06/02/14/ivivu-ho-dak-ke.jpg"
-          },
-          {
-            "time": "15h30",
-            "description": "Quý khách tham quan chùa Khánh Lâm - nơi thiền định giữa rừng thiêng, sau đó tham quan Đức mẹ Măng Đen. ",
-            "image": "https://cdn2.ivivu.com/2022/06/02/14/ivivu-mang-den.jpg"
-          },
-          {
-            "time": "18h00",
-            "description": "Quý khách dùng điểm tâm tại nhà hàng, sau đó làm thủ tục trả phòng khách sạn.",
-            "image": ""
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "NGÀY 3: MĂNG ĐEN - GIA LAI - BUÔN MÊ THUỘT ( ĂN SÁNG, TRƯA)",
-        "timeline": [
-          {
-            "time": "Buổi sáng: 06h00",
-            "description": "Quý khách dùng điểm tâm tại nhà hàng, sau đó làm thủ tục trả phòng khách sạn.",
-            "image": ""
-          },
-          {
-            "time": "09h30",
-            "description": "Đến với Gia Lai, đoàn tham quan và check in tại Rừng Thông Trăm Tuổi, với hàng thông cổ thụ tuyệt đẹp cạnh rung chè xanh bạt ngàn. Đây được mệnh danh là “con đường Hàn Quốc” tại Pleiku Gia Lai.  Nơi đây rất thu hút lượng khách đến tham quan, các bạn trẻ thì ghi dấu thanh xuân và tình iu nơi con đường tuyệt đẹp này.",
-            "image": "https://cdn2.ivivu.com/2022/06/02/14/ivivu-rung-thong-tram-tuoi.jpg"
-          },
-          {
-            "time": "11h30",
-            "description": "Đoàn dùng buổi trưa tai nhà hàng.",
-            "image": ""
-          },
-          {
-            "time": "Buổi chiều: 12h30",
-            "description": "Tiếp tục khởi hành về Buôn Mê Thuột.",
-            "image": ""
-          },
-          {
-            "time": "16h00",
-            "description": "Đoàn tham quan buôn làng Ako Dhông của dân tộc Êđê trong lòng Thành Phố",
-            "image": "https://cdn2.ivivu.com/2022/06/02/14/ivivu-buon-lang-ako-dhong.jpg"
-          },
-          {
-            "time": "18h00",
-            "description": "Quý khách dùng điểm tâm tại nhà hàng, sau đó làm thủ tục trả phòng khách sạn.",
-            "image": ""
-          },
-          {
-            "time": "19h00",
-            "description": "Quý khách tự do khám phá phố núi về đêm, tự túc khám phá âm thực xứ núi, dừng chân thưởng thức “ly café Buôn Mê” hoặc thưởng thức đặc sản núi rừng cùng nhâm nhi rượu cần nổi tiếng.",
-            "image": ""
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "name": "NGÀY 3: MĂNG ĐEN - GIA LAI - BUÔN MÊ THUỘT ( ĂN SÁNG, TRƯA)",
-        "timeline": [
-          {
-            "time": "Buổi sáng: 06h00",
-            "description": "Quý khách dùng điểm tâm tại nhà hàng, sau đó làm thủ tục trả phòng khách sạn.",
-            "image": ""
-          },
-          {
-            "time": "08h00",
-            "description": "Đoàn tiếp tục hành trình đến với Tà Đùng, quý khách có thể thả hồn để tận hưởng cái thi vị mà thiên nhiên đã ban tặng.",
-            "image": "https://cdn2.ivivu.com/2019/12/13/13/ivivu-ta-dung-dak-nong.gif"
-          },
-          {
-            "time": "Buổi chiều: 13h30",
-            "description": "Tiếp tục khởi hành về lại Sài Gòn.Về đến Hồ Chí Minh, chia tay và hẹn gặp lại quý khách.",
-            "image": ""
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 10,
-    "name": "Tour Miền Trung 3N3Đ: Quy Nhơn - Phú Yên Xe VIP",
-    "image": "https://cdn2.ivivu.com/2022/06/14/17/ivivu-ghenh-da-dia-phu-yen.gif",
-    "catagoryId": 1,
-    "areaId": 1,
-    "price_adult": 3500000,
-    "price_child": 2700000,
-    "quantity_date": "3 ngày 3 đêm",
-    "start_location": "Phan Thiết",
-    "end_location": "Quy Nhơn - Phú Yên",
-    "star": "5",
-    "quantity": 20,
-    "start_date": "06/7/2023",
-    "vehicle": [
-      {
-        "id": 1,
-        "nameVehicle": "Xe Limousine"
-      }
-    ],
-    "tour_services": [
-      {
-        "id": 1,
-        "nameService": "Bảo hiểm"
-      },
-      {
-        "id": 2,
-        "nameService": "Hướng dẫn viên"
-      },
-      {
-        "id": 3,
-        "nameService": "Xe đưa đón"
-      },
-      {
-        "id": 4,
-        "nameService": "Bữa ăn"
-      },
-      {
-        "id": 5,
-        "nameService": "Khách sạn 4*"
-      },
-      {
-        "id": 6,
-        "nameService": "Vé tham quan"
-      }
-    ],
-    "description": {
-      "title": "Liên Tuyến Quy Nhơn - Phú Yên hương vị của biển",
-      "content": "Sau cơn sốt được tạo nên từ bộ phim 'Tôi thấy hoa vàng trên cỏ xanh', Phú Yên - Bình Định trở thành điểm nổi bật cho chuyến du lịch hè đáng nhớ cho du khách mọi miền. Không chỉ mang nét duyên của thành phố ôm trọn hai ngọn núi, Phú Yên còn mê đắm lòng người ở những đầm nước trong vắt, những bãi biển bao la, ghềnh Đá Đĩa kỳ thú. Qua đến Quy Nhơn trải nghiệm những hành trình hấp dẫn như Kỳ Co nước trong xanh màu ngọc bích được mệnh danh là “Maldives của Việt Nam”; Trung Lương – “Jeju Việt Nam” với hàng dương rì rào, những eo núi uốn lượn, bãi biển cát trắng; Eo Gió vừa lãng mạn vừa hùng vĩ để ngắm hoàng hôn; Hòn Khô nước trong vắt. Cùng iVIVU trải nghiệm kỳ nghỉ đáng nhớ tại vùng đất này ngay hôm nay!"
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "DU XUÂN NGÀY 1: QUY NHƠN - KỲ CO - EO GIÓ – CHÙA ÔNG NÚI ( ĂN SÁNG, TRƯA )",
+          "timeline": [
+            {
+              "time": "08h00",
+              "description": "Đến Quy Nhơn, Qúy khách dùng điểm tâm, sau đó xe đưa đoàn tham quan khám phá điểm mới Quy Nhơn.",
+              "image": ""
+            },
+            {
+              "time": "09h00",
+              "description": "Đoàn tham quan Eo Gió – Thắng cảnh nổi tiếng tại Quy Nhơn, được mệnh danh là nơi đón Bình Minh và Hoàng Hôn đẹp nhất Việt Nam, Khung cảnh là lý giải cho tên gọi của khu vực này. Những rặng núi đá cao mang nhiều hình thù lạ mắt ôm trọn biển xanh trong vòng tay tạo thành một eo biển hút gió tuyệt đẹp. Đứng từ trên các mỏm đá xung quanh nhìn xuống bạn sẽ thu vào mắt một khung cảnh như tranh vẽ. Nơi đây là chốn lý tưởng để săn những bức ảnh đặc sắc ấn tượng. Không khí ở đây vô cùng yên tĩnh tạo cảm giác thong dong, thư thả trước đất trời bao la.",
+              "image": "https://cdn2.ivivu.com/2022/10/17/17/ivivu-eo-gio.gif"
+            },
+            {
+              "time": "10h00",
+              "description": "Tượng Phật chùa Ông Núi Quy Nhơn Bình Định  – Dự án Đại Phật Tượng – Trung tâm Phật pháp - Linh Phong Bình Định (huyện Phù Cát) đã cơ bản hoàn thành phần tượng Phật, được kỳ vọng sẽ là một điểm đến mới của du lịch Quy Nhơn, Bình Định trong năm 2018. Với chiều cao 69 m, đường kính chân tượng 52 m, tọa lạc trên Núi Bà ở độ cao 120 m, đây là tượng Phật Thích Ca tạo dáng ở tư thế ngồi cao nhất Đông Nam Á hiện nay.",
+              "image": "https://cdn2.ivivu.com/2019/09/13/10/ivivu-chua-ong-nui-quy-nhon.jpg"
+            },
+            {
+              "time": "10h30",
+              "description": "Quý khách lên Cano qua Biển Kỳ Co nằm dưới chân dãy núi Phương Mai sừng sững thuộc xã bán đảo Nhơn Lý, TP Quy Nhơn, bãi tắm hoang sơ Kỳ Co đẹp tựa một bức tranh vừa nên thơ vừa hùng vĩ. Nơi đây hấp dẫn du khách, đặc biệt là những người ưa du lịch khám phá, bởi không chỉ có cảnh đẹp làm say lòng người mà còn biết bao điều thú vị. Một hòn đảo rất hoang sơ, có bãi biển cát trắng mịn, nước biển trong xanh như pha lê. Quý khách sẽ thích thú trước vẻ đẹp thiên nhiên hoang sơ và kỳ vỹ nơi đây.",
+              "image": "https://cdn2.ivivu.com/2021/07/05/10/ivivu-2-bai-ky-co.gif"
+            },
+            {
+              "time": "12h00",
+              "description": "Quý khách lên cano về lại nhà hàng, tắm nước ngọt, thưởng thức bữa trưa với những món hải sản tươi sống độc đáo, hương vị được chế biến nguyên chất của dân chài địa phương như: tôm, cá, mực, ốc, bào ngư, súp rong biển.",
+              "image": ""
+            },
+            {
+              "time": "15h30",
+              "description": "Xe đưa đoàn khởi hành tham quan Khu Du Lịch Ghềnh Ráng, viếng mộ thi sĩ Hàn Mặc Tử tài hoa nhưng bạc mệnh, chiêm ngưỡng nghệ thuật Bút lửa DZũ Kha, nghe thơ Hàn, tham quan Bãi tắm Hoàng Hậu hay còn gọi là Bãi Trứng với những viên đá nhẵn thin xếp đầy bãi tắm, đẹp tự nhiên không đâu có được.",
+              "image": "https://cdn2.ivivu.com/2022/05/26/14/ivivu-ghenh-rang-tien-sa-1.jpg"
+            },
+            {
+              "time": "18h00",
+              "description": "Quý khách tự túc khám phá những món ăn ngon đặc sản Quy Nhơn với các món ăn dân dã, đậm đà bản sắc miền đất võ như: bánh hỏi lòng heo, bún chả cá,nem chợ huyện, Rượu Bàu Đá, bánh xèo tôm nhảy Mỹ Cang, gỏi cá chình, tré Bình Định, bánh ít lá gai, bánh canh, gà nướng lu, bún tôm châu trúc…..(Buổi tối đoàn tự túc)",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "DU XUÂN NGÀY 2: QUY NHƠN - THÁP ĐÔI - PHÚ YÊN - GÀNH ĐÁ DĨA ( ĂN SÁNG, TRƯA, TỐI )",
+          "timeline": [
+            {
+              "time": "Buổi sáng: 07h00",
+              "description": "Sáng quý khách dùng điểm tâm sáng tại nhà hàng. Tự do dạo phố tắm biển Quy Nhơn.",
+              "image": ""
+            },
+            {
+              "time": "08h30",
+              "description": "Tiếp tục hành trình xe đưa Quý khách đến Phú Yên.",
+              "image": ""
+            },
+            {
+              "time": "11h30",
+              "description": "Dùng bữa trưa tại Phú Yên. Sau đó tiếp tục chương trình tham quan.",
+              "image": ""
+            },
+            {
+              "time": "14h30",
+              "description": "Xe và hướng dẫn viên đón Quý khách khởi hành đi tham quan: Nhà Thờ Mằng Lăng – một trong những nhà thờ cổ nhất Việt Nam với lối kiến trúc Gothic giao thoa kiến trúc truyền thống. Nhà thờ Mằng Lăng là địa chỉ để quý khách tìm hiểu về cuốn sách Phép giảng Tám Ngày – Cuốn sách bằng chữ Quốc ngữ đầu tiên của Việt Nam.",
+              "image": "https://cdn2.ivivu.com/2022/06/14/17/ivivu-ghenh-da-dia-phu-yen.gif"
+            },
+            {
+              "time": "17h00",
+              "description": "Đoàn ghé Đầm Ô Loan, tham quan, vui chơi và thưởng thức bữa tối với món Sò Ô Loan rất nổi tiếng cùng với các hải sản nướng tại chỗ.",
+              "image": "https://cdn2.ivivu.com/2021/07/02/10/ivivu-4-dam-o-loan.gif"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "DU XUÂN NGÀY 3: PHÚ YÊN – NGHINH PHONG –TP. HỒ CHÍ MINH ( ĂN SÁNG, TRƯA)",
+          "timeline": [
+            {
+              "time": "Buổi sáng: 06h30",
+              "description": "Làm thủ tục trả phòng Khách sạn.",
+              "image": ""
+            },
+            {
+              "time": "07h30",
+              "description": "Dùng điểm tâm sáng tại Nhà hàng.",
+              "image": ""
+            },
+            {
+              "time": "08h00",
+              "description": "Xe đưa quý khách tham quan Quảng trường Nghinh Phong Lấy ý tưởng từ Gành Đá Dĩa, những khối đá tròn xếp chồng liền kề nhau, biểu tượng của du lịch Phú Yên. Huni Architectes có trụ sở tại Pháp là đơn vị thiết kế công trình này. Cách quảng trường Nghinh Phong khoảng 100 m, Ngọn hải đăng mini cũng là điểm đến hút khách mới của Tuy Hòa có những bức ảnh 'như trời Tây'. Công viên thế kỷ với nhiều công trình đẹp theo phong cách trời tây sẽ cho quy khách nhiều bức ảnh đẹp.",
+              "image": "https://cdn2.ivivu.com/2022/03/21/14/ivivu-thap-nghinh-phong-phu-yen.gif"
+            },
+            {
+              "time": "Buổi chiều 12h30 ",
+              "description": "Dùng cơm trưa tại nhà hàng.",
+              "image": ""
+            },
+            {
+              "time": "21h30",
+              "description": "Đoàn có mặt tại Tp. Phan Thiết. Kết thúc chương trình, chia tay & hẹn gặp lại.",
+              "image": ""
+            }
+          ]
+        }
+      ]
     },
-    "tour_details": [
-      {
-        "id": 1,
-        "name": "DU XUÂN NGÀY 1: QUY NHƠN - KỲ CO - EO GIÓ – CHÙA ÔNG NÚI ( ĂN SÁNG, TRƯA )",
-        "timeline": [
-          {
-            "time": "08h00",
-            "description": "Đến Quy Nhơn, Qúy khách dùng điểm tâm, sau đó xe đưa đoàn tham quan khám phá điểm mới Quy Nhơn.",
-            "image": ""
-          },
-          {
-            "time": "09h00",
-            "description": "Đoàn tham quan Eo Gió – Thắng cảnh nổi tiếng tại Quy Nhơn, được mệnh danh là nơi đón Bình Minh và Hoàng Hôn đẹp nhất Việt Nam, Khung cảnh là lý giải cho tên gọi của khu vực này. Những rặng núi đá cao mang nhiều hình thù lạ mắt ôm trọn biển xanh trong vòng tay tạo thành một eo biển hút gió tuyệt đẹp. Đứng từ trên các mỏm đá xung quanh nhìn xuống bạn sẽ thu vào mắt một khung cảnh như tranh vẽ. Nơi đây là chốn lý tưởng để săn những bức ảnh đặc sắc ấn tượng. Không khí ở đây vô cùng yên tĩnh tạo cảm giác thong dong, thư thả trước đất trời bao la.",
-            "image": "https://cdn2.ivivu.com/2022/10/17/17/ivivu-eo-gio.gif"
-          },
-          {
-            "time": "10h00",
-            "description": "Tượng Phật chùa Ông Núi Quy Nhơn Bình Định  – Dự án Đại Phật Tượng – Trung tâm Phật pháp - Linh Phong Bình Định (huyện Phù Cát) đã cơ bản hoàn thành phần tượng Phật, được kỳ vọng sẽ là một điểm đến mới của du lịch Quy Nhơn, Bình Định trong năm 2018. Với chiều cao 69 m, đường kính chân tượng 52 m, tọa lạc trên Núi Bà ở độ cao 120 m, đây là tượng Phật Thích Ca tạo dáng ở tư thế ngồi cao nhất Đông Nam Á hiện nay.",
-            "image": "https://cdn2.ivivu.com/2019/09/13/10/ivivu-chua-ong-nui-quy-nhon.jpg"
-          },
-          {
-            "time": "10h30",
-            "description": "Quý khách lên Cano qua Biển Kỳ Co nằm dưới chân dãy núi Phương Mai sừng sững thuộc xã bán đảo Nhơn Lý, TP Quy Nhơn, bãi tắm hoang sơ Kỳ Co đẹp tựa một bức tranh vừa nên thơ vừa hùng vĩ. Nơi đây hấp dẫn du khách, đặc biệt là những người ưa du lịch khám phá, bởi không chỉ có cảnh đẹp làm say lòng người mà còn biết bao điều thú vị. Một hòn đảo rất hoang sơ, có bãi biển cát trắng mịn, nước biển trong xanh như pha lê. Quý khách sẽ thích thú trước vẻ đẹp thiên nhiên hoang sơ và kỳ vỹ nơi đây.",
-            "image": "https://cdn2.ivivu.com/2021/07/05/10/ivivu-2-bai-ky-co.gif"
-          },
-          {
-            "time": "12h00",
-            "description": "Quý khách lên cano về lại nhà hàng, tắm nước ngọt, thưởng thức bữa trưa với những món hải sản tươi sống độc đáo, hương vị được chế biến nguyên chất của dân chài địa phương như: tôm, cá, mực, ốc, bào ngư, súp rong biển.",
-            "image": ""
-          },
-          {
-            "time": "15h30",
-            "description": "Xe đưa đoàn khởi hành tham quan Khu Du Lịch Ghềnh Ráng, viếng mộ thi sĩ Hàn Mặc Tử tài hoa nhưng bạc mệnh, chiêm ngưỡng nghệ thuật Bút lửa DZũ Kha, nghe thơ Hàn, tham quan Bãi tắm Hoàng Hậu hay còn gọi là Bãi Trứng với những viên đá nhẵn thin xếp đầy bãi tắm, đẹp tự nhiên không đâu có được.",
-            "image": "https://cdn2.ivivu.com/2022/05/26/14/ivivu-ghenh-rang-tien-sa-1.jpg"
-          },
-          {
-            "time": "18h00",
-            "description": "Quý khách tự túc khám phá những món ăn ngon đặc sản Quy Nhơn với các món ăn dân dã, đậm đà bản sắc miền đất võ như: bánh hỏi lòng heo, bún chả cá,nem chợ huyện, Rượu Bàu Đá, bánh xèo tôm nhảy Mỹ Cang, gỏi cá chình, tré Bình Định, bánh ít lá gai, bánh canh, gà nướng lu, bún tôm châu trúc…..(Buổi tối đoàn tự túc)",
-            "image": ""
-          }
-        ]
+    {
+      "id": 11,
+      "name": "Tour Xe Lửa Miền Trung 3N4Đ: Khám Phá Quy Nhơn - Phú Yên",
+      "image": "https://cdn2.ivivu.com/2022/10/17/16/ivivu-bai-xep.gif",
+      "catagoryId": 1,
+      "areaId": 1,
+      "price_adult": 3990000,
+      "price_child": 2090000,
+      "quantity_date": "3 ngày 4 đêm",
+      "start_location": "Hồ Chí Minh",
+      "end_location": "Quy Nhơn - Phú Yên",
+      "star": "4",
+      "quantity": 17,
+      "start_date": "22/6/2023",
+      "vehicle": [
+        {
+          "id": 1,
+          "nameVehicle": "Xe lửa"
+        },
+        {
+          "id": 2,
+          "nameVehicle": "Xe ô tô"
+        }
+      ],
+      "tour_services": [
+        {
+          "id": 1,
+          "nameService": "Bảo hiểm"
+        },
+        {
+          "id": 2,
+          "nameService": "Hướng dẫn viên"
+        },
+        {
+          "id": 4,
+          "nameService": "Xe đưa đón"
+        },
+        {
+          "id": 5,
+          "nameService": "Bữa ăn"
+        },
+        {
+          "id": 6,
+          "nameService": "Khách sạn 4*"
+        }
+      ],
+      "description": {
+        "title": "Từ miền đất võ đến xứ hoa vàng cỏ xanh",
+        "content": "Không hiện đại, tốc độ nhanh hay tiện nghi như tàu điện cao tốc, Xe Lửa (Tàu Hỏa) lại mang dấu ấn rất riêng, là một phương tiện di chuyển đã gắn bó và thân thương với dân ta biết bao thế hệ. Những đoàn tàu với tiếng còi quen thuộc di chuyển chầm chậm qua những làng quê, ga tàu yên ả, cảnh sắc thiên nhiên Việt Nam tuyệt đẹp có thể là một trải nghiệm rất khác biệt - một hành trình của những hoài niệm và các cung bậc cảm xúc.'Xứ Nẫu' được thiên nhiên ban tặng phong cảnh nên thơ, hữu tình và những bãi biển trải dài tuyệt đẹp, Phú Yên - Bình Định trở thành điểm nổi bật cho chuyến du lịch hè đáng nhớ cho du khách mọi miền. Không chỉ mang nét duyên của thành phố ôm trọn hai ngọn núi, Phú Yên còn mê đắm lòng người ở những đầm nước trong vắt, những bãi biển bao la, ghềnh Đá Đĩa kỳ thú. Qua đến Quy Nhơn trải nghiệm những hành trình hấp dẫn như Kỳ Co nước trong xanh màu ngọc bích được mệnh danh là “Maldives của Việt Nam”, Eo Gió vừa lãng mạn vừa hùng vĩ để ngắm hoàng hôn. 'Xứ Nẫu' nổi lên kiến trúc Champa Tháp Nhạn, Tháp Đôi độc đáo được xây dựng khoảng thế kỷ 12. Cùng iVIVU khám phá ngay hôm nay! "
       },
-      {
-        "id": 2,
-        "name": "DU XUÂN NGÀY 2: QUY NHƠN - THÁP ĐÔI - PHÚ YÊN - GÀNH ĐÁ DĨA ( ĂN SÁNG, TRƯA, TỐI )",
-        "timeline": [
-          {
-            "time": "Buổi sáng: 07h00",
-            "description": "Sáng quý khách dùng điểm tâm sáng tại nhà hàng. Tự do dạo phố tắm biển Quy Nhơn.",
-            "image": ""
-          },
-          {
-            "time": "08h30",
-            "description": "Tiếp tục hành trình xe đưa Quý khách đến Phú Yên.",
-            "image": ""
-          },
-          {
-            "time": "11h30",
-            "description": "Dùng bữa trưa tại Phú Yên. Sau đó tiếp tục chương trình tham quan.",
-            "image": ""
-          },
-          {
-            "time": "14h30",
-            "description": "Xe và hướng dẫn viên đón Quý khách khởi hành đi tham quan: Nhà Thờ Mằng Lăng – một trong những nhà thờ cổ nhất Việt Nam với lối kiến trúc Gothic giao thoa kiến trúc truyền thống. Nhà thờ Mằng Lăng là địa chỉ để quý khách tìm hiểu về cuốn sách Phép giảng Tám Ngày – Cuốn sách bằng chữ Quốc ngữ đầu tiên của Việt Nam.",
-            "image": "https://cdn2.ivivu.com/2022/06/14/17/ivivu-ghenh-da-dia-phu-yen.gif"
-          },
-          {
-            "time": "17h00",
-            "description": "Đoàn ghé Đầm Ô Loan, tham quan, vui chơi và thưởng thức bữa tối với món Sò Ô Loan rất nổi tiếng cùng với các hải sản nướng tại chỗ.",
-            "image": "https://cdn2.ivivu.com/2021/07/02/10/ivivu-4-dam-o-loan.gif"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "DU XUÂN NGÀY 3: PHÚ YÊN – NGHINH PHONG –TP. HỒ CHÍ MINH ( ĂN SÁNG, TRƯA)",
-        "timeline": [
-          {
-            "time": "Buổi sáng: 06h30",
-            "description": "Làm thủ tục trả phòng Khách sạn.",
-            "image": ""
-          },
-          {
-            "time": "07h30",
-            "description": "Dùng điểm tâm sáng tại Nhà hàng.",
-            "image": ""
-          },
-          {
-            "time": "08h00",
-            "description": "Xe đưa quý khách tham quan Quảng trường Nghinh Phong Lấy ý tưởng từ Gành Đá Dĩa, những khối đá tròn xếp chồng liền kề nhau, biểu tượng của du lịch Phú Yên. Huni Architectes có trụ sở tại Pháp là đơn vị thiết kế công trình này. Cách quảng trường Nghinh Phong khoảng 100 m, Ngọn hải đăng mini cũng là điểm đến hút khách mới của Tuy Hòa có những bức ảnh 'như trời Tây'. Công viên thế kỷ với nhiều công trình đẹp theo phong cách trời tây sẽ cho quy khách nhiều bức ảnh đẹp.",
-            "image": "https://cdn2.ivivu.com/2022/03/21/14/ivivu-thap-nghinh-phong-phu-yen.gif"
-          },
-          {
-            "time": "Buổi chiều 12h30 ",
-            "description": "Dùng cơm trưa tại nhà hàng.",
-            "image": ""
-          },
-          {
-            "time": "21h30",
-            "description": "Đoàn có mặt tại Tp. Phan Thiết. Kết thúc chương trình, chia tay & hẹn gặp lại.",
-            "image": ""
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 11,
-    "name": "Tour Xe Lửa Miền Trung 3N4Đ: Khám Phá Quy Nhơn - Phú Yên",
-    "image": "https://cdn2.ivivu.com/2022/10/17/16/ivivu-bai-xep.gif",
-    "catagoryId": 1,
-    "areaId": 1,
-    "price_adult": 3990000,
-    "price_child": 2090000,
-    "quantity_date": "3 ngày 4 đêm",
-    "start_location": "Hồ Chí Minh",
-    "end_location": "Quy Nhơn - Phú Yên",
-    "star": "4",
-    "quantity": 17,
-    "start_date": "22/6/2023",
-    "vehicle": [
-      {
-        "id": 1,
-        "nameVehicle": "Xe lửa"
-      },
-      {
-        "id": 2,
-        "nameVehicle": "Xe ô tô"
-      }
-    ],
-    "tour_services": [
-      {
-        "id": 1,
-        "nameService": "Bảo hiểm"
-      },
-      {
-        "id": 2,
-        "nameService": "Hướng dẫn viên"
-      },
-      {
-        "id": 4,
-        "nameService": "Xe đưa đón"
-      },
-      {
-        "id": 5,
-        "nameService": "Bữa ăn"
-      },
-      {
-        "id": 6,
-        "nameService": "Khách sạn 4*"
-      }
-    ],
-    "description": {
-      "title": "Từ miền đất võ đến xứ hoa vàng cỏ xanh",
-      "content": "Không hiện đại, tốc độ nhanh hay tiện nghi như tàu điện cao tốc, Xe Lửa (Tàu Hỏa) lại mang dấu ấn rất riêng, là một phương tiện di chuyển đã gắn bó và thân thương với dân ta biết bao thế hệ. Những đoàn tàu với tiếng còi quen thuộc di chuyển chầm chậm qua những làng quê, ga tàu yên ả, cảnh sắc thiên nhiên Việt Nam tuyệt đẹp có thể là một trải nghiệm rất khác biệt - một hành trình của những hoài niệm và các cung bậc cảm xúc.'Xứ Nẫu' được thiên nhiên ban tặng phong cảnh nên thơ, hữu tình và những bãi biển trải dài tuyệt đẹp, Phú Yên - Bình Định trở thành điểm nổi bật cho chuyến du lịch hè đáng nhớ cho du khách mọi miền. Không chỉ mang nét duyên của thành phố ôm trọn hai ngọn núi, Phú Yên còn mê đắm lòng người ở những đầm nước trong vắt, những bãi biển bao la, ghềnh Đá Đĩa kỳ thú. Qua đến Quy Nhơn trải nghiệm những hành trình hấp dẫn như Kỳ Co nước trong xanh màu ngọc bích được mệnh danh là “Maldives của Việt Nam”, Eo Gió vừa lãng mạn vừa hùng vĩ để ngắm hoàng hôn. 'Xứ Nẫu' nổi lên kiến trúc Champa Tháp Nhạn, Tháp Đôi độc đáo được xây dựng khoảng thế kỷ 12. Cùng iVIVU khám phá ngay hôm nay! "
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "ĐÊM 1: TP. HCM – GA TÀU LỬA – QUY NHƠN",
+          "timeline": [
+            {
+              "time": "18h00",
+              "description": "Quý khách có mặt ở ga tàu lửa làm thủ tục lên tàu.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "NGÀY 1: QUY NHƠN – HẦM HÔ - BẢO TÀNG QUANG TRUNG (ĂN SÁNG, TRƯA, TỐI)",
+          "timeline": [
+            {
+              "time": "08h00",
+              "description": " Xe và Hdv đón khách tại Quy Nhơn, ăn sáng trên tàu..",
+              "image": ""
+            },
+            {
+              "time": "09h00",
+              "description": "Tham quan bảo tàng Quang Trung – một trong những bảo tàng lịch sử nổi tiếng ở Bình Định, nơi đây gắn liền với khởi nghĩa Tây Sơn – một cuộc khởi nghĩa giải phòng dân tộc thành công nhất nước ta. Để lưu giữ lại những hiện vật lịch sử một thời đáng nhớ, người ta cho xây dựng bảo tàng Quang Trung ngay chính quê hương của người anh hùng dân tộc.",
+              "image": "https://cdn2.ivivu.com/2019/09/13/09/ivivu-bao-tang-quang-trung1.jpg"
+            },
+            {
+              "time": "10h00",
+              "description": "Đoàn di chuyển đến khu du lịch sinh thái Hầm Hô - Hầm Hô một Danh Thắng thiên nhiên tuyệt mỹ, một điều kỳ diệu của tạo hóa với khúc sông Trời Lấp, với Hòn Chuông, Hòn Bóng, với Đá Thành, Bàn Cờ Tiên, Dấu Chân Khổng Lồ và một hệ sinh thái rừng đa dạng. Đến với Khu du lịch Hầm Hô, du khách như được trở về với thiên nhiên hùng vĩ, được đắm mình trong thế giới Bồng lai tiên cảnh và như được trút bỏ mọi lo toan của cuộc sống hiện đại.",
+              "image": "https://cdn2.ivivu.com/2019/09/13/09/ivivu-kdl-ham-ho.jpg"
+            },
+            {
+              "time": "11h00",
+              "description": " Dùng bữa trưa tại nhà hàng.",
+              "image": ""
+            },
+            {
+              "time": "14h00",
+              "description": "Quý khách trở về lại khách sạn. Tự do nghỉ ngơi. ",
+              "image": ""
+            },
+            {
+              "time": "16h30",
+              "description": "Xe đưa đoàn khởi hành tham quan KDL Ghềnh Ráng, Viếng mộ thi sĩ Hàn Mặc Tử tài hoa nhưng bạc mệnh, chiêm ngưỡng nghệ thuật Bút lửa DZũ Kha, nghe thơ Hàn, tham quan Bãi tắm Hoàng Hậu hay còn gọi là Bãi Trứng với những viên đá nhẵn thiên xếp đầy bãi tắm, đẹp tự nhiên không đâu có được.",
+              "image": "https://cdn2.ivivu.com/2018/05/25/16/ivivu-khu-du-lich-ghenh-rang.jpg"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "NGÀY 2 : QUY NHƠN – KỲ CO – EO GIÓ - GÀNH ĐÁ DĨA - ĐẦM Ô LOAN (ĂN SÁNG, TRƯA, TỐI)",
+          "timeline": [
+            {
+              "time": "07h00",
+              "description": "Quý khách làm thủ tục trả phòng.",
+              "image": ""
+            },
+            {
+              "time": "08h00",
+              "description": "Tượng Phật chùa Ông Núi Quy Nhơn Bình Định – Dự án Đại Phật Tượng – Trung tâm Phật pháp. Linh Phong Bình Định (huyện Phù Cát) đã cơ bản hoàn thành phần tượng Phật, được kỳ vọng sẽ là một điểm đến mới của du lịch Quy Nhơn, Bình Định trong năm 2018. Với chiều cao 69 m, đường kính chân tượng 52 m, tọa lạc trên Núi Bà ở độ cao 120 m, đây là tượng Phật Thích Ca tạo dáng ở tư thế ngồi cao nhất Đông Nam Á hiện nay.",
+              "image": "https://cdn2.ivivu.com/2019/09/13/10/ivivu-chua-ong-nui-quy-nhon.jpg"
+            },
+            {
+              "time": "09h00",
+              "description": "Đoàn tham quan Eo Gió – Thắng cảnh nổi tiếng tại Quy Nhơn, được mệnh danh là nơi đón Bình Minh và Hoàng Hôn đẹp nhất Việt Nam, Viếng Tượng Phật Đôi cao nhất Việt Nam trên 30m tại Tịnh Xá Ngọc Hòa, nơi người dân gửi gắm niềm tin mỗi chuyến ra khơi, cầu bình an cho gia đình.",
+              "image": ""
+            },
+            {
+              "time": "09h30",
+              "description": "Quý khách lên Cano qua Biển Kỳ Co nằm dưới chân dãy núi Phương Mai sừng sững thuộc xã bán đảo Nhơn Lý, TP Quy Nhơn, bãi tắm hoang sơ Kỳ Co đẹp tựa một bức tranh vừa nên thơ vừa hùng vĩ. Nơi đây hấp dẫn du khách, đặc biệt là những người ưa du lịch khám phá, bởi không chỉ có cảnh đẹp làm say lòng người mà còn biết bao điều thú vị. Một hòn đảo rất hoang sơ, có bãi biển cát trắng mịn, nước biển trong xanh như pha lê. Quý khách sẽ thích thú trước vẻ đẹp thiên nhiên hoang sơ và kỳ vỹ nơi đây.",
+              "image": "https://cdn2.ivivu.com/2018/05/08/14/ivivu-bien-ky-co.jpg"
+            },
+            {
+              "time": "11h30",
+              "description": "Quý khách lên cano về lại nhà hàng, tắm nước ngọt, thưởng thức bữa trưa với những món hải sản tươi sống độc đáo, hương vị được chế biến nguyên chất của dân chài địa phương như : tôm, cá, mực, ốc, bào ngư, súp rong biển.",
+              "image": ""
+            },
+            {
+              "time": "15h00",
+              "description": "Tham quan nhà thờ Mằng Lăng. ",
+              "image": ""
+            },
+            {
+              "time": "16h00",
+              "description": " Xe đưa đoàn tham quan di tích được xem là biểu tượng của du lịch tỉnh Phú Yên - thắng cảnh quốc gia Gành Đá Dĩa, nơi có mỏm đá nhô ra biển với cấu tạo đặc biệt, đá ở đây được dựng đứng theo từng cột liền khít nhau, đều tăm tắp, các cột đá có tiết diện hình lục giác hoặc hình tròn giống như cái đĩa. Du khách hòa mình và làn nước biển trong xanh cùng bãi cát dài thoai thoải, đây sẽ là trải nghiệm thú vị dành cho du khách.",
+              "image": "https://cdn2.ivivu.com/2017/03/17/16/ivivu-ghenh-da-dia-16.jpg"
+            },
+            {
+              "time": "19h00",
+              "description": "Quý khách đến với thành phố Tuy Hòa, nhận phòng khách sạn và nghỉ ngơi, thư giãn. Tự do khám phá TP Phú Yên với rất nhiều quán cà phê đẹp.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "NGÀY 3: PHÚ YÊN - CẢNH QUY HOA VÀNG CỎ XANH - MŨI ĐIỆN CỰC ĐÔNG TỔ QUỐC (ĂN SÁNG, TRƯA)",
+          "timeline": [
+            {
+              "time": "07h00",
+              "description": "Quý khách dùng bữa sáng tại khách sạn.",
+              "image": ""
+            },
+            {
+              "time": "08h00",
+              "description": "Xe đưa quý khách tham quan Quảng trường Nghinh Phong Lấy ý tưởng từ Gành Đá Dĩa, những khối đá tròn xếp chồng liền kề nhau, biểu tượng của du lịch Phú Yên. Huni Architectes có trụ sở tại Pháp là đơn vị thiết kế công trình này. Cách quảng trường Nghinh Phong khoảng 100 m, Ngọn hải đăng mini cũng là điểm đến hút khách mới của Tuy Hòa có những bức ảnh 'như trời Tây'. Công viên thế kỷ với nhiều công trình đẹp theo phong cách trời tây sẽ cho quy khách nhiều bức ảnh đẹp.",
+              "image": "https://cdn2.ivivu.com/2022/02/25/15/ivivu-thap-nghinh-phong.gif"
+            },
+            {
+              "time": "10h00",
+              "description": "Xe đưa đoàn đến với Bãi Xép tham quan cảnh trong phim “ Hoa Vàng trên cỏ xanh”. Với Màu xanh của trời, của đại dương mênh mông hòa lẫn màu xanh của cả một trảng cỏ rộng lớn với những bụi xương rồng và vô số bông hoa dại nhỏ xíu mọc trên cỏ… khiến bạn cảm thấy vô cùng mát mắt dù đang đứng dưới cái nắng gắt của miền Trung",
+              "image": "https://cdn2.ivivu.com/2018/05/25/16/ivivu-bai-xep.jpg"
+            },
+            {
+              "time": "11h00",
+              "description": " Đoàn trả phòng khách sạn, di chuyển đi ăn trưa.",
+              "image": ""
+            },
+            {
+              "time": "12h00",
+              "description": " Ăn trưa tại nhà hàng.",
+              "image": ""
+            },
+            {
+              "time": "14h00",
+              "description": "Đoàn tiếp tục đến với cực Đông của Tổ Quốc tham quan Mũi Điện - Cap Varella, cực đông đất liền của Việt Nam, ngọn hải đăng được người Pháp xây dựng năm 1890. quý du khách chụp hình lưu niệm với cột mốc Cực Đông và ngắm nhìn toàn cảnh biển Phú Yên với những bãi cát trắng dài tít tấp.",
+              "image": "https://cdn2.ivivu.com/2019/06/12/13/ivivu-hai-dang-mui-dien.jpg"
+            },
+            {
+              "time": "15h00",
+              "description": " Đoàn đến với chợ Tuy Hòa, Mua đặc sản. Tự thưởng thức ẩm thực tại Tuy Hòa.",
+              "image": ""
+            },
+            {
+              "time": "16h00",
+              "description": "Đoàn di chuyển ra ga tàu, làm thủ tục lên tàu.",
+              "image": ""
+            },
+            {
+              "time": "17h00",
+              "description": "Tàu di chuyển về Sài Gòn. Ăn tối tự túc.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "NGÀY 4: THÀNH PHỐ HỒ CHÍ MINH",
+          "timeline": [
+            {
+              "time": "05h00",
+              "description": "Đến Sài Gòn, chia tay và hẹn gặp lại quý khách.",
+              "image": ""
+            }
+          ]
+        }
+      ]
     },
-    "tour_details": [
-      {
-        "id": 1,
-        "name": "ĐÊM 1: TP. HCM – GA TÀU LỬA – QUY NHƠN",
-        "timeline": [
-          {
-            "time": "18h00",
-            "description": "Quý khách có mặt ở ga tàu lửa làm thủ tục lên tàu.",
-            "image": ""
-          }
-        ]
+    {
+      "id": 12,
+      "name": "Tour Bình Ba 2N2Đ: Khám Phá Vương Quốc Tôm Hùm",
+      "image": "https://cdn2.ivivu.com/2019/03/05/17/ivivu-vinh-vinh-hy.jpg",
+      "catagoryId": 1,
+      "areaId": 1,
+      "price_adult": 1600000,
+      "price_child": 1100000,
+      "quantity_date": "2 ngày 2 đêm",
+      "start_location": "Hồ Chí Minh",
+      "end_location": "Bình Ba",
+      "star": "4.5",
+      "quantity": 14,
+      "start_date": "23/6/2023",
+      "vehicle": [
+        {
+          "id": 1,
+          "nameVehicle": "Ô tô"
+        },
+        {
+          "id": 2,
+          "nameVehicle": "Ca nô"
+        }
+      ],
+      "tour_services": [
+        {
+          "id": 1,
+          "nameService": "Bảo hiểm"
+        },
+        {
+          "id": 2,
+          "nameService": "Hướng dẫn viên"
+        },
+        {
+          "id": 4,
+          "nameService": "Xe đưa đón"
+        },
+        {
+          "id": 5,
+          "nameService": "Bữa ăn"
+        },
+        {
+          "id": 6,
+          "nameService": "Khách sạn 4*"
+        }
+      ],
+      "description": {
+        "title": "Khám phá quốc đảo Tôm Hùm",
+        "content": "Bình Ba đang ngày càng hot về độ đẹp, độ “chịu chơi”, nơi đây được mệnh danh là “quốc đảo tôm hùm” với biển xanh cát trắng thơ mộng. Khách du lịch tìm đến Bình Ba không chỉ để thưởng thức hải sản, trải nghiệm những hoạt động mà còn là cơ hội để nghỉ ngơi sau những ngày làm việc mệt mỏi. Với khung cảnh hoang sơ, thanh bình của những bãi biển xanh trong, cát trắng mịn trải dài đã trở thành địa điểm chụp hình Bình Ba dành cho ai muốn có được những album đẹp mê ly. Cùng đồng hành cùng iVIVU để có những khoảnh khắc tuyệt vời ngay hôm nay!"
       },
-      {
-        "id": 2,
-        "name": "NGÀY 1: QUY NHƠN – HẦM HÔ - BẢO TÀNG QUANG TRUNG (ĂN SÁNG, TRƯA, TỐI)",
-        "timeline": [
-          {
-            "time": "08h00",
-            "description": " Xe và Hdv đón khách tại Quy Nhơn, ăn sáng trên tàu..",
-            "image": ""
-          },
-          {
-            "time": "09h00",
-            "description": "Tham quan bảo tàng Quang Trung – một trong những bảo tàng lịch sử nổi tiếng ở Bình Định, nơi đây gắn liền với khởi nghĩa Tây Sơn – một cuộc khởi nghĩa giải phòng dân tộc thành công nhất nước ta. Để lưu giữ lại những hiện vật lịch sử một thời đáng nhớ, người ta cho xây dựng bảo tàng Quang Trung ngay chính quê hương của người anh hùng dân tộc.",
-            "image": "https://cdn2.ivivu.com/2019/09/13/09/ivivu-bao-tang-quang-trung1.jpg"
-          },
-          {
-            "time": "10h00",
-            "description": "Đoàn di chuyển đến khu du lịch sinh thái Hầm Hô - Hầm Hô một Danh Thắng thiên nhiên tuyệt mỹ, một điều kỳ diệu của tạo hóa với khúc sông Trời Lấp, với Hòn Chuông, Hòn Bóng, với Đá Thành, Bàn Cờ Tiên, Dấu Chân Khổng Lồ và một hệ sinh thái rừng đa dạng. Đến với Khu du lịch Hầm Hô, du khách như được trở về với thiên nhiên hùng vĩ, được đắm mình trong thế giới Bồng lai tiên cảnh và như được trút bỏ mọi lo toan của cuộc sống hiện đại.",
-            "image": "https://cdn2.ivivu.com/2019/09/13/09/ivivu-kdl-ham-ho.jpg"
-          },
-          {
-            "time": "11h00",
-            "description": " Dùng bữa trưa tại nhà hàng.",
-            "image": ""
-          },
-          {
-            "time": "14h00",
-            "description": "Quý khách trở về lại khách sạn. Tự do nghỉ ngơi. ",
-            "image": ""
-          },
-          {
-            "time": "16h30",
-            "description": "Xe đưa đoàn khởi hành tham quan KDL Ghềnh Ráng, Viếng mộ thi sĩ Hàn Mặc Tử tài hoa nhưng bạc mệnh, chiêm ngưỡng nghệ thuật Bút lửa DZũ Kha, nghe thơ Hàn, tham quan Bãi tắm Hoàng Hậu hay còn gọi là Bãi Trứng với những viên đá nhẵn thiên xếp đầy bãi tắm, đẹp tự nhiên không đâu có được.",
-            "image": "https://cdn2.ivivu.com/2018/05/25/16/ivivu-khu-du-lich-ghenh-rang.jpg"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "NGÀY 2 : QUY NHƠN – KỲ CO – EO GIÓ - GÀNH ĐÁ DĨA - ĐẦM Ô LOAN (ĂN SÁNG, TRƯA, TỐI)",
-        "timeline": [
-          {
-            "time": "07h00",
-            "description": "Quý khách làm thủ tục trả phòng.",
-            "image": ""
-          },
-          {
-            "time": "08h00",
-            "description": "Tượng Phật chùa Ông Núi Quy Nhơn Bình Định – Dự án Đại Phật Tượng – Trung tâm Phật pháp. Linh Phong Bình Định (huyện Phù Cát) đã cơ bản hoàn thành phần tượng Phật, được kỳ vọng sẽ là một điểm đến mới của du lịch Quy Nhơn, Bình Định trong năm 2018. Với chiều cao 69 m, đường kính chân tượng 52 m, tọa lạc trên Núi Bà ở độ cao 120 m, đây là tượng Phật Thích Ca tạo dáng ở tư thế ngồi cao nhất Đông Nam Á hiện nay.",
-            "image": "https://cdn2.ivivu.com/2019/09/13/10/ivivu-chua-ong-nui-quy-nhon.jpg"
-          },
-          {
-            "time": "09h00",
-            "description": "Đoàn tham quan Eo Gió – Thắng cảnh nổi tiếng tại Quy Nhơn, được mệnh danh là nơi đón Bình Minh và Hoàng Hôn đẹp nhất Việt Nam, Viếng Tượng Phật Đôi cao nhất Việt Nam trên 30m tại Tịnh Xá Ngọc Hòa, nơi người dân gửi gắm niềm tin mỗi chuyến ra khơi, cầu bình an cho gia đình.",
-            "image": ""
-          },
-          {
-            "time": "09h30",
-            "description": "Quý khách lên Cano qua Biển Kỳ Co nằm dưới chân dãy núi Phương Mai sừng sững thuộc xã bán đảo Nhơn Lý, TP Quy Nhơn, bãi tắm hoang sơ Kỳ Co đẹp tựa một bức tranh vừa nên thơ vừa hùng vĩ. Nơi đây hấp dẫn du khách, đặc biệt là những người ưa du lịch khám phá, bởi không chỉ có cảnh đẹp làm say lòng người mà còn biết bao điều thú vị. Một hòn đảo rất hoang sơ, có bãi biển cát trắng mịn, nước biển trong xanh như pha lê. Quý khách sẽ thích thú trước vẻ đẹp thiên nhiên hoang sơ và kỳ vỹ nơi đây.",
-            "image": "https://cdn2.ivivu.com/2018/05/08/14/ivivu-bien-ky-co.jpg"
-          },
-          {
-            "time": "11h30",
-            "description": "Quý khách lên cano về lại nhà hàng, tắm nước ngọt, thưởng thức bữa trưa với những món hải sản tươi sống độc đáo, hương vị được chế biến nguyên chất của dân chài địa phương như : tôm, cá, mực, ốc, bào ngư, súp rong biển.",
-            "image": ""
-          },
-          {
-            "time": "15h00",
-            "description": "Tham quan nhà thờ Mằng Lăng. ",
-            "image": ""
-          },
-          {
-            "time": "16h00",
-            "description": " Xe đưa đoàn tham quan di tích được xem là biểu tượng của du lịch tỉnh Phú Yên - thắng cảnh quốc gia Gành Đá Dĩa, nơi có mỏm đá nhô ra biển với cấu tạo đặc biệt, đá ở đây được dựng đứng theo từng cột liền khít nhau, đều tăm tắp, các cột đá có tiết diện hình lục giác hoặc hình tròn giống như cái đĩa. Du khách hòa mình và làn nước biển trong xanh cùng bãi cát dài thoai thoải, đây sẽ là trải nghiệm thú vị dành cho du khách.",
-            "image": "https://cdn2.ivivu.com/2017/03/17/16/ivivu-ghenh-da-dia-16.jpg"
-          },
-          {
-            "time": "19h00",
-            "description": "Quý khách đến với thành phố Tuy Hòa, nhận phòng khách sạn và nghỉ ngơi, thư giãn. Tự do khám phá TP Phú Yên với rất nhiều quán cà phê đẹp.",
-            "image": ""
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "NGÀY 3: PHÚ YÊN - CẢNH QUY HOA VÀNG CỎ XANH - MŨI ĐIỆN CỰC ĐÔNG TỔ QUỐC (ĂN SÁNG, TRƯA)",
-        "timeline": [
-          {
-            "time": "07h00",
-            "description": "Quý khách dùng bữa sáng tại khách sạn.",
-            "image": ""
-          },
-          {
-            "time": "08h00",
-            "description": "Xe đưa quý khách tham quan Quảng trường Nghinh Phong Lấy ý tưởng từ Gành Đá Dĩa, những khối đá tròn xếp chồng liền kề nhau, biểu tượng của du lịch Phú Yên. Huni Architectes có trụ sở tại Pháp là đơn vị thiết kế công trình này. Cách quảng trường Nghinh Phong khoảng 100 m, Ngọn hải đăng mini cũng là điểm đến hút khách mới của Tuy Hòa có những bức ảnh 'như trời Tây'. Công viên thế kỷ với nhiều công trình đẹp theo phong cách trời tây sẽ cho quy khách nhiều bức ảnh đẹp.",
-            "image": "https://cdn2.ivivu.com/2022/02/25/15/ivivu-thap-nghinh-phong.gif"
-          },
-          {
-            "time": "10h00",
-            "description": "Xe đưa đoàn đến với Bãi Xép tham quan cảnh trong phim “ Hoa Vàng trên cỏ xanh”. Với Màu xanh của trời, của đại dương mênh mông hòa lẫn màu xanh của cả một trảng cỏ rộng lớn với những bụi xương rồng và vô số bông hoa dại nhỏ xíu mọc trên cỏ… khiến bạn cảm thấy vô cùng mát mắt dù đang đứng dưới cái nắng gắt của miền Trung",
-            "image": "https://cdn2.ivivu.com/2018/05/25/16/ivivu-bai-xep.jpg"
-          },
-          {
-            "time": "11h00",
-            "description": " Đoàn trả phòng khách sạn, di chuyển đi ăn trưa.",
-            "image": ""
-          },
-          {
-            "time": "12h00",
-            "description": " Ăn trưa tại nhà hàng.",
-            "image": ""
-          },
-          {
-            "time": "14h00",
-            "description": "Đoàn tiếp tục đến với cực Đông của Tổ Quốc tham quan Mũi Điện - Cap Varella, cực đông đất liền của Việt Nam, ngọn hải đăng được người Pháp xây dựng năm 1890. quý du khách chụp hình lưu niệm với cột mốc Cực Đông và ngắm nhìn toàn cảnh biển Phú Yên với những bãi cát trắng dài tít tấp.",
-            "image": "https://cdn2.ivivu.com/2019/06/12/13/ivivu-hai-dang-mui-dien.jpg"
-          },
-          {
-            "time": "15h00",
-            "description": " Đoàn đến với chợ Tuy Hòa, Mua đặc sản. Tự thưởng thức ẩm thực tại Tuy Hòa.",
-            "image": ""
-          },
-          {
-            "time": "16h00",
-            "description": "Đoàn di chuyển ra ga tàu, làm thủ tục lên tàu.",
-            "image": ""
-          },
-          {
-            "time": "17h00",
-            "description": "Tàu di chuyển về Sài Gòn. Ăn tối tự túc.",
-            "image": ""
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "name": "NGÀY 4: THÀNH PHỐ HỒ CHÍ MINH",
-        "timeline": [
-          {
-            "time": "05h00",
-            "description": "Đến Sài Gòn, chia tay và hẹn gặp lại quý khách.",
-            "image": ""
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 12,
-    "name": "Tour Bình Ba 2N2Đ: Khám Phá Vương Quốc Tôm Hùm",
-    "image": "https://cdn2.ivivu.com/2019/03/05/17/ivivu-vinh-vinh-hy.jpg",
-    "catagoryId": 1,
-    "areaId": 1,
-    "price_adult": 1600000,
-    "price_child": 1100000,
-    "quantity_date": "2 ngày 2 đêm",
-    "start_location": "Hồ Chí Minh",
-    "end_location": "Bình Ba",
-    "star": "4.5",
-    "quantity": 14,
-    "start_date": "23/6/2023",
-    "vehicle": [
-      {
-        "id": 1,
-        "nameVehicle": "Ô tô"
-      },
-      {
-        "id": 2,
-        "nameVehicle": "Ca nô"
-      }
-    ],
-    "tour_services": [
-      {
-        "id": 1,
-        "nameService": "Bảo hiểm"
-      },
-      {
-        "id": 2,
-        "nameService": "Hướng dẫn viên"
-      },
-      {
-        "id": 4,
-        "nameService": "Xe đưa đón"
-      },
-      {
-        "id": 5,
-        "nameService": "Bữa ăn"
-      },
-      {
-        "id": 6,
-        "nameService": "Khách sạn 4*"
-      }
-    ],
-    "description": {
-      "title": "Khám phá quốc đảo Tôm Hùm",
-      "content": "Bình Ba đang ngày càng hot về độ đẹp, độ “chịu chơi”, nơi đây được mệnh danh là “quốc đảo tôm hùm” với biển xanh cát trắng thơ mộng. Khách du lịch tìm đến Bình Ba không chỉ để thưởng thức hải sản, trải nghiệm những hoạt động mà còn là cơ hội để nghỉ ngơi sau những ngày làm việc mệt mỏi. Với khung cảnh hoang sơ, thanh bình của những bãi biển xanh trong, cát trắng mịn trải dài đã trở thành địa điểm chụp hình Bình Ba dành cho ai muốn có được những album đẹp mê ly. Cùng đồng hành cùng iVIVU để có những khoảnh khắc tuyệt vời ngay hôm nay!"
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "ĐÊM 01: TP HỒ CHÍ MINH – CAM RANH (NGHỈ ĐÊM TRÊN XE) ",
+          "timeline": [
+            {
+              "time": "Buổi Tối: 22h00",
+              "description": "Xe và hướng dẫn viên Công ty du lịch đón quý khách tại điểm hẹn, khởi hành đi Bình Ba.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "NGÀY 1: VỊNH CAM RANH – KHÁM PHÁ ĐẢO BÌNH BA ( ĂN SÁNG, TRƯA, TỐI) ",
+          "timeline": [
+            {
+              "time": "Buổi sáng: 06h00",
+              "description": "Quý khách dừng chân ăn sáng ở nhà hàng tại Cam Ranh. Nghỉ ngơi, làm vệ sinh cá nhận tại đây.Đến cảng Ba Ngòi khởi hành ra đảo Bình Ba. Trên thời gian ca nô di chuyển ra đảo đoàn sẽ được chiêm ngưỡng vẻ đẹp thiên nhiên hoang sơ với biển xanh dập dờn, những bè nuôi tôm hùm nằm rải rác trên biển.",
+              "image": "https://cdn2.ivivu.com/2021/05/13/16/ivivu-dao-binh-ba.gif"
+            },
+            {
+              "time": "Buổi trưa: 11h00",
+              "description": "Đoàn dùng cơm trưa các món ăn đặc sản của Bình Ba tại nhà người dân trên đảo và nghỉ ngơi.",
+              "image": ""
+            },
+            {
+              "time": "Buổi chiều: 14h00",
+              "description": " HDV đưa Quý lên xe Jeep để di chuyển ra Bãi Nhà Cũ để tắm biển và lên Thuyền Thúng ra bãi San Hô. Tại đây, quý khách sẽ được trang bị Kính Lặn và Áo Phao để tung tăng hòa mình vào làn nước biển trong xanh và ngắm nhìn những rặng san hô muôn màu sắc.  Không những vậy, tại đây Quý khách còn được chụp hình thoải thích, lưu lại những kí niệm trong chuyến đi đầy ý nghĩa.",
+              "image": "https://cdn2.ivivu.com/2016/09/20/14/ivivu-tour-bi-nh-ba-1-nga-y-bai-nha-cu-1.jpg"
+            },
+            {
+              "time": "17h30",
+              "description": "Sau khi tắm tắm biển, lặn ngắm san hô, thuyền sẽ đưa về lại bãi Nhà Cũ. Sau đó, xe điện chở Quý Khách về khách sạn tắm rửa, vệ sinh cá nhân.",
+              "image": ""
+            },
+            {
+              "time": "Buổi tối: 18h30",
+              "description": "Đoàn tập trung và cùng nhau thưởng thức bữa tối Tiệc Hải Sản phong phú, tươi sống (bao gồm tôm hùm),.. do người dân trên đảo chế biến. Đặc biệt Quý khách sẽ được thưởng thức một loại hải sản đặc biệt đã góp phần tạo nên cuộc sống Vương giã cho bà con nơi xứ đảo đó là Tôm Hùm.",
+              "image": "https://cdn2.ivivu.com/2020/06/03/17/ivivu-tom-hum-binh-ba.gif"
+            },
+            {
+              "time": "20h00",
+              "description": "Kết thúc bữa tối, quý khách tự do khám phá đảo Tôm Hùm về đêm, nghỉ đêm tại Đảo.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "NGÀY 02: ĐẢO BÌNH BA – TP HỒ CHÍ MINH  ( ĂN TRƯA)",
+          "timeline": [
+            {
+              "time": "Buổi sáng",
+              "description": "Quý khách có thể dậy sớm để ngắm bình minh trên đảo – trải nghiệm với một trong những nơi đón bình minh đầu tiên trên đất nước Việt Nam và tham quan một vòng quanh đảo, trải nghiệm cảm giác nơi xứ đảo vào buổi sáng, chụp hình check – in tại Hòn Rùa, Bãi Chướng, Đồi cỏ hồng,… Những con đường đảo ngoằn ngòe và những góc chụp có một không hai.",
+              "image": "https://cdn2.ivivu.com/2016/09/20/14/ivivu-tour-bi-nh-ba-1-nga-y-hon-rua.jpg"
+            },
+            {
+              "time": "07h00",
+              "description": " Quý khách tự do trải nghiệm ẩm thực trên đảo Bình Ba vào buổi sáng với các món đặc sản như: Bún chả cá Bình Ba,  Bánh căn, Bánh Khọt,.. hoặc thưởng thức café tại những quán café có view nhìn thẳng ra biển mênh mông…",
+              "image": ""
+            },
+            {
+              "time": "Buổi trưa: 12h00",
+              "description": "Đoàn dùng cơm trưa tại KDL Cà Ná.Quý khách dừng chân mua sắm đặc sản và tham quan Cơ sở sản xuất và vườn nho Phan Rang. Tại đây, Quý khách có thể mua sắm các loại đặc sản nỗi tiếng của vùng đất đầy nắng và gió.",
+              "image": ""
+            },
+            {
+              "time": "Dự kiến khoảng 20h00",
+              "description": "Đoàn về đến TP Hồ Chí Minh. HDV DL chia tay và hẹn gặp lại Quý khách trong những chuyến tour sau.",
+              "image": ""
+            }
+          ]
+        }
+      ]
     },
-    "tour_details": [
-      {
-        "id": 1,
-        "name": "ĐÊM 01: TP HỒ CHÍ MINH – CAM RANH (NGHỈ ĐÊM TRÊN XE) ",
-        "timeline": [
-          {
-            "time": "Buổi Tối: 22h00",
-            "description": "Xe và hướng dẫn viên Công ty du lịch đón quý khách tại điểm hẹn, khởi hành đi Bình Ba.",
-            "image": ""
-          }
-        ]
+    {
+      "id": 13,
+      "name": "Tour Nha Trang 1N: 3 đảo VIP Hòn Tằm",
+      "image": "https://cdn2.ivivu.com/2020/05/27/16/ivivu-lang-chai.gif",
+      "catagoryId": 1,
+      "areaId": 1,
+      "price_adult": 500000,
+      "price_child": 250000,
+      "quantity_date": "Trong ngày",
+      "start_location": "Nha Trang",
+      "end_location": "Nha Trang",
+      "star": "4",
+      "quantity": 10,
+      "start_date": "19/6/2023",
+      "vehicle": [
+        {
+          "id": 1,
+          "nameVehicle": "Ca nô"
+        }
+      ],
+      "tour_services": [
+        {
+          "id": 1,
+          "nameService": "Bảo hiểm"
+        },
+        {
+          "id": 2,
+          "nameService": "Hướng dẫn viên"
+        },
+        {
+          "id": 4,
+          "nameService": "Xe đưa đón"
+        },
+        {
+          "id": 5,
+          "nameService": "Bữa ăn"
+        }
+      ],
+      "description": {
+        "title": "Đi Bộ Giữa Lòng Đại Dương Nha Trang",
+        "content": "Đến với tour 3 đảo Nha Trang, bạn sẽ được khám phá thiên nhiên tươi đẹp cùng thế giới đại dương đây màu sắc. Cơ hội chiêm ngưỡng những rạn san hô cùng hệ thống sinh thái biển đa dạng với đủ loài cá và các loài sinh vật quý hiếm. Không những thế, bạn còn có thể trải nghiệm những trò chơi vô cùng thú vị như lặn biển, đi bộ dưới đáy biển, hay thử một chút cảm giác mạnh với mô tô nước, dù kéo, phao chuối...Cùng iVIVU khám phá ngay hôm nay!"
       },
-      {
-        "id": 2,
-        "name": "NGÀY 1: VỊNH CAM RANH – KHÁM PHÁ ĐẢO BÌNH BA ( ĂN SÁNG, TRƯA, TỐI) ",
-        "timeline": [
-          {
-            "time": "Buổi sáng: 06h00",
-            "description": "Quý khách dừng chân ăn sáng ở nhà hàng tại Cam Ranh. Nghỉ ngơi, làm vệ sinh cá nhận tại đây.Đến cảng Ba Ngòi khởi hành ra đảo Bình Ba. Trên thời gian ca nô di chuyển ra đảo đoàn sẽ được chiêm ngưỡng vẻ đẹp thiên nhiên hoang sơ với biển xanh dập dờn, những bè nuôi tôm hùm nằm rải rác trên biển.",
-            "image": "https://cdn2.ivivu.com/2021/05/13/16/ivivu-dao-binh-ba.gif"
-          },
-          {
-            "time": "Buổi trưa: 11h00",
-            "description": "Đoàn dùng cơm trưa các món ăn đặc sản của Bình Ba tại nhà người dân trên đảo và nghỉ ngơi.",
-            "image": ""
-          },
-          {
-            "time": "Buổi chiều: 14h00",
-            "description": " HDV đưa Quý lên xe Jeep để di chuyển ra Bãi Nhà Cũ để tắm biển và lên Thuyền Thúng ra bãi San Hô. Tại đây, quý khách sẽ được trang bị Kính Lặn và Áo Phao để tung tăng hòa mình vào làn nước biển trong xanh và ngắm nhìn những rặng san hô muôn màu sắc.  Không những vậy, tại đây Quý khách còn được chụp hình thoải thích, lưu lại những kí niệm trong chuyến đi đầy ý nghĩa.",
-            "image": "https://cdn2.ivivu.com/2016/09/20/14/ivivu-tour-bi-nh-ba-1-nga-y-bai-nha-cu-1.jpg"
-          },
-          {
-            "time": "17h30",
-            "description": "Sau khi tắm tắm biển, lặn ngắm san hô, thuyền sẽ đưa về lại bãi Nhà Cũ. Sau đó, xe điện chở Quý Khách về khách sạn tắm rửa, vệ sinh cá nhân.",
-            "image": ""
-          },
-          {
-            "time": "Buổi tối: 18h30",
-            "description": "Đoàn tập trung và cùng nhau thưởng thức bữa tối Tiệc Hải Sản phong phú, tươi sống (bao gồm tôm hùm),.. do người dân trên đảo chế biến. Đặc biệt Quý khách sẽ được thưởng thức một loại hải sản đặc biệt đã góp phần tạo nên cuộc sống Vương giã cho bà con nơi xứ đảo đó là Tôm Hùm.",
-            "image": "https://cdn2.ivivu.com/2020/06/03/17/ivivu-tom-hum-binh-ba.gif"
-          },
-          {
-            "time": "20h00",
-            "description": "Kết thúc bữa tối, quý khách tự do khám phá đảo Tôm Hùm về đêm, nghỉ đêm tại Đảo.",
-            "image": ""
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "NGÀY 02: ĐẢO BÌNH BA – TP HỒ CHÍ MINH  ( ĂN TRƯA)",
-        "timeline": [
-          {
-            "time": "Buổi sáng",
-            "description": "Quý khách có thể dậy sớm để ngắm bình minh trên đảo – trải nghiệm với một trong những nơi đón bình minh đầu tiên trên đất nước Việt Nam và tham quan một vòng quanh đảo, trải nghiệm cảm giác nơi xứ đảo vào buổi sáng, chụp hình check – in tại Hòn Rùa, Bãi Chướng, Đồi cỏ hồng,… Những con đường đảo ngoằn ngòe và những góc chụp có một không hai.",
-            "image": "https://cdn2.ivivu.com/2016/09/20/14/ivivu-tour-bi-nh-ba-1-nga-y-hon-rua.jpg"
-          },
-          {
-            "time": "07h00",
-            "description": " Quý khách tự do trải nghiệm ẩm thực trên đảo Bình Ba vào buổi sáng với các món đặc sản như: Bún chả cá Bình Ba,  Bánh căn, Bánh Khọt,.. hoặc thưởng thức café tại những quán café có view nhìn thẳng ra biển mênh mông…",
-            "image": ""
-          },
-          {
-            "time": "Buổi trưa: 12h00",
-            "description": "Đoàn dùng cơm trưa tại KDL Cà Ná.Quý khách dừng chân mua sắm đặc sản và tham quan Cơ sở sản xuất và vườn nho Phan Rang. Tại đây, Quý khách có thể mua sắm các loại đặc sản nỗi tiếng của vùng đất đầy nắng và gió.",
-            "image": ""
-          },
-          {
-            "time": "Dự kiến khoảng 20h00",
-            "description": "Đoàn về đến TP Hồ Chí Minh. HDV DL chia tay và hẹn gặp lại Quý khách trong những chuyến tour sau.",
-            "image": ""
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 13,
-    "name": "Tour Nha Trang 1N: 3 đảo VIP Hòn Tằm",
-    "image": "https://cdn2.ivivu.com/2020/05/27/16/ivivu-lang-chai.gif",
-    "catagoryId": 1,
-    "areaId": 1,
-    "price_adult": 500000,
-    "price_child": 250000,
-    "quantity_date": "Trong ngày",
-    "start_location": "Nha Trang",
-    "end_location": "Nha Trang",
-    "star": "4",
-    "quantity": 10,
-    "start_date": "19/6/2023",
-    "vehicle": [
-      {
-        "id": 1,
-        "nameVehicle": "Ca nô"
-      }
-    ],
-    "tour_services": [
-      {
-        "id": 1,
-        "nameService": "Bảo hiểm"
-      },
-      {
-        "id": 2,
-        "nameService": "Hướng dẫn viên"
-      },
-      {
-        "id": 4,
-        "nameService": "Xe đưa đón"
-      },
-      {
-        "id": 5,
-        "nameService": "Bữa ăn"
-      }
-    ],
-    "description": {
-      "title": "Đi Bộ Giữa Lòng Đại Dương Nha Trang",
-      "content": "Đến với tour 3 đảo Nha Trang, bạn sẽ được khám phá thiên nhiên tươi đẹp cùng thế giới đại dương đây màu sắc. Cơ hội chiêm ngưỡng những rạn san hô cùng hệ thống sinh thái biển đa dạng với đủ loài cá và các loài sinh vật quý hiếm. Không những thế, bạn còn có thể trải nghiệm những trò chơi vô cùng thú vị như lặn biển, đi bộ dưới đáy biển, hay thử một chút cảm giác mạnh với mô tô nước, dù kéo, phao chuối...Cùng iVIVU khám phá ngay hôm nay!"
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "LỊCH TRÌNH: ( ĂN TRƯA)",
+          "timeline": [
+            {
+              "time": "08h00-08h30",
+              "description": " HDV đón Quý khách tại điểm hẹn trong thành phố Nha Trang, khởi hành chuyến khám vá Vịnh Nha Trang.",
+              "image": ""
+            },
+            {
+              "time": "09h00",
+              "description": "Đến Bãi Sỏi.Tại đây, Quý khách tự do tắm biển, thoả thích lặn khám phá những rạng san hô đủ màu sắc dưới làn nước trong xanh. Hoặc du khách có thể tham gia các dịch vụ thể thao trên biển như: diving, đi tàu đáy kính ngắm san hô .... ( phí tực túc )",
+              "image": "https://cdn2.ivivu.com/2020/05/27/16/ivivu-lang-chai.gif"
+            },
+            {
+              "time": "11h30",
+              "description": "Đoàn dùng bữa trưa tại nhà hàng KDL Con Sẻ Tre/ Làng Chài  với thực đơn hải sản: Tôm hấp sả, Đà điểu nướng ngũ vị/ Gà chiên mắm,  Mực xào chua ngọt, Chả cá sốt cà, Sò hấp sả ớt, Ràu xào theo mùa, Trứng chiên, Cá hấp xì dầu, Canh chua cá mú, Cơm trắng, trà đá, Trái cây Quý khách có thể thưởng thức hải sản tươi sống trên những nhà hàng nổi (chi phí tự túc).",
+              "image": ""
+            },
+            {
+              "time": "13h30",
+              "description": "Đến  Vịnh San hô.Một bãi biển đẹp yên tỉnh thơ mộng giữa biển, một không gian lí tưởng để nghỉ ngơi Quý khách có thể tắm biển hoặc nằm tắm nắng thư giãn trên bãi biển với tiếng sóng vỗ rì rào.",
+              "image": ""
+            },
+            {
+              "time": "15h00",
+              "description": "Xe và hướng dẫn viên đưa quý khách về lại khách sạn.",
+              "image": ""
+            }
+          ]
+        }
+      ]
     },
-    "tour_details": [
-      {
-        "id": 1,
-        "name": "LỊCH TRÌNH: ( ĂN TRƯA)",
-        "timeline": [
-          {
-            "time": "08h00-08h30",
-            "description": " HDV đón Quý khách tại điểm hẹn trong thành phố Nha Trang, khởi hành chuyến khám vá Vịnh Nha Trang.",
-            "image": ""
-          },
-          {
-            "time": "09h00",
-            "description": "Đến Bãi Sỏi.Tại đây, Quý khách tự do tắm biển, thoả thích lặn khám phá những rạng san hô đủ màu sắc dưới làn nước trong xanh. Hoặc du khách có thể tham gia các dịch vụ thể thao trên biển như: diving, đi tàu đáy kính ngắm san hô .... ( phí tực túc )",
-            "image": "https://cdn2.ivivu.com/2020/05/27/16/ivivu-lang-chai.gif"
-          },
-          {
-            "time": "11h30",
-            "description": "Đoàn dùng bữa trưa tại nhà hàng KDL Con Sẻ Tre/ Làng Chài  với thực đơn hải sản: Tôm hấp sả, Đà điểu nướng ngũ vị/ Gà chiên mắm,  Mực xào chua ngọt, Chả cá sốt cà, Sò hấp sả ớt, Ràu xào theo mùa, Trứng chiên, Cá hấp xì dầu, Canh chua cá mú, Cơm trắng, trà đá, Trái cây Quý khách có thể thưởng thức hải sản tươi sống trên những nhà hàng nổi (chi phí tự túc).",
-            "image": ""
-          },
-          {
-            "time": "13h30",
-            "description": "Đến  Vịnh San hô.Một bãi biển đẹp yên tỉnh thơ mộng giữa biển, một không gian lí tưởng để nghỉ ngơi Quý khách có thể tắm biển hoặc nằm tắm nắng thư giãn trên bãi biển với tiếng sóng vỗ rì rào.",
-            "image": ""
-          },
-          {
-            "time": "15h00",
-            "description": "Xe và hướng dẫn viên đưa quý khách về lại khách sạn.",
-            "image": ""
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 14,
-    "name": "Tour Điệp Sơn 1N: Độc Đáo Con Đường Dưới Đại Dương",
-    "image": "https://cdn2.ivivu.com/2023/03/30/16/ivivu-binh-hung.gif",
-    "catagoryId": 1,
-    "areaId": 1,
-    "price_adult": 680000,
-    "price_child": 580000,
-    "quantity_date": "Trong ngày",
-    "start_location": "Nha Trang",
-    "end_location": "Điệp Sơn",
-    "star": "4",
-    "quantity": 10,
-    "start_date": "24/6/2023",
-    "vehicle": [
-      {
-        "id": 1,
-        "nameVehicle": "Ca nô"
+    {
+      "id": 14,
+      "name": "Tour Điệp Sơn 1N: Độc Đáo Con Đường Dưới Đại Dương",
+      "image": "https://cdn2.ivivu.com/2023/03/30/16/ivivu-binh-hung.gif",
+      "catagoryId": 1,
+      "areaId": 1,
+      "price_adult": 680000,
+      "price_child": 580000,
+      "quantity_date": "Trong ngày",
+      "start_location": "Nha Trang",
+      "end_location": "Điệp Sơn",
+      "star": "4",
+      "quantity": 10,
+      "start_date": "24/6/2023",
+      "vehicle": [
+        {
+          "id": 1,
+          "nameVehicle": "Ca nô"
+        },
+        {
+          "id": 2,
+          "nameVehicle": "Ô tô"
+        }
+      ],
+      "tour_services": [
+        {
+          "id": 1,
+          "nameService": "Bảo hiểm"
+        },
+        {
+          "id": 2,
+          "nameService": "Hướng dẫn viên"
+        },
+        {
+          "id": 5,
+          "nameService": "Bữa ăn"
+        }
+      ],
+      "description": {
+        "title": "Hòn Đảo Vạn Người Mê",
+        "content": "Cuộc sống hiện nay đầy bộn bề và lo toan, khiến mỗi chúng ta cảm thấy mệt mỏi và căng thẳng, hãy tìm đến nơi hòa mình với thiên nhiên, sẽ giúp bạn có được những giây phút thư giãn thoải mái – Tour Đảo Điệp Sơn thiên đường ngay đây với những cảnh đẹp hoang sơ, được hòa mình với biển, với thiên nhiên. Cùng Sài gòn tourist khám phá ngay hôm nay! "
       },
-      {
-        "id": 2,
-        "nameVehicle": "Ô tô"
-      }
-    ],
-    "tour_services": [
-      {
-        "id": 1,
-        "nameService": "Bảo hiểm"
-      },
-      {
-        "id": 2,
-        "nameService": "Hướng dẫn viên"
-      },
-      {
-        "id": 5,
-        "nameService": "Bữa ăn"
-      }
-    ],
-    "description": {
-      "title": "Hòn Đảo Vạn Người Mê",
-      "content": "Cuộc sống hiện nay đầy bộn bề và lo toan, khiến mỗi chúng ta cảm thấy mệt mỏi và căng thẳng, hãy tìm đến nơi hòa mình với thiên nhiên, sẽ giúp bạn có được những giây phút thư giãn thoải mái – Tour Đảo Điệp Sơn thiên đường ngay đây với những cảnh đẹp hoang sơ, được hòa mình với biển, với thiên nhiên. Cùng Sài gòn tourist khám phá ngay hôm nay! "
-    },
-    "tour_details": [
-      {
-        "id": 1,
-        "name": "Chương trình tour",
-        "timeline": [
-          {
-            "time": "7h30 sáng",
-            "description": "Xe và hướng dẫn viên đón khách tại Nha Trang khởi hành chuyến tham quan Đảo Điệp Sơn, trên đường đi quý khách được tìm hiểu chiêm ngưỡng những địa danh nổi tiếng như: Vịnh Nha Phu, Hòn Hèo, Chùa Linh Ứng, Đèo Rọ Tượng… cùng nhiều điển tích thú vị gắn liền đời sống văn hóa người dân xứ biển.",
-            "image": "https://cdn2.ivivu.com/2016/11/17/16/ivivu-tour-nha-trang-3n3d-ca-t-tra-ng-na-ng-va-ng-nha-phu.jpg"
-          },
-          {
-            "time": "10h30",
-            "description": "Đến Cảng Điệp Sơn, quý khách lên tàu bắt đầu hành trình khám phá Đảo Điệp Sơn, sau những phút lênh đênh trên những dòng nước xanh trong hiền hòa, đảo Điệp Sơn dần hiện lên như một bức tranh thiên nhiên hữu tình với cảnh trời xanh mây biếc, những cụm đảo hoang sơ mang hình dáng độc đáo đan xen là những hàng cây xanh ngát, bờ cát trắng mịn, điểm lên một chút nắng gió trên những ngôi nhà làng chài đơn sơ… Tất cả như khiến mọi người quên đi những mệt mỏi, bộn bề lo toan của cuộc sống thường ngày.",
-            "image": "https://cdn2.ivivu.com/2019/09/09/10/ivivu-diep-son7.jpg"
-          },
-          {
-            "time": "12h30",
-            "description": "Tàu cập bờ quý khách bắt đầu khám phá con đường dưới biển độc đáo nhất Việt Nam cùng nhau lưu giữ những shoot hình tuyệt đẹp , chinh phục con đường uốn lượn dài gần 700m nằm dưới mặt nước chưa tới nửa mét, chậm rãi thả bước trên con đường độc đạo sẽ khiến quý khách cảm thấy thích thú xen lẫn một chút hồi hộp khi đứng giữa một đại dương rộng lớn.",
-            "image": "https://cdn2.ivivu.com/2017/03/17/16/ivivu-diep-son.jpg"
-          },
-          {
-            "time": "Trưa",
-            "description": "Quý khách dùng cơm trưa với những món hải sản tươi ngon xứ biển tại Đảo Điệp Sơn.",
-            "image": ""
-          },
-          {
-            "time": "13h30",
-            "description": "Tiếp tục hành trình tàu đưa quý khách về lại cảng xe đưa quý khách  tham quan Tắm biển Dốc Lết – Một trong những bãi biển đẹp nhất Nha Trang tự do tắm biển.",
-            "image": ""
-          },
-          {
-            "time": "16h30",
-            "description": "Xe đưa quý khách về lại điểm đón ban đầu – Kết thúc chuyến tham quan, hẹn gặp lại.",
-            "image": ""
-          }
-        ]
-      }
-    ]
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "Chương trình tour",
+          "timeline": [
+            {
+              "time": "7h30 sáng",
+              "description": "Xe và hướng dẫn viên đón khách tại Nha Trang khởi hành chuyến tham quan Đảo Điệp Sơn, trên đường đi quý khách được tìm hiểu chiêm ngưỡng những địa danh nổi tiếng như: Vịnh Nha Phu, Hòn Hèo, Chùa Linh Ứng, Đèo Rọ Tượng… cùng nhiều điển tích thú vị gắn liền đời sống văn hóa người dân xứ biển.",
+              "image": "https://cdn2.ivivu.com/2016/11/17/16/ivivu-tour-nha-trang-3n3d-ca-t-tra-ng-na-ng-va-ng-nha-phu.jpg"
+            },
+            {
+              "time": "10h30",
+              "description": "Đến Cảng Điệp Sơn, quý khách lên tàu bắt đầu hành trình khám phá Đảo Điệp Sơn, sau những phút lênh đênh trên những dòng nước xanh trong hiền hòa, đảo Điệp Sơn dần hiện lên như một bức tranh thiên nhiên hữu tình với cảnh trời xanh mây biếc, những cụm đảo hoang sơ mang hình dáng độc đáo đan xen là những hàng cây xanh ngát, bờ cát trắng mịn, điểm lên một chút nắng gió trên những ngôi nhà làng chài đơn sơ… Tất cả như khiến mọi người quên đi những mệt mỏi, bộn bề lo toan của cuộc sống thường ngày.",
+              "image": "https://cdn2.ivivu.com/2019/09/09/10/ivivu-diep-son7.jpg"
+            },
+            {
+              "time": "12h30",
+              "description": "Tàu cập bờ quý khách bắt đầu khám phá con đường dưới biển độc đáo nhất Việt Nam cùng nhau lưu giữ những shoot hình tuyệt đẹp , chinh phục con đường uốn lượn dài gần 700m nằm dưới mặt nước chưa tới nửa mét, chậm rãi thả bước trên con đường độc đạo sẽ khiến quý khách cảm thấy thích thú xen lẫn một chút hồi hộp khi đứng giữa một đại dương rộng lớn.",
+              "image": "https://cdn2.ivivu.com/2017/03/17/16/ivivu-diep-son.jpg"
+            },
+            {
+              "time": "Trưa",
+              "description": "Quý khách dùng cơm trưa với những món hải sản tươi ngon xứ biển tại Đảo Điệp Sơn.",
+              "image": ""
+            },
+            {
+              "time": "13h30",
+              "description": "Tiếp tục hành trình tàu đưa quý khách về lại cảng xe đưa quý khách  tham quan Tắm biển Dốc Lết – Một trong những bãi biển đẹp nhất Nha Trang tự do tắm biển.",
+              "image": ""
+            },
+            {
+              "time": "16h30",
+              "description": "Xe đưa quý khách về lại điểm đón ban đầu – Kết thúc chuyến tham quan, hẹn gặp lại.",
+              "image": ""
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 15,
@@ -3613,7 +3615,6 @@
         }
       ]
     },
-    
     {
       "id": 23,
       "name": "Tour Chiang Mai - Chiang Rai 4N3Đ: Trải Nghiệm Miền Bắc Thái Lan",
@@ -3671,7 +3672,7 @@
               "description": "Chùa Phrathat Doi Suthep – một trong những ngôi chùa thiêng liêng nhất tại Chiang Mai được người Thái Lan tin sùng và là nơi rất nhiều tín đồ Phật giáo đến hành hương trong các ngày lễ lớn.",
               "image": "https://cdn2.ivivu.com/2018/10/22/14/ivivu-chua-phrathat-doi-suthep1.jpg"
             },
-             {
+            {
               "time": "Tối",
               "description": "Đoàn nhận phòng khách sạn, dùng bữa tối Kantoke tại nhà hàng với những món ăn đặc trưng của vùng Bắc Thái, thưởng thức Chương trình nghệ thuật dân gian với âm nhạc và vũ điệu truyền thống Thái Lan.",
               "image": ""
@@ -3692,7 +3693,7 @@
               "description": "Tham quan Khu Bảo Tồn Voi Mae Taeng (Elephant Camp): là trung tâm huấn luyện voi nổi tiếng; nơi du khách được thưởng thức các tiết mục xiếc voi.",
               "image": "https://cdn2.ivivu.com/2022/06/24/17/ivivu-trai-voi-chiang-mai.gif"
             },
-             {
+            {
               "time": "Trưa",
               "description": "Đoàn dùng bữa trưa. Sau đó đi chuyển đi tham quan:Quý khách tiếp tục di chuyển đi tham quan Làng Cổ dài (Long Neck Village) và tìm hiểu những tập tục truyền thống của người dân tộc thiểu số Karen.",
               "image": "https://cdn2.ivivu.com/2022/06/24/17/ivivu-lang-co-dai.gif"
@@ -3718,7 +3719,7 @@
               "description": "Tam Giác Vàng - là khu vực rừng núi nằm giữa biên giới ba nước Thái Lan, Myanma và Lào. Nơi đây từng là lãnh địa của trùm ma túy Khun Sa, nổi tiếng là nơi trồng cây Anh Túc và sản xuất thuốc phiện lớn nhất thế giới. Ngày nay, Tam Giác Vàng là một trong những khu vực du lịch hấp dẫn của vùng cực Bắc Thái Lan. ",
               "image": "https://cdn2.ivivu.com/2022/06/16/17/ivivu-tam-giac-vang.gif"
             },
-             {
+            {
               "time": "Sau ăn trưa",
               "description": "Đoàn tiếp tục tham quan: Chùa Trắng – Wat Rong Khun – là 1 kiệt tác của ông Chalermchai Kositpipat ( Một họa sĩ kiêm kiến trúc sư nổi tiếng ở Thái Lan). Ngôi chùa được kết hợp một cách hoàn hảo giữa lối kiến trúc Thái cổ điển với phong cách siêu thực cùng tông màu chủ đạo toàn trắng biểu trưng cho sự tinh khiết của Đức Phật.",
               "image": "https://cdn2.ivivu.com/2019/10/24/16/ivivu-chua-trang3.jpg"
@@ -3730,7 +3731,7 @@
             }
           ]
         },
-                {
+        {
           "id": 3,
           "name": "NGÀY 4: CHIANG MAI – TP.HCM ( ĂN SÁNG)",
           "timeline": [
@@ -3744,7 +3745,7 @@
               "description": "Vườn Hoa Hoàng Gia Royal Flora Garden - là một triển lãm về làm vườn ở thành phố Chiang Mai, nơi du khách có thể chiêm ngưỡng hàng ngàn loài cây và hoa. Công viên được đặt theo tên của loài hoa quốc gia của Thái Lan - Hoa Ratchaphruek (hay cây hoa sen vàng) với hoa màu vàng rất đẹp của nó.",
               "image": ""
             },
-             {
+            {
               "time": "Chiều",
               "description": "Quý khách ra sân bay đáp chuyến bay VJ892 CNX-SGN 14:25 - 16:00 trở về TP.HCM. Kết thúc ngày tham quan Chiang Mai.",
               "image": "https://cdn2.ivivu.com/2019/10/24/16/ivivu-chua-trang3.jpg"
@@ -3862,7 +3863,7 @@
               "time": "Tối",
               "description": "Quý khách dùng bữa tối tại nhà hàng. Tự do khám phá Singapore về đêm. ",
               "image": ""
-            }            
+            }
           ]
         },
         {
@@ -3888,9 +3889,9 @@
               "time": "Kết thúc",
               "description": "***Các chuyến bay ngày về Việt Nam sau 16h00 sẽ được phục vụ bữa trưa tại nhà hàng***",
               "image": ""
-            }           
+            }
           ]
-        }      
+        }
       ]
     },
     {
@@ -3992,7 +3993,7 @@
               "time": "18h00",
               "description": "Dùng cơm tối, về khách sạn nhận phòng. Tối quý khách tự do dạo biển hoặc đốt đèn lồng cầu may mắn theo phong tục địa phương ( chi phí tự túc )",
               "image": ""
-            }            
+            }
           ]
         },
         {
@@ -4018,9 +4019,9 @@
               "time": "Kết thúc",
               "description": "***Các chuyến bay ngày về Việt Nam sau 16h00 sẽ được phục vụ bữa trưa tại nhà hàng***",
               "image": ""
-            }           
+            }
           ]
-        }      
+        }
       ]
     },
     {
@@ -4117,7 +4118,7 @@
               "time": "Đến Chiang Rai",
               "description": "đoàn ăn tối và nhận phòng khách sạn. Nghỉ đêm tại Chiang Rai.",
               "image": ""
-            }         
+            }
           ]
         },
         {
@@ -4143,7 +4144,7 @@
               "time": "Buổi tối",
               "description": "Quý khách tự do dạo phố hoặc thỏa chí khám phá, mua sắm tại Chợ đêm Night Bazaa, tới đây bạn có thể chọn được rất nhiều những món đồ thủ công, handmade độc đáo để dành tặng cho những người thân yêu của mình.",
               "image": ""
-            }           
+            }
           ]
         },
         {
@@ -4164,9 +4165,9 @@
               "time": "Buổi trưa",
               "description": "Đoàn di chuyển ra sân bay làm thủ tục bay về lại Sài Gòn. Chuyến bay VJ892 cất cánh lúc 14h25.",
               "image": ""
-            }          
+            }
           ]
-        }      
+        }
       ]
     },
     {
@@ -4249,7 +4250,7 @@
               "time": " Kuala Lumpur",
               "description": "là một thành phố đồ sộ với những tòa nhà chọc trời và kiến ​​trúc lịch sử. Tham quan biểu tượng Tháp Đôi Petronas - tòa tháp đôi cao nhất thế giới, với phong cách cực kỳ hiện đại và các họa tiết truyền thống từ nghệ thuật Hồi giáo.",
               "image": "https://cdn2.ivivu.com/2018/08/16/10/ivivu-thap-doi-twin-tower-petronas.jpg"
-            }       
+            }
           ]
         },
         {
@@ -4260,9 +4261,9 @@
               "time": "Khoảng 10h00 sáng",
               "description": "Du Thuyền cập cảng Singapore. Quý khách có thể ăn sáng và thư giãn trước khi rời Du Thuyền và di chuyển ra sân bay. ",
               "image": ""
-            }          
+            }
           ]
-        }     
+        }
       ]
     },
     {
@@ -4350,7 +4351,7 @@
               "time": "Sau bữa trưa",
               "description": "xe đưa đoàn di chuyển đến Làng Cổ dài (Long Neck Village) tham quan và tìm hiểu những tập tục truyền thống của người dân tộc thiểu số Karen. Người Karen vốn có nguồn gốc từ Myanmar, nhưng do những yếu tố về kinh tế và chính trị nên họ dần di chuyển sang Thái Lan sinh sống và định cư. Họ có tập tục độc đáo là đeo vòng trên cổ, vì theo quan niệm truyền thống người Karen là con cháu của Phượng hoàng nên cổ càng dài sẽ càng đẹp và thanh cao, ngoài ra số lượng vòng trên cổ càng nhiều càng chứng minh cho sự giàu có và sung túc của gia đình",
               "image": "https://cdn2.ivivu.com/2018/10/22/14/ivivu-lang-co-dai-long-neck-village-.jpg"
-            }                 
+            }
           ]
         },
         {
@@ -4371,7 +4372,7 @@
               "time": "Buổi tối",
               "description": "Quý khách tự do dạo phố hoặc thỏa chí khám phá, mua sắm tại Chợ đêm Night Bazaa, tới đây bạn có thể chọn được rất nhiều những món đồ thủ công, handmade độc đáo để dành tặng cho những người thân yêu của mình.",
               "image": ""
-            }          
+            }
           ]
         },
         {
@@ -4392,9 +4393,9 @@
               "time": "Buổi trưa",
               "description": "Đoàn di chuyển ra sân bay làm thủ tục bay về lại Sài Gòn. Chuyến bay VJ892 cất cánh lúc 14h25.",
               "image": ""
-            }          
+            }
           ]
-        }          
+        }
       ]
     },
     {
@@ -4497,7 +4498,7 @@
               "time": "Tối",
               "description": "Đoàn dùng bữa tối tại nhà hàng, tự do khám phá thành phố về đêm.",
               "image": ""
-            }               
+            }
           ]
         },
         {
@@ -4523,7 +4524,7 @@
               "time": "Tối",
               "description": "Đoàn dùng bữa tối tại nhà hàng bãi biển Jimbaran với thực đơn nâng cấp, phong phú, hấp dẫn dành riêng cho quý khách. Nghỉ đêm tại khách sạn.",
               "image": "https://cdn2.ivivu.com/2022/04/19/11/ivivu-den-tirta-empul-bali-1.gif"
-            }         
+            }
           ]
         },
         {
@@ -4539,9 +4540,9 @@
               "time": "Chuyến về",
               "description": "lúc DPS – SGN VJ898 /17:40 – 19:40 ( Có bao gồm ăn trưa nhẹ cho khách) ",
               "image": ""
-            }      
+            }
           ]
-        }          
+        }
       ]
     },
     {
@@ -4644,7 +4645,7 @@
               "time": "Simon Cabaret show",
               "description": "show diễn của những vũ công chuyển giới “ladyboy” trong trang phục lộng lẫy, đầy quyến rũ. Đây là một trong những chương trình không thể bỏ qua khi đến với Phuket.",
               "image": "https://cdn2.ivivu.com/2017/12/29/17/ivivu-show-simon.jpg"
-            }               
+            }
           ]
         },
         {
@@ -4665,7 +4666,7 @@
               "time": "Tối",
               "description": "Quý khách sẽ dùng tối tại nhà hàng địa phương & về khách sạn nghỉ ngơi",
               "image": ""
-            }         
+            }
           ]
         },
         {
@@ -4681,12 +4682,11 @@
               "time": "Ghi chú:",
               "description": "Trình tự các điểm tham quan có thể thay đổi do những sự cố khách quan như: thời tiết, giao thông…nhưng vẫn đảm bảo đi đủ các điểm đã ghi trong chương trình.",
               "image": ""
-            }      
+            }
           ]
-        }          
+        }
       ]
     }
-
   ],
   "users": [
     {
@@ -4733,6 +4733,82 @@
       "phone": "1234567890",
       "password": "1111",
       "img": "https://khoinguonsangtao.vn/wp-content/uploads/2022/08/hinh-anh-chibi-423x560.jpg"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "idTour": 10,
+      "commenter": "Nguyen DU Lap",
+      "content": "Khách sạn không có nước nóng không có wifi thẩt sự rất nóng, thái độ nhân viên phục vụ tạm được",
+      "contentServer": "chân thành cảm ơn những lời góp ý từ gia đình chị Thu Vân, iVIVU rất tiếc vì chuyến đi của mình không như mong đợi, iVIVU sẽ ghi nhận và làm việc lại các dịch vụ và từng bước cải thiện",
+      "rating": 7,
+      "date": "18-11-2022",
+      "quantityLike": 10
+    },
+    {
+      "id": 2,
+      "idTour": 12,
+      "commenter": "John Doe",
+      "content": "Mình mua tour cho gia đình 11 người, gồm người lớn và trẻ em. Gia đình mình đã rất vui vì có một chuyện đi vô cùng thú vị cùng ivivu và Triều Hảo. Cảm ơn em Kiều Anh bên ivivu đã rất nhiệt tình tư vấn và hỗ trợ. Cảm ơn em Giang dẫn tour của cty Triều Hảo đã vô cùng tận tình với gia đình chị. Tour Bali của ivivu và Triều Hảo là tour NÊN ĐI nha mọi người ????",
+      "contentServer": "",
+      "rating": 9,
+      "date": "22-01-2023",
+      "quantityLike": 5
+    },
+    {
+      "id": 3,
+      "idTour": 12,
+      "commenter": "Yen",
+      "content": "This hotel is amazing!",
+      "contentServer": "",
+      "rating": 9,
+      "date": "22-01-2023",
+      "quantityLike": 5
+    }
+  ],
+  "subComments": [
+    {
+      "id": 1,
+      "idComment": 1,
+      "commenter": "Lenh Nguyen",
+      "content": "Có phải vậy không"
+    },
+    {
+      "id": 2,
+      "idComment": 2,
+      "commenter": "Thuy Linh",
+      "content": "Có phải vậy không"
+    },
+    {
+      "id": 3,
+      "idComment": 1,
+      "commenter": "Lenh Nguyen",
+      "content": "Có phải vậy không"
+    },
+    {
+      "id": "91684679-efb7-4c6a-b2e6-e800a6b48525",
+      "idComment": 2,
+      "commenter": "LapLap",
+      "content": "Thật tuyệt vờivời"
+    },
+    {
+      "id": "91684679-efb7-4c6a-b2e6",
+      "idComment": 3,
+      "commenter": "Boy",
+      "content": "Tour khá tuyệt vời mình cũng rất thích"
+    },
+    {
+      "id": "fa27ce2f-faf0-43dc-85c5-beb11ab59598",
+      "idComment": 2,
+      "commenter": "Ma",
+      "content": "Tốt"
+    },
+    {
+      "id": "50b85c37-18a8-4560-a01a-ac2dcbad4d82",
+      "idComment": 3,
+      "commenter": "Ma",
+      "content": "rất tốt"
     }
   ]
 }
