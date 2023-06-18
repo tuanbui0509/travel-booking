@@ -1,83 +1,87 @@
-import styled from "styled-components";
-import {mobile} from "../responsive";
-import { Link } from  "react-router-dom"
+import React, {useEffect, useState} from "react";
+import Navbar from "../components/Navbar";
+import "../styles/login.scss";
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
+import {useNavigate} from "react-router-dom";
+import {toast, ToastContainer} from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
-    const Container = styled.div`
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(
-        rgba(255, 255, 255, 0.5),
-        rgba(255, 255, 255, 0.5)
-      ),
-      url("https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")
-        center;
-        background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-`
-    const Wrapper = styled.div`
-    width: 40%;
-    padding: 50px;
-    background-color: white;
-    border-radius: 2.5%;  
-    display: flex;
-    flex-direction: column;
-    ${mobile({ width: "70%" })};
-`
-    const Title = styled.div`
-    font-size: 36px;
-    text-align: center;  
-    font-weight: 400;
-`
-    const Form = styled.form`
-    display: flex;
-    flex-direction: column;
-`
-    const Input = styled.input`
-    flex: 1;
-    min-width: 40%;
-    margin: 10px 0px;
-    padding: 10px;
-`
+export const Login = () => {
+    const [username, usernameupdate] = useState('');
+    const [passwordS, passwordupdate] = useState('');
 
-    const Button = styled.button`
-      width: 100%;
-      border: none;
-      padding: 15px 20px;
-      background-color: #006680;
-      color: white;
-      cursor: pointer;
-      margin-bottom: 10px;
-    `
-    const LinkText = styled.a`
-    margin: 5px 0px;
-    font-size: 18px;
-    text-decoration: underline;
-    cursor: pointer;
-`
+    const history = useNavigate();
 
-    const WrapperLink = styled.div`
-    display: flex;
-    justify-content: space-between;`
+    useEffect(() => {
+        sessionStorage.clear();
+    }, []);
 
-    const Login = () => {
-        return (
-            <Container>
-                <Wrapper>
-                    <Title>Đăng nhập</Title>
-                    <Form>
-                        <Input placeholder="Username"/>
-                        <Input placeholder="Mật khẩu"/>
-                        <Button>ĐĂNG NHẬP</Button>
+    const ProcceedLogin =(e)=> {
+        e.preventDefault();
+        console.log(username, passwordS);
+        if (validate()) {
+            fetch(`http://localhost:5000/api/users?username=${username}`)
+                .then((res)=> res.json())
+                .then((resp) => {
+                    const {id, username, password, fullname, email, phone} = resp[0]
+                console.log(resp[0])
+                    if (password === passwordS) {
+                        toast.success('Đăng nhập thành công');
+                        localStorage.setItem("user", JSON.stringify({id, username, fullname, email, phone}));
+                        sessionStorage.setItem('user', JSON.stringify({id, username, fullname, email, phone}));
+                        history('/category');
+                        return
+                    } else {
+                        return toast.error('username hoặc mật khẩu không đúng');
+                    }
+
+            })
+                .catch((err)=> {
+                    return  toast.error('Đăng nhập không thành công');
+            })
+        }
+    }
+
+    const validate=() => {
+        let result = true;
+        if(username === null || username ==='') {
+            result = false;
+            return  toast.warn('Vui lòng nhập username');
+        }
+        if (passwordS === null || passwordS ==='') {
+            result = false;
+            return  toast.warn('Vui lòng nhập mật khẩu');
+        }
+        return result;
+    }
+
+    return (
+        <>
+            <title>Đăng nhập</title>
+            <Navbar/>
+            <div className="container2">
+                <div className="wrapper">
+                    <div className="title">Đăng nhập</div>
+                    <Form className="formLogin" onSubmit={ProcceedLogin}>
+                        <Form.Group className="inputValue" controlId="formBasicEmail">
+                            <Form.Control value={username} onChange={e=>usernameupdate(e.target.value)} type="username" name='username' placeholder="username"/>
+                        </Form.Group>
+                        <Form.Group className="inputValue" controlId="formBasicEmail">
+                            <Form.Control value={passwordS} onChange={e=>passwordupdate(e.target.value)} type="password" name='password' placeholder="Mật khẩu"/>
+                        </Form.Group>
+                        <Button variant="primary" className='buttonLogin' type="submit">
+                            Đăng nhập
+                        </Button>
                     </Form>
-                    <WrapperLink>
-                        <Link to={"/forgetPassword"}><LinkText>Quên mật khẩu?</LinkText></Link>
-                        <Link to={"/register"}><LinkText>Tạo tài khoản mới</LinkText></Link>
-                    </WrapperLink>
-
-                </Wrapper>
-            </Container>
-        )
+                    <div className="linktext">
+                        <a href="/login" className="link">Quên mật khẩu</a>
+                        <a href="/register" className="link">Tạo tài khoản mới</a>
+                    </div>
+                </div>
+                <ToastContainer/>
+            </div>
+        </>
+    )
 }
-export default Login;
+
