@@ -45,6 +45,7 @@ export default function ListCard(props) {
           priceAdult={tour.price_adult}
           priceChild={tour.price_child}
           quantity = {tour.quantity}
+          catagoryId={tour.catagoryId}
           priceRow={props.priceRow}
         />
       ))}

@@ -6,7 +6,7 @@
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 3;
         overflow: hidden;
-        height: 70px;
+        height: 67px;
         line-height: 22.4px;
         font-size: $fs-18;
     }
@@ -27,5 +27,14 @@
     }
     .link {
         color: $color-blue_global;
+    }
+    .add-cart{
+        background-color: $color-orange;
+        color: $color-while;
+        border-radius: 7px !important;
+    }
+    .remove-cart{
+        color: $color-while;
+        border-radius: 7px !important;
     }
 }

@@ -4,12 +4,15 @@ import {now} from "./utill";
 export const addCartTourToLocal = (cart) => {
     const storedItems = JSON.parse(localStorage.getItem("cart")) || [];
     // Lấy dữ liệu từ localStorage (nếu có) và chuyển đổi từ chuỗi JSON thành mảng
-
+    const id = cart.id === undefined ? cart.idCard : cart.id;
+    const quantityAdult = cart.quantityAdult === undefined ? 1 : cart.quantityAdult;
+    const quantityChild = cart.quantityChild === undefined ? 0 : cart.quantityChild;
+    const tour = cart.tour === undefined ? cart :cart.tour
     const updatedItems = [...storedItems, {
-        id: cart.idCard,
-        tour: cart,
-        quantityAdult: 1,
-        quantityChild: 0,
+        id: id,
+        tour: tour,
+        quantityAdult: quantityAdult,
+        quantityChild: quantityChild,
         total_price: cart.price,
         status: "Chưa thanh toán"
     }];

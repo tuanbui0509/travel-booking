@@ -1,4 +1,4 @@
-import {Link} from "react-router-dom";
+import {Link, useNavigate} from "react-router-dom";
 import {CartItem} from "../components/CartItem";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
@@ -11,10 +11,10 @@ import Swal from "sweetalert2";
 import {
     formatPrice, RATE_QUANTITY_OF_CHILD_WITH_ADULT,
 } from "../utils/utill";
-import {removeCartTourFromLocal, updateCartTourInLocal} from "../utils/localStorageUtils";
+import {removeCartTourFromLocal, updateCartTourInLocal, user} from "../utils/localStorageUtils";
 
 export const Cart = () => {
-
+    const user = JSON.parse(localStorage.getItem("user"));
 
     // Lấy danh sách các tour trong giỏ hàng từ Redux store
     const cartItems = useSelector((state) => state.carts);
@@ -27,6 +27,8 @@ export const Cart = () => {
 
     // Trạng thái khỏi tạo của tour được chọn (selectedItemId)
     const [selectedItemId, setSelectedItemId] = useState(selectedTour ? selectedTour.id : null);
+
+    const navigate = useNavigate();
 
     // xóa tour khỏi giỏ
     const handleDelete = (id) => {
@@ -222,17 +224,41 @@ export const Cart = () => {
         }
     }, [selectedItemId, quantityAdult, quantityChild]);
 
-
+    const handCheckIsLogin = ()=> {
+        const isAuthenticated = user; // Kiểm tra trạng thái đăng nhập
+        if(!selectedTour){
+            Swal.fire({
+                title: "Thông báo",
+                text: "Vui lòng tick chọn tour mà bạn cần thanh toán!",
+                icon: "success",
+                confirmButtonText: "OK",
+            });
+            return;
+        }
+        else if (!isAuthenticated) {
+            Swal.fire({
+                title: "Thông báo",
+                text: "Vui lòng đăng nhập trước khi thanh toán",
+                icon: "warning",
+                confirmButtonText: "OK",
+            });
+            navigate('/login'); // Chuyển hướng nếu không đăng nhập
+            return;
+        } else navigate('/booking')
+    }
     return (
         <>
             <Navbar/>
-            <div className="container">
+            <div className="bg-white">
+            <div className="container ">
                 <div className="container mt-5 p-3 rounded cart">
                     <div className="row">
                         <div className="col-md-12">
                             <div className="d-flex flex-row align-items-center">
                                 <i className="fas fa-arrow-left"></i>
+                                <Link to={'/'}>
                                 <span className="ml-2">Tiếp tục thêm</span>
+                                </Link>
                             </div>
                             <hr/>
                         </div>
@@ -308,20 +334,21 @@ export const Cart = () => {
                                         <span>{formatPrice(calculateTourSelected())}đ</span>
                                     </div>
                                 </>) : ""}
-                                <Link className="text-reset me-3" to={`/booking`}>
                                     <button
                                         className="btn btn-begin-checkout btn-block d-flex justify-content-center mt-3 rounded"
-                                        type="button">
+                                        type="button"
+                                        onClick={handCheckIsLogin}
+                                    >
                                         <span>
                                           Tiến hành thanh toán <i className="fas fa-arrow-right ml-1"></i>
                                         </span>
                                     </button>
-                                </Link>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
             <Footer/>
         </>);
 };

@@ -1,5 +1,6 @@
 import React from "react";
 import {formatPrice} from "../utils/utill";
+import {Link} from "react-router-dom";
 
 export const CartItem = ({item, handleDelete, selectedItemId, handleSelection}) => {
     const isSelected = selectedItemId === item.id; // Kiểm tra xem item này có được chọn hay không
@@ -16,10 +17,14 @@ export const CartItem = ({item, handleDelete, selectedItemId, handleSelection}) 
     return (
         <>
         <div className={`d-flex justify-content-between align-items-center m-2 p-2 items rounded mr-1 flex-wrap ${isSelected ? 'bg-tour-selected' : ''}`}>
+            <Link to={`/tourList/${item.tour.idCard}`}>
+            <span className="font-weight-bold d-block title">{item.tour.title}</span>
+            </Link>
             <div className="d-flex flex-row flex-1">
+                <Link to={`/tourList/${item.tour.idCard}`}>
                 <img className="rounded image-tour-cart" src={item.tour.image} alt={item.tour.title}/>
+                </Link>
                 <div className="ml-2">
-                    <span className="font-weight-bold d-block">{item.tour.title}</span>
                     <ul style={{whiteSpace: "nowrap"}} className="ml-1">
                         <li>
                           <span className="spec">

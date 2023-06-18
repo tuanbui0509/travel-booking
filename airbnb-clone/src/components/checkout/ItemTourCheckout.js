@@ -1,5 +1,6 @@
 import React from "react";
 import {formatPrice} from "../../utils/utill";
+import {Link} from "react-router-dom";
 
 export const ItemTourCheckout = (prop) => {
     return (
@@ -9,9 +10,11 @@ export const ItemTourCheckout = (prop) => {
                 </a>
             <div className="mt-3">
                 <div className="card" style={{width: "100%"}}>
+                    <Link to={`/tourList/${prop.selectedTour.tour.idCard}`}>
                     <img className="card-img-top" style={{minHeight: "200px"}}
                          src={prop.selectedTour.tour.image}
                          alt={prop.selectedTour.tour.title}/>
+                    </Link>
                     <div className="card-body">
                         <h4>{prop.selectedTour.tour.title}</h4>
                         <div className="ml-2">

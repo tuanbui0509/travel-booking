@@ -1,6 +1,11 @@
 @import "root";
 body {
-  background-color: #f2f3f3;
+  #booking{
+  background-color: $color-while;
+  }
+  #booked{
+    background-color: $color-while;
+  }
   .support-switchboard {
     background-color: $color-orange;
     color: $color-while;

@@ -3,15 +3,15 @@
 .tour {
 
     .title {
-        font-size: $fs-36;
+        font-size: $fs-32;
         color: $color-title;
-        font-weight: $fw-md;
+        font-weight: $fw-lg;
         padding: 12px 0px;
     }
 
     .container-rank {
         display: flex;
-        flex: row;
+        flex-direction: row;
         margin-bottom: 12px;
 
         .point {
@@ -34,14 +34,14 @@
             padding: 24px 12px;
             background-color: rgba(148, 151, 163, .1);
             display: flex;
-            flex: row;
+            flex-direction: row;
             justify-content: space-between;
             .left {
                 display: flex;
-                flex: row;
+                flex-direction: row;
                 .wrap {
                     display: flex;
-                    flex: row;
+                    flex-direction: row;
                     margin-right: 36px;
 
                     .content {
@@ -59,7 +59,7 @@
 
             .right {
                 display: flex;
-                flex: row;
+                flex-direction: row;
                 .name {
                     margin-right: 4px;
                     color: $color-gray;
@@ -327,7 +327,7 @@
                 border-radius: 5px;
                 border: solid 1px #ccc;
                 display: flex;
-                flex: row;
+                flex-direction: row;
                 justify-content: space-between;
                 
                 .couter-price {
@@ -335,7 +335,7 @@
                 }
                 .wrap-couter {
                     display: flex;
-                    flex: row;
+                    flex-direction: row;
                     align-items: center;
                     text-align: center;
                     .number {
@@ -355,19 +355,19 @@
                 color: $color-blue_global;
                 text-align: center;
                 display: flex;
-                flex: row;
+                flex-direction: row;
                 margin-top: 12px;
             }
 
             .wrap-price {
                 display: flex;
-                flex: row;
+                flex-direction: row;
                 align-items: center;
                 justify-content: space-between;
                 margin-top: 12px;
                 .content {
                     display: flex;
-                    flex: row;
+                    flex-direction: row;
                     align-items: center;
 
                     span {
@@ -383,7 +383,7 @@
 
                 .price {
                     color: $color-yellow;
-                    font-size: $fs-28;
+                    font-size: $fs-24;
                     font-weight: $fw-lg;
                 }
             }
@@ -392,14 +392,16 @@
                 margin-top: 12px;
                 margin-bottom: 12px;
                 display: flex;
-                flex: row;
+                flex-direction: row;
                 justify-content: space-between;
                 .button {
-                    font-size: $fs-18;
+                    font-size: $fs-16;
                     padding: 8px 6px;
-                    font-weight: $fw-lg;
+                    font-weight: $fw-md;
                     border-radius: 5px;
                     background-color: $color-while;
+                    text-transform: none;
+
                 }
 
                 .button_1 {
@@ -416,6 +418,7 @@
                     border: none;
                     color: $color-while;
                     background-color: $color-orange;
+
                 }
                 
                 .button_2:hover {
@@ -431,13 +434,14 @@
             color: $color-text;
             .wrap {
                 padding: 6px 12px;
+                font-size: 15px;
                 .icon {
                     color:$color-green;
 
                 }
             }
           span {
-            margin-left: 12px;
+            margin-left: 3px;
           }  
         }
     }

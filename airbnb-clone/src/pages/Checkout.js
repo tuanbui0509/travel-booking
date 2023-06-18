@@ -14,7 +14,7 @@ import {
     METHOD_4
 } from "../utils/utill";
 import Swal from "sweetalert2";
-import {addCheckoutToLocal, removeCartTourFromLocal} from "../utils/localStorageUtils";
+import {addCheckoutToLocal, removeCartTourFromLocal, user} from "../utils/localStorageUtils";
 import {clearSelectedTour} from "../redux/slices/SelectedTourSlice";
 import {removeCart} from "../redux/slices/CartsSlice";
 import {Link, useNavigate} from "react-router-dom";
@@ -22,7 +22,29 @@ import paymentImage from "../data/imgs/payment.png"
 import cvcimage from "../data/imgs/cvc.png"
 
 export const Checkout = () => {
-    const selectedTour = useSelector((state) => state.selectedTour)
+    const user = JSON.parse(localStorage.getItem("user"));
+    const navigate = useNavigate();
+    const selectedTour = useSelector((state) => state.selectedTour);
+
+    useEffect(() => {
+        const isAuthenticated = user; // Kiểm tra trạng thái đăng nhập
+
+        if (!isAuthenticated && !selectedTour) {
+            navigate('/cart'); // Chuyển hướng nếu không đăng nhập và không có selectedTour
+        } else if (!isAuthenticated) {
+            Swal.fire({
+                title: "Thông báo",
+                text: "Vui lòng đăng nhập trước khi thanh toán",
+                icon: "warning",
+                confirmButtonText: "OK",
+            });
+            dispatch(removeCheckout(checkout.id))
+            navigate('/login'); // Chuyển hướng nếu không đăng nhập
+            return;
+        } else if (!selectedTour) {
+            navigate('/cart'); // Chuyển hướng nếu không có selectedTour
+        }
+    }, []);
 
     const [step, setStep] = useState(5);
     const [countries, setCountries] = useState([]);
@@ -53,6 +75,19 @@ export const Checkout = () => {
     }
     const handleConfirmCheckout = () => {
         let status;
+        const isAuthenticated = JSON.parse(localStorage.getItem("user")); // Kiểm tra trạng thái đăng nhập
+
+       if (!isAuthenticated) {
+            Swal.fire({
+                title: "Thông báo",
+                text: "Vui lòng đăng nhập trước khi thanh toán",
+                icon: "warning",
+                confirmButtonText: "OK",
+            });
+            dispatch(removeCheckout(checkout.id))
+            navigate('/login'); // Chuyển hướng nếu không đăng nhập
+            return;
+       }
         if (id === 0) {
             Swal.fire({
                 title: "Thông báo",
@@ -165,7 +200,8 @@ export const Checkout = () => {
         <>
             <Navbar/>
             <Process step={step}/>
-            <div className="container">
+            <div className="bg-white">
+            <div className="container pt-3 pb-3 mt-2 rounded" id="checkout">
                 <div className="row">
                     <div className="col-md-8 mt-3">
                         {
@@ -325,6 +361,7 @@ export const Checkout = () => {
                     : ""
                 }
             </div>
+                </div>
             <Footer/>
         </>
     )

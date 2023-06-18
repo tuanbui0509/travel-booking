@@ -7,33 +7,55 @@ import '../styles/process.scss'
 import '../styles/booking.scss'
 import {useDispatch, useSelector} from "react-redux";
 import {setSelectedTour} from "../redux/slices/SelectedTourSlice";
-import {formatPrice} from "../utils/utill";
 import {saveInfoPassenger} from "../redux/slices/CheckoutSlice";
 import {useNavigate} from "react-router-dom";
 import {ItemTourCheckout} from "../components/checkout/ItemTourCheckout";
+import Swal from "sweetalert2";
 
 export const Booking = () => {
+    let user = JSON.parse(localStorage.getItem("user"));
+    const navigate = useNavigate();
     const selectedTour = useSelector((state) => state.selectedTour);
     const [step, setStep] = useState(3);
     const checkout = useSelector((state) => state.checkout);
     const dispatch = useDispatch();
-    const navigate = useNavigate();
-
-    const count = checkout ? checkout.length : 0;
+    const checkoutStore = JSON.parse(localStorage.getItem("checkout")) || []
+    const count =checkoutStore.length;
     const [passengerInfo, setPassengerInfo] = useState([]);
-
     const [isInitialRender, setIsInitialRender] = useState(true);
+
+    useEffect(() => {
+        const isAuthenticated = user; // Kiểm tra trạng thái đăng nhập
+
+        if (!isAuthenticated && !selectedTour) {
+            navigate('/cart'); // Chuyển hướng nếu không đăng nhập và không có selectedTour
+        } else if (!isAuthenticated) {
+            Swal.fire({
+                title: "Thông báo",
+                text: "Vui lòng đăng nhập trước khi thanh toán",
+                icon: "warning",
+                confirmButtonText: "OK",
+            });
+
+            navigate('/login'); // Chuyển hướng nếu không đăng nhập
+            return;
+            // Chuyển hướng nếu không đăng nhập
+        } else if (!selectedTour) {
+            navigate('/cart'); // Chuyển hướng nếu không có selectedTour
+        }
+    }, []);
 
     const handleContinue = (listPassengerInfo) => {
         setPassengerInfo(listPassengerInfo);
         setIsInitialRender(false);
     };
     useEffect(() => {
+
         if (!isInitialRender) {
             try {
                 const checkoutData = {
                     id : count,
-                    user_id: 1,
+                    user_id: user.id ? user.id:0,
                     tour: selectedTour.tour,
                     quantityAdult: selectedTour.quantityAdult,
                     quantityChild: selectedTour.quantityChild,
@@ -61,7 +83,8 @@ export const Booking = () => {
         <>
             <Navbar/>
             <Process step={step}/>
-            <div className="container">
+            <div className="bg-white">
+            <div className="container pb-3 mt-2 rounded" id="booking" >
                 <div className="row flex-wrap">
                     <div className="col-md-8 mt-4 ">
 
@@ -83,6 +106,7 @@ export const Booking = () => {
 
                     </div>
                 </div>
+            </div>
             </div>
             <Footer/>
         </>

@@ -70,7 +70,7 @@ export default function CardItem(prop) {
                  <img src={prop.image} style={{minHeight: '197px'}} className="card-img-top" alt="..."/>
                 </Link>
                 <div className="card-body">
-                    <h5 className="card-title">{prop.title}</h5>
+                    <h6 className="card-title mb-1">{prop.title}</h6>
                     <div className={`d-flex ${ priceRow ? 'flex-row' : 'flex-column'} justify-content-between`}>
                         <div className="d-flex flex-column">
                             <div className="time">
@@ -87,7 +87,7 @@ export default function CardItem(prop) {
                             </div>
                             <div className="building">
                                 <Apartment className="icon"/>
-                                <span>{prop.start}</span>
+                                <span>{prop.start} sao</span>
                             </div>
                         </div>
                         <div className="d-flex flex-column justify-content-between">
@@ -99,7 +99,7 @@ export default function CardItem(prop) {
                     </div>
                     <div className="d-flex flex-center">
                         <button
-                            className={`btn ${inCart ? "btn-danger" : "btn-success"} rounded`}
+                            className={`btn ${inCart ? "btn-danger remove-cart" : "add-cart"} rounded`}
                             onClick={inCart ? handleRemoveFromCart : handleAddToCart}
                         >
                             <i className="fas fa-cart-plus"></i>{" "}
