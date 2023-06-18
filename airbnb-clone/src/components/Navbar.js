@@ -37,7 +37,6 @@ const Navbar = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-console.log(user.img)
   return (
       <div className={` ${scrollPosition > 15 ? 'fixed-top navbar fixed-top-nav' : 'navbar'}`}>
         <div className="container container-nav">
