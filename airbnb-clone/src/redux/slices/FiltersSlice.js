@@ -3,19 +3,34 @@ import { createSlice } from "@reduxjs/toolkit";
 const filterSlice = createSlice({
     name: 'filters',
     initialState: {
-        search: '',
-        status: 'All',
-        prioprity: []
+        key: "",
+        starting: "",
+        destination: "",
+        date:"",
+        areaHot:""
     },
     reducers: {
-        //state là initialState
-        //action.payload là giá trị mà chúng ta truyền vào từ dispatch
-        searchFilterChange: (state, action) => {
-            state.search = action.payload
+        keyFilterChange: (state, action) => {
+            state.key = action.payload
+        },
+        searchChange: (state, action) => {
+            state.starting = action.payload.starting
+            state.destination = action.payload.destination
+            state.date = action.payload.date
+            state.areaHot = ""
+        },
+        areaHot: (state, action) => {
+            if (state.areaHot !== action.payload) {
+                state.areaHot = action.payload
+                state.key = ""
+                state.starting = ""
+                state.destination = ""
+                state.date = ""
+            }
         }
     }
 })
 
 // export hàm ra ngoài
-export const { searchFilterChange } = filterSlice.actions
+export const { keyFilterChange, searchChange, areaHot } = filterSlice.actions
 export default filterSlice.reducer;

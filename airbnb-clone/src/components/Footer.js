@@ -1,11 +1,11 @@
 import { EmailOutlined, Facebook, Instagram, Phone, Pinterest, Room, Twitter } from "@material-ui/icons";
 import styled from "styled-components";
 import { mobile } from "../responsive";
-
+import logo from "../data/imgs/logo_travel.png";
 const Container = styled.div`
     display: flex;
     ${mobile({ flexDirection: "column" })};
-
+    // background-color: #f9f9f9;
 `
 const Left = styled.div`
     flex: 1;
@@ -32,25 +32,10 @@ const SocialIcon = styled.div`
     margin-right: 20px;
 `
 
-const Center = styled.div`
-    flex: 1;
-    padding: 20px;
-    ${mobile({ display: 'none'})};
-`
 const Title = styled.h3`
     margin-bottom: 30px;
 `
-const List = styled.ul`
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-`
-const ListItem = styled.li`
-    width: 50%;
-    margin-bottom: 10px;
-`
+
 const Right = styled.div`
     flex: 1;
     padding: 20px;
@@ -71,7 +56,7 @@ const Footer = () => {
     <div className="bg-white  mt-5">
     <Container className="container">
         <Left>
-            <Logo>LAMA.</Logo>
+            <Logo><img src={logo} alt="logo" style={{width: '100px'}}></img></Logo>
             <Desc>
             The garment is lined with Daiichi Orimono® technical fabric, while the graphene padding is characterized by high thermal conductivity to favor body temperature regulation.
             </Desc>
@@ -90,28 +75,14 @@ const Footer = () => {
                 </SocialIcon>
             </SocialContainer>
         </Left>
-        <Center>
-            <Title>Useful Links</Title>
-            <List>
-                <ListItem>Home</ListItem>
-                <ListItem>Cart</ListItem>
-                <ListItem>Man Fashion</ListItem>
-                <ListItem>Woman Fashion</ListItem>
-                <ListItem>Accessories</ListItem>
-                <ListItem>My Account</ListItem>
-                <ListItem>Order Tracking</ListItem>
-                <ListItem>Wishlist</ListItem>
-                <ListItem>Wishlist</ListItem>
-                <ListItem>Terms</ListItem>
-            </List>
-        </Center>
-        <Right>
+        <Right >
             <Title>Contact</Title>
             <ContactItem><Room style={{marginRight:"10px"}}/>Đông Hòa, Dĩ An, Bình Dương</ContactItem>
             <ContactItem><Phone style={{marginRight:"10px"}}/>+84 867 415 853</ContactItem>
             <ContactItem><EmailOutlined style={{marginRight:"10px"}}/>20130302@st.hcmuaf.edu.vn</ContactItem>
             <Payment src="https://i.ibb.co/Qfvn4z6/payment.png"></Payment>
         </Right>
+
     </Container>
     </div>
   )

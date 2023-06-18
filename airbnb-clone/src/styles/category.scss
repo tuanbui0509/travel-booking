@@ -30,4 +30,9 @@
             padding: 6px;
         }
     }
+    @media (max-width: 988px) {
+        .areas {
+            display: none;
+        }
+    }
 }
