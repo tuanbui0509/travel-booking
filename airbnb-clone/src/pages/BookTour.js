@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import Service from "../components/Service";
 import Swal from "sweetalert2";
 import {Link, useNavigate} from "react-router-dom";
+import CommentForm from "../components/CommentForm";
 
 export const BookTour = () => {
     const user = JSON.parse(localStorage.getItem("user"));
@@ -108,6 +109,12 @@ export const BookTour = () => {
                                             <span
                                                 className="font-weight-bold text-warning">{item.status === "Đã thanh toán" ? "Đã thanh toán" : "Chờ thanh toán..."}</span>
                                         </div>
+                                    </div>
+                                    <div className="d-flex justify-content-end">
+                                        <CommentForm 
+                                            idTour={item.tour.idCard}
+                                            commenter={user.fullname}
+                                        />
                                     </div>
                                 </div>
                             </>)

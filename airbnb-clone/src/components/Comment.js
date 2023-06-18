@@ -8,70 +8,61 @@ import { useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2';
 
 export default function Comment({ id }) {
-    const dispatch = useDispatch()      // load dữ liệu tour từ server
-        // load dữ liệu tour từ server
-    useEffect(() => {
-        dispatch(fetchComments());
-    }, [dispatch]);
+  const dispatch = useDispatch();
   const [comment, setComment] = useState('');
   const [sentComments, setSentComments] = useState([]);
-  const comments = useSelector((state) =>
-    getcommentsByIdTour(state, id)
-  );
+  const comments = useSelector((state) => getcommentsByIdTour(state, id));
+  const [showInput, setShowInput] = useState(null); // Lưu trạng thái hiển thị input, null nếu không có input nào được hiển thị
 
-  const handleOnChaneComment = (e) => {
+  useEffect(() => {
+    dispatch(fetchComments());
+  }, [dispatch]);
+
+  const handleOnChangeComment = (e) => {
     setComment(e.target.value);
   };
-  const [showInput, setShowInput] = useState([]);
+
   const navigate = useNavigate();
-    let user = JSON.parse(localStorage.getItem("user")) || null;
+  let user = JSON.parse(localStorage.getItem('user')) || null;
+
   const handleToggleInput = (index) => {
     const isAuthenticated = user;
-     if (!isAuthenticated) {
-            Swal.fire({
-                title: "Thông báo",
-                text: "Vui lòng đăng nhập trước khi bình luận",
-                icon: "warning",
-                confirmButtonText: "OK",
-            });
-            navigate('/login'); // Chuyển hướng nếu không đăng nhập
-            return;
-        }
-    setShowInput((prevShowInput) => {
-      const updatedShowInput = [...prevShowInput];
-      updatedShowInput[index] = !updatedShowInput[index];
-      return updatedShowInput;
-    });
-
-    if (!showInput[index]) {
-      setSentComments((prevSentComments) => {
-        const updatedSentComments = [...prevSentComments];
-        updatedSentComments[index] = comment;
-
-        return updatedSentComments;
+    if (!isAuthenticated) {
+      Swal.fire({
+        title: 'Thông báo',
+        text: 'Vui lòng đăng nhập trước khi bình luận',
+        icon: 'warning',
+        confirmButtonText: 'OK',
       });
+      navigate('/login'); // Chuyển hướng nếu không đăng nhập
+      return;
+    }
+
+    if (showInput === index) {
+      setShowInput(null); // Đóng input nếu đang hiển thị và người dùng bấm vào phản hồi cùng item
+    } else {
+      setComment("")
+      setShowInput(index); // Hiển thị input của item được bấm vào phản hồi
     }
   };
 
   const handleSubmitInput = (index) => {
-    let idComment = index
-    let commenter = user.fullname
-    let content = comment
-    let comObj = { idComment, commenter, content};
-    fetch("http://localhost:5000/api/subComments", {
-      method: "POST",
-      headers: {'content-type': 'application/json'},
-      body: JSON.stringify(comObj)
+    let idComment = index;
+    let commenter = user.fullname;
+    let content = comment;
+    let comObj = { idComment, commenter, content };
+    fetch('http://localhost:5000/api/subComments', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify(comObj),
     })
-    .then((res) => res.json())
-    .then((data) => {
-
-    })
-    .catch((err) => {
-      // Handle error
-    });
+      .then((res) => res.json())
+      .then((data) => {})
+      .catch((err) => {
+        // Handle error
+      });
     setComment('');
-    showInput[index] = false;
+    setShowInput(null); // Đóng input sau khi gửi phản hồi
   };
 
   return (
@@ -108,10 +99,10 @@ export default function Comment({ id }) {
                     </div>
                   </div>
                 </div>
-                {showInput[item.id] && (
+                {showInput === item.id && (
                   <div className='container-input-feedback'>
                     <input
-                      onChange={handleOnChaneComment}
+                      onChange={handleOnChangeComment}
                       className='input-feedback'
                       value={comment}
                       type='text'
@@ -122,7 +113,7 @@ export default function Comment({ id }) {
                   </div>
                 )}
 
-                <SubComment id={item.id}/>
+                <SubComment id={item.id} />
               </div>
             </div>
           ))}
