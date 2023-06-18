@@ -5,6 +5,8 @@ import selectedTourReducer from "./slices/SelectedTourSlice";
 import tourReducer from "./slices/TourSlice"
 import arrangementReducer from "./slices/ArrangementSlice";
 import checkoutReducer from "./slices/CheckoutSlice"
+import commentReducer from "./slices/CommentSlice"
+import subComentReducer from "./slices/SubCommentSlice"
 
 const store = configureStore({
     reducer: {
@@ -13,7 +15,9 @@ const store = configureStore({
         carts: cartReducer,
         tours: tourReducer,
         arrangement: arrangementReducer,
-        checkout: checkoutReducer
+        checkout: checkoutReducer,
+        comments: commentReducer,
+        subComments: subComentReducer
     }
 })
 

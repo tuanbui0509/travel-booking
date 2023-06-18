@@ -3,7 +3,7 @@ import CardItem from './CardItem';
 
 export default function ListCard(props) {
   const { data } = props;
-  const [visibleCards, setVisibleCards] = useState(9);
+  const [visibleCards, setVisibleCards] = useState(6);
 
   // xử lí load thêm dữ liệu khi kéo trang xuống
   const handleScroll = () => {
@@ -19,7 +19,7 @@ export default function ListCard(props) {
     const scrollHeight = window.pageYOffset + windowHeight;
 
     if (scrollHeight >= documentHeight) {
-      setVisibleCards((prevVisibleCards) => prevVisibleCards + 9);
+      setVisibleCards((prevVisibleCards) => prevVisibleCards + 6);
     }
   };
 
@@ -46,17 +46,7 @@ export default function ListCard(props) {
           priceChild={tour.price_child}
           quantity = {tour.quantity}
           catagoryId={tour.catagoryId}
-          // idCard={"1"}
-          // title={"PHÚ QUỐC | THỊ TRẤN HOÀNG HÔN SUNSET TOWN"}
-          // image={"https://picsum.photos/800/300/?random"}
-          // time={"4 ngày 3 đêm"}
-          // date={"11/06/2023"}
-          // plane={"Bay khứ hồi"}
-          // start={"3 sao"}
-          // priceAdult={5000000}
-          // priceChild={5000000}
-          // quantity = {10}
-          // catagoryId={2}
+          priceRow={props.priceRow}
         />
       ))}
     </div>

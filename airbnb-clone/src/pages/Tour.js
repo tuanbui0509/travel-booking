@@ -29,23 +29,25 @@ export default function Tour() {
   return (
     <>
         <Navbar />
-        <div className='container tour'>
-            <div className='title'>{tour.name}</div>
-            <div className='container-rank'>
-                <div className='point'>8.0</div>
-                <div className='rank'>Rất tốt</div>
-            </div>
-            <div className='row'>
-                <div className='col-8'>
-                    {
-                        tour && <TourLeft data={tour} />
-                    }
-                    
-                </div>
-                <div className='col-4'>
-                    <TourRight data={tour} />
-                </div>
-            </div>
+        <div style={{backgroundColor: '#eeeeee'}}>
+          <div className='container tour'>
+              <div className='title'>{tour.name}</div>
+              <div className='container-rank'>
+                  <div className='point'>8.0</div>
+                  <div className='rank'>Rất tốt</div>
+              </div>
+              <div className='row'>
+                  <div className='col-8'>
+                      {
+                          tour && <TourLeft data={tour} />
+                      }
+                      
+                  </div>
+                  <div className='col-4'>
+                      <TourRight data={tour} />
+                  </div>
+              </div>
+          </div>
         </div>
         <Footer />
     </>
