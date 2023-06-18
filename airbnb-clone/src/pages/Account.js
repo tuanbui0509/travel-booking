@@ -19,7 +19,6 @@ export const Account = () => {
             setEmail(user.email);
             setPhone(user.phone);
             }).catch((err) => {
-            console.log(err.message);
         })
     }, [user.username]);
 
@@ -32,7 +31,6 @@ export const Account = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         const data = {username, fullname, email, phone};
-        console.log(data)
         fetch(`http://localhost:5000/api/users/${user.id}`, {
             method: "PATCH",
             headers: {
@@ -48,7 +46,6 @@ export const Account = () => {
             localStorage.setItem("user", JSON.stringify(data1))
             navigate('/');
         }).catch((err) => {
-            console.log('Chỉnh sửa thất bại')
         })
     };
 

@@ -20,13 +20,11 @@ export const Login = () => {
 
     const ProcceedLogin =(e)=> {
         e.preventDefault();
-        console.log(username, passwordS);
         if (validate()) {
             fetch(`http://localhost:5000/api/users?username=${username}`)
                 .then((res)=> res.json())
                 .then((resp) => {
                     const {id, username, password, fullname, email, phone, img} = resp[0]
-                console.log(resp[0])
                     if (password === passwordS) {
                         toast.success('Đăng nhập thành công');
                         localStorage.setItem("user", JSON.stringify({id, username, fullname, email, phone, img}));

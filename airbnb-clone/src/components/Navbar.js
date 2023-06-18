@@ -22,7 +22,6 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
   const user = JSON.parse(localStorage.getItem("user")) || null;
-  console.log(user);
   const [scrollPosition, setScrollPosition] = useState(0);
 
   useEffect(() => {
@@ -38,7 +37,7 @@ const Navbar = () => {
     };
   }, []);
   return (
-      <div className={` ${scrollPosition > 15 ? 'fixed-top navbar fixed-top-nav' : 'navbar'}`}>
+      <div className={` ${scrollPosition > 15 ? 'navbar fixed-top-nav' : 'navbar'}`}>
         <div className="container container-nav">
           <div className="nav-left">
             <Link to={'/'}><img src={logo} alt="logo" /></Link>
