@@ -16,6 +16,8 @@ import {fetchTours} from "./redux/slices/TourSlice";
 import {BookTour} from "./pages/BookTour";
 import {Booking} from "./pages/Booking";
 import {Payment} from "./pages/Payment";
+import { fetchComments } from "./redux/slices/CommentSlice";
+import { fetchSubComments } from "./redux/slices/SubCommentSlice";
 
 function App() {
     const dispatch = useDispatch();
@@ -34,6 +36,9 @@ function App() {
     useEffect(() => {
         dispatch(fetchTours());
     }, [dispatch]);
+
+
+
     return (
         <Router>
             <Routes>

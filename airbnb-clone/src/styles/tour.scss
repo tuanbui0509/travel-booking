@@ -73,32 +73,221 @@
             }
         }
         .description {
-        margin-top: 6px;
-        background-color: $color-while;
+            margin-top: 6px;
+            background-color: $color-while;
 
-        .wrap-des {
-            padding: 12px;
-        }
-        .des-title {
-            font-size: $fs-28;
-            font-weight: $fw-lg;
-            color: $color-title;
-        }
+            .wrap-des {
+                padding: 12px;
+            }
+            .des-title {
+                font-size: $fs-28;
+                font-weight: $fw-lg;
+                color: $color-title;
+            }
 
-        .content {
-            padding: 12px;
-            color: $color-text;
+            .des-title-comment {
+                font-size: $fs-16;
+                font-weight: $fw-lg;
+                color: $color-title;
+            }
 
-            .content-des {
-              
-                .content-des_title {
-                    font-size: $fs-22;
-                    font-weight: $fw-lg;
-                    color: $color-text;
+            .content {
+                padding: 12px;
+                color: $color-text;
+
+                .content-des {
+                
+                    .content-des_title {
+                        font-size: $fs-22;
+                        font-weight: $fw-lg;
+                        color: $color-text;
+                    }
+                }
+                .container-rate {
+                    display: flex;
+                    align-items: center;
+                    .score {
+                        background-color: $color-green;
+                        padding: 4px 12px;
+                        border-radius: 8px;
+                        font-size: $fs-18;
+                        color: $color-while;
+                        margin-right: 6px;
+                    }
+                    .text-core {
+                        font-size: $fs-16;
+                        font-weight: 500;
+                        color: $color-orange;
+                        margin-right: 6px;
+                        font-weight: 600;
+                    }
+                    .quantity-comment {
+                        padding-left: 6px;
+                        border-left: 1px solid $color-orange;
+                        font-size: 12px;
+                        color: $color-orange;
+                        line-height: 14px;
+                    }
+                }
+
+                .container-comment {
+                    .title {
+                        font-size: 16px;
+                        font-weight: 600;
+                        color: $color-text;
+                        margin-top: 28px;
+                    }
+
+                    .comments{
+                        margin-top: 12px;
+                        .item {
+                            padding: 12px;
+                            display: flex;
+                            border-top: 1px solid #ccc;
+                            .account{
+                                flex: 1;
+                                font-size: 14px;
+                                font-weight: 600;
+                                
+                            }
+                            .content-comment {
+                                flex: 4;
+                                padding-left: 32px;
+
+                                .container-rate {
+                                    display: flex;
+                                    align-items: center;
+                                
+                                    .score {
+                                        background-color: $color-green;
+                                        padding: 2px 6px;
+                                        border-radius: 4px;
+                                        font-size: 14px;
+                                        color: $color-while;
+                                        margin-right: 6px;
+                                    }
+                                
+                                    .text-core {
+                                        font-size: 14px;
+                                        font-weight: 500;
+                                        color: $color-orange;
+                                        margin-right: 6px;
+                                        font-weight: 600;
+                                    }
+                                
+                                    .date {
+                                        margin-left: 6px;
+                                        font-size: 11px;
+                                        font-weight: 600;
+                                        color: #c6c6c6;
+                                        align-content: end;
+                                        letter-spacing: 1px;
+                                    }
+                                }
+                                .text-comment-1 {
+                                    font-style: italic;
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    color: $color-black;
+                                    margin-top: 6px;
+                                }
+                                .text-comment-2 {
+                                    .item-comment-2 {
+                                        display: flex;
+                                        border-top: 1px solid #ccc;
+                                        .user-2 {
+                                            font-size: 12px;
+                                            font-weight: 500;
+                                            margin-right: 12px;
+                                            flex: 2;
+                                            display: flex;
+                                            flex-direction: row;
+                                            margin-top: 12px;
+                                        }
+                                        .content {
+                                            flex: 5;
+                                            font-style: italic;
+                                            font-size: 14px;
+                                            font-weight: 500;
+                                            color: $color-black;
+                                            
+                                        }
+                                    }
+                                }
+                                .text-comment-server {
+                                    font-style: italic;
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    color: $color-black;
+                                    margin-top: 6px;
+                                    background-color: $color-bg-gray;
+                                    padding: 12px;
+                                    border-radius: 8px;
+                                }
+                                .container-feedback {
+                                    display: flex;
+                                    margin-top: 4px;
+                                    align-items: center;
+                                    .text-like {
+                                        cursor: pointer;
+                                        margin-right: 24px;
+                                        font-size: 14px;
+                                    }
+                                    .text-like:hover {
+                                        color: #3684c9;
+                                    }
+
+                                    .feedback {
+                                        cursor: pointer;
+                                        font-size: 14px;
+                                    }
+
+                                    .feedback:hover {
+                                        color: #3684c9;
+                                    }
+                                    .quantity-like {
+                                        margin-left: auto;
+                                        font-size: 14px;
+                                        display: flex;
+                                        align-items: center;
+                                        .number {
+                                            margin-right: 4px;
+                                            color: #3684c9;
+                                        }
+                                        .container-like {
+                                            padding: 1px 4px;
+                                            border-radius: 50%;
+                                            background-color: #3684c9;
+                                            svg {
+                                                width: 18px;
+                                                color: #fff;
+                                            }
+                                        }
+                                        
+                                        
+                                    }
+                                }
+
+                                .container-input-feedback {
+                                    display: flex;
+                                    position: relative;
+                                    .input-feedback {
+                                        width: 100%;
+                                        padding: 4px;
+                                    }
+                                    .icon-send {
+                                        position: absolute;
+                                        right: 2px;
+                                        padding: 3px;
+                                        cursor: pointer;
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
-    }
 
     }
 

@@ -41,7 +41,7 @@ export default function HomeCollection() {
                 />
             </div>
             <div className='col-12'>
-                <ListCard data={dataTourTrongNuoc} />
+                <ListCard data={dataTourTrongNuoc} priceRow={true}/>
             </div>
         </div>
 
@@ -54,7 +54,7 @@ export default function HomeCollection() {
             </div>
             <div className='col-12'>
                 <ListCard
-                    data={dataTourNuocNgoai}
+                    data={dataTourNuocNgoai} priceRow={true}
                 />
             </div>
         </div>

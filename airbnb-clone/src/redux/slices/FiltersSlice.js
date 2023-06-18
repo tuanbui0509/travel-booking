@@ -3,10 +3,11 @@ import { createSlice } from "@reduxjs/toolkit";
 const filterSlice = createSlice({
     name: 'filters',
     initialState: {
-        key: '',
-        starting: '',
-        destination: '',
-        date:""
+        key: "",
+        starting: "",
+        destination: "",
+        date:"",
+        areaHot:""
     },
     reducers: {
         keyFilterChange: (state, action) => {
@@ -16,9 +17,16 @@ const filterSlice = createSlice({
             state.starting = action.payload.starting
             state.destination = action.payload.destination
             state.date = action.payload.date
+            state.areaHot = ""
         },
         areaHot: (state, action) => {
-            state.starting = action.payload
+            if (state.areaHot !== action.payload) {
+                state.areaHot = action.payload
+                state.key = ""
+                state.starting = ""
+                state.destination = ""
+                state.date = ""
+            }
         }
     }
 })

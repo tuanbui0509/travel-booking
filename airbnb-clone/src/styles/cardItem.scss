@@ -2,6 +2,12 @@
 
 .card {
     .card-title {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+        height: 70px;
+        line-height: 22.4px;
         font-size: $fs-18;
     }
 
