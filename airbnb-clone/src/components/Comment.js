@@ -51,13 +51,13 @@ export default function Comment({ id }) {
     let commenter = user.fullname;
     let content = comment;
     let comObj = { idComment, commenter, content };
-    fetch('http://localhost:5000/api/subComments', {
+    fetch('https://travel-booking-1.onrender.com/api/subComments', {
       method: 'POST',
       headers: { 'content-type': 'application/json' },
       body: JSON.stringify(comObj),
     })
       .then((res) => res.json())
-      .then((data) => {})
+      .then((data) => { })
       .catch((err) => {
         // Handle error
       });

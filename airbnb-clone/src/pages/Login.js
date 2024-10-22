@@ -1,12 +1,12 @@
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import "../styles/login.scss";
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import {useNavigate} from "react-router-dom";
-import {toast, ToastContainer} from "react-toastify";
+import { useNavigate } from "react-router-dom";
+import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import {useSelector} from "react-redux";
+import { useSelector } from "react-redux";
 
 export const Login = () => {
     const [username, usernameupdate] = useState('');
@@ -18,39 +18,39 @@ export const Login = () => {
         sessionStorage.clear();
     }, []);
 
-    const ProcceedLogin =(e)=> {
+    const ProcceedLogin = (e) => {
         e.preventDefault();
         if (validate()) {
-            fetch(`http://localhost:5000/api/users?username=${username}`)
-                .then((res)=> res.json())
+            fetch(`https://travel-booking-1.onrender.com/api/users?username=${username}`)
+                .then((res) => res.json())
                 .then((resp) => {
-                    const {id, username, password, fullname, email, phone, img} = resp[0]
+                    const { id, username, password, fullname, email, phone, img } = resp[0]
                     if (password === passwordS) {
                         toast.success('Đăng nhập thành công');
-                        localStorage.setItem("user", JSON.stringify({id, username, fullname, email, phone, img}));
-                        sessionStorage.setItem('user', JSON.stringify({id, username, fullname, email, phone, img}));
-                        selectedTour ? history('/cart'):history('/');
+                        localStorage.setItem("user", JSON.stringify({ id, username, fullname, email, phone, img }));
+                        sessionStorage.setItem('user', JSON.stringify({ id, username, fullname, email, phone, img }));
+                        selectedTour ? history('/cart') : history('/');
                         return
                     } else {
                         return toast.error('username hoặc mật khẩu không đúng');
                     }
 
-            })
-                .catch((err)=> {
-                    return  toast.error('Đăng nhập không thành công');
-            })
+                })
+                .catch((err) => {
+                    return toast.error('Đăng nhập không thành công');
+                })
         }
     }
 
-    const validate=() => {
+    const validate = () => {
         let result = true;
-        if(username === null || username ==='') {
+        if (username === null || username === '') {
             result = false;
-            return  toast.warn('Vui lòng nhập username');
+            return toast.warn('Vui lòng nhập username');
         }
-        if (passwordS === null || passwordS ==='') {
+        if (passwordS === null || passwordS === '') {
             result = false;
-            return  toast.warn('Vui lòng nhập mật khẩu');
+            return toast.warn('Vui lòng nhập mật khẩu');
         }
         return result;
     }
@@ -58,16 +58,16 @@ export const Login = () => {
     return (
         <>
             <title>Đăng nhập</title>
-            <Navbar/>
+            <Navbar />
             <div className="container2">
                 <div className="wrapper">
                     <div className="title">Đăng nhập</div>
                     <Form className="formLogin" onSubmit={ProcceedLogin}>
                         <Form.Group className="inputValue" controlId="formBasicEmail">
-                            <Form.Control value={username} onChange={e=>usernameupdate(e.target.value)} type="username" name='username' placeholder="username"/>
+                            <Form.Control value={username} onChange={e => usernameupdate(e.target.value)} type="username" name='username' placeholder="username" />
                         </Form.Group>
                         <Form.Group className="inputValue" controlId="formBasicEmail">
-                            <Form.Control value={passwordS} onChange={e=>passwordupdate(e.target.value)} type="password" name='password' placeholder="Mật khẩu"/>
+                            <Form.Control value={passwordS} onChange={e => passwordupdate(e.target.value)} type="password" name='password' placeholder="Mật khẩu" />
                         </Form.Group>
                         <Button variant="primary" className='buttonLogin' type="submit">
                             Đăng nhập
@@ -78,7 +78,7 @@ export const Login = () => {
                         <a href="/register" className="link">Tạo tài khoản mới</a>
                     </div>
                 </div>
-                <ToastContainer/>
+                <ToastContainer />
             </div>
         </>
     )

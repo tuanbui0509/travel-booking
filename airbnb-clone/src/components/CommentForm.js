@@ -23,25 +23,25 @@ export default function CommentForm({ content, rating, idTour, commenter }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-      // Lấy ngày hiện tại
+    // Lấy ngày hiện tại
     const currentDate = new Date();
-    
+
     // Định dạng ngày thành "dd-mm-yyyy"
     const day = String(currentDate.getDate()).padStart(2, '0');
     const month = String(currentDate.getMonth() + 1).padStart(2, '0');
     const year = currentDate.getFullYear();
     const formattedDate = `${day}-${month}-${year}`;
     let comObj = {
-        "id" : uuidv4(),
-        "idTour": idTour,
-        "commenter": commenter,
-        "content": formContent,
-        "contentServer": "",
-        "rating": formRating,
-        "date": formattedDate,
-        "quantityLike": 0,
+      "id": uuidv4(),
+      "idTour": idTour,
+      "commenter": commenter,
+      "content": formContent,
+      "contentServer": "",
+      "rating": formRating,
+      "date": formattedDate,
+      "quantityLike": 0,
     };
-    fetch('http://localhost:5000/api/comments', {
+    fetch('https://travel-booking-1.onrender.com/api/comments', {
       method: 'POST',
       headers: { 'content-type': 'application/json' },
       body: JSON.stringify(comObj),
@@ -49,15 +49,15 @@ export default function CommentForm({ content, rating, idTour, commenter }) {
       .then((res) => res.json())
       .then((data) => {
         Swal.fire({
-        title: 'Thông báo',
-        text: 'Đánh giá thành công',
-        icon: 'success',
-        confirmButtonText: 'OK',
-      });
-      handleCloseModal();
+          title: 'Thông báo',
+          text: 'Đánh giá thành công',
+          icon: 'success',
+          confirmButtonText: 'OK',
+        });
+        handleCloseModal();
       })
       .catch((err) => {
-        
+
       });
 
   };

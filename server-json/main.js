@@ -1,4 +1,5 @@
 const jsonServer = require('json-server')
+const cors = require('cors');
 const server = jsonServer.create()
 const router = jsonServer.router('data.json')
 const middlewares = jsonServer.defaults()
@@ -46,6 +47,6 @@ if (req.method === 'POST' && req.path.startsWith('/api/subComments')) {
 
 // Use default router
 server.use("/api",router)
-server.listen(5000, () => {
+server.listen(5001, () => {
   console.log('JSON Server is running')
 })
