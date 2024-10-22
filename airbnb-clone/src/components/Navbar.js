@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from "react";
 import { Link } from "react-router-dom";
 import "../styles/navbar.scss";
-import { Home } from "@material-ui/icons";
 import { IconCart } from "./IconCart";
 import logo from "../data/imgs/logo_travel.png";
 import { AccountCircle, ExpandMore, ShoppingCart, Menu} from '@material-ui/icons'
