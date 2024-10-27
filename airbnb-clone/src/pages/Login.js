@@ -64,7 +64,7 @@ export const Login = () => {
                     <div className="title">Đăng nhập</div>
                     <Form className="formLogin" onSubmit={ProcceedLogin}>
                         <Form.Group className="inputValue" controlId="formBasicEmail">
-                            <Form.Control value={username} onChange={e => usernameupdate(e.target.value)} type="username" name='username' placeholder="username" />
+                            <Form.Control value={username} onChange={e => usernameupdate(e.target.value)} type="username" name='username' placeholder="Tài khoản" />
                         </Form.Group>
                         <Form.Group className="inputValue" controlId="formBasicEmail">
                             <Form.Control value={passwordS} onChange={e => passwordupdate(e.target.value)} type="password" name='password' placeholder="Mật khẩu" />
@@ -74,7 +74,6 @@ export const Login = () => {
                         </Button>
                     </Form>
                     <div className="linktext">
-                        {/* <a href="/login" className="link">Quên mật khẩu</a> */}
                         <a href="/register" className="link">Tạo tài khoản mới</a>
                     </div>
                 </div>
