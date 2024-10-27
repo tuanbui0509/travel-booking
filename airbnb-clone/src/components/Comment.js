@@ -6,7 +6,7 @@ import SubComment from './SubComment';
 import { fetchComments } from '../redux/slices/CommentSlice';
 import { useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2';
-
+import { ratingCore } from '../utils/utill';
 export default function Comment({ id }) {
   const dispatch = useDispatch();
   const [comment, setComment] = useState('');
@@ -79,7 +79,7 @@ export default function Comment({ id }) {
               <div className='content-comment'>
                 <div className='container-rate'>
                   <div className='score'>{item.rating}</div>
-                  <div className='text-core'>Rất tốt</div>
+                  <div className='text-core'>{ratingCore(item.rating)}</div>
                   <div className='date'>{item.date}</div>
                 </div>
                 <div className='text-comment-1'>{item.content}</div>

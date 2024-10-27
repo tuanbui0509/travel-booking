@@ -93,7 +93,9 @@ export default function CardItem(prop) {
                     <img src={prop.image} style={{ minHeight: '197px' }} className="card-img-top" alt="..." />
                 </Link>
                 <div className="card-body">
-                    <h6 className="card-title mb-1">{prop.title}</h6>
+                    <Link to={`/tourList/${prop.idCard}`}>
+                        <h6 className="card-title mb-1 text-black">{prop.title}</h6>
+                    </Link>
                     <div className={`d-flex ${priceRow ? 'flex-row' : 'flex-column'} justify-content-between`}>
                         <div className="d-flex flex-column">
                             <div className="time">

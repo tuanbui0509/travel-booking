@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import "../styles/account.scss";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
-
+import userImage from "../assets/images/user.png"
 export const Account = () => {
 
     const user = JSON.parse(localStorage.getItem("user"));
@@ -48,7 +48,7 @@ export const Account = () => {
             }).catch((err) => {
             })
     };
-
+    console.log(userImage);
     return (
         <>
             <Navbar />
@@ -58,15 +58,15 @@ export const Account = () => {
                     <div className="profile_ava">
                         <div className="avatar-content">
                             <div className="img-circle text-center mb-3">
-                                <img src={user.img} alt="Image" className="shadow" />
+                                <img src={userImage} alt="Image" className="shadow" />
                             </div>
                             <h4 className="text-center">{user.fullname}</h4>
                         </div>
                         <div className="nav-pills" >
                             <a href="/acount" className="nav-link active"><i className="fa fa-home text-center mr-1"></i>
                                 Thông tin tài khoản</a>
-                            <a href="/resetPassword" className="nav-link"><i className="fa fa-home text-center mr-1"></i>
-                                Mật khẩu</a>
+                            {/* <a href="/resetPassword" className="nav-link"><i className="fa fa-home text-center mr-1"></i>
+                                Mật khẩu</a> */}
                         </div>
                     </div>
                     <form className="content">

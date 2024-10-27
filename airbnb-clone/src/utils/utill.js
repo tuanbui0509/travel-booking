@@ -24,7 +24,7 @@ export const isPassportNumberValid = (passportNumber) => {
 };
 
 export const formatCardNumber = (cardNumber) => {
-  cardNumber = cardNumber+"";
+  cardNumber = cardNumber + "";
   const formattedNumber = cardNumber.replace(/\s/g, "").replace(/(\d{4})/g, "$1 ");
   return formattedNumber.trim();
 };
@@ -42,9 +42,31 @@ export const now = () => {
 
   return formattedDate;
 };
-export function formatDate (date) {
+export function formatDate(date) {
   const day = date.getDate();
   const month = date.getMonth() + 1;
   const year = date.getFullYear();
   return `${day}/${month}/${year}`;
 };
+
+export const ratingCore = (rating) => {
+  switch (Math.ceil(rating)) {
+    case 1:
+      return 'Tệ'
+    case 2:
+      return 'Không tốt'
+    case 3:
+    case 4:
+    case 5:
+      return 'Bình thường'
+    case 6:
+    case 7:
+    case 8:
+      return 'Tốt'
+    case 9:
+    case 10:
+      return 'Rất tốt'
+    default:
+      break;
+  }
+}

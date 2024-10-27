@@ -74,7 +74,7 @@ export const Login = () => {
                         </Button>
                     </Form>
                     <div className="linktext">
-                        <a href="/login" className="link">Quên mật khẩu</a>
+                        {/* <a href="/login" className="link">Quên mật khẩu</a> */}
                         <a href="/register" className="link">Tạo tài khoản mới</a>
                     </div>
                 </div>
