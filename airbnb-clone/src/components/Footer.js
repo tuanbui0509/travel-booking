@@ -77,9 +77,9 @@ const Footer = () => {
         </Left>
         <Right >
             <Title>Contact</Title>
-            <ContactItem><Room style={{marginRight:"10px"}}/>Đông Hòa, Dĩ An, Bình Dương</ContactItem>
+            <ContactItem><Room style={{marginRight:"10px"}}/>Lã Xuân Oai, P.Hiệp Phú, Thủ Đức, Hồ Chí Minh</ContactItem>
             <ContactItem><Phone style={{marginRight:"10px"}}/>+84 867 415 853</ContactItem>
-            <ContactItem><EmailOutlined style={{marginRight:"10px"}}/>20130302@st.hcmuaf.edu.vn</ContactItem>
+            <ContactItem><EmailOutlined style={{marginRight:"10px"}}/>travel@gmail.vn</ContactItem>
             <Payment src="https://i.ibb.co/Qfvn4z6/payment.png"></Payment>
         </Right>
 

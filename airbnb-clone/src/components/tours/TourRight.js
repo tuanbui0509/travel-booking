@@ -1,12 +1,13 @@
-import {Done, ErrorOutline, ChildCare} from '@material-ui/icons'
-import React, {useEffect, useState} from 'react'
-import {formatPrice, RATE_QUANTITY_OF_CHILD_WITH_ADULT} from '../../utils/utill'
-import {useDispatch, useSelector} from "react-redux";
-import {addCart, removeCart} from "../../redux/slices/CartsSlice";
-import {addCartTourToLocal, removeCartTourFromLocal} from "../../utils/localStorageUtils";
+import { Done, ErrorOutline, ChildCare } from '@material-ui/icons'
+import React, { useEffect, useState } from 'react'
+import { formatPrice, RATE_QUANTITY_OF_CHILD_WITH_ADULT } from '../../utils/utill'
+import { useDispatch, useSelector } from "react-redux";
+import { addCart, removeCart } from "../../redux/slices/CartsSlice";
+import { addCartTourToLocal, removeCartTourFromLocal } from "../../utils/localStorageUtils";
 import Swal from "sweetalert2";
+import { toast } from 'react-toastify';
 
-export default function TourRight({data}) {
+export default function TourRight({ data }) {
     const [id, setId] = useState("")
     const [date, setDate] = useState("")
     const [priceAdult, setPriceAdult] = useState(0)
@@ -86,6 +87,7 @@ export default function TourRight({data}) {
     }, [quantityChild])
 
     const handleAddToCart = () => {
+
         const cartItem = cartItems.find((item) => item.id === data.id);
         if (cartItem) return;
         const tour = {
@@ -111,6 +113,17 @@ export default function TourRight({data}) {
         dispatch(addCart(newCart))
         setInCart(true);
         addCartTourToLocal(newCart)
+        toast.success('Đã thêm vào giỏ hàng', {
+            position: "top-right",
+            autoClose: 1000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            // transition: 'Bounce',
+        });
     }
     const handleRemoveFromCart = () => {
         dispatch(removeCart(data.id));
@@ -118,7 +131,17 @@ export default function TourRight({data}) {
 
         setInCart(false);
         // Cập nhật trạng thái inCart thành false (chưa có trong giỏ hàng)
-
+        toast.info('Đã xoá khỏi giỏ hàng!', {
+            position: "top-right",
+            autoClose: 1000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            // transition: 'Bounce',
+        });
         removeCartTourFromLocal(data.id)
     };
     useEffect(() => {
@@ -151,11 +174,11 @@ export default function TourRight({data}) {
                     <div className='p-2 couter-price'>x {formatPrice(priceAdult)}</div>
                     <div className='wrap-couter'>
                         <div className='prev'
-                             onClick={() => handlePrevAdult()}
+                            onClick={() => handlePrevAdult()}
                         >&#8722;</div>
                         <div className='number'>{quantityAdult}</div>
                         <div className='next'
-                             onClick={() => handleNextAdult()}
+                            onClick={() => handleNextAdult()}
                         >&#43;</div>
                     </div>
                 </div>
@@ -169,23 +192,23 @@ export default function TourRight({data}) {
                     </div>
                     <div className='wrap-couter'>
                         <div className='prev'
-                             onClick={() => handlePrevChild()}
+                            onClick={() => handlePrevChild()}
                         >&#8722;</div>
                         <div className='number'>{quantityChild}</div>
                         <div className='next'
-                             onClick={() => handleNextChild()}
+                            onClick={() => handleNextChild()}
                         >&#43;</div>
                     </div>
                 </div>
                 <div className='note-des'>
-                    <ErrorOutline className='icon'/>
+                    <ErrorOutline className='icon' />
                     <span>Liên hệ để xác nhận chỗ</span>
                 </div>
                 {
                     quantityChild > 0 &&
                     (
                         <div className='note-des ml-1'>
-                            <ChildCare/>
+                            <ChildCare />
                             <span>Trẻ em từ 2 đến 7 tuổi</span>
                         </div>
                     )
@@ -201,7 +224,7 @@ export default function TourRight({data}) {
                 <div className='wrap-button'>
                     <button className='button_1 button btn pt-2 pb-2'>Liên hệ tư vấn</button>
                     <button className={`button_2 button btn pt-2 pb-2 ${inCart ? 'btn-danger' : ''}`}
-                            onClick={inCart ? handleRemoveFromCart : handleAddToCart}
+                        onClick={inCart ? handleRemoveFromCart : handleAddToCart}
                     > {inCart ? "Xóa khỏi giỏ hàng" : "Thêm vào giỏ hàng"}</button>
                 </div>
             </div>
@@ -209,7 +232,7 @@ export default function TourRight({data}) {
                 <div className='row'>
                     {tourServices && tourServices.length > 0 && tourServices.map(service => (
                         <div key={service.id} className='col-6 wrap'>
-                            <Done className='icon'/>
+                            <Done className='icon' />
                             <span>{service.nameService}</span>
                         </div>
                     ))}

@@ -53,7 +53,7 @@ export default function Category() {
                         <div className='container-right'>
                             <div className='title'>Tour Du Lịch Hè Giá Tốt từ Hồ Chí Minh</div>
                             <div className='arrangement row'>
-                                <div className='name col-3'>Sắp xếp theo:</div>
+                                <strong className='name col-3' style={{fontWeight:'bold'}}>Sắp xếp theo:</strong>
                                 <div className={`name col-3 ${activeSort === 'duration' ? 'active' : ''}`} onClick={() => handleSortChange('duration')}>
                                     Thời lượng tour
                                 </div>

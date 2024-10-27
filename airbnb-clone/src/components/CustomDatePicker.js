@@ -14,11 +14,13 @@ const CustomDatePicker = (prop) => {
   });
 
   const handleDateChange = (selectedDate) => {
-     if (transformedDates.some((date) => date.getTime() === selectedDate.getTime())) {
+    // console.log(transformedDates);
+    // if (transformedDates.some((date) => date === selectedDate.date)) {
+    //   console.log(selectedDate);
       setDate(selectedDate);
       const formattedDate = formatDate(selectedDate);
       prop.onDateChange(formattedDate); // Gọi hàm callback để truyền giá trị date về cho thành phần cha
-    } 
+    // }
   };
 
   return (
@@ -26,9 +28,10 @@ const CustomDatePicker = (prop) => {
       selected={date}
       onChange={handleDateChange}
       className="custom-datepicker"
-      placeholderText="Chọn tour"
+      placeholderText="Chọn ngày"
       calendarClassName="custom-calendar"
       highlightDates={transformedDates}
+      dateFormat="dd/MM/yyyy"
     />
   );
 };

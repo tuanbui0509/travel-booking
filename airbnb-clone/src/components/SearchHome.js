@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import '../styles/search.scss';
 import { LocationOn, Search, EventNote, FlightTakeoff } from '@material-ui/icons';
 import { useDispatch, useSelector } from 'react-redux';
-import { endLocationsSelector, startDatesSelector, startlocationsSelector } from '../redux/selectors';
+import { endLocationsSelector, startDatesSelector, startLocationsSelector as startLocationsSelector } from '../redux/selectors';
 import 'react-datepicker/dist/react-datepicker.css';
 import CustomDatePicker from './CustomDatePicker';
 import { searchChange } from '../redux/slices/FiltersSlice';
@@ -11,19 +11,18 @@ import { useNavigate } from 'react-router-dom';
 export default function SearchHome(prop) {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  const startlocations = useSelector(startlocationsSelector);
+  const startLocations = useSelector(startLocationsSelector);
   const endLocations = useSelector(endLocationsSelector);
   const startDates = useSelector(startDatesSelector);
   const [starting, setStarting] = useState('');
   const [destination, setDestination] = useState('');
   const [date, setDate] = useState('');
   const [isSearchVisible, setIsSearchVisible] = useState(true);
-
-  const handleOnChaneStart = (e) => {
+  const handleOnChangeStart = (e) => {
     setStarting(e.target.value);
   };
 
-  const handleOnchaneDes = (e) => {
+  const handleOnchangeDes = (e) => {
     setDestination(e.target.value);
   };
 
@@ -57,9 +56,8 @@ export default function SearchHome(prop) {
         alt="..."
       />
       <div
-        className={`container container-search ${
-          isSearchVisible ? '' : 'd-none'
-        } ${image ? 'shadow-none' : 'position-absolute translate-middle'}`}
+        className={`container container-search ${isSearchVisible ? '' : 'd-none'
+          } ${image ? 'shadow-none' : 'position-absolute translate-middle'}`}
       >
         <div className="row container-wrap">
           <div className="col-sm-12 col-md-6 col-lg-6 col-xl-3">
@@ -70,14 +68,15 @@ export default function SearchHome(prop) {
               <div className="d-flex flex-column flex-group">
                 <label className="title">Điểm khởi hành</label>
                 <select
-                  onChange={(e) => handleOnChaneStart(e)}
+                  onChange={(e) => handleOnChangeStart(e)}
                   className="input"
                   defaultValue=""
+                  style={{fontSize:'15px'}}
                 >
                   <option value="" disabled hidden>
                     Chọn điểm khởi hành
                   </option>
-                  {startlocations.map((location, index) => (
+                  {startLocations.map((location, index) => (
                     <option key={index} value={location}>
                       {location}
                     </option>
@@ -94,8 +93,9 @@ export default function SearchHome(prop) {
               <div className="d-flex flex-column flex-group">
                 <label className="title">Điểm đến</label>
                 <select
-                  onChange={(e) => handleOnchaneDes(e)}
+                  onChange={(e) => handleOnchangeDes(e)}
                   className="input"
+                  style={{fontSize:'15px'}}
                   defaultValue=""
                 >
                   <option value="" disabled hidden>

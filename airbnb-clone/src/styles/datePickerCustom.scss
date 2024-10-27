@@ -8,3 +8,21 @@
     font-weight: bold;
     background-color: $color-blue_global;
 }
+
+/* Example: Increase font size in react-datepicker */
+.react-datepicker__input-container input {
+    font-size: 14px; /* Adjust the size as needed */
+  }
+  
+  /* Change font size for calendar days */
+  .react-datepicker__day {
+    font-size: 14px; /* Adjust for day cells */
+  }
+  
+  /* Change font size for header, such as month and year */
+  .react-datepicker__current-month,
+  .react-datepicker__day-name {
+    font-size: 14px;
+    font-weight: bold; /* Optional for emphasis */
+  }
+  

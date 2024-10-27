@@ -55,55 +55,55 @@ export const toursRemainingSelector = createSelector(
 
 export const cartsSelector = (state) => state.carts
 
-export const startlocationsSelector = createSelector(
-     toursSelector,
-     (tours) => {
+export const startLocationsSelector = createSelector(
+    toursSelector,
+    (tours) => {
         const startLocations = tours.map((item) => item.start_location);
         return startLocations.filter((value, index, self) => self.indexOf(value) === index);
-     }
+    }
 )
 
 export const startDatesSelector = createSelector(
-     toursSelector,
-     (tours) => {
+    toursSelector,
+    (tours) => {
         const startLocations = tours.map((item) => item.start_date);
         return startLocations.filter((value, index, self) => self.indexOf(value) === index);
-     }
+    }
 )
 
 export const endLocationsSelector = createSelector(
-     toursSelector,
-     (tours) => {
+    toursSelector,
+    (tours) => {
         const endlocations = tours.map((item) => item.end_location);
         return endlocations.filter((value, index, self) => self.indexOf(value) === index);
-     }
+    }
 )
 
 export const locationHotDomestic = createSelector(
-  toursSelector,
-  (tours) => {
-    const categoryIdToFilter = 1;
+    toursSelector,
+    (tours) => {
+        const categoryIdToFilter = 1;
 
-    // Lọc danh sách các end_location có catagoryId = 1 và loại bỏ giá trị trùng lặp
-    const Locations = [...new Set(
-      tours
-        .filter(tour => tour.catagoryId === categoryIdToFilter)
-        .map(tour => tour.end_location)
-    )].slice(0, 10);;
+        // Lọc danh sách các end_location có catagoryId = 1 và loại bỏ giá trị trùng lặp
+        const Locations = [...new Set(
+            tours
+                .filter(tour => tour.catagoryId === categoryIdToFilter)
+                .map(tour => tour.end_location)
+        )].slice(0, 10);;
 
-    return Locations;
-  }
+        return Locations;
+    }
 );
 
 
 export const locationHotForeign = createSelector(
-     toursSelector,
-     (tours) => {
+    toursSelector,
+    (tours) => {
         const categoryIdToFilter = 2;
         const Locations = [...new Set(
             tours
-            .filter(tour => tour.catagoryId === categoryIdToFilter)
-            .map(tour => tour.end_location)
+                .filter(tour => tour.catagoryId === categoryIdToFilter)
+                .map(tour => tour.end_location)
         )].slice(0, 10);;
 
         return Locations;
@@ -114,17 +114,17 @@ export const locationHotForeign = createSelector(
 export const commentsSelector = (state) => state.comments.comments
 
 export const getcommentsByIdTour = createSelector(
-  [commentsSelector, (_, idTour) => idTour], // Đặt tham số idComment vào selector
-  (comments, idTour) =>
-    comments.filter((comment) => comment.idTour === idTour)
+    [commentsSelector, (_, idTour) => idTour], // Đặt tham số idComment vào selector
+    (comments, idTour) =>
+        comments.filter((comment) => comment.idTour === idTour)
 );
 
 
 export const subCommentsSelector = (state) => state.subComments.subComments
 // Selector lấy ra các object trong mảng "subComments" dựa trên giá trị của "idComment"
 export const getSubCommentsByIdComment = createSelector(
-  [subCommentsSelector, (_, idComment) => idComment], // Đặt tham số idComment vào selector
-  (subComments, idComment) =>
-    subComments.filter((comment) => comment.idComment === idComment)
+    [subCommentsSelector, (_, idComment) => idComment], // Đặt tham số idComment vào selector
+    (subComments, idComment) =>
+        subComments.filter((comment) => comment.idComment === idComment)
 );
 
