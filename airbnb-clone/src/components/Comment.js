@@ -51,7 +51,7 @@ export default function Comment({ id }) {
     let commenter = user.fullname;
     let content = comment;
     let comObj = { idComment, commenter, content };
-    fetch('https://travel-booking-1.onrender.com/api/subComments', {
+    fetch('http://localhost:5001/api/subComments', {
       method: 'POST',
       headers: { 'content-type': 'application/json' },
       body: JSON.stringify(comObj),

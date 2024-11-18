@@ -67,7 +67,7 @@ export default function TourLeft({ data }) {
                   {
                     detail.timeline.map((t, id) => (
                       <div key={id} className='content'>
-                        <p><strong>{t.time} :</strong> {t.description}</p>
+                        {t.time && <p><strong>{t.time} :</strong> {t.description}</p>}
                         {
                           t.image && <img src={t.image} className="img-fluid" alt="..."></img>
                         }
@@ -82,6 +82,28 @@ export default function TourLeft({ data }) {
             }
 
           </div>
+        </div>
+      </div>
+      <div className='description'>
+        <div className='wrap-des'>
+          <div className='des-title'>Gía Tour bao gồm</div>
+          <div className='content'>- Các món ăn đặc sản chế biến theo khẩu vị địa phương.</div>
+          <div className='content'>- Vé tham quan tất cả các điểm có trong lịch trình.</div>
+          <div className='content'>- Quà tặng tiện ích: 01 áo đồng phục thiết kế riêng cho doanh nghiệp/khách/chuyến.</div>
+          <div className='content'>- Bảo hiểm du lịch trọn tour mức bồi thường tối đa 1 00.000.000vnđ đối với người trên 18 tuổi.</div>
+          <div className='content'>- Bảo hiểm du lịch trọn tour mức bồi thường tối đa 30.000.000vnđ đối với người dưới 18 tuổi.</div>
+          <div className='content'>- Chương trình Gala Dinner: MC chuyên nghiệp, âm thanh, ánh sáng, sân khấu, backdrop & frame, màn chiếu.</div>
+        </div>
+      </div>
+      <div className='description'>
+        <div className='wrap-des'>
+          <div className='des-title'>Gía Tour không bao gồm</div>
+          <div className='content'>- Vé máy bay khứ hồi.</div>
+          <div className='content'>- Chi phí bồi dưỡng cho Lái xe, HDV với tinh thần cám ơn và khuyến khích phục vụ tận tình (khoảng từ 1 0.000 đến 20.000/ngày/khách).</div>
+          <div className='content'>- Nước uống (bia, rượu, nước ngọt,…) trong các bữa ăn và đêm gala dinner.</div>
+          <div className='content'>- Các dịch vụ vui chơi, ăn uống, giải trí ngoài chương trình đề cập mà quý khách muốn tận hưởng thêm trên tour.</div>
+          <div className='content'>- Chi phí cá nhân: ăn uống, giải trí ngoài chương trình, giặt ủi, mà quý khách muốn tận hưởng thêm trên tour.</div>
+          <div className='content'>- Thuế VAT 8%.</div>
         </div>
       </div>
       <div className='description'>

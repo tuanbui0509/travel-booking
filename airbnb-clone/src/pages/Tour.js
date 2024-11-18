@@ -17,7 +17,7 @@ export default function Tour() {
 
   async function fetchDataTour() {
     try {
-      const response = await fetch('https://travel-booking-1.onrender.com/api/tours?id=' + tourId); // Gọi API để lấy dữ liệu
+      const response = await fetch('http://localhost:5001/api/tours?id=' + tourId); // Gọi API để lấy dữ liệu
       const jsonData = await response.json(); // Chuyển đổi dữ liệu nhận được thành JSON
       setTour(jsonData[0]);
       addTourToLocal(jsonData[0])

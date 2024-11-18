@@ -1,7 +1,7 @@
 @import './root.scss';
 
 .navbar {
-    background-color: $color-blue_global;
+    background-color: $color-while;
     flex-direction: column;
     .container-nav {
         display: flex;
@@ -20,13 +20,13 @@
                 margin-left: 24px;
 
                 a {
-                    font-size: 24px;
-                    color: $color-while;
+                    font-size: 20px;
+                    color: $color-text;
                 }
             }
             .item:hover a{
                 cursor: pointer;
-                color: $color-yellow;
+                color: $color-green-second;
             }
 
         }
@@ -44,17 +44,17 @@
                     margin-right: 10px
                 }
                 .icon {
-                    color: $color-while;
+                    color: $color-text;
                     font-size: 32px;
                 }
                 .text {
                     font-size: 18px;
-                    color: $color-while;
+                    color: $color-text;
                 }
             }
             .item:hover .icon , .item:hover .text{
                 cursor: pointer;
-                color: $color-yellow;
+                color: $color-text;
             }
             .container-user {
                 margin: 0px 12px;
@@ -75,7 +75,7 @@
                                 width: 200px;
                                 border: none;
                                 margin-top: 10px;
-                                background-color: $color-yellow;
+                                background-color: $color-green-second;
                                 color: $color-while;
                                 font-weight: 600;
                                 border-radius: 2px;
@@ -113,7 +113,7 @@
             }
             .container-menu {
                 display: block;
-                color: $color-while;
+                color: $color-text;
             }
             .nav-left {
 
@@ -146,7 +146,7 @@
     
 }
 .fixed-top-nav{
-    background-color: rgba(0, 63, 113, 0.73);
+    background-color: rgba(255, 255, 255, 0.899);
     position: sticky;
     z-index:10;
     top: 0;

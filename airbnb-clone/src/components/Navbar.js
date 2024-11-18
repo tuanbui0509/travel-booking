@@ -2,14 +2,10 @@ import React, {useEffect, useState} from "react";
 import { Link } from "react-router-dom";
 import "../styles/navbar.scss";
 import { IconCart } from "./IconCart";
-import logo from "../data/imgs/logo_travel.png";
-import { AccountCircle, ExpandMore, ShoppingCart, Menu} from '@material-ui/icons'
+import logo from "../data/imgs/logo_travel.jpg";
+import { AccountCircle, ExpandMore, Menu} from '@material-ui/icons'
 
 const Navbar = () => {
-  const [isUser, setIsUser] = useState(false);
-  const handleIsUser = () => {
-    setIsUser(!isUser);
-  };
   const [isUserOpen, setIsUserOpen] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -43,13 +39,16 @@ const Navbar = () => {
           </div>
           <div className="nav-center">
             <div className="item">
-              <Link to={"/category/1"}>Trong nước</Link>
+              <Link to={"/"}>Trang chủ</Link>
             </div>
             <div className="item">
-              <Link to={"/category/2"}>Nước ngoài</Link>
+              <Link to={"/category/1"}>Du lịch xanh</Link>
             </div>
             <div className="item">
-              <Link to={"/category/3"}>Tour hot</Link>
+              <Link to={"/category/2"}>Du lịch cộng đồng</Link>
+            </div>
+            <div className="item">
+              <Link to={"/category/3"}>Du lịch sinh thái</Link>
             </div>
           </div>
           <div className="nav-right">

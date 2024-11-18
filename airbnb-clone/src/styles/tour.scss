@@ -20,11 +20,11 @@
             color: $color-while;
             font-size: $fs-16;
             border-radius: 8px;
-            background-color: $color-yellow;
+            background-color: $color-green-second;
         }
 
         .rank {
-            color: $color-yellow;
+            color: $color-green-second;
             font-weight: $fw-lg;
         }
     }
@@ -117,15 +117,15 @@
                     .text-core {
                         font-size: $fs-16;
                         font-weight: 500;
-                        color: $color-orange;
+                        color: $color-green-second;
                         margin-right: 6px;
                         font-weight: 600;
                     }
                     .quantity-comment {
                         padding-left: 6px;
-                        border-left: 1px solid $color-orange;
+                        border-left: 1px solid $color-green-second;
                         font-size: 12px;
-                        color: $color-orange;
+                        color: $color-green-second;
                         line-height: 14px;
                     }
                 }
@@ -170,7 +170,7 @@
                                     .text-core {
                                         font-size: 14px;
                                         font-weight: 500;
-                                        color: $color-orange;
+                                        color: $color-green-second;
                                         margin-right: 6px;
                                         font-weight: 600;
                                     }
@@ -331,7 +331,7 @@
                 justify-content: space-between;
                 
                 .couter-price {
-                    color: $color-yellow;
+                    color: $color-green-second;
                 }
                 .wrap-couter {
                     display: flex;
@@ -352,7 +352,7 @@
             }
 
             .note-des {
-                color: $color-blue_global;
+                color: $color-text;
                 text-align: center;
                 display: flex;
                 flex-direction: row;
@@ -371,7 +371,7 @@
                     align-items: center;
 
                     span {
-                        color: $color-yellow;
+                        color: $color-green-second;
                         font-size: 12px;
                         margin-left: 6px;
                     }
@@ -382,7 +382,7 @@
                 }
 
                 .price {
-                    color: $color-yellow;
+                    color: $color-green-second;
                     font-size: $fs-24;
                     font-weight: $fw-lg;
                 }
@@ -405,19 +405,19 @@
                 }
 
                 .button_1 {
-                    border: solid 1px $color-orange;
-                    color: $color-orange;
+                    border: solid 1px $color-green-second;
+                    color: $color-green-second;
                 }
 
                 .button_1:hover {
-                    background-color: $color-orange;
+                    background-color: $color-green-second;
                     color: $color-while;
                 }
 
                 .button_2 {
                     border: none;
                     color: $color-while;
-                    background-color: $color-orange;
+                    background-color: $color-green-second;
 
                 }
                 

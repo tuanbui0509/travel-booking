@@ -135,13 +135,13 @@ ul {
   outline: none;
 }
 .btn-begin-checkout{
-  background-color: $color-orange;
+  background-color: $color-green-second;
   font-size: 1.1rem ;
   font-weight: 700;
   text-transform: none;
   transition: color 0.4s ease, background-color 0.4s ease;
   &:hover{
-    color: $color-orange;
+    color: $color-green-second;
     background-color: $color-while;
 
   }
@@ -154,9 +154,9 @@ ul {
   color: $color-blue_global;
 }
 .icon-cart{
-  color: $color-while;
+  color: $color-text;
   font-size:1.25rem;
   &:hover{
-    color: $color-yellow;
+    color: $color-green-second;
   }
 }

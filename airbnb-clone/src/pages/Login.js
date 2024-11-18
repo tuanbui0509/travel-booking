@@ -21,7 +21,7 @@ export const Login = () => {
     const ProcceedLogin = (e) => {
         e.preventDefault();
         if (validate()) {
-            fetch(`https://travel-booking-1.onrender.com/api/users?username=${username}`)
+            fetch(`http://localhost:5001/api/users?username=${username}`)
                 .then((res) => res.json())
                 .then((resp) => {
                     const { id, username, password, fullname, email, phone, img } = resp[0]

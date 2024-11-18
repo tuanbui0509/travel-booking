@@ -11,7 +11,7 @@ export const Account = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
-        fetch(`https://travel-booking-1.onrender.com/api/users?username=${username}`)
+        fetch(`http://localhost:5001/api/users?username=${username}`)
             .then((res) => res.json())
             .then((resp) => {
                 setUsername(user.username);
@@ -31,7 +31,7 @@ export const Account = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         const data = { username, fullname, email, phone };
-        fetch(`https://travel-booking-1.onrender.com/api/users/${user.id}`, {
+        fetch(`http://localhost:5001/api/users/${user.id}`, {
             method: "PATCH",
             headers: {
                 'Accept': 'application/json',

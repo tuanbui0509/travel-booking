@@ -55,7 +55,7 @@ export default function SearchHome(prop) {
         src={'https://cdn2.ivivu.com/2023/04/21/10/tour-top-20230421-1-.png'}
         alt="..."
       />
-      <div
+      {/* <div
         className={`container container-search ${isSearchVisible ? '' : 'd-none'
           } ${image ? 'shadow-none' : 'position-absolute translate-middle'}`}
       >
@@ -133,7 +133,7 @@ export default function SearchHome(prop) {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

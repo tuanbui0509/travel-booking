@@ -41,7 +41,7 @@ export default function CommentForm({ content, rating, idTour, commenter }) {
       "date": formattedDate,
       "quantityLike": 0,
     };
-    fetch('https://travel-booking-1.onrender.com/api/comments', {
+    fetch('http://localhost:5001/api/comments', {
       method: 'POST',
       headers: { 'content-type': 'application/json' },
       body: JSON.stringify(comObj),
