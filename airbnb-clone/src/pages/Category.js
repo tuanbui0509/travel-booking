@@ -38,7 +38,6 @@ export default function Category() {
                                     data={areasHotDomestic}
                                 />
                             </div>
-
                         </div>
                         <div className='col-12 col-lg-9'>
                             <div className='container-right'>

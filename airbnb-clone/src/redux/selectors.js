@@ -1,6 +1,4 @@
 import { createSelector } from "@reduxjs/toolkit";
-import { useSelector } from "react-redux";
-
 //export những giá trị trong redux mà chúng ta muốn lấy ra, khi muốn lấy ra chúng ta gọi đến lớp này
 
 export const toursSelector = (state) => state.tours.tours
@@ -9,7 +7,6 @@ export const errorToursSelector = (state) => state.tours.error
 
 export const filtersSelector = (state) => state.filters
 export const arrangementSelector = (state) => state.arrangement.arrangement
-
 
 export const toursRemainingSelector = createSelector(
     toursSelector,
@@ -82,7 +79,7 @@ export const endLocationsSelector = createSelector(
 export const locationHotDomestic = createSelector(
     toursSelector,
     (tours) => {
-        const categoryIdToFilter = 1;
+        const categoryIdToFilter = 2;
 
         // Lọc danh sách các end_location có catagoryId = 1 và loại bỏ giá trị trùng lặp
         const Locations = [...new Set(

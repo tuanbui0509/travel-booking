@@ -92,12 +92,6 @@ export default function Comment({ id }) {
                   <div className='feedback' onClick={() => handleToggleInput(item.id)}>
                     Phản hồi
                   </div>
-                  <div className='quantity-like'>
-                    <div className='number'>{item.quantityLike} </div>
-                    <div className='container-like'>
-                      <ThumbUpAlt />
-                    </div>
-                  </div>
                 </div>
                 {showInput === item.id && (
                   <div className='container-input-feedback'>

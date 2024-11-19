@@ -67,12 +67,10 @@ export default function TourLeft({ data }) {
                   {
                     detail.timeline.map((t, id) => (
                       <div key={id} className='content'>
-                        {t.time && <p><strong>{t.time} :</strong> {t.description}</p>}
+                        {t.time && <p><strong>{t.time === '-' ? '- ' : `${t.time}:`} </strong> {t.description}</p>}
                         {
                           t.image && <img src={t.image} className="img-fluid" alt="..."></img>
                         }
-
-
                       </div>
                     ))
                   }

@@ -571,33 +571,33 @@
             {
               "time": "8h30",
               "description": "Xe đưa quý du khách tham quan tại Aeroco Farm, nằm sát cạnh hồ Eakao thơ mộng nông trại hiện ra như một điểm nhấn trong bức tranh thiên nhiên dân dã, mộc mạc và bình yên của vùng đất Tây Nguyên trù phú. Tại đây, tạo ra những sản phẩm cà phê an toàn cho sức khỏe người tiêu dùng và phát triển bền vững.",
-              "image":"https://imagetravel.vn/wp-content/uploads/2023/12/Aeroco-Farm-.jpg"
+              "image": "https://imagetravel.vn/wp-content/uploads/2023/12/Aeroco-Farm-.jpg"
             },
             {
               "time": "11h00",
               "description": "Đoàn di chuyển tham quan Buôn nhà giàu Ako Dhong. Đây là buôn làng của người Ê–đê có lịch sử lâu đời nhất tại Buôn Ma Thuột, nổi tiếng giàu có với những nhà ngói khang trang, sang trọng.",
-              "image":"https://imagetravel.vn/wp-content/uploads/2023/12/Ako-Dhong.jpg"
+              "image": "https://imagetravel.vn/wp-content/uploads/2023/12/Ako-Dhong.jpg"
             },
             {
               "time": "12h00",
               "description": "Xe đưa quý du khách đến nhà hàng địa phương dùng cơm trưa. Sau đó, khởi hành về TP. Hồ Chí Minh. Kết thúc chương trình company trip Tây Nguyên.",
-              "image":""
+              "image": ""
             }
           ]
         }
       ]
     },
     {
-      "id": 6,
-      "name": "Tour Cao Cấp Phú Quốc 3N2Đ: Grand World - Địa Trung Hải - Cầu Vồng Hoàng Hôn",
-      "image": "https://cdn2.ivivu.com/2023/02/17/11/ivivu-cau-hon-2.gif",
-      "catagoryId": 2,
+      "id": 4,
+      "name": "TOUR KHÁCH GHÉP – TRẢI NGHIỆM 1 NGÀY LÀM NÔNG TẠI CHAVI GARDEN",
+      "image": "https://imagetravel.vn/wp-content/uploads/2023/12/406549314_24763733166551009_3513278431930927070_n.jpg",
+      "catagoryId": 1,
       "areaId": 3,
-      "price_adult": 5490000,
-      "price_child": 3935000,
-      "quantity_date": "3 ngày 2 đêm",
+      "price_adult": 990000,
+      "price_child": 490000,
+      "quantity_date": "1 ngày",
       "start_location": "Hồ Chí Minh",
-      "end_location": "Phú Quốc",
+      "end_location": "Long An",
       "star": "4",
       "quantity": 10,
       "start_date": "22/10/2024",
@@ -646,109 +646,91 @@
         }
       ],
       "description": {
-        "title": "Hành Trình Trải Nghiệm Thành Phố Đảo Ngọc",
-        "content": "Thường được biết đến với tên 'Đảo Ngọc', Phú Quốc sở hữu những bãi biển hoang sơ tuyệt đẹp, sinh vật biển đa dạng và cảnh quan thiên nhiên phong phú được kết hợp tài tình với những cánh rừng tự nhiên, núi, biển và thác nước, sông hồ. Phú Quốc luôn là một trong những điểm nghĩ dưỡng hàng đầu với các khu resort đẳng cấp quốc tế cùng với những khu vui chơi, giải trí quy mô bậc nhất Đông Nam Á như công viên chủ đề Vin Wonders, thành phố không ngủ Grand World, casino Phú Quốc....Ngoài ra, Phú Quốc vẫn còn lưu giữ nhiều di tích văn hóa, lịch sử và các nghề truyền thống hàng trăm năm tuổi như nghề làm nước mắm Phú Quốc trứ danh"
+        "title": "Hành Trình Trải Nghiệm 1 Ngày Làm Nông Tại Chavi Garden",
+        "content": "Du lịch chữa lành trong ngày tại CHAVIEGARDEN. Tặng 1 suất tắm suối khoáng nóng và trải nghiệm mặc đồ bà ba miễn phí."
       },
       "tour_details": [
         {
           "id": 1,
-          "name": "NGÀY 01: PHÚ QUỐC – ĐỊA TRUNG HẢI – CẦU VỒNG HOÀNG HÔN ( ĂN SÁNG, TRƯA, CHIỀU)",
+          "name": "NGÀY 01",
           "timeline": [
             {
-              "time": "Buổi sáng",
-              "description": "Đến sân bay Phú Quốc, xe và Hướng dẫn viên đón Quý khách. Đoàn dùng bữa sáng. Sau đấy viếng thăm Dinh Cậu – Dinh Bà, biểu tượng tín ngưỡng ngư dân địa phương.",
-              "image": "https://cdn2.ivivu.com/2021/04/23/10/ivivu-dinh-cau-phu-quoc.gif"
+              "time": "06:00",
+              "description": "Xe và HDVđón đoàn tại TP.HCM khởi hành chương trình 1 ngày trải nghiệm và cân bằng tại Chavigarden Long An."
             },
             {
-              "time": "Buổi trưa",
-              "description": "Quý khách ăn trưa tại nhà hàng. Sau đó về khách sạn nhận phòng nghỉ ngơi.",
+              "time": "07:00",
+              "description": "Đoàn đến Làng Cổ Phước Lộc Thọ, cùng nhau thưởng thức bữa sáng. Tại đây nổi tiếng với Phở thố đá, ngoài ra quý khách có thể lựa chọn những món ăn khác như hủ tiếu, bánh mì,…",
               "image": ""
             },
             {
-              "time": "14h00",
-              "description": "Tham quan Thiền Viên Trúc Lâm Chùa Hộ Quốc",
-              "image": "https://cdn2.ivivu.com/2020/07/14/17/ivivu-chua-ho-quoc.gif"
-            },
-            {
-              "time": "15h00",
-              "description": "Tham quan Di Tích Lịch Sử Nhà Tù Phú Quốc",
-              "image": "https://cdn2.ivivu.com/2018/04/05/15/ivivu-nha-tu-phu-quoc.jpg"
-            },
-            {
-              "time": "16h00",
-              "description": "Tham quan Nhà Thùng Nước Mắm Phú Quốc",
+              "time": "07:30",
+              "description": "Quý khách tự do check in 3 căn nhà gỗ cổ tượng trưng khắp ba miền Việt Nam với tuổi đời từ 80 đến 150 năm. Chiêm ngưỡng những cổ vật từ thời chúa Nguyễn, vua Bảo Đại.",
               "image": ""
             },
             {
-              "time": "16h30",
-              "description": "Check In Địa Trung Hải – Nhà Ga Cáp Treo",
-              "image": "https://cdn2.ivivu.com/2022/03/07/10/ivivu-thi-tran-dia-trung-hai.gif"
-            },
-            {
-              "time": "17h00",
-              "description": "Check In Cầu Vồng Hoàng Hôn Trên Đảo Ngọc Phú Quốc ( Phí tự túc )",
-              "image": "https://cdn2.ivivu.com/2023/02/17/11/ivivu-cau-hon-2.gif"
-            },
-            {
-              "time": "Bữa tối",
-              "description": "Xe và hướng dẫn viên đưa quý khách đến nhà hàng địa phương dùng cơm tối với nhiều món hải sản đặc sản biển đảo Phú Quốc",
+              "time": "-",
+              "description": "Rời Làng Cổ Phước Lộc Thọ, đoàn đến với Chavigarden và tham gia các trải nghiệm thú vị:",
               "image": ""
             },
             {
-              "time": "Buổi tối",
-              "description": "Sau khi dùng cơm tối quý khách về lại khách sạn nghỉ ngơi, quý khách tự tham quan khám phá đảo ngọc Phú Quốc như tham quan Chợ đêm, đăng ký chương trình câu mực đêm ( Chi phí tự túc )",
-              "image": ""
-            }
-          ]
-        },
-        {
-          "id": 2,
-          "name": "NGÀY 02: VINHOLIDAY FIESTA - GRAND WORLD – VINWONDERS ( ĂN SÁNG, TRƯA)",
-          "timeline": [
-            {
-              "time": "7h30",
-              "description": "Sau bữa sáng tại khách sạn, Quý khách làm thủ tục trả phòng tiếp tục lên xe tham quan: Nông trại nuôi cấy Ngọc Trai Biển Phú Quốc, Vườn Sim Phú Quốc, Hồ tiêu phú quốc.",
-              "image": "https://cdn2.ivivu.com/2020/05/27/12/ivivu-ho-tieu-pq.gif"
-            },
-            {
-              "time": "10h00",
-              "description": "Check in Kiến Trúc Nhà Tre độc đáo tại đảo ngọc tại Grand World",
-              "image": "https://cdn2.ivivu.com/2021/12/14/16/ivivu-nha-tre-lon-phu-quoc.gif"
-            },
-            {
-              "time": "Buổi trưa",
-              "description": "Xe và HDV đưa đoàn dùng cơm trưa tại nhà hàng, sau khi dùng cơm trưa xong quý khách về làm thủ tục nhận phòng khách sạn Vinholidays Fiesta trong hệ thống resort 5 sao tại Vinperl năm ngay trong Thành phố không ngủ Grand World",
+              "time": "-",
+              "description": "Thay đồ bà ba – trang phục mang nét đặc trưng của người dân Nam Bộ",
               "image": ""
             },
             {
-              "time": "Buổi chiều",
-              "description": "Qúy khách tự do hưởng thụ dịch 5 sao tại khách sạn. Hoặc  Quý khách có thể sắp xếp thời gian tham quan thêm Vinwonders hoặc  Safari ( Chi phí tự túc )",
-              "image": "https://cdn2.ivivu.com/2022/10/04/15/ivivu-grand-world-phu-quoc-1.gif"
-            },
-            {
-              "time": "Buổi tối",
-              "description": "Qúy khách tự do ăn tối tại nhà hàng hoặc Chợ đêm trong Grand World. sau khi dùng cơm tối xong đoàn tiếp tục thư giản giải trí tại các quán bar biển chờ đến giờ xem biểu diễn Show diễn triệu đô trên sông Vencia. Về khách sạn nghỉ đêm.",
-              "image": ""
-            }
-          ]
-        },
-        {
-          "id": 3,
-          "name": "NGÀY 03: PHÚ QUỐC  CITY – ĐẶC SẢN BÚN QUẬY-   HẸN GẶP LẠI ( ĂN SÁNG, TRƯA)",
-          "timeline": [
-            {
-              "time": "Buổi sáng",
-              "description": "Quý khách dùng điểm tâm sáng tại khách sạn. Tự do tắm biển tắm hồ bơ tại khách sạn. Đi bộ hoặc xe điện tham quan chụp ảnh Grand world vào ban ngày.",
+              "time": "-",
+              "description": "Checkin vườn hoa trồng trên đất phèn được chăm sóc tỉ mỉ và có quy trình xử lí nước khoa học. Tại đây quý khách sẽ được chiêm ngưỡng vườn hoa giống như một Đà Lạt thu nhỏ",
               "image": ""
             },
             {
-              "time": "Buổi trưa",
-              "description": "Quý khách làm thủ tục trả phòng khách sạn, Xe và hướng dẫn viên đưa Quý khách đến thưởng thức đặc sản nổi tiếng Bún Quậy Phú Quốc.",
+              "time": "-",
+              "description": "Được giới thiệu cách chọn chanh tươi và tự tay hái chanh tại vườn Chavigarden.",
               "image": ""
             },
             {
-              "time": "Buổi chiều",
-              "description": "Sau đó đoàn tiếp tục tham quan Đặc sản Khô Phú Quốc. Đến giờ xe và HDV đưa đoàn ra sân bay hoặc bến tàu Phú Quốc, làm thủ tục lên máy bay lên tàu.Kết thúc chương trình tham quan tại Phú Quốc. Hdv và lái xe Chúc sức khỏe quý khách và hẹn gặp lại.",
+              "time": "-",
+              "description": "Checkin khu vực thiền với nhiều cây xanh dành cho du khách có thể ngồi thiền, tĩnh tâm và thư giãn.",
+              "image": ""
+            },
+            {
+              "time": "-",
+              "description": "Tự do tản bộ dưới bóng mát của Con đường trúc mang sự yên bình khó mà có thể tìm được ở thành phố xô bồ, ồn ào.",
+              "image": ""
+            },
+            {
+              "time": "-",
+              "description": "Cùng nhau chụp muôn vàn kiểu ảnh với hàng trăm góc sống sảo siêu xịn, độc đáo chỉ có tại Chavigarden.",
+              "image": ""
+            },
+            {
+              "time": "-",
+              "description": "Giải khát, thanh nhiệt cùng với nước chanh, trà chanh, thanh long được sản xuất ngay tại Cơ sở Chavigarden.",
+              "image": ""
+            },
+            {
+              "time": "-",
+              "description": "Cân bằng thân tâm trí hoàn hảo thông qua liệu trình tắm suối, ngâm khoáng nóng, tắm với lá thuốc cổ truyền của người Dao đỏ, tắm trắng với nguyên liệu đặc trưng của Chavigarden là chanh Mỹ.",
+              "image": "https://imagetravel.vn/wp-content/uploads/2023/12/406549314_24763733166551009_3513278431930927070_n.jpg"
+            },
+            {
+              "time": "12:00",
+              "description": "Quý khách thưởng thức bữa trưa với những món ăn được làm từ các nguyên liệu đặc trưng tại Chavigarden như Gỏi gà lá Chanh Mỹ, Lẩu Đông Trùng Hạ Thảo.",
+              "image": ""
+            },
+            {
+              "time": "13:30",
+              "description": "Tạm biệt Chavigarden, đoàn di chuyển đến các khu vườn trái cây của người dân địa phương như vườn ổi, ruộng thơm, vườn đu đủ, … Quý khách được tự tay thu hoạch những quả ổi, quả thơm mà chính mình lựa chọn. Cùng nhau thưởng thức trái cây tươi ngon ngay tại vườn.",
+              "image": "https://imagetravel.vn/wp-content/uploads/2023/12/vuon-oi-nu-hoang.jpg"
+            },
+            {
+              "time": "14:00",
+              "description": "Chia tay với sự hào sảng và mến khách của những người nông dân vùng đất Long An, quý khách lên xe và khởi hành về lại TP.HCM.",
+              "image": ""
+            },
+            {
+              "time": "-",
+              "description": "Kết thúc chương trình 1 ngày trải nghiệm và cân bằng tại Chavigarden Long An.",
               "image": ""
             }
           ]
@@ -756,19 +738,19 @@
       ]
     },
     {
-      "id": 7,
-      "name": "Tour Đà Nẵng 4N3Đ: Sơn Trà - Hội An - Bà Nà (Cầu Vàng) - Huế",
-      "image": "https://cdn2.ivivu.com/2021/05/07/10/ivivu-ba-na-hill.gif",
+      "id": 5,
+      "name": "Tour Pù Luông 2 ngày 1 đêm",
+      "image": "https://haivanxanh.com/wp-content/uploads/pu-luong-mua-lua-chin-3.jpg",
       "catagoryId": 2,
       "areaId": 1,
-      "price_adult": 3050000,
-      "price_child": 1525000,
-      "quantity_date": "4 ngày 3 đêm",
-      "start_location": "Đà Nẵng",
-      "end_location": "Huế",
+      "price_adult": 1650000,
+      "price_child": 1150000,
+      "quantity_date": "2 ngày 1 đêm",
+      "start_location": "Hà Nội",
+      "end_location": "Thanh Hoá",
       "star": "4",
       "quantity": 10,
-      "start_date": "21/06/2024",
+      "start_date": "21/11/2024",
       "vehicle": [
         {
           "id": 1,
@@ -802,100 +784,78 @@
         }
       ],
       "description": {
-        "title": "Chinh phục cung đường di sản miền Trung",
-        "content": "Miền Trung, dải đất thân thương nối liền hai miền Nam - Bắc của Việt Nam. “Cung đường di sản miền Trung” sẽ kết nối du khách với các di sản văn hóa của nhân loại được UNESCO công nhận bao gồm: Huế với hai di sản là Quần thể di tích Cố đô Huế và Nhã Nhạc cung đình; Quảng Nam với hai di sản là Thánh địa Mỹ Sơn và đô thị cổ Hội An. Trên mỗi bước đi, du khách còn có thể khám phá cho mình nhiều điểm đến hấp dẫn: Bà Nà Hill, Làng Chài Lăng Cô, và nhiều bãi tắm tuyệt đẹp: Cửa Đại, Non Nước, Lăng Cô, Nhật Lệ, cùng với những nét ẩm thực độc đáo của Miền Trung. Cùng iVIVU khám phá cung đường tuyệt vời này ngay hôm nay!"
+        "title": "Vẻ đẹp mê hồn của những thửa ruộng bậc thang",
+        "content": "Pù Luông, một điểm đến còn hoang sơ với vẻ đẹp mê hồn của những thửa ruộng bậc thang, những mái nhà tranh với khói bếp lam chiều, hay dong thác nước mát lành… Nếu bạn đang tìm kiếm những giây phút nghỉ ngơi thực sự, tour Pù Luông 2 ngày 1 đêm sẽ đưa bạn khám phá Pù Luông hoang sơ và xinh đẹp, những bản người Thái nguyên sơ, giản dị, hay thác Hươu nên thơ."
       },
       "tour_details": [
         {
           "id": 1,
-          "name": "NGÀY 01: ĐÓN KHÁCH – SƠN TRÀ - ĐÀ NẴNG (ĂN TRƯA, TỐI)",
+          "name": "Ngày 1: HÀ NỘI – PÙ LUÔNG (Ăn trưa, tối)",
           "timeline": [
             {
-              "time": "Sáng",
-              "description": " Đón quý khách tại Đà Nẵng (Sân bay, Ga, điểm hẹn trung tâm) từ 07h00 đến 13h00 (Sau thời gian này, quý khách tự túc nhập đoàn). Xe đưa đi ăn trưa đặc sản nổi tiếng Đà Nẵng “Bánh tráng thịt heo 2 đầu da & Mỳ Quảng”.",
+              "time": "07:00 – 07:30",
+              "description": " Xe và hdv đón khách tại khách sạn khu vực phố cổ hoặc tại điểm hẹn, khởi hành đi Pù Luông – Thanh Hóa. Đoàn dừng nghỉ ăn sáng trên đường đi (Chi phí tự túc).",
               "image": "https://cdn2.ivivu.com/2018/08/23/15/ivivu-banh-trang-thit-heo-2-dau-da.jpg"
             },
             {
-              "time": "Chiều",
-              "description": "Khởi hành đến Bán Đảo Sơn Trà – Rừng già giữa lòng phố trẻ viếng Linh Ứng Tự - nơi có tượng Phật Bà 67m hướng ra biển Đông.",
-              "image": "https://cdn2.ivivu.com/2017/09/20/10/ivivu-chua-linh-ung.jpg"
+              "time": "-",
+              "description": "Trên đường đi, đoàn dừng nghỉ và chụp hình tại Thung Khe – đèo đá trắng. Thưởng ngoạn toàn cảnh thung lũng thơ mộng và yên bình, cung đèo hiểm trở, nơi ngắm cảnh đẹp nhất tỉnh Hòa Bình.",
+              "image": "https://haivanxanh.com/wp-content/uploads/pu-luong-mua-lua-chin.jpg"
             },
             {
-              "time": "Tối",
-              "description": " Ăn tối nhà hàng. Tự do trải nghiệm Công viên Châu Á - Asia Park Đà Nẵng là sự kết hợp những nét độc đáo, mới lạ của các mô hình giải trí trên thế giới với những nét văn hóa đặc sắc đậm chất Á Đông.",
-              "image": "https://cdn2.ivivu.com/2017/09/20/10/ivivu-chua-linh-ung.jpg"
+              "time": "-",
+              "description": "Tiếp tục hành trình đến Pù Luông, quý khách sẽ chiêm ngưỡng những thửa ruộng bậc thang mùa lúa, ngắm nhìn khu bảo tồn thiên nhiên Pù Luông hùng vĩ và nguyên sơ.",
+              "image": "https://haivanxanh.com/wp-content/uploads/ruong-bac-thang-pu-luong.jpg"
+            },
+            {
+              "time": "13:00",
+              "description": "Quý khách đến với khu bảo tồn thiên nhiên Pù Luông, dùng bữa trưa tại homestay và nhận phòng nghỉ ngơi.",
+              "image": "https://image.vietgoing.com/editor/image_wvf1636883278.jpg"
+            },
+            {
+              "time": "Chiều",
+              "description": "Quý khách thăm quan ruộng bậc thang Bản Báng là ngôi làng của người dân tộc Thái đen nằm giữa thung lũng yên bình của khu bảo tồn thiên nhiên quốc gia Pù Luông. Nơi này được bao bọc xung quanh bởi hững cánh đồng ruộng bậc thang đang vào mùa lúa chín nằm xen kẽ với những tảng đá lớn tạo thành một bức tranh yên bình giữa núi rừng Pù Luông. Tại đây, quý khách có thể đi bộ và thả hồn vào thiên nhiên giữa những cánh đồng ruộng bậc thang bao la.",
+              "image": "https://s-aicmscdn.vietnamhoinhap.vn/vnhn-media/21/4/12/img_2021-04-12_1618205598.jpg"
+            },
+            {
+              "time": "19:00",
+              "description": "Quý khách dùng bữa tối với những món ăn đặc sản của núi rừng và thưởng thức không gian yên tĩnh nơi núi rừng.",
+              "image": "https://puluongbocbandiretreat.com/UploadFile/Blog/Am-thuc-pu-luong--thu-qua-dan-da-cua-vung-nui-tay-bac/a5.jpg"
+            },
+            {
+              "time": "22:00",
+              "description": "Nghỉ đêm tại nhà sàn homestay hoặc bungalow.",
+              "image": ""
             }
           ]
         },
         {
           "id": 2,
-          "name": "NGÀY 02: NGŨ HÀNH SƠN – PHỐ CỔ HỘI AN (ĂN SÁNG, TRƯA, TỐI)",
+          "name": "NGÀY 02: PÙ LUÔNG – HÀ NỘI (Ăn sáng, trưa)",
           "timeline": [
             {
               "time": "Sáng",
-              "description": "Điểm tâm. Vòng qua Cầu Rồng lưu lại dấu ấn trên Cầu Tình Yêu, tản bộ thưởng thức không khí trong lành bên bờ Hàn Giang với tượng Cá Chép Hóa Long - Biểu tượng mong muốn vươn lên của người Đà Nẵng.Tham quan Cụm danh thắng di tích Ngũ Hành Sơn và Làng Nghề Điêu Khắc Đá. Mua sắm đặc sản Quà Miền Trung",
-              "image": "https://cdn2.ivivu.com/2017/09/20/10/ivivu-cau-rong.jpg"
+              "description": "Quý khách dậy sớm tận hưởng không khí trong lành của làng quê ngắm bình minh lấp ló sau những cánh núi.",
+              "image": "https://o.rada.vn/data/image/2021/09/09/Binh-minh-700.jpg"
             },
             {
-              "time": "Trưa",
-              "description": "Ăn trưa nhà hàng.",
+              "time": "9.00",
+              "description": "Xe đưa quý khách đến điểm bắt đầu của hành trình đi bộ khám phá bản làng. Đi bộ theo những con đường nhỏ xuyên qua những cánh đồng ruộng bậc thang, cây cầu treo để thăm ngôi làng hẻo lánh của người Thái. Quý khách thăm quan ngôi nhà cổ truyền thống của người Thái để hiểu hơn về cuộc sống của người dân bản địa. Ngắm những bánh xe nước khổng lồ và trang trại nuôi vịt để hiểu hơn về nông nghiệp của người dân nơi đây trước khi tham gia chèo bè tre trên dòng sông Chăm.",
+              "image": "https://haivanxanh.com/wp-content/uploads/pu-luong-3.jpg"
+            },
+            {
+              "time": "12:00",
+              "description": "Quý khách lên xe để trở về homestay, trả phòng và dùng bữa trưa.",
               "image": ""
             },
             {
-              "time": "Chiều",
-              "description": " Khởi hành vào Hội An bách bộ tham quan và mua sắm Phố Cổ với: Chùa Cầu Nhật Bản, Nhà Cổ hàng trăm năm tuổi, Hội Quán Phước Kiến & Xưởng thủ công mỹ nghệ.",
-              "image": "https://cdn2.ivivu.com/2021/05/07/10/ivivu-hoi-an.gif"
-            },
-            {
-              "time": "Tối",
-              "description": "Ăn tối nhà hàng. Tự do thưởng ngoạn du thuyền trên sông Hàn ngắm cảnh Đà Thành về đêm, chụp ảnh Cầu Quay Sông Hàn, cầu Rồng phun lửa và nước vào cuối tuần.",
-              "image": "https://cdn2.ivivu.com/2022/07/01/09/ivivu-bar-radission.gif"
-            }
-          ]
-        },
-        {
-          "id": 3,
-          "name": "NGÀY 03: BÀ NÀ - CỐ ĐÔ HUẾ (ĂN SÁNG, TỐI)",
-          "timeline": [
-            {
-              "time": "Sáng",
-              "description": "Điểm tâm. Khởi hành đi Bà Nà - Núi Chúa (Tự túc chi phí Option Bà Nà theo giá của SunGroup)Quý khách sẽ tận hưởng cảm giác bồng bền khi ngồi trên Cabin lơ lững giữa chừng mây. Viếng chùa Linh Ứng với tượng Phật Thích Ca cao 27m, viếng đền thờ Bà Chúa Mẫu Thượng Ngàn. Tham quan Cầu vàng - HOT Cây cầu độc đáo nằm trong vườn Thiên Thai ở Bà Nà Hill - được xây dựng trên độ cao 1.400m so với mặt nước biển, cây cầu gồm 8 nhịp và có độ dài là 150m. Cây cầu được nâng đỡ bởi đôi bàn tay khổng lồ. Người đi như lạc giữa tiên cảnh nơi có mây, trời bao la. Tham gia vui chơi tại công viên Fantasy Park: với các trò chơi phiêu lưu mới lạ như: Vòng Quay Tình Yêu, Phi Công Skiver, Đường Đua Lửa, Ngôi Nhà Ma và Khu trưng bày hơn 40 tượng sáp những nhân vật nổi tiếng trên thế giới.",
-              "image": "https://cdn2.ivivu.com/2021/05/07/10/ivivu-ba-na-hill.gif"
-            },
-            {
-              "time": "Trưa",
-              "description": "Ăn trưa nhà hàng.",
+              "time": "14.30",
+              "description": "Đoàn lên xe trở về Hà Nội.",
               "image": ""
             },
             {
-              "time": "Chiều",
-              "description": "Khởi hành đi Cố Đô Huế - Di sản văn hoá Thế Giới, xuyên hầm đường bộ đèo Hải vân, dừng chân chụp ảnh làng Chài Lăng Cô.",
-              "image": "https://cdn2.ivivu.com/2018/12/06/17/ivivu-lang-chai-lang-co.jpg"
-            },
-            {
-              "time": "Tối",
-              "description": "Ăn tối nhà hàng với đặc sản xứ Huế (Bánh bèo, lọc, nậm, khoái,...). Ngồi thuyền Rồng nghe Ca Huế và thả hoa đăng cầu may trên dòng Hương Giang thơ mộng",
-              "image": "https://cdn2.ivivu.com/2022/07/01/09/ivivu-bar-radission.gif"
-            }
-          ]
-        },
-        {
-          "id": 4,
-          "name": "NGÀY 04: ĐẠI NỘI – CHÙA THIÊN MỤ - TIỄN KHÁCH (ĂN SÁNG, TRƯA)",
-          "timeline": [
-            {
-              "time": "Sáng",
-              "description": "Điểm tâm. Trả phòng. Khởi hành tham quan:Đại Nội - Hoàng cung triều Nguyễn, tham quan Ngọ Môn, Điện Thái Hòa, Tử Cấm Thành, Thế Miếu, Hiển Lâm Các, Cửu Đỉnh,...",
-              "image": "https://cdn2.ivivu.com/2018/05/14/17/ivivu-dai-noi-hue.jpg"
-            },
-            {
-              "time": "Trưa",
-              "description": "Ăn trưa nhà hàng tại Huế.",
-              "image": ""
-            },
-            {
-              "time": "Chiều",
-              "description": "Tiễn quý khách ra sân bay Huế (các chuyến sau 15h00).Và sân bay Đà Nẵng (các chuyến sau 17h00)",
+              "time": "19:30",
+              "description": "Về đến điểm đón ban đầu. Kết thúc chương trình.",
               "image": ""
             }
           ]
@@ -903,23 +863,23 @@
       ]
     },
     {
-      "id": 8,
-      "name": "Tour Limosine Cao Cấp Phan Thiết 2N1Đ: Tà Kú - Bikini Beach - Circus Land",
-      "image": "https://cdn2.ivivu.com/2022/03/09/16/ivivu-kdl-nui-ta-cu.gif",
-      "catagoryId": 3,
+      "id": 6,
+      "name": "Tour Du lịch Mai Châu 2 ngày 1 đêm",
+      "image": "https://haivanxanh.com/wp-content/uploads/ban-lac-mai-chau-2.jpg",
+      "catagoryId": 2,
       "areaId": 1,
-      "price_adult": 2390000,
-      "price_child": 1900000,
+      "price_adult": 850000,
+      "price_child": 450000,
       "quantity_date": "2 ngày 1 đêm",
-      "start_location": "Hồ Chí Minh",
-      "end_location": "Phan Thiết",
+      "start_location": "Hà Nội",
+      "end_location": "Hoà Bình",
       "star": "4",
-      "quantity": 15,
-      "start_date": "24/10/2024",
+      "quantity": 10,
+      "start_date": "21/11/2024",
       "vehicle": [
         {
           "id": 1,
-          "nameVehicle": "Xe Limousine"
+          "nameVehicle": "Ô tô"
         }
       ],
       "tour_services": [
@@ -934,97 +894,431 @@
         {
           "id": 3,
           "nameService": "Xe đưa đón"
+        },
+        {
+          "id": 4,
+          "nameService": "Bữa ăn"
+        },
+        {
+          "id": 5,
+          "nameService": "Khách sạn 4*"
+        },
+        {
+          "id": 6,
+          "nameService": "Vé tham quan"
         }
       ],
       "description": {
-        "title": "Phan Thiết - Hương Vị Của Biển",
-        "content": "Xe Limousine hay được gọi là “Chuyên Cơ Mặt Đất” Xe Limousine là dòng xe hiện đại, tối ưu và sang trọng, được cải tiến từ những chiếc xe du lịch 40 chỗ thành những chiếc xe 20 chỗ sang trọng, xe du lịch 29 chỗ thành 18-20 chỗ. Xe Limousine được áp dụng phục vụ cho hành khách tuyến đường dài để đảm bảo sự nghỉ ngơi và thoải mái khi đi trên xe. Cả nội thất bên trong của các xe đều được lắp đặt các thiết bị hiện đại và tiện ích nhất cho các trải nghiệm của hành khách.Thiên nhiên dường như quá ưu đãi cho bờ biển Phan Thiết, bởi nó chứa đựng những điều cuốn hút du khách, biển xanh, cát trắng, rặng dừa xanh,…đã tạo cho Phan Thiết sức hấp dẫn khó cưỡng cho những ai yêu biển, yêu cái nắng vàng trên cát. Ngỡ như khô cằn nhưng lại vô cùng lãng mạn. Đừng nghĩ Phan Thiết không có gì để khám phá, thật ra nó là một điểm nghĩ dưỡng sau những ngày làm mệt mỏi, căng thẳng nơi phố thị vô cùng hữu hiệu, là nơi để bạn và gia đình thư giãn vào những ngày hè oi bức, gắn kết tình thân hay là nơi trăng mật vô cùng lãng mạn."
+        "title": "Cảnh vật hữu tình và nét văn hóa đặc sắc của người dân tộc",
+        "content": "Thung lũng Mai Châu nổi tiếng với vẻ đẹp bình dị, tự nhiên; thiên nhiên và con người gần gũi, thân thiện. Đến với nơi đây, quý khách sẽ được thoát khỏi sự ồn ào, bụi bặm của chốn thành thị và cảm nhận thiên nhiên trong lành, cảnh vật hữu tình và nét văn hóa đặc sắc của người dân tộc. Cùng du lịch Mai Châu để khám phá và tìm hiểu về cuộc sống nơi đây."
       },
       "tour_details": [
         {
           "id": 1,
-          "name": "NGÀY 1: TP. HCM – PHAN THIẾT - KDL NÚI TÀ CÚ – TẮM BIỂN ( ĂN SÁNG, TRƯA)",
+          "name": "Ngày 1: HÀ NỘI – MAI CHÂU (Ăn trưa, tối)",
           "timeline": [
             {
-              "time": "Buổi sáng: 05h00",
-              "description": "Xe và hướng dẫn viên đón khách tại điểm hẹn, khởi hành đi Phan Thiết.",
-              "image": "https://cdn2.ivivu.com/2021/03/23/15/ivivu-xe-limousine.gif"
+              "time": "08:00",
+              "description": "Xe và HDV đón quý khách tại điểm hẹn khởi hành đi Mai Châu. Trên đường đi quý khách dừng chân tại thị trấn Xuân Mai, nghỉ ngơi và tự do ăn sáng.",
+              "image": "https://tinbds.com/images/place/0/c8s.jpg"
             },
             {
-              "time": "07h30",
-              "description": "Đoàn dùng điểm tâm sáng tại Nhà hàng.",
-              "image": ""
+              "time": "11h00",
+              "description": "Xe đến đèo Thung Khe – Hòa Bình. Quý khách nghỉ ngơi, chụp ảnh và ngắm cảnh núi rừng Hòa Bình. Dừng chân nơi đây, quý khách sẽ thấy một khung cảnh đẹp hết sức bình dị với những người dân địa phương bán các món ăn dân giã như ngô luộc, mía tía, cơm lam, cải mèo. Ở Thung Khe – Hòa Bình một ngày như có bốn mùa. Sáng trong trẻo, trưa chói chang, chiều dìu dịu và khi màn đêm buông xuống là sương mù dày đặc.",
+              "image": "https://image.vietgoing.com/editor/image_exa1623759550.jpg"
             },
             {
-              "time": "10h30",
-              "description": "Đến Phan Thiết, xe đưa đoàn tham quan KDL Núi Tà Cú, du khách đi cáp treo lên đỉnh núi độ cao 505m, tham quan quần thể di tích chùa tháp, tượng Phật và hang động. Đặc biệt là “Song Lâm Thị tịch” – tượng Phật Thích Ca nhập niết bàn dài 49m, cao 11m và bộ tượng Tam Thế Phật được xếp hạng Di tích lịch sử – Văn hoá Quốc gia. (chi phí cáp treo tự túc)",
-              "image": "https://cdn2.ivivu.com/2022/03/09/16/ivivu-kdl-nui-ta-cu.gif"
+              "time": "",
+              "description": "",
+              "image": "https://gaohouse.vn/wp-content/uploads/2024/01/deo-thung-khe-2.jpg"
+            },
+            {
+              "time": "",
+              "description": "",
+              "image": "https://haivanxanh.com/wp-content/uploads/nha-san-mai-chau1.jpg"
             },
             {
               "time": "12h00",
-              "description": "Đoàn dùng cơm tại nhà hàng dưới chân núi.",
-              "image": "https://cdn2.ivivu.com/2021/03/18/10/ivivu-khu-du-lich-nui-ta-cu.gif"
+              "description": "Quý khách đến bản Lác – Mai Châu. Quý khách nghỉ ngơi, dùng bữa trưa với những món ăn truyền thống mang hương vị của núi rừng.",
+              "image": "https://s-aicmscdn.vietnamhoinhap.vn/vnhn-media/21/4/12/img_2021-04-12_1618205598.jpg"
             },
             {
-              "time": "13h00",
-              "description": "Đoàn di chuyển đến resort nhận phòng nghỉ ngơi. Quý khách có thể tắm biển tự do hoặc thư giãn tại resort.",
-              "image": ""
+              "time": "13h30",
+              "description": "Quý khách bắt đầu khám phá thung lũng Mai Châu, thăm những ngôi nhà sàn nhỏ xinh của người Thái để tìm hiểu những nét văn hóa, phong tục tập quán độc đáo của họ. Hướng dẫn viên sẽ đưa bạn tới thăm những gian hàng thổ cẩm, cùng học cách dệt thổ cẩm, khá, quý khách có thể tự do mua sắm quà tặng lưu niệm cho người thân và chụp hình cùng người dân bản địa .",
+              "image": "https://media.gody.vn/images/hoa-binh/thung-lung-mai-chau/10-2016/20161022033402-thung-lung-mai-chau-gody(22).jpg"
             },
             {
-              "time": "Buổi tối",
-              "description": "Qúy khách tự do thưởng thức hải sản tại Phan Thiết (bữa tối tự túc), nghỉ ngơi tại resort, tự do khám phá Phan Thiết về đêm. Hoặc qúy khách có thể đăng kí tham gia chương trình Fishermen Show.",
+              "time": "19h00",
+              "description": "Quý khách dùng bữa tối tại nhà sàn truyền thống của người Thái.",
+              "image": "https://cdn.eva.vn/upload/1-2018/images/2018-03-14/1521038268-557-chum-anh-nhung-mon-an-dan-toc-doc-dao-cua-nguoi-thai-trang-quynh-nhai-lam-say-dam-long-nguoi-1-1520749944-width720height540-1521038268-width720height540.jpg"
+            },
+            {
+              "time": "20h30",
+              "description": "Sau bữa tối, Quý khách tham gia chương trình Gala Dinner hoặc lửa trại do HVG tổ chức cùng người dân địa phương.  Quý khách giao lưu văn nghệ, múa hát của các chàng trai, cô gái dân tộc Thái, uống rượu cần và đốt lửa trại",
+              "image": "https://haivanxanh.com/wp-content/uploads/dot-lua-trai.jpg"
+            },
+            {
+              "time": "",
+              "description": "Quý khách ngủ đêm tại nhà sàn truyền thống của người Thái.",
               "image": ""
             }
           ]
         },
         {
           "id": 2,
-          "name": "CHƯƠNG TRÌNH ĐẶC BIỆT: THAM DỰ FISHERMEN SHOW",
+          "name": "NGÀY 02: MAI CHÂU – HÀ NỘI (Ăn sáng, trưa)",
           "timeline": [
             {
-              "time": "Buổi tối",
-              "description": "Fishermen Show – Huyền Thoại Làng Chài (chi phí tự túc: 300.000đ – 500.000đ/vé tùy vị trí ghế ngồi) Show vũ kịch đương đại trên sân khấu nhạc nước, ĐẦU TIÊN và DUY NHẤT tại VIỆT NAM.Thời lượng: 1 tiếng, bao gồm phần giải trí và 6 chương múa của 25 diễn viên trên sân khấu nhạc nước.",
-              "image": "https://cdn2.ivivu.com/2020/11/26/11/ivivu-nhac-nuoc-fishermen-show.gif"
+              "time": "7:00",
+              "description": "Quý khách thức dậy ngắm cảnh bình minh, tận hưởng những giây phút tĩnh lặng, yên bình. Sau đó quý khách ăn sáng tại nhà sàn.",
+              "image": "https://haivanxanh.com/wp-content/uploads/ve-dep-mai-chau.jpg"
             },
             {
-              "time": "0h00",
-              "description": "Nghỉ đêm tại Phan Thiết.",
+              "time": "9:00",
+              "description": "Quý khách đi thăm khu chợ địa phương trong thị trấn Mai Châu, mua những sản vật địa phương về làm quà cho người thân. Sau đó, quý khách tiếp tục thăm hang Chiều với vẻ đẹp hoang sơ, bí ẩn, khi leo 1000 bậc đá quý khách có thể chiêm ngưỡng phong cảnh thị trấn Mai Châu thanh bình.",
+              "image": "https://reviewvilla.vn/wp-content/uploads/2022/06/Dia-diem-du-lich-Mai-Chau-11.jpg"
+            },
+            {
+              "time": "12:00",
+              "description": "Quý khách ăn trưa tại bản Lác, sau đó tự do khám phá, nghỉ ngơi",
+              "image": ""
+            },
+            {
+              "time": "15:00",
+              "description": "Quý khách lên xe khởi hành về Hà Nội.",
+              "image": ""
+            },
+            {
+              "time": "18:30",
+              "description": "Xe đưa quý khách về tới Hà Nội. Kết thúc chương trình, chia tay quý khách và hẹn gặp lại.",
+              "image": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Tour Chinh phục Fansipan 2 ngày 1 đêm",
+      "image": "https://haivanxanh.com/wp-content/uploads/fansipan.jpg",
+      "catagoryId": 2,
+      "areaId": 1,
+      "price_adult": 1390000,
+      "price_child": 890000,
+      "quantity_date": "2 ngày 1 đêm",
+      "start_location": "Hà Nội",
+      "end_location": "Sapa",
+      "star": "4",
+      "quantity": 10,
+      "start_date": "21/11/2024",
+      "vehicle": [
+        {
+          "id": 1,
+          "nameVehicle": "Ô tô"
+        }
+      ],
+      "tour_services": [
+        {
+          "id": 1,
+          "nameService": "Bảo hiểm"
+        },
+        {
+          "id": 2,
+          "nameService": "Hướng dẫn viên"
+        },
+        {
+          "id": 3,
+          "nameService": "Xe đưa đón"
+        },
+        {
+          "id": 4,
+          "nameService": "Bữa ăn"
+        },
+        {
+          "id": 5,
+          "nameService": "Khách sạn 4*"
+        },
+        {
+          "id": 6,
+          "nameService": "Vé tham quan"
+        }
+      ],
+      "description": {
+        "title": "Chinh phục đỉnh Fansipan là niềm đam mê và khao khát của tất cả những ai ưa mạo hiểm, thử thách",
+        "content": "Được mệnh danh là nóc nhà Đông Dương, chinh phục đỉnh Fansipan là niềm đam mê và khao khát của tất cả những ai ưa mạo hiểm, thử thách. Trong chặng đường chinh phục đỉnh Fansipan, quý khách sẽ được hòa mình với thiên nhiên núi rừng Tây Băc, chiêm ngưỡng sắc hoa đỗ quyên, rừng Vân Sam cổ thụ, khám phá vẻ đẹp của thác Vàng, thác Tình yêu, rừng trúc... Tour chinh phục đỉnh Fansipan là một chặng đường khó khăn những chắc chắn sẽ mang đến cho quý khách những trải nghiệm thú vị và đáng nhớ trong đời."
+      },
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "Đêm ngày 1: HÀ NỘI – LÀO CAI",
+          "timeline": [
+            {
+              "time": "21h00",
+              "description": "Quý khách có mặt tại ga Trần Quý Cáp làm thủ tục đi Lào Cai, nghỉ đêm trên tàu.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Ngày 1: LÀO CAI – FANSIPAN (Ăn sáng, trưa, tối)",
+          "timeline": [
+            {
+              "time": "Sáng",
+              "description": " Xe và HDV đón quý khách tại ga Lào Cai về khách sạn gửi đồ và ăn sáng.",
+              "image": ""
+            },
+            {
+              "time": "8h30",
+              "description": "Xe đưa quý khách khởi hành đi Trạm Tôn – thuộc khu bảo tồn thiên nhiên Hoàng Liên Sơn ở độ cao 1.800m so với mực nước biển. Quý khách theo đường rừng trúc bắt đầu chinh phục đỉnh Fansipan.",
+              "image": ""
+            },
+            {
+              "time": "12h00",
+              "description": "Quý khách ăn trưa dọc đường tại điểm nghỉ chân 2.200m (picnic lunch).",
+              "image": ""
+            },
+            {
+              "time": "Chiều + Tối",
+              "description": "Quý khách tiếp tục cuộc hành trình, đi xuyên qua các dãy núi và sẽ dừng chân dựng lều nghỉ ngơi ở độ cao 2.800m. Quý khách ăn tối cùng bạn bè người thân trong cái lạnh về đêm giữa lưng chừng núi sẽ là một kỷ niệm khó quên. Nghỉ đêm trong lều.",
+              "image": "https://haivanxanh.com/wp-content/uploads/leo-fansipan.jpg"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "NGÀY 02: FANSIPAN – HÀ NỘI ( Ăn sáng, trưa)",
+          "timeline": [
+            {
+              "time": "5h30",
+              "description": "Quý khách dậy sớm ăn sáng. Sau đó, Quý khách tiếp tục hành trình chinh phục đỉnh cao Fansipan cao 3.143m.",
+              "image": ""
+            },
+            {
+              "time": "9h30",
+              "description": "Quý khách có mặt trên đỉnh Fansipan chụp ảnh lưu niệm và ăn mừng chiến thắng. Sau đó, quý khách quay lại độ cao 2.800m.",
+              "image": "https://haivanxanh.com/wp-content/uploads/fansipan1.jpg"
+            },
+            {
+              "time": "11h00",
+              "description": "Quý khách ăn trưa taị độ cao 2.800m.",
+              "image": "https://tmtravel.vn/wp-content/uploads/2023/08/image_unu1621593768-768x432.jpg"
+            },
+            {
+              "time": "12h00",
+              "description": "Sau bữa trưa, quý khách trở về Sapa theo đường rừng trúc.",
+              "image": ""
+            },
+            {
+              "time": "16h30",
+              "description": "Quý khách về tới Trạm Tôn, xe đưa quý khách về Sapa tắm nóng lạnh.",
+              "image": ""
+            },
+            {
+              "time": "17h30",
+              "description": "Xe đưa quý khách ra ga Lào Cai. Quý khách tự do ăn tối tại nhà hàng. Sau đó, quý khách lên tàu trở về Hà Nội.",
+              "image": ""
+            },
+            {
+              "time": "-",
+              "description": "Quý khách về đến Hà Nội. Kết thúc chương trình tour Fansipan 2 ngày. HDV chia tay và hẹn gặp lại quý khách.",
+              "image": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Tour Buôn Ma Thuột – Buôn Đôn – Gia Lai – Kon Tum 4 ngày 3 đêm",
+      "image": "https://haivanxanh.com/wp-content/uploads/thac-tay-nguyen.jpg",
+      "catagoryId": 2,
+      "areaId": 1,
+      "price_adult": 3350000,
+      "price_child": 2850000,
+      "quantity_date": "4 ngày 3 đêm",
+      "start_location": "Hồ Chí Minh",
+      "end_location": "Tây Nguyên",
+      "star": "4",
+      "quantity": 10,
+      "start_date": "21/11/2024",
+      "vehicle": [
+        {
+          "id": 1,
+          "nameVehicle": "Ô tô"
+        }
+      ],
+      "tour_services": [
+        {
+          "id": 1,
+          "nameService": "Bảo hiểm"
+        },
+        {
+          "id": 2,
+          "nameService": "Hướng dẫn viên"
+        },
+        {
+          "id": 3,
+          "nameService": "Xe đưa đón"
+        },
+        {
+          "id": 4,
+          "nameService": "Bữa ăn"
+        },
+        {
+          "id": 5,
+          "nameService": "Khách sạn 4*"
+        },
+        {
+          "id": 6,
+          "nameService": "Vé tham quan"
+        }
+      ],
+      "description": {
+        "title": "Mảnh đất hùng vĩ đầy nắng gió",
+        "content": "Tây Nguyên - mảnh đất hùng vĩ đầy nắng gió, là nơi đã sản sinh ra những người anh hùng đi vào huyền thoại và viết nên những bản trường ca bất tận truyền mãi tới muôn đời sau. Đến nơi đây, quý khách sẽ được khám phá vẻ đẹp đặc trưng Tây Nguyên với ngọn thác hùng vĩ Dray Nur, những mái nhà rông… thưởng thức ly cà phê Ban Mê quyến rũ và được trải nghiệm cưỡi voi , hòa mình trong không gian văn hóa cồng chiêng độc đáo. Chắc chắn chuyến du lịch Tây nguyên sẽ mang đến cho quý khách nhiều cảm xúc và trải nghiệm mới mẻ, thú vị."
+      },
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "ngày 1: BUÔN MA THUỘT – THÁC DRAY NUR– LÀNG ĐẢO BUÔN ĐÔN (Ăn trưa, tối)",
+          "timeline": [
+            {
+              "time": "Sáng",
+              "description": "Xe và HDV đón Quý khách tại Sân Bay/Bến Xe Buôn Mê Thuột. Xe đưa quý khách tham quan Thác Dray Nur (thác khói) – một trong những ngọn thác đẹp và hùng vĩ nhất Tây Nguyên. Đến nơi, Quý khách tự do tham quan và chụp ảnh lưu niệm tại Thác và thưởng thức hương vị nồng nàn của ly cà phê Ban Mê.",
+              "image": "https://haivanxanh.com/wp-content/uploads/thac-tay-nguyen.jpg"
+            },
+            {
+              "time": "11h30",
+              "description": "Quý khách ăn cơm trưa tại nhà hàng ở Buôn Đôn với đặc sản nổi tiếng: cơm lam, gà nướng, cá lăng sông Sêrêpôk…",
+              "image": "https://datviettour.com.vn/uploads/images/tay-nguyen/da-lat/hinh-dac-san/ga-nuong-com-lam-2.jpg"
+            },
+            {
+              "time": "13h00",
+              "description": "Sau bữa trưa, Quý khách khởi hành đi tham quan và khám phá Làng Đảo Buôn Đôn. Quý khách tham quan nhà sàn dài, ngắm hiện vật, nghe thuyết trình nghệ thuật săn bắt và thuần dưỡng voi rừng, tham quan nhà mồ vua săn voi Khunjunốp, Amacông, tìm hiểu loại thuốc bí truyền Amacông tham quan cầu treo, cưỡi voi vượt sông, dạo chơi buôn làng (phí cưỡi voi tự túc).",
+              "image": "https://haivanxanh.com/wp-content/uploads/cuoi-voi-tay-nguyen.jpg"
+            },
+            {
+              "time": " ",
+              "description": "",
+              "image": "https://haivanxanh.com/wp-content/uploads/cuoi-voi-ban-don.jpg"
+            },
+            {
+              "time": "16h00",
+              "description": "Quý khách khởi hành về Tp. Buôn Mê Thuột, nhận phòng khách sạn, nghỉ ngơi.",
+              "image": ""
+            },
+            {
+              "time": "18h30",
+              "description": "Quý khách ăn tối tại khách sạn. Sau đó quý khách tham gia chương trình giao lưu cồng chiêng tự do hòa nhịp theo tiếng nhạc với những chàng trai, cô gái M’Nông, Ê Đê, thưởng thức hương vị rượu cần nồng nàn bên ánh lửa hồng.",
+              "image": "https://huongtientourist.com/wp-content/uploads/2023/12/images979263_H5a.jpg"
+            },
+            {
+              "time": "9h00",
+              "description": "Nghỉ đêm tại Buôn Mê Thuộc.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Ngày 2: BUÔN MA THUẬT – KON TUM (Ăn sáng, trưa, tối)",
+          "timeline": [
+            {
+              "time": "Sáng",
+              "description": "Quý khách dậy sớm hít thở không khí trong lành và ăn sáng tại khách sạn. Sau đó làm thủ tục trả phòng.",
+              "image": ""
+            },
+            {
+              "time": "7h30",
+              "description": "Quý khách khởi hành đi Kon Tum – vùng cao nguyên đất đỏ bazan hùng vĩ với biết bao thắng cảnh tuyệt đẹp cùng với nền văn hóa lâu đời của các dân tộc anh em.",
+              "image": "https://i2.ex-cdn.com/crystalbay.com/files/content/2024/06/25/du-lich-kon-tum-13-1525.jpg"
+            },
+            {
+              "time": "12h00",
+              "description": "Quý khách ăn trưa và nhận phòng khách sạn nghỉ ngơi.",
+              "image": ""
+            },
+            {
+              "time": "14h00",
+              "description": "Quý khách tham quan Nhà Thờ Gỗ – với màu nâu trang trọng của gỗ cà chít nổi bật giữa bầu trời xanh, ánh nắng vàng, lấp lánh như một viên ngọc, Nhà rông Kon Klor – nhà rông lớn nhất Việt nam, tham quan và chụp hình tại cầu treo Kon Klor bên dòng sông Đăk La thơ mộng….",
+              "image": "https://haivanxanh.com/wp-content/uploads/nha-tho-go-tay-nguyen.jpg"
+            },
+            {
+              "time": "12h00",
+              "description": "Quý khách ăn tối tại khách sạn. Sau khi ăn tối, quý khách tự do khám phá Kon Tum về đêm.",
+              "image": "https://cdn.baokontum.com.vn/uploads/Image/2022/08/30/22403215.%C4%90%C6%B0%E1%BB%9Dng%20Phan%20%C4%90%C3%ACnh%20ph%C3%B9ng%20v%E1%BB%81%20%C4%91%C3%AAm.jpg"
+            },
+            {
+              "time": "-",
+              "description": "Nghỉ đêm tại Kon Tum.",
               "image": ""
             }
           ]
         },
         {
           "id": 3,
-          "name": "NGÀY 2: CÔNG VIÊN GIẢI TRÍ PHONG CÁCH KIỂU MỸ – BẢO TÀNG NƯỚC MẮM - TP. HCM ( ĂN SÁNG, TRƯA)",
+          "name": "NGÀY 3: KON TUM – PLEIKU (Ăn sáng, trưa)",
           "timeline": [
             {
-              "time": "Buổi sáng",
-              "description": " Đoàn dùng điểm tâm tại Nhà hàng. Quý khách tắm biển tự do. Thả mình dưới dòng nước mát lành trong những ngày nắng oi bức.Hoặc quý khách có thể tự do khám phá Công viên giải trí Circus Land. Được thiết kế với cảnh quan sinh động, mô phỏng âm hưởng sôi động, náo nhiệt của những khu hội chợ xứ sở cờ hoa, sức hấp dẫn của Circus Land còn đến từ 7 trò chơi theo phong cách gánh xiếc và 7 trò chơi trúng thưởng lưu động xoay quanh những chủ đề li kì, độc đáo. (chi phí tự túc)",
-              "image": "https://cdn2.ivivu.com/2022/12/28/11/ivivu-cong-vien-circus-land.gif"
-            },
-            {
-              "time": "9h30",
-              "description": " Đáng chú ý là loại hình biểu diễn hoạt náo – Xiếc cà kheo tại Circus Land. Theo phong cách bãi biển Mỹ, mô hình hoạt náo này với các màn trình diễn linh hoạt và liên tục sẽ dẫn dắt du khách bước vào những không gian sôi động, vui tươi.Trải nghiệm càng thêm phần hấp dẫn với các buổi biểu diễn công phu của những nghệ sĩ chuyên nghiệp trong trang phục phát sáng. Khán giả có cơ hội chiêm ngưỡng các tiết mục uốn dẻo, nhào lộn bật cầu trên không, giữ thăng bằng trên dây.",
+              "time": "5h30",
+              "description": "Quý khách dậy sớm hít thở không khí trong lành ăn sáng tại khách sạn.",
               "image": ""
             },
             {
-              "time": "11h00",
-              "description": "Quý khách làm thủ tục trả phòng. Sau đó di chuyển đến nhà hàng dùng cơm trưa.",
-              "image": ""
+              "time": "7h30",
+              "description": "Quý khách khởi hành đi tham quan thuỷ điện IALY –  một công trình thuỷ điện nổi tiếng ở Tây Nguyên nằm bên dòng sông SêSan thơ mộng, tham quan Biển Hồ – nơi được ví như Hạt Ngọc của tây Nguyên.",
+              "image": "https://mia.vn/media/uploads/blog-du-lich/kham-pha-thuy-dien-yaly-day-an-tuong-ben-dong-song-se-san-2-1659338450.jpg"
             },
             {
-              "time": "Buổi chiều: 13h00",
-              "description": " Đoàn tham quan Bảo tàng nước mắm Làng Chài Xưa độc đáo duy nhất tại Việt Nam là nơi chứa đựng không gian tái hiện sống động lại 300 năm lịch sử của làng chài Phan Thiết xưa, từ thời Chăm Pa, vua Nguyễn, trải dài cho đến tận thời Pháp thuộc và những năm của thập niên 40 – 60.",
+              "time": "11h30",
+              "description": "Quý khách ăn trưa và nhận phòng khách sạn nghỉ ngơi.",
               "image": ""
             },
             {
               "time": "14h00",
-              "description": "Quý khách trở về HCM, trên đường ghé mua đặc sản của Bình Thuận như: Thanh Long, nước mắm, mực khô…. về làm quà cho người thân.",
+              "description": "Quý khách khởi hành đi tham quan khu du lịch Đồng Xanh – nằm giữa cánh đồng lúa An Phú xanh một màu bạt ngàn, đây vừa là bảo tàng lưu giữ hiện vật, vừa là nơi lưa giữ những nét văn hóa của các dân tộc Tây Nguyên từ xa xưa. Đến nơi đây, quý khách được nghe cồng chiêng và thưởng thức rượu cần.",
+              "image": "https://scontent.iocvnpt.com/resources/portal/Images/DTP/dtblieu/2023/t4/3/342210006_742690587570601_165183470672510950_n_608423327.jpeg"
+            },
+            {
+              "time": "18h30",
+              "description": "Quý khách ăn tối tại khách sạn. Sau đó quý khách tự do khám phá Pleiku về đêm. Mua sắm và thưởng thức những món ăn độc đáo ở nơi đây.",
               "image": ""
             },
             {
-              "time": "17h30",
-              "description": " Đến Tp. HCM chia tay và hẹn gặp lại quý khách.",
+              "time": "-",
+              "description": "Nghỉ đêm tại Pleiku.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "NGÀY 4: PLEIKU – BUÔN MA THUẬT – HÀ NỘI (Ăn sáng, trưa)",
+          "timeline": [
+            {
+              "time": "5h30",
+              "description": "Quý khách dậy sớm hít thở không khí trong lành ăn sáng tại khách sạn.",
+              "image": ""
+            },
+            {
+              "time": "7h30",
+              "description": "Quý khách khởi hành về Buôn Mê Thuột.",
+              "image": ""
+            },
+            {
+              "time": "11h30",
+              "description": "Quý khách ăn trưa tại khách sạn, sau đó làm thủ tục trả phòng.",
+              "image": ""
+            },
+            {
+              "time": "13h00",
+              "description": "Quý khách tham quan và mua sắm tại Chợ Buôn Mê Thuột, các trung tâm bán hang lưu niệm.",
+              "image": "https://luhanhvietnam.com.vn/du-lich/vnt_upload/news/01_2021/do-luu-niem-tai-cho-trung-tam-buon-ma-thuot.jpg"
+            },
+            {
+              "time": "15h00",
+              "description": "Xe đưa quý khách ra Bến Xe/Sân Bay Buôn Ma Thuột. Kết thúc chương trình.",
               "image": ""
             }
           ]
@@ -1035,7 +1329,7 @@
       "id": 9,
       "name": "Tour Tây Nguyên 3N3Đ: Măng Đen - Kon Tum - Gia Lai - Buôn Mê - Tà Đùng",
       "image": "https://cdn2.ivivu.com/2018/11/29/11/ivivu-khu-du-lich-thac-pa-si.jpg",
-      "catagoryId": 3,
+      "catagoryId": 2,
       "areaId": 1,
       "price_adult": 27500000,
       "price_child": 20000000,
@@ -1192,6 +1486,825 @@
           ]
         }
       ]
+    },
+    {
+      "id": 10,
+      "name": "Du lịch Tiền Giang mùa Thu - Mỹ Tho - Bến Tre - Cù Lao Thới Sơn từ Sài Gòn 2024",
+      "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/My-Tho/kinh-nghiem-du-lich-my-tho-dip-le-30-4-du-lich-viet.jpg",
+      "catagoryId": 3,
+      "areaId": 1,
+      "price_adult": 650000,
+      "price_child": 350000,
+      "quantity_date": "1 ngày 0 đêm",
+      "start_location": "Hồ Chí Minh",
+      "end_location": "Miền Tây",
+      "star": "4",
+      "quantity": 15,
+      "start_date": "24/12/2024",
+      "vehicle": [
+        {
+          "id": 1,
+          "nameVehicle": "Xe Limousine"
+        }
+      ],
+      "tour_services": [
+        {
+          "id": 1,
+          "nameService": "Bảo hiểm"
+        },
+        {
+          "id": 2,
+          "nameService": "Hướng dẫn viên"
+        },
+        {
+          "id": 3,
+          "nameService": "Xe đưa đón"
+        }
+      ],
+      "description": {
+        "title": "Du lịch Tiền Giang mùa Thu - Mỹ Tho - Bến Tre - Cù Lao Thới Sơn từ Sài Gòn 2024 - Du lịch Miền Tây",
+        "content": "Tiền Giang là một tỉnh có nhiều điểm du lịch sinh thái miệt vườn nổi tiếng ở vùng đồng bằng sông Cửu Long. Trong số đó, cù lao Thới Sơn là nơi mang đậm nét Miền Tây sông nước mà du khách không nên bỏ lỡ.  Cồn Thới Sơn là một điểm du lịch Tiền Giang thu hút nhiều khách đến tham quan. Nơi này gần Sài Gòn và mang đậm nét văn hóa miền sông nước miệt vườn. Du khách sẽ được tận hưởng những giây phút thư thái và dễ chịu tại nơi yên bình của xứ miệt vườn. Ngoài ra, Cồn Thới Sơn cũng có nhiều đặc sản ngon miệng đang chờ du khách đến khám phá. Hãy cùng Du Lịch Việt trải nghiệm một chuyến du lịch đầy ý nghĩa và thú vị bên gia đình tại Tiền Giang nhé."
+      },
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "NGÀY 1: TP. HCM – MỸ THO – CẦN THƠ (Ăn sáng, trưa, chiều)",
+          "timeline": [
+            {
+              "time": "06h30",
+              "description": "Xe và Hướng dẫn viên Công ty đón quý khách tại điểm hẹn.",
+              "image": ""
+            },
+            {
+              "time": "07h45",
+              "description": "Đoàn dừng chân, dùng điểm tâm sáng tại Trung Lương Rest Stop và nghỉ ngơi. Sau đó di chuyển đến Chùa Vĩnh Tràng – Một trong những ngôi chùa cổ nổi tiếng nhất Miền Tây. Năm 1984, Chùa Vĩnh Tràng đã được Bộ Văn hóa Thông tin (nay là Bộ Văn hóa Thể thao và Du lịch) xếp hạng di tích cấp Quốc gia.",
+              "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/My-Tho/du-lich-my-tho-chua-vinh-trang-du-lich-viet.jpg"
+            },
+            {
+              "time": "09h00",
+              "description": "Quý Khách đến bến tàu 30/4 TP.Mỹ Tho, thuyền lớn và HDV bản địa đón quý khách thưởng ngoạn sông nước miền Tây Nam bộ.",
+              "image": ""
+            },
+            {
+              "time": "-",
+              "description": "Tham quan tứ linh miệt vườn - 4 cồn Long, Lân, Quy, Phụng.",
+              "image": "https://huongsacmientay.com/wp-content/uploads/2019/09/kham-pha-tu-linh-miet-vuon-con-long-lan-quy-phung-2.jpg"
+            },
+            {
+              "time": "-",
+              "description": "Tìm hiểu cách nuôi cá bè trên sông Tiền.",
+              "image": "https://cdn.baodongthap.vn/database/image/2022/02/03/bx2-4b.jpg"
+            },
+            {
+              "time": "-",
+              "description": "Đoàn trải nghiệm thuyền chèo 3 lá len lỏi trong rạch dừa nước thiên nhiên.",
+              "image": "https://roostermekong.com.vn/upload/news/z4178148029724ed012c0090f9d7ea51fabcaef4b0a83e-1426.jpg"
+            },
+            {
+              "time": "-",
+              "description": "Tham quan trang trại nuôi ong mật, uống trà mật ong chanh miễn phí.",
+              "image": "https://dalat-info.gov.vn:444/uploads/20220316111113quy%20tr%C3%ACnh%20l%E1%BA%A5y%20m%E1%BA%ADt%20ong%20Th%C3%A1i%20d%C6%B0%C6%A1ng.jpg"
+            },
+            {
+              "time": "10h30",
+              "description": "Đoàn trở ra thuyền lớn đến với tỉnh Bến Tre.",
+              "image": ""
+            },
+            {
+              "time": "-",
+              "description": "Tham quan, tìm hiểu quy trình sản xuất kẹo dừa và làng nghề bánh tráng tại xã Tân Thạnh. ",
+              "image": "https://bizweb.dktcdn.net/100/349/716/files/lang-nghe-keo-dua-ben-tre-1.jpg?v=1710145416206"
+            },
+            {
+              "time": "-",
+              "description": "Quý khách có trải nghiệm thú vị đi xe ngựa trên đường làng tham quan vườn trái cây, thưởng thức trái cây miễn phí và giao lưu đờn ca tài tử Nam bộ. Công ty mời quý khách mỗi người 1 trái dừa ba nhát đặc sản Bến Tre.",
+              "image": "https://hd1.hotdeal.vn/images/uploads/2015/11/25/206096/206096-TOURE-MY-THO-BEN-TRE-BODY-%20%281%29.png"
+            },
+            {
+              "time": "12h00",
+              "description": "Quý khách dùng bữa trưa tại nhà hàng Bến sông quê, quý khách thưởng thức các món ăn Nam bộ đặc trưng và nghỉ ngơi.",
+              "image": "https://cdn.tgdd.vn/2021/06/CookProduct/Untitled-1-1200x676-26.jpg"
+            },
+            {
+              "time": "14h00",
+              "description": "HDV sẽ đưa đoàn về lại xe để khởi hành về TP.HCM.",
+              "image": ""
+            },
+            {
+              "time": "17h00",
+              "description": "Đoàn về đến TP.HCM. Kết thúc hành trình tour. Chào tạm biệt và hẹn gặp lại.",
+              "image": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Du lịch Tây Bắc Tết Dương lịch - Hà Nội - Mộc Châu - Điện Biên - Sapa tư Sài Gòn 2025",
+      "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Sapa/chinh-phuc-dinh-nui-fansipan-du-lich-viet.jpg",
+      "catagoryId": 3,
+      "areaId": 1,
+      "price_adult": 11399000,
+      "price_child": 10899000,
+      "quantity_date": "5 ngày 4 đêm",
+      "start_location": "Hồ Chí Minh",
+      "end_location": "Tây Bắc",
+      "star": "4",
+      "quantity": 15,
+      "start_date": "24/12/2024",
+      "vehicle": [
+        {
+          "id": 1,
+          "nameVehicle": "Xe du lịch đời mới & Máy Bay khứ hồi"
+        }
+      ],
+      "tour_services": [
+        {
+          "id": 1,
+          "nameService": "Bảo hiểm"
+        },
+        {
+          "id": 2,
+          "nameService": "Hướng dẫn viên"
+        },
+        {
+          "id": 3,
+          "nameService": "Xe đưa đón"
+        }
+      ],
+      "description": {
+        "title": "Những thửa ruộng bậc thang kỳ vĩ và bản làng người dân tộc đầy màu sắc",
+        "content": "Cùng khởi đầu năm mới với chuyến hành trình 6 ngày 5 đêm đầy thú vị từ Sài Gòn, qua miền Tây Bắc tuyệt đẹp. Đặt chân đến Hà Nội, đoàn sẽ tiếp tục đến với cao nguyên Mộc Châu mơ màng trong sắc hoa mận trắng muốt và đồi chè xanh mướt. Tiếp đó, Điện Biên với lịch sử hào hùng sẽ mang lại những giây phút cảm động và tự hào khi đến thăm các di tích chiến thắng. Cuối cùng, Sapa đón bạn với khí trời se lạnh, những thửa ruộng bậc thang kỳ vĩ và bản làng người dân tộc đầy màu sắc. Đây sẽ là chuyến đi lý tưởng để hòa mình vào thiên nhiên, văn hóa và đón Tết Dương lịch trong không gian hùng tráng, nên thơ của vùng Tây Bắc."
+      },
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "NGÀY 1: TP.HCM – HÀ NỘI – HÒA BÌNH – MỘC CHÂU (Ăn trưa, chiều)",
+          "timeline": [
+            {
+              "time": "Sáng",
+              "description": "Quý khách có mặt tại ga quốc nội, sân bay Tân Sơn Nhất trước giờ bay ít nhất hai tiếng. Đại diện công ty Du Lịch Việt đón và hỗ trợ Quý khách làm thủ tục đón chuyến bay đi Hà Nội. Đến sân bay Nội Bài, xe đón Đoàn khởi hành đến Mai Châu.",
+              "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Ha-Noi/san-bay-noi-bai-du-lich-viet.jpg"
+            },
+            {
+              "time": "-",
+              "description": "Trên đường đến Hòa Bình, Quý khách dừng chân tham quan Nhà máy thủy điện sông Đà (còn gọi là thủy điện Hòa Bình)",
+              "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Moc-Chau/nha-may-song-da-du-lich-viet.jpg"
+            },
+            {
+              "time": "-",
+              "description": "Chiêm ngưỡng toàn cảnh tuyệt đẹp của thung lũng Mai Châu trên đoạn đường đèo Thung Khe.",
+              "image": "https://image.vietgoing.com/editor/image_exa1623759550.jpg"
+            },
+            {
+              "time": "Trưa",
+              "description": "Dùng cơm trưa.",
+              "image": ""
+            },
+            {
+              "time": "Tối",
+              "description": "Dùng cơm chiều. Nghỉ đêm Mộc Châu.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "NGÀY 2: MỘC CHÂU - CẦU KÍNH BẠCH LONG – ĐIỆN BIÊN (Ăn sáng, trưa, chiều)",
+          "timeline": [
+            {
+              "time": "Sáng",
+              "description": "Đoàn khởi hành tham quan Cầu Kính Bạch Long, cầu kính mới nhất của Việt Nam. Cây cầu nằm trong quần thể du lịch Mộc Châu Island – Tổ hợp giải trí và nghỉ dưỡng hàng đầu khu vực vùng núi Tây Bắc. Cầu kính Bạch Long có tổng chiều dài 632m. (Chi phí tự túc)",
+              "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Moc-Chau/cau-kinh-bach-long-du-lich-viet.jpg"
+            },
+            {
+              "time": "Sáng",
+              "description": "Tham quan Đồi chè Mộc Châu, nổi lên như một viên ngọc xanh giữa lòng cao nguyên Mộc Châu lộng gió, đồi chè trái tim là sự kết hợp hài hòa giữa tạo hóa và bàn tay con người. Từ những bàn tay lành nghề mà cắt tỉa, tạo hình thành những trái tim khổng lồ vẫn đứng vững xanh tốt mặt cho cái rét mùa đông hay cái nắng hè",
+              "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Moc-Chau/doi-che-moc-chau-du-lich-viet(1).jpg"
+            },
+            {
+              "time": "-",
+              "description": "Đoàn tiếp tục khởi hành đi Sơn La.",
+              "image": ""
+            },
+            {
+              "time": "Trưa",
+              "description": "Dùng cơm trưa.",
+              "image": ""
+            },
+            {
+              "time": "Chiều",
+              "description": "Tiếp tục hành trình tới Điện Biên, đoàn dừng chân tại Đèo Pha Đin chụp hình, ngắm các bản làng vùng cao từ trên đèo.",
+              "image": ""
+            },
+            {
+              "time": "Tối",
+              "description": "Dùng cơm chiều. Nghỉ đêm tại Điện Biên.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "NGÀY 3: ĐIỆN BIÊN – SAPA (Ăn sáng, trưa, chiều)",
+          "timeline": [
+            {
+              "time": "Sáng",
+              "description": "Dùng bữa sáng.",
+              "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Moc-Chau/cau-kinh-bach-long-du-lich-viet.jpg"
+            },
+            {
+              "time": "8h00",
+              "description": "Đoàn tham quan Điện Biên Phủ oai hùng, vang danh lịch sử với: đồi A1, tượng đài chiến thắng Điện Biên Phủ, nghĩa trang liệt sĩ Điện Biên, hầm chỉ huy quân đội Pháp-tướng Đờ Cát (De Castries).",
+              "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Dien-Bien-Phu/tham-quan-doi-a1-du-lich-viet.jpg"
+            },
+            {
+              "time": "Trưa",
+              "description": "Dùng cơm trưa.",
+              "image": ""
+            },
+            {
+              "time": "Chiều",
+              "description": "Đoàn khởi hành đi Sapa, trên đường đi qua Phong Thổ. Đoàn vượt đèo Ô Quy Hồ (đèo Hoàng Liên Sơn) một trong những đèo quanh co, hiểm trở, hùng vĩ bậc nhất miền núi phía Bắc.",
+              "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Moc-Chau/deo-o-quy-ho-du-lich-viet.jpg"
+            },
+            {
+              "time": "Tối",
+              "description": "Dùng cơm chiều. Nghỉ đêm tại Sapa.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "NGÀY 4: SAPA – FANSIPAN - BẢN CÁT CÁT (Ăn sáng, trưa, chiều)",
+          "timeline": [
+            {
+              "time": "Sáng",
+              "description": "Dùng bữa sáng. Đoàn tự do dạo phố, tham quan nhà thờ đá Sapa hoặc mua sắm đặc sản về làm quà cho gia đình, người thân.",
+              "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Moc-Chau/cau-kinh-bach-long-du-lich-viet.jpg"
+            },
+            {
+              "time": "Trưa",
+              "description": "Dùng cơm trưa.",
+              "image": ""
+            },
+            {
+              "time": "Chiều",
+              "description": "Đoàn khởi hành về Hà Nội Xe tiễn đoàn ra sân bay Nội Bài. Đáp máy bay về TP.HCM. Kết thúc chuyến tham quan, chia tay đoàn và hẹn gặp lại.",
+              "image": ""
+            },
+            {
+              "time": "-",
+              "description": "Giờ bay có thể thay đổi theo quy định của hàng không. Du Lịch Việt sẽ thay đổi chương trình cho phù hợp với giờ bay mới nhưng sẽ không chịu trách nhiệm về các khoản chi phí phát sinh. ",
+              "image": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Du lịch miền Tây Tết Âm lịch - Tiền Giang - Cần Thơ - Châu Đốc từ Sài Gòn 2025",
+      "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Chau-Doc/mieu-ba-chua-xu-chau-doc-du-lich-viet(1).jpg",
+      "catagoryId": 3,
+      "areaId": 1,
+      "price_adult": 3999000,
+      "price_child": 3499000,
+      "quantity_date": "3 ngày 2 đêm",
+      "start_location": "Hồ Chí Minh",
+      "end_location": "Miền Tây",
+      "star": "4",
+      "quantity": 15,
+      "start_date": "24/12/2024",
+      "vehicle": [
+        {
+          "id": 1,
+          "nameVehicle": "Xe du lịch đời mới"
+        }
+      ],
+      "tour_services": [
+        {
+          "id": 1,
+          "nameService": "Bảo hiểm"
+        },
+        {
+          "id": 2,
+          "nameService": "Hướng dẫn viên"
+        },
+        {
+          "id": 3,
+          "nameService": "Xe đưa đón"
+        }
+      ],
+      "description": {
+        "title": "Du lịch miền Tây Tết Âm lịch Tiền Giang - Cần Thơ - Châu Đốc - Rừng Tràm Trà Sư",
+        "content": "Khi Tết Âm lịch đến gần, miền Tây Nam Bộ trở thành điểm đến lý tưởng với những trải nghiệm độc đáo và phong phú. Trong dịp lễ hội này, ba địa phương tiêu biểu như Tiền Giang, Châu Đốc, và Cần Thơ sẽ mở ra một thế giới mới đầy sắc màu, hương vị và văn hóa đặc sắc. Khởi đầu hành trình từ Tiền Giang, bạn sẽ được đắm chìm trong không khí tươi vui của lễ hội Tết. Nổi bật tại đây là những chợ Tết sôi động với hàng loạt mặt hàng phong phú như bánh chưng, bánh tét, và những sản phẩm thủ công mỹ nghệ. Đặc biệt, bạn có thể tham gia vào các tour tham quan vườn cây ăn trái, nơi những cây trái chín mọng như dưa hấu, cam, quýt... đang chờ đón bạn thưởng thức. Một trải nghiệm thú vị không thể bỏ qua là dạo chơi trên những con thuyền dọc theo các con rạch, để cảm nhận sự thanh bình và hòa mình vào thiên nhiên. Tiếp tục hành trình đến Châu Đốc, bạn sẽ được chiêm ngưỡng cảnh quan tuyệt đẹp của vùng đất này. Châu Đốc nổi tiếng với núi Sam hùng vĩ và những ngôi chùa linh thiêng như Chùa Ba Chúc hay Chùa Hang, nơi mà các nghi lễ tôn giáo diễn ra trang nghiêm và ấn tượng trong mùa Tết. Lễ hội Đua Ghe Ngo, một hoạt động truyền thống đầy hào hứng, thường diễn ra vào dịp này, mang lại không khí nhộn nhịp và đầy sắc thái cho địa phương. Đồng thời, bạn có thể thưởng thức đặc sản nổi tiếng như bánh bò thốt nốt và các món ăn truyền thống khác. Kết thúc hành trình tại Cần Thơ, bạn sẽ được trải nghiệm một trong những điểm đến hấp dẫn nhất của miền Tây. Vào dịp Tết, Cần Thơ trở nên rực rỡ với những sắc hoa xuân tươi thắm và các hoạt động văn hóa phong phú. Chợ nổi Cái Răng là điểm đến không thể bỏ qua, nơi bạn có thể khám phá cuộc sống của người dân địa phương và mua sắm các món hàng Tết đầy sắc màu từ trên thuyền. Ngoài ra, các khu vườn hoa và cây kiểng như vườn hoa Tết cũng là nơi lý tưởng để bạn hòa mình vào không khí xuân đầy màu sắc."
+      },
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "NGÀY 1: TP. HCM – MỸ THO - CHÂU ĐỐC (Ăn sáng, trưa, chiều)",
+          "timeline": [
+            {
+              "time": "06h30",
+              "description": "Xe và HDV đón quý khách tại điểm hẹn.Đoàn di chuyển trên cao tốc Sài Gòn- Trung Lương, hướng dẫn viên sẽ  giới thiệu với quý khách về bản sắc văn hóa của người dân Miền Tây Nam bộ.",
+              "image": ""
+            },
+            {
+              "time": "07h45",
+              "description": "Quý khách dùng điểm tâm sáng tại nhà hàng Trung lương, sau đó đoàn di chuyển đến chùa Vĩnh Tràng, ngôi chùa mang lối kiến trúc kết hợp châu âu và châu Á và đã được xếp hạng di tích cấp Quốc Gia năm 1984.",
+              "image": "https://saigonstartravel.com/wp-content/uploads/2019/03/tuong-phat-di-lac-chua-vinh-trang.jpg"
+            },
+            {
+              "time": "09h15",
+              "description": "Đoàn đến bến tàu 30/4 TP. Mỹ Tho, thưởng ngoạn sông nước miền Tây: Tham quan tứ linh miệt vườn tham quan cồn Long, Lân, Quy,Phụng.",
+              "image": "https://sacotravel.com/wp-content/uploads/2023/08/Tu-linh-con-Long-Lan-Quy-Phung.jpg"
+            },
+            {
+              "time": "-",
+              "description": "Đoàn ngắm nhìn những ngôi nhà bè trên sông tiền của cư dân địa phương.",
+              "image": "https://photo.znews.vn/w660/Uploaded/pgi_xvauqbnau/2016_09_02/nha_1.jpg"
+            },
+            {
+              "time": "-",
+              "description": "Đoàn trải nghiệm thuyền chèo 3 lá len lỏi trong rạch dừa nước quý khách sẽ có những bức ảnh thật là đẹp mang dấu ấn miền sông nước Miền Tây.",
+              "image": "https://images.baodantoc.vn/uploads/2023/Th%C3%A1ng%202/Ng%C3%A0y_27/Bich/DSCN4680.jpg"
+            },
+            {
+              "time": "-",
+              "description": "Tham quan trang trại nuôi ong mật, quý khách uống trà mật ong chanh",
+              "image": ""
+            },
+            {
+              "time": "10h00",
+              "description": "Đoàn trở ra thuyền lớn di chuyển đến tỉnh Bến Tre. Đoàn tham quan và tìm hiểu quy trình sản xuất kẹo dừa và làng nghề bánh tráng tại xã Tân Thạnh.",
+              "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/My-Tho/tham-quan-xuong-san-xuat-keo-dua-du-lich-viet.jpg"
+            },
+            {
+              "time": "10h00",
+              "description": "Quý khách có trải nghiệm thú vị đi xe ngựa trên đường làng, tham quan vườn trái cây, thưởng thức trái cây miễn phí và giao lưu đờn ca tài tử Nam bộ. Công ty mời quý khách mỗi người 1 trái dừa ba nhát đặc sản Bến Tre.",
+              "image": "https://binhminhphuongnamtravel.com/wp-content/uploads/2024/09/don-ca-tai-tu.jpg"
+            },
+            {
+              "time": "11h30",
+              "description": "Đoàn tiếp tục đến nhà hàng miệt vườn dùng cơm trưa, nằm võng nghỉ ngơi, tham quan hồ cá sấu, đi cầu khỉ, cầu dừa…Sau đó lên tàu trở về bến tàu Mỹ Tho. Trên đường nghe giới thiệu về Cồn Phụng - tìm hiểu di tích Ông Đạo Dừa và các công trình kiến trúc của ông trên cồn...sau đó quý khách trở về Mỹ Tho, xe đưa quý khách về Châu Đốc.",
+              "image": "https://binhminhphuongnamtravel.com/wp-content/uploads/2024/09/trai-dua.jpg"
+            },
+            {
+              "time": "18h30",
+              "description": "HDV đưa Quý khách dùng bữa tối tại nhà hàng, sau đó quý khách tự do khám phá TP.Châu Đốc về đêm. Nghỉ đêm khách sạn tại Châu Đốc.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "NGÀY 2: CHÂU ĐỐC – CẦN THƠ (Ăn sáng, trưa, chiều)",
+          "timeline": [
+            {
+              "time": "Sáng",
+              "description": "Dùng bữa sáng",
+              "image": ""
+            },
+            {
+              "time": "8h00",
+              "description": "Sau đó trả phòng khởi hành đến KDL rừng tràm Trà Sư, trên đường đi quý khách tham quan : di tích miếu Bà Chúa Xứ một di tích lịch sử, kiến trúc và tâm linh quan trọng của tỉnh An Giang. Ðược lập vào năm 1820, kiến trúc theo kiểu chữ quốc.,",
+              "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Chau-Doc/du-lich-chau-doc-rung-tram-tra-su-du-lich-viet.jpg"
+            },
+            {
+              "time": "-",
+              "description": "Viếng Tây An Cổ Tự (Chùa Tây An Núi Sam) - ngôi chùa có kiến trúc kết hợp phong cách nghệ thuật Ấn Độ và kiến trúc cổ dân tộc đầu tiên tại Việt Nam ",
+              "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Chau-Doc/tay-an-tu-du-lich-tet-am-lich-du-lich-viet.jpg"
+            },
+            {
+              "time": "-",
+              "description": "Viếng Lăng Thoại Ngọc Hầu, đền thờ ông Thoại Ngọc Hầu, mộ ông cùng hai phu nhân được xây vào thập niên 30 của thế kỷ 20",
+              "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Chau-Doc/lang-thoai-ngoc-hau-du-lich-viet.jpg"
+            },
+            {
+              "time": "09h30",
+              "description": "Đoàn đến KDL rừng tràm Trà Sư là hệ sinh thái rừng tràm ngập nước đẹp nhất Đông Nam Á.Đi xuồng máy hay còn gọi là Tắc Ráng - phương tiện đường thủy.",
+              "image": ""
+            },
+            {
+              "time": "-",
+              "description": "Checkin cầu tre vạn bước.",
+              "image": "https://truyenhinhvov.qltns.mediacdn.vn/239964650902032384/2021/2/17/ps1-1613483154338-1613533939629-16135339404311065437863.jpg"
+            },
+            {
+              "time": "-",
+              "description": "Tham quan Đài quan sát cao 32m, thấy toàn cảnh rừng tràm.",
+              "image": "https://mia.vn/media/uploads/blog-du-lich/den-rung-tram-tra-su-chim-dam-trong-ve-dep-xanh-muot-mat-17-1660323100.jpg"
+            },
+            {
+              "time": "-",
+              "description": "Đoàn chụp hình lưu niệm với Cầu Kiều vô cùng đẹp mắt.",
+              "image": "https://nld.mediacdn.vn/2021/2/17/20210217133124-1613553773029648441239-16135563176241648197009.png"
+            },
+            {
+              "time": "-",
+              "description": "Tham quan cầu tre dài 2km đạt kỷ lục Guinness của Việt Nam ",
+              "image": "https://globalopentour.com/wp-content/Uploads/Article/cau-kinh-bach-long.jpeg"
+            },
+            {
+              "time": "12h00",
+              "description": "Đoàn dùng cơm trưa tại nhà hàng Trà Sư, sau đó khởi hành về lại Thành Phố Cần Thơ.",
+              "image": ""
+            },
+            {
+              "time": "18h30",
+              "description": "Đoàn dùng cơm tối tại nhà hàng. Nghỉ đêm khách sạn tại Cần Thơ.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "NGÀY 3: CẦN THƠ – CHỢ NỔI – TP. HCM (Ăn sáng, trưa)",
+          "timeline": [
+            {
+              "time": "05h30",
+              "description": "Quý khách tham quan Chợ Nổi Cái Răng – một trải nghiệm văn hóa sông nước miền tây. Thuyền ghé tham quan lò hủ tiếu, quý khách trải nghiệm thưởng thức điểm tâm trên sông: Hủ Tiếu, Bún Riêu, Bún Mắm,... (Chí phí tự túc) ",
+              "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Can-Tho/cho-noi-cai-rang-gia-tot-du-lich-viet.jpg"
+            },
+            {
+              "time": "07h00",
+              "description": "Quý khách trở về lại khách sạn để dùng buffet sáng, sau đó trả phòng tiếp tục chương trình: Đoàn di chuyển đến bến tàu bờ bắc Sông Hậu lên tàu sang Cồn Sơn cù lao xanh nằm giữa sông hậu với những vườn trái cây bốn mùa.",
+              "image": "https://dulichkhampha24.com/wp-content/uploads/2021/12/Untitled-design-2021-12-08T004915.018.png"
+            },
+            {
+              "time": "-",
+              "description": "Quý Khách tham quan vườn trái cây (theo mùa) và ăn trái cây miễn phí. ",
+              "image": "https://www.vietfuntravel.com.vn/image/data/Mien-tay-n/can-tho/top-10-khu-vuon-trai-cay-tham-quan-mien-phi-o-can-tho-1.jpg"
+            },
+            {
+              "time": "11h30",
+              "description": "Qúy đoàn dùng cơm trưa tại nhà hàng, sau đó tham quan Căn nhà màu tím không gian thơ mộng với các tiểu cảnh màu tím giúp cho quý khách có những bức ảnh thật đẹp (chi phí tự túc). Sau đó, xe đưa đoàn khởi hành về lại TP.HCM. Kết thúc hành trình tour, Chào tạm biệt và hẹn gặp lại.",
+              "image": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Du lịch miền Bắc mùa Thu - Hà Nội - Ninh Bình - Tam Chúc từ Sài Gòn 2024",
+      "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Ninh-Binh/trang-an-du-lich-viet.jpg",
+      "catagoryId": 3,
+      "areaId": 1,
+      "price_adult": 11399000,
+      "price_child": 10899000,
+      "quantity_date": "3 ngày 2 đêm",
+      "start_location": "Hồ Chí Minh",
+      "end_location": "Miền Tây",
+      "star": "4",
+      "quantity": 15,
+      "start_date": "24/12/2024",
+      "vehicle": [
+        {
+          "id": 1,
+          "nameVehicle": "Xe du lịch đời mới"
+        }
+      ],
+      "tour_services": [
+        {
+          "id": 1,
+          "nameService": "Bảo hiểm"
+        },
+        {
+          "id": 2,
+          "nameService": "Hướng dẫn viên"
+        },
+        {
+          "id": 3,
+          "nameService": "Xe đưa đón"
+        }
+      ],
+      "description": {
+        "title": "Du lịch miền Tây Tết Âm lịch Tiền Giang - Cần Thơ - Châu Đốc - Rừng Tràm Trà Sư",
+        "content": "Khi Tết Âm lịch đến gần, miền Tây Nam Bộ trở thành điểm đến lý tưởng với những trải nghiệm độc đáo và phong phú. Trong dịp lễ hội này, ba địa phương tiêu biểu như Tiền Giang, Châu Đốc, và Cần Thơ sẽ mở ra một thế giới mới đầy sắc màu, hương vị và văn hóa đặc sắc. Khởi đầu hành trình từ Tiền Giang, bạn sẽ được đắm chìm trong không khí tươi vui của lễ hội Tết. Nổi bật tại đây là những chợ Tết sôi động với hàng loạt mặt hàng phong phú như bánh chưng, bánh tét, và những sản phẩm thủ công mỹ nghệ. Đặc biệt, bạn có thể tham gia vào các tour tham quan vườn cây ăn trái, nơi những cây trái chín mọng như dưa hấu, cam, quýt... đang chờ đón bạn thưởng thức. Một trải nghiệm thú vị không thể bỏ qua là dạo chơi trên những con thuyền dọc theo các con rạch, để cảm nhận sự thanh bình và hòa mình vào thiên nhiên. Tiếp tục hành trình đến Châu Đốc, bạn sẽ được chiêm ngưỡng cảnh quan tuyệt đẹp của vùng đất này. Châu Đốc nổi tiếng với núi Sam hùng vĩ và những ngôi chùa linh thiêng như Chùa Ba Chúc hay Chùa Hang, nơi mà các nghi lễ tôn giáo diễn ra trang nghiêm và ấn tượng trong mùa Tết. Lễ hội Đua Ghe Ngo, một hoạt động truyền thống đầy hào hứng, thường diễn ra vào dịp này, mang lại không khí nhộn nhịp và đầy sắc thái cho địa phương. Đồng thời, bạn có thể thưởng thức đặc sản nổi tiếng như bánh bò thốt nốt và các món ăn truyền thống khác. Kết thúc hành trình tại Cần Thơ, bạn sẽ được trải nghiệm một trong những điểm đến hấp dẫn nhất của miền Tây. Vào dịp Tết, Cần Thơ trở nên rực rỡ với những sắc hoa xuân tươi thắm và các hoạt động văn hóa phong phú. Chợ nổi Cái Răng là điểm đến không thể bỏ qua, nơi bạn có thể khám phá cuộc sống của người dân địa phương và mua sắm các món hàng Tết đầy sắc màu từ trên thuyền. Ngoài ra, các khu vườn hoa và cây kiểng như vườn hoa Tết cũng là nơi lý tưởng để bạn hòa mình vào không khí xuân đầy màu sắc."
+      },
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "NGÀY 1: TP. HCM – MỸ THO - CHÂU ĐỐC (Ăn sáng, trưa, chiều)",
+          "timeline": [
+            {
+              "time": "06h30",
+              "description": "Xe và HDV đón quý khách tại điểm hẹn.Đoàn di chuyển trên cao tốc Sài Gòn- Trung Lương, hướng dẫn viên sẽ  giới thiệu với quý khách về bản sắc văn hóa của người dân Miền Tây Nam bộ.",
+              "image": ""
+            },
+            {
+              "time": "07h45",
+              "description": "Quý khách dùng điểm tâm sáng tại nhà hàng Trung lương, sau đó đoàn di chuyển đến chùa Vĩnh Tràng, ngôi chùa mang lối kiến trúc kết hợp châu âu và châu Á và đã được xếp hạng di tích cấp Quốc Gia năm 1984.",
+              "image": "https://saigonstartravel.com/wp-content/uploads/2019/03/tuong-phat-di-lac-chua-vinh-trang.jpg"
+            },
+            {
+              "time": "09h15",
+              "description": "Đoàn đến bến tàu 30/4 TP. Mỹ Tho, thưởng ngoạn sông nước miền Tây: Tham quan tứ linh miệt vườn tham quan cồn Long, Lân, Quy,Phụng.",
+              "image": "https://sacotravel.com/wp-content/uploads/2023/08/Tu-linh-con-Long-Lan-Quy-Phung.jpg"
+            },
+            {
+              "time": "-",
+              "description": "Đoàn ngắm nhìn những ngôi nhà bè trên sông tiền của cư dân địa phương.",
+              "image": "https://photo.znews.vn/w660/Uploaded/pgi_xvauqbnau/2016_09_02/nha_1.jpg"
+            },
+            {
+              "time": "-",
+              "description": "Đoàn trải nghiệm thuyền chèo 3 lá len lỏi trong rạch dừa nước quý khách sẽ có những bức ảnh thật là đẹp mang dấu ấn miền sông nước Miền Tây.",
+              "image": "https://images.baodantoc.vn/uploads/2023/Th%C3%A1ng%202/Ng%C3%A0y_27/Bich/DSCN4680.jpg"
+            },
+            {
+              "time": "-",
+              "description": "Tham quan trang trại nuôi ong mật, quý khách uống trà mật ong chanh",
+              "image": ""
+            },
+            {
+              "time": "10h00",
+              "description": "Đoàn trở ra thuyền lớn di chuyển đến tỉnh Bến Tre. Đoàn tham quan và tìm hiểu quy trình sản xuất kẹo dừa và làng nghề bánh tráng tại xã Tân Thạnh.",
+              "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/My-Tho/tham-quan-xuong-san-xuat-keo-dua-du-lich-viet.jpg"
+            },
+            {
+              "time": "10h00",
+              "description": "Quý khách có trải nghiệm thú vị đi xe ngựa trên đường làng, tham quan vườn trái cây, thưởng thức trái cây miễn phí và giao lưu đờn ca tài tử Nam bộ. Công ty mời quý khách mỗi người 1 trái dừa ba nhát đặc sản Bến Tre.",
+              "image": "https://binhminhphuongnamtravel.com/wp-content/uploads/2024/09/don-ca-tai-tu.jpg"
+            },
+            {
+              "time": "11h30",
+              "description": "Đoàn tiếp tục đến nhà hàng miệt vườn dùng cơm trưa, nằm võng nghỉ ngơi, tham quan hồ cá sấu, đi cầu khỉ, cầu dừa…Sau đó lên tàu trở về bến tàu Mỹ Tho. Trên đường nghe giới thiệu về Cồn Phụng - tìm hiểu di tích Ông Đạo Dừa và các công trình kiến trúc của ông trên cồn...sau đó quý khách trở về Mỹ Tho, xe đưa quý khách về Châu Đốc.",
+              "image": "https://binhminhphuongnamtravel.com/wp-content/uploads/2024/09/trai-dua.jpg"
+            },
+            {
+              "time": "18h30",
+              "description": "HDV đưa Quý khách dùng bữa tối tại nhà hàng, sau đó quý khách tự do khám phá TP.Châu Đốc về đêm. Nghỉ đêm khách sạn tại Châu Đốc.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "NGÀY 2: CHÂU ĐỐC – CẦN THƠ (Ăn sáng, trưa, chiều)",
+          "timeline": [
+            {
+              "time": "Sáng",
+              "description": "Dùng bữa sáng",
+              "image": ""
+            },
+            {
+              "time": "8h00",
+              "description": "Sau đó trả phòng khởi hành đến KDL rừng tràm Trà Sư, trên đường đi quý khách tham quan : di tích miếu Bà Chúa Xứ một di tích lịch sử, kiến trúc và tâm linh quan trọng của tỉnh An Giang. Ðược lập vào năm 1820, kiến trúc theo kiểu chữ quốc.,",
+              "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Chau-Doc/du-lich-chau-doc-rung-tram-tra-su-du-lich-viet.jpg"
+            },
+            {
+              "time": "-",
+              "description": "Viếng Tây An Cổ Tự (Chùa Tây An Núi Sam) - ngôi chùa có kiến trúc kết hợp phong cách nghệ thuật Ấn Độ và kiến trúc cổ dân tộc đầu tiên tại Việt Nam ",
+              "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Chau-Doc/tay-an-tu-du-lich-tet-am-lich-du-lich-viet.jpg"
+            },
+            {
+              "time": "-",
+              "description": "Viếng Lăng Thoại Ngọc Hầu, đền thờ ông Thoại Ngọc Hầu, mộ ông cùng hai phu nhân được xây vào thập niên 30 của thế kỷ 20",
+              "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Chau-Doc/lang-thoai-ngoc-hau-du-lich-viet.jpg"
+            },
+            {
+              "time": "09h30",
+              "description": "Đoàn đến KDL rừng tràm Trà Sư là hệ sinh thái rừng tràm ngập nước đẹp nhất Đông Nam Á.Đi xuồng máy hay còn gọi là Tắc Ráng - phương tiện đường thủy.",
+              "image": ""
+            },
+            {
+              "time": "-",
+              "description": "Checkin cầu tre vạn bước.",
+              "image": "https://truyenhinhvov.qltns.mediacdn.vn/239964650902032384/2021/2/17/ps1-1613483154338-1613533939629-16135339404311065437863.jpg"
+            },
+            {
+              "time": "-",
+              "description": "Tham quan Đài quan sát cao 32m, thấy toàn cảnh rừng tràm.",
+              "image": "https://mia.vn/media/uploads/blog-du-lich/den-rung-tram-tra-su-chim-dam-trong-ve-dep-xanh-muot-mat-17-1660323100.jpg"
+            },
+            {
+              "time": "-",
+              "description": "Đoàn chụp hình lưu niệm với Cầu Kiều vô cùng đẹp mắt.",
+              "image": "https://nld.mediacdn.vn/2021/2/17/20210217133124-1613553773029648441239-16135563176241648197009.png"
+            },
+            {
+              "time": "-",
+              "description": "Tham quan cầu tre dài 2km đạt kỷ lục Guinness của Việt Nam ",
+              "image": "https://globalopentour.com/wp-content/Uploads/Article/cau-kinh-bach-long.jpeg"
+            },
+            {
+              "time": "12h00",
+              "description": "Đoàn dùng cơm trưa tại nhà hàng Trà Sư, sau đó khởi hành về lại Thành Phố Cần Thơ.",
+              "image": ""
+            },
+            {
+              "time": "18h30",
+              "description": "Đoàn dùng cơm tối tại nhà hàng. Nghỉ đêm khách sạn tại Cần Thơ.",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "NGÀY 3: CẦN THƠ – CHỢ NỔI – TP. HCM (Ăn sáng, trưa)",
+          "timeline": [
+            {
+              "time": "05h30",
+              "description": "Quý khách tham quan Chợ Nổi Cái Răng – một trải nghiệm văn hóa sông nước miền tây. Thuyền ghé tham quan lò hủ tiếu, quý khách trải nghiệm thưởng thức điểm tâm trên sông: Hủ Tiếu, Bún Riêu, Bún Mắm,... (Chí phí tự túc) ",
+              "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Can-Tho/cho-noi-cai-rang-gia-tot-du-lich-viet.jpg"
+            },
+            {
+              "time": "07h00",
+              "description": "Quý khách trở về lại khách sạn để dùng buffet sáng, sau đó trả phòng tiếp tục chương trình: Đoàn di chuyển đến bến tàu bờ bắc Sông Hậu lên tàu sang Cồn Sơn cù lao xanh nằm giữa sông hậu với những vườn trái cây bốn mùa.",
+              "image": "https://dulichkhampha24.com/wp-content/uploads/2021/12/Untitled-design-2021-12-08T004915.018.png"
+            },
+            {
+              "time": "-",
+              "description": "Quý Khách tham quan vườn trái cây (theo mùa) và ăn trái cây miễn phí. ",
+              "image": "https://www.vietfuntravel.com.vn/image/data/Mien-tay-n/can-tho/top-10-khu-vuon-trai-cay-tham-quan-mien-phi-o-can-tho-1.jpg"
+            },
+            {
+              "time": "11h30",
+              "description": "Qúy đoàn dùng cơm trưa tại nhà hàng, sau đó tham quan Căn nhà màu tím không gian thơ mộng với các tiểu cảnh màu tím giúp cho quý khách có những bức ảnh thật đẹp (chi phí tự túc). Sau đó, xe đưa đoàn khởi hành về lại TP.HCM. Kết thúc hành trình tour, Chào tạm biệt và hẹn gặp lại.",
+              "image": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Du lịch Đà Lạt Tết Âm lịch - Thác Pongour - Mongoland - Nhà Thờ Domaine từ Sài Gòn 2025",
+      "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Da-Lat/khu-du-lich-MongoLand-du-lich-viet.jpg",
+      "catagoryId": 3,
+      "areaId": 1,
+      "price_adult": 4199000,
+      "price_child": 3699000,
+      "quantity_date": "3 ngày 2 đêm",
+      "start_location": "Hồ Chí Minh",
+      "end_location": "Đà Lạt",
+      "star": "4",
+      "quantity": 15,
+      "start_date": "24/12/2024",
+      "vehicle": [
+        {
+          "id": 1,
+          "nameVehicle": "Xe du lịch đời mới"
+        }
+      ],
+      "tour_services": [
+        {
+          "id": 1,
+          "nameService": "Bảo hiểm"
+        },
+        {
+          "id": 2,
+          "nameService": "Hướng dẫn viên"
+        },
+        {
+          "id": 3,
+          "nameService": "Xe đưa đón"
+        }
+      ],
+      "description": {
+        "title": "Du lịch Đà Lạt Tết Âm lịch - Thác Pongour - Mongoland - Nhà Thờ Domaine",
+        "content": "Đà Lạt luôn là điểm đến lý tưởng cho những ai yêu thích sự thơ mộng và lãng mạn. Khi du lịch Đà Lạt cùng Du Lịch Việt, bạn sẽ được trải nghiệm một thành phố được ví như Paris thu nhỏ với những cảnh quan tuyệt đẹp và không khí trong lành. Với tour Du lịch Đà Lạt Tết Âm lịch - Thác Pongour - Mongoland - Nhà Thờ Domaine từ Sài Gòn 2025, bạn sẽ có cơ hội khám phá những điểm đến nổi bật như: Đà Lạt không chỉ có cảnh đẹp, mà còn có khí hậu mát mẻ quanh năm, rất thích hợp cho những chuyến nghỉ dưỡng và thư giãn. Đừng bỏ lỡ cơ hội để ghi lại những kỷ niệm đáng nhớ và tận hưởng sự thư thái mà thành phố này mang lại. Hãy nhanh tay đặt tour để có một chuyến đi đáng nhớ cùng Du Lịch Việt"
+      },
+      "tour_details": [
+        {
+          "id": 1,
+          "name": "NGÀY 1: TP.HCM – ĐÀ LẠT (Ăn sáng, trưa) (Ăn chiều tự túc )",
+          "timeline": [
+            {
+              "time": "Sáng",
+              "description": "Xe và Hướng Dẫn Viên Du Lịch Việt đón Quý khách tại điểm hẹn khởi hành đi Đà Lạt. ",
+              "image": ""
+            },
+            {
+              "time": "5h30",
+              "description": "Sáng tại Công Ty Du Lịch Việt – Số 217 Bis Nguyễn Thị Minh Khai , Quận 1 .",
+              "image": ""
+            },
+            {
+              "time": "6h00",
+              "description": "Nhà Văn Hóa Thanh Niên – Số 4 Phạm Ngọc Thạch, Quận 1 ",
+              "image": ""
+            },
+            {
+              "time": "7h00",
+              "description": "Ngã 4 Thủ Đức – Xa Lộ Hà Nội, TP Hồ Chí Minh (không có điểm gửi xe máy) ",
+              "image": ""
+            },
+            {
+              "time": "Trưa",
+              "description": "Dùng cơm trưa tại nhà hàng.",
+              "image": ""
+            },
+            {
+              "time": "Chiều",
+              "description": "Tham quan Thác Pongour: Nét quyến rũ hoang sơ, dữ dội nhưng cũng không kém phần thơ mộng, của thác Pongour đã khắc hoạ một khía cạnh đặc trưng của Đà Lạt nguyên bản.",
+              "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Da-Lat/thac-Pongour-du-lich-viet.jpg"
+            },
+            {
+              "time": "-",
+              "description": "Sau đó xe và HDV đưa khách đi trên cung đường đèo Mimosa – một trong những trục đường chính dẫn vào thành phố Đà Lạt. So với đèo Ngoạn Mục đầy thách thức, đèo Prenn hiểm trở. Thì đèo Mimosa lại mang vẻ đẹp nữ tính, hiền hòa và quyến rũ du khách gần xa.",
+              "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Da-Lat/cung-duong-deo-mimosa-du-lich-viet.jpg"
+            },
+            {
+              "time": "Tối",
+              "description": "Quý khách dùng bữa tối tự túc, tự do khám phá chợ Đà Lạt, Thưởng thức những món ngon như: sữa đậu nành nóng, bánh ướt lòng gà, bánh căn Đà Lạt, bánh tráng nướng, món nướng (Hướng dẫn viên chia sẻ quán ngon gửi đến quý khách). Quý khách tự túc dạo thành phố Đà Lạt về đêm, ngắm cảnh Hồ Xuân Hương, thưởng thức hương vị cà phê phố núi (chi phí tự túc).",
+              "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Da-Lat/ho-xuan-huong-du-lich-viet.jpg"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "NGÀY 2: MONGOLAND – CHÙA THIÊN VƯƠNG CỔ SÁT (Ăn sáng, trưa) (Ăn chiều tự túc)",
+          "timeline": [
+            {
+              "time": "Sáng",
+              "description": "Dùng bữa sáng",
+              "image": ""
+            },
+            {
+              "time": "07h30",
+              "description": "Xe đưa quý khách đến với khu du lịch MongoLand. Mongo Land: mang vẻ đẹp hoàn toàn mới lạ – một “tiểu Mông Cổ thu nhỏ” trong lòng Đà Lạt được thiết kế như một nông trại với những chiếc lều đủ màu sắc. Tất cả đều được bài trí độc đáo, bắt mắt theo phong cách Mông Cổ đặc trưng. Đến đây, ngoài việc tận hưởng bầu không khí trong lành và chiêm ngưỡng vẻ đẹp của thiên nhiên hùng vĩ, Quý khách sẽ được trải nghiệm:",
+              "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Da-Lat/khu-du-lich-MongoLand-du-lich-viet.jpg"
+            },
+            {
+              "time": "-",
+              "description": "Thỏa thích chụp ảnh tại lều mông cổ, xích đu, nông trại âu, thảm cỏ, sa mạc xương rồng,…",
+              "image": ""
+            },
+            {
+              "time": "-",
+              "description": "Hòa mình vào thế giới của động vật: hươu sao, dê mini, cừu, thỏ Việt, thỏ Holland Lop Hà Lan, thỏ Sư Tử, chim Yến, Chinchilla, sóc Chipmunk,… và tự tay cho thú ăn (thức ăn sẽ được Mongo Land chuẩn bị sẵn cho quý khách).",
+              "image": ""
+            },
+            {
+              "time": "-",
+              "description": "Tham gia các hoạt động vui chơi như: trượt cỏ, bắn cung",
+              "image": ""
+            },
+            {
+              "time": "-",
+              "description": "Checkin cầu tre vạn bước.",
+              "image": "https://truyenhinhvov.qltns.mediacdn.vn/239964650902032384/2021/2/17/ps1-1613483154338-1613533939629-16135339404311065437863.jpg"
+            },
+            {
+              "time": "-",
+              "description": "Trở thành những cô nàng, chàng trai du mục thực thụ khi diện trên mình trang phục người Mông Cổ. (Chi phí thuê trang phục tự túc).",
+              "image": ""
+            },
+            {
+              "time": "Trưa",
+              "description": "Dùng bữa trưa.",
+              "image": "https://nld.mediacdn.vn/2021/2/17/20210217133124-1613553773029648441239-16135563176241648197009.png"
+            },
+            {
+              "time": "-",
+              "description": "Chùa Thiên Vương Cổ Sát thu hút nhiều du khách ghé thăm nhờ nét cổ kính và kiến trúc khác biệt. Chùa chỉ cách trung tâm thành phố Đà Lạt 5km về hướng Đông Bắc và nằm bình yên bên ngọn đồi Rồng, có cây cối bao quanh. Nhờ không gian tĩnh lặng tách biệt mà du khách khi đến nơi đây sẽ có cảm giác như tâm bình lặng, thanh thản, trốn khỏi những gánh nặng thường nhật. Chùa Tàu Đà Lạt thuộc dòng Hoa Nghiêm Tông Trung Quốc với tôn chỉ là vạn vật bình đẳng và đều liên hệ nhau.",
+              "image": ""
+            },
+            {
+              "time": "-",
+              "description": "Quảng trường Lâm Viên với tuyệt tác kiến trúc bằng kính: Bông Hoa Dã Quỳ và Nụ Hoa Atiso. ",
+              "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Da-Lat/quang-truong-lam-vien-du-lich-tet-am-lich-du-lich-viet.jpg"
+            },
+            {
+              "time": "Tối",
+              "description": "Quý khách dùng bữa tối tự túc, tự do khám phá chợ Đà Lạt, Thưởng thức những món ngon như: sữa đậu nành nóng, bánh ướt lòng gà, bánh căn Đà Lạt, bánh tráng nướng, món nướng (Hướng dẫn viên chia sẻ quán ngon gửi đến quý khách). Quý khách tự túc dạo thành phố Đà Lạt về đêm. ",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "NGÀY 3: ĐÀ LẠT – TP.HCM (Ăn sáng, trưa)",
+          "timeline": [
+            {
+              "time": "Sáng",
+              "description": "Dùng bữa sáng, trả phòng. Ghé chợ Đà Lạt tự do mua sắm các sản phẩm lưu niệm, đặc sản và rau củ quả về làm quà cho gia đình và người thân.",
+              "image": ""
+            },
+            {
+              "time": "-",
+              "description": "Tham quan vườn cà phê chồn và cà phê voi Phú An – Vườn cà phê chồn và cà phê voi Phú An đã hoàn thiện mô hình phức hợp nhà hàng, điểm dừng chân tham quan có quần thể voi, chồn lớn nhất Việt Nam gồm hơn 2000 chú chồn Hương, 09 chú voi Châu Á & dây chuyền sản xuất cà phê thủ công cho sản lượng 12 tấn cà phê chồn & 15 tấn cà phê voi thành phẩm mỗi năm.",
+              "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Da-Lat/cafe-voi-phu-an-du-lich-viet.jpg"
+            },
+            {
+              "time": "Trưa",
+              "description": "Khởi hành về TP.HCM, đến Bảo Lộc dùng cơm trưa.",
+              "image": ""
+            },
+            {
+              "time": "Chiều",
+              "description": "Trên đường về xe có ghé 1 hoặc 2 điểm để quý khách có thể vệ sinh cá nhân và nghỉ ngơi. Đến TP.HCM. Kết thúc chuyến đi, chia tay đoàn và hẹn gặp lại Quý khách.",
+              "image": ""
+            }
+          ]
+        }
+      ]
     }
   ],
   "users": [
@@ -1247,6 +2360,14 @@
       "email": "12345@gmail.com",
       "phone": "0867415853",
       "password": "1234"
+    },
+    {
+      "id": "828d09b9-5633-45b3-aec5-dc02e5adb888",
+      "username": "tuanbui0509",
+      "fullname": "Tuấn Ngọc Bùi",
+      "email": "nguyentu0509@outlook.com",
+      "phone": "0936557991",
+      "password": "123456"
     }
   ],
   "comments": [
@@ -1288,6 +2409,16 @@
       "contentServer": "",
       "rating": 5,
       "date": "18-06-2024",
+      "quantityLike": 0
+    },
+    {
+      "id": "eca440ff-93da-4aa5-b401-9f206e3096f0",
+      "idTour": 3,
+      "commenter": "Tuấn Ngọc Bùi",
+      "content": "Good 10 sao",
+      "contentServer": "",
+      "rating": 10,
+      "date": "19-11-2024",
       "quantityLike": 0
     }
   ],
