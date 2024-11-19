@@ -41,7 +41,7 @@ export const Payment = () => {
     useEffect(() => {
         const fetchPayment = async () => {
             try {
-                const response = await fetch('http://localhost:5001/api/payment');
+                const response = await fetch('https://travel-booking-1.onrender.com/api/payment');
                 const data = await response.json();
                 setData(data);
             } catch (error) {

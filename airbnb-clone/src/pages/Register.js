@@ -62,7 +62,7 @@ export const Register = () => {
         let regisObj = { username, fullname, email, phone, password, repeatPassword };
 
         if (isValidate()) {
-            fetch("http://localhost:5001/api/users", {
+            fetch("https://travel-booking-1.onrender.com/api/users", {
                 method: "POST",
                 headers: { 'content-type': 'application/json' },
                 body: JSON.stringify(regisObj)

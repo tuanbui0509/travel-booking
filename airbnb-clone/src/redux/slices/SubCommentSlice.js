@@ -3,7 +3,7 @@ import axios from 'axios';
 
 // Define the async thunk to fetch tours from the API
 export const fetchSubComments = createAsyncThunk('subComments/fetchSubComments', async () => {
-  const response = await axios.get('http://localhost:5001/api/subComments');
+  const response = await axios.get('https://travel-booking-1.onrender.com/api/subComments');
   return response.data;
 });
 
