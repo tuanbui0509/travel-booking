@@ -29,7 +29,7 @@ export default function Tour() {
   return (
     <>
       <Navbar />
-      <div style={{ backgroundColor: '#eeeeee' }}>
+      <div style={{backgroundColor:'rgb(46 205 17 / 24%)'}}>
         <div className='container tour'>
           <div className='title'>{tour.name}</div>
           <div className='container-rank'>

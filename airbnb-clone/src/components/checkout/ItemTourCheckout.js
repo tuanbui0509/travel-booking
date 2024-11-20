@@ -61,7 +61,7 @@ export const ItemTourCheckout = (prop) => {
                             </ul>
                         </div>
                         <div className="priceTotal">
-                            <h4>Tổng: <span id="total-price" className="amber-text">{formatPrice(prop.selectedTour.total_price)}</span><small>đ</small></h4>
+                            <h4>Tổng: <span id="total-price" className="color-green-second">{formatPrice(prop.selectedTour.total_price)}</span><small>đ</small></h4>
                         </div>
 
                     </div>

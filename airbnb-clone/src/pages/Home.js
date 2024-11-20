@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import HomeCollection from "../components/HomeCollection";
@@ -10,7 +10,7 @@ import HistoryTour from "../components/HistoryTour";
 const Home = () => {
 
   return (
-    <div className="bg-white position-relative">
+    <div className="position-relative" style={{backgroundColor:'rgb(46 205 17 / 24%)'}}>
       <Navbar />
       <SearchHome />
       <HistoryTour />

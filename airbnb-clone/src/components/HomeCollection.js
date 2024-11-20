@@ -17,7 +17,7 @@ export default function HomeCollection() {
 
   async function fetchDataTourXanh() {
     try {
-      const response = await fetch('https://travel-booking-1.onrender.com/api/tours?catagoryId=1&_limit=6'); // Gọi API để lấy dữ liệu
+      const response = await fetch('https://travel-booking-1.onrender.com/api/tours?catagoryId=1&_limit=3'); // Gọi API để lấy dữ liệu
       const jsonData = await response.json(); // Chuyển đổi dữ liệu nhận được thành JSON
       setDataTourXanh(jsonData); // Cập nhật state với dữ liệu từ API
     } catch (error) {
@@ -27,7 +27,7 @@ export default function HomeCollection() {
 
   async function fetchDataTourSinhThai() {
     try {
-      const response = await fetch('https://travel-booking-1.onrender.com/api/tours?catagoryId=3&_limit=6'); // Gọi API để lấy dữ liệu
+      const response = await fetch('https://travel-booking-1.onrender.com/api/tours?catagoryId=3&_limit=3'); // Gọi API để lấy dữ liệu
       const jsonData = await response.json(); // Chuyển đổi dữ liệu nhận được thành JSON
       setDataTourSinhThai(jsonData); // Cập nhật state với dữ liệu từ API
     } catch (error) {
@@ -37,7 +37,7 @@ export default function HomeCollection() {
 
   async function fetchDataTourCongDong() {
     try {
-      const response = await fetch('https://travel-booking-1.onrender.com/api/tours?catagoryId=2&_limit=6'); // Gọi API để lấy dữ liệu
+      const response = await fetch('https://travel-booking-1.onrender.com/api/tours?catagoryId=2&_limit=3'); // Gọi API để lấy dữ liệu
       const jsonData = await response.json(); // Chuyển đổi dữ liệu nhận được thành JSON
       setDataTourCongDong(jsonData); // Cập nhật state với dữ liệu từ API
     } catch (error) {

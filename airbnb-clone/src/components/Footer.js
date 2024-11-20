@@ -53,7 +53,7 @@ const Payment = styled.img`
 
 const Footer = () => {
     return (
-        <div className="bg-white  mt-5">
+        <div className="mt-5" style={{ backgroundColor: 'rgb(41, 149, 22)', color: '#fff' }}>
             <Container className="container">
                 <Left>
                     <Logo><img src={logo} alt="logo" style={{ width: '100px' }}></img></Logo>
@@ -79,7 +79,7 @@ const Footer = () => {
                     <Title>Contact</Title>
                     <ContactItem><Room style={{ marginRight: "10px" }} />Lã Xuân Oai, P.Hiệp Phú, Thủ Đức, Hồ Chí Minh</ContactItem>
                     <ContactItem><Phone style={{ marginRight: "10px" }} />+84 867 415 853</ContactItem>
-                    <ContactItem><EmailOutlined style={{ marginRight: "10px" }} />travel@gmail.vn</ContactItem>
+                    <ContactItem><EmailOutlined style={{ marginRight: "10px" }} />dangthaibinh@gmail.vn</ContactItem>
                     <Payment src="https://i.ibb.co/Qfvn4z6/payment.png"></Payment>
                 </Right>
 

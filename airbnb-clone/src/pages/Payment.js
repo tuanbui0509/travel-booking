@@ -135,7 +135,7 @@ export const Payment = () => {
         <>
             <Navbar />
             <Process step={4} />
-            <div className="bg-white">
+            <div style={{backgroundColor:'rgb(46 205 17 / 24%)'}}>
                 <div className="container pt-3 pb-3 mt-2 rounded" id="payment">
                     <div className="row">
                         <div className="col-md-8">

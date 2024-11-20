@@ -1,7 +1,7 @@
 @import './root.scss';
 
 .navbar {
-    background-color: $color-while;
+    background-color: $color-green-bg;
     flex-direction: column;
     .container-nav {
         display: flex;
@@ -21,12 +21,12 @@
 
                 a {
                     font-size: 20px;
-                    color: $color-text;
+                    color: $color-while;
                 }
             }
             .item:hover a{
                 cursor: pointer;
-                color: $color-green-second;
+                // color: $color-green-second;
             }
 
         }
@@ -44,17 +44,17 @@
                     margin-right: 10px
                 }
                 .icon {
-                    color: $color-text;
+                    color: $color-while;
                     font-size: 32px;
                 }
                 .text {
                     font-size: 18px;
-                    color: $color-text;
+                    color: $color-while;
                 }
             }
             .item:hover .icon , .item:hover .text{
                 cursor: pointer;
-                color: $color-text;
+                // color: $color-text;
             }
             .container-user {
                 margin: 0px 12px;
@@ -146,7 +146,7 @@
     
 }
 .fixed-top-nav{
-    background-color: rgba(255, 255, 255, 0.899);
+    background-color: rgb(41, 149, 22);
     position: sticky;
     z-index:10;
     top: 0;

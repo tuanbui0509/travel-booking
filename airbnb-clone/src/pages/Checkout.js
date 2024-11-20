@@ -200,7 +200,7 @@ export const Checkout = () => {
         <>
             <Navbar/>
             <Process step={step}/>
-            <div className="bg-white">
+            <div style={{backgroundColor:'rgb(46 205 17 / 24%)'}}>
             <div className="container pt-3 pb-3 mt-2 rounded" id="checkout">
                 <div className="row">
                     <div className="col-md-8 mt-3">

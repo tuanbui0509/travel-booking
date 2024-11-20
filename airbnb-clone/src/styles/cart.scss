@@ -60,7 +60,7 @@
 }
 
 body {
-  background: #eee;
+  background: rgb(46 205 17 / 24%);
 }
 
 .cart {
@@ -154,9 +154,6 @@ ul {
   color: $color-blue_global;
 }
 .icon-cart{
-  color: $color-text;
+  color: $color-while;
   font-size:1.25rem;
-  &:hover{
-    color: $color-green-second;
-  }
 }

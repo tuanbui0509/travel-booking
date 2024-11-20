@@ -28,7 +28,7 @@ export default function Category() {
     return (
         <div className='position-relative'>
             <Navbar />
-            <div style={{ backgroundColor: '#eeeeee' }}>
+            <div style={{ backgroundColor: 'rgb(46 205 17 / 24%)' }}>
                 <div className='container category'>
                     <SearchHome image={true} />
                     <div className='row'>

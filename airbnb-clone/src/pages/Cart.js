@@ -248,7 +248,7 @@ export const Cart = () => {
     return (
         <>
             <Navbar/>
-            <div className="bg-white">
+            <div style={{backgroundColor:'rgb(46 205 17 / 24%)'}}>
             <div className="container ">
                 <div className="container mt-5 p-3 rounded cart">
                     <div className="row">

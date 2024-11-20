@@ -222,7 +222,7 @@ export const FormInputInfoCustomer = ({cart, handleContinue}) => {
                         </>)
                         :
                         <>
-                            <h3>Thông tin liên hệ:<small className="text-light"><i>bắt buộc(<span
+                            <h3>Thông tin liên hệ:<small className="color-text"><i>bắt buộc(<span
                                 className="text-danger">*</span>)</i></small></h3>
                             <div className="row ">
                                 <div className="col-md-6 mt-1">
