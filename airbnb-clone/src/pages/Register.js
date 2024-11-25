@@ -102,7 +102,7 @@ export const Register = () => {
                                 placeholder="Nhập lại mật khẩu" />
                         </Form.Group>
                         <span className="agreement">
-                            Bằng việc đăng ký, bạn đã đồng ý với XYZ về
+                            Bằng việc đăng ký, bạn đã đồng ý với ECG travel về
                             <span className="linkAgree"> Điều khoản sử dụng  </span> và
                             <span className="linkAgree"> Chính sách bảo mật</span>
                         </span>

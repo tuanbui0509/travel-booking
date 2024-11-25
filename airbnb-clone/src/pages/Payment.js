@@ -8,15 +8,11 @@ import { ItemTourCheckout } from "../components/checkout/ItemTourCheckout";
 import { useDispatch, useSelector } from "react-redux";
 import { removeCheckout, updatePayment } from "../redux/slices/CheckoutSlice";
 import Swal from "sweetalert2";
-import { addCheckoutToLocal, removeCartTourFromLocal, user } from "../utils/localStorageUtils";
-import { clearSelectedTour } from "../redux/slices/SelectedTourSlice";
-import { removeCart } from "../redux/slices/CartsSlice";
 
 export const Payment = () => {
     const user = JSON.parse(localStorage.getItem("user"));
     const navigate = useNavigate();
     const selectedTour = useSelector((state) => state.selectedTour);
-    const [checkedRules, setCheckedRules] = useState();
     useEffect(() => {
         const isAuthenticated = user; // Kiểm tra trạng thái đăng nhập
 
@@ -55,9 +51,6 @@ export const Payment = () => {
     let checkout = useSelector((state) => state.checkout);
     checkout = checkout[checkout.length - 1];
     const dispatch = useDispatch();
-    const handleCheckboxChange = (event) => {
-        setCheckedRules(event.target.checked);
-    };
     const handlePaymentSubmit = () => {
         const isAuthenticated = user; // Kiểm tra trạng thái đăng nhập
 
@@ -83,16 +76,6 @@ export const Payment = () => {
             });
             return;
         }
-        if (!checkedRules) {
-            Swal.fire({
-                title: "Thông báo",
-                text: "Vui lòng chấp nhận điều khoản",
-                icon: "warning",
-                confirmButtonText: "OK",
-            });
-            return;
-        }
-
         // lấy tên loại hình thanh toán
         const payment_method = data.find(item => item.status)?.title;
 
@@ -167,7 +150,7 @@ export const Payment = () => {
                                     </>))
 
                             }
-                            <div className="col-md-12 mb-2">
+                            {/* <div className="col-md-12 mb-2">
                                 <label className="font-weight-bold">
                                     <input type="checkbox" id="agreement" name="agreement" required="required"
                                         checked={checkedRules}
@@ -286,7 +269,7 @@ export const Payment = () => {
                                         toán, Lữ hành Saigontourist sẽ không nhận giải quyết bất cứ kiếu nại nào từ việc
                                         thanh toán.</p>
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="col-md-12">
                                 <button
                                     disabled={!selectedPayment}
